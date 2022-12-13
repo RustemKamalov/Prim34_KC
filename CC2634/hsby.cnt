@@ -1,0 +1,166 @@
+:Base hsby.hlp
+:Title Quantum Hot Standby Planning and Installation Guide
+1 Quantum Hot Standby Planning and Installation Guide (V. 4.0)
+1 Quantum Hot Standby Planning and Installation Guide (V. 4.0)=IDH_CONTENTS@hsby.hlp>main
+2 Safety Information=t828@hsby.hlp>main
+2 Overview of Quantum Hot Standby
+2 Overview of Quantum Hot Standby=D-NA-0001957.1@hsby.hlp>main
+3 Control
+3 Control=D-NA-0001955.1@hsby.hlp>main
+4 Primary and Standby Control=D-NA-0001933.1@hsby.hlp>main
+4 Hardware Components in a Quantum Hot Standby System=D-NA-0001940.1@hsby.hlp>main
+4 The CHS 110 Hot Standby Module=D-NA-0001941.1@hsby.hlp>main
+2 Operation=D-NA-0001956.1@hsby.hlp>main
+3 Cabling
+3 Cabling=D-NA-0002121.1@hsby.hlp>main
+4 Fiber Optic Cable=D-NA-0001947.1@hsby.hlp>main
+4 The CHS 210 Hot Standby Kit=D-NA-0001948.1@hsby.hlp>main
+3 984 HSBY and IEC HSBY
+3 984 HSBY and IEC HSBY=D-NA-0002091.1@hsby.hlp>main
+4 984 HSBY=D-NA-0002093.1@hsby.hlp>main
+4 IEC HSBY=D-NA-0001954.1@hsby.hlp>main
+2 Theory of 984 Ladder Logic HSBY Operation 
+2 Theory of 984 Ladder Logic HSBY Operation =D-NA-0001958.1@hsby.hlp>main
+3 How a 984 HSBY System Works=D-NA-0001960.1@hsby.hlp>main
+3 System Scan Time=D-NA-0001962.1@hsby.hlp>main
+3 The State RAM Transfer and Scan Time =D-NA-0001963.1@hsby.hlp>main
+3 Default Transfer Area=D-NA-0001964.1@hsby.hlp>main
+3 Customizing Options=D-NA-0001965.1@hsby.hlp>main
+3 Custom Scans=D-NA-0001966.1@hsby.hlp>main
+2 Theory of IEC HSBY Operation
+2 Theory of IEC HSBY Operation=D-NA-0002003.1@hsby.hlp>main
+3 IEC Hot Standby Definitions=D-NA-0002018.1@hsby.hlp>main
+3 How an IEC HSBY System Works=D-NA-0002004.1@hsby.hlp>main
+3 System Scan Time=D-NA-0002005.1@hsby.hlp>main
+3 State Ram Transfer and Scan Time=D-NA-0002011.1@hsby.hlp>main
+3 Layout of completely transferred state RAM in an IEC Hot Standby system=D-NA-0002019.1@hsby.hlp>main
+2 Planning a Quantum Hot Standby System
+2 Planning a Quantum Hot Standby System=D-NA-0001968.1@hsby.hlp>main
+3 Guidelines for Planning a Hot Standby System=D-NA-0001969.1@hsby.hlp>main
+3 Understanding Electrical Hazards=D-NA-0001971.1@hsby.hlp>main
+3 Remote I/O Cable Topologies=D-NA-0001972.1@hsby.hlp>main
+3 A Single Cable Configuration=D-NA-0001973.1@hsby.hlp>main
+3 A Dual Cable Configuration=D-NA-0001975.1@hsby.hlp>main
+1 Installation=D-NA-0001976.1@hsby.hlp>main
+2 Using a Quantum 984 HSBY System
+2 Using a Quantum 984 HSBY System=D-NA-0001974.1@hsby.hlp>main
+3 Configuration
+3 Configuration=D-NA-0001978.1@hsby.hlp>main
+4 Configuring 984 HSBY=D-NA-0001982.1@hsby.hlp>main
+4 Configuration Extension=D-NA-0001990.1@hsby.hlp>main
+4 CHS Instruction=D-NA-0001992.1@hsby.hlp>main
+3 Using the CHS Instruction Block
+3 Using the CHS Instruction Block=D-NA-0002104.1@hsby.hlp>main
+4 Using CHS Instruction Block=D-NA-0002012.1@hsby.hlp>main
+4 Command Register=D-NA-0002013.1@hsby.hlp>main
+4 Elements of the Nontransfer Area=D-NA-0002015.1@hsby.hlp>main
+4 Zoom screen of CHS Instruction=D-NA-0002048.1@hsby.hlp>main
+4 The Hot Standby Status Register=D-NA-0002020.1@hsby.hlp>main
+4 The Reverse Transfer Registers=D-NA-0002028.1@hsby.hlp>main
+4 Reverse Transfer Logic Example=D-NA-0002022.1@hsby.hlp>main
+3 Using Configuration Extension
+3 Using Configuration Extension=D-NA-0002147.1@hsby.hlp>main
+4 Configuration Extension=D-NA-0002030.1@hsby.hlp>main
+4 Hot Standby Dialog=D-NA-0002032.1@hsby.hlp>main
+4 Bits in the Hot Standby Command Register=D-NA-0002033.1@hsby.hlp>main
+4 Keyswitch Override and Run Mode=D-NA-0002040.1@hsby.hlp>main
+4 A Software Control Example=D-NA-0002042.1@hsby.hlp>main
+4 Standby on Logic Mismatches=D-NA-0002051.1@hsby.hlp>main
+4 Transfer All State RAM=D-NA-0002058.1@hsby.hlp>main
+4 Hot Standby Status Register for Configuration Extension=D-NA-0002059.1@hsby.hlp>main
+4 Advanced Options=D-NA-0002060.1@hsby.hlp>main
+4 Defining the Transfer Area of State RAM=D-NA-0002061.1@hsby.hlp>main
+4 Transferring Additional State RAM Data=D-NA-0002066.1@hsby.hlp>main
+4 Scan Transfers=D-NA-0002069.1@hsby.hlp>main
+3 Operation
+3 Operation=D-NA-0002119.1@hsby.hlp>main
+4 Starting Your Hot Standby System=D-NA-0002085.1@hsby.hlp>main
+4 Synchronizing Time-of-Day Clocks=D-NA-0002092.1@hsby.hlp>main
+4 While Your System Is Running=D-NA-0002094.1@hsby.hlp>main
+2 Using a Quantum IEC Hot Standby System 
+2 Using a Quantum IEC Hot Standby System =D-NA-0002021.1@hsby.hlp>main
+3 Configuration
+3 Configuration=D-NA-0002023.1@hsby.hlp>main
+4 Loading the Software=D-NA-0002024.1@hsby.hlp>main
+4 Controlling the Hot Standby System by Configuration Extension=D-NA-0002025.1@hsby.hlp>main
+3 Hot Standby Dialog
+3 Hot Standby Dialog=D-NA-0002026.1@hsby.hlp>main
+4 Hot Standby dialog=D-NA-0002027.1@hsby.hlp>main
+4 Specifying the Command Register=D-NA-0002029.1@hsby.hlp>main
+4 Hot Standby Command Register=D-NA-0002031.1@hsby.hlp>main
+4 Enable Keyswitch Override=D-NA-0002034.1@hsby.hlp>main
+4 Advanced Options Concept 2.5=D-NA-0002182.1@hsby.hlp>main
+4 Standby on Logic Mismatch=D-NA-0002035.1@hsby.hlp>main
+4 Swapping Addresses at Switchover=D-NA-0002487.1@hsby.hlp>main
+3 State RAM
+3 State RAM=D-NA-0002038.1@hsby.hlp>main
+4 Nontransfer Area of State RAM=D-NA-0002039.1@hsby.hlp>main
+4 Hot Standby Status Register =D-NA-0002041.1@hsby.hlp>main
+4 Memory Partition=D-NA-0002044.1@hsby.hlp>main
+4 State RAM Size=D-NA-0002045.1@hsby.hlp>main
+2 Section Transfer Control=D-NA-0002473.1@hsby.hlp>main
+2 Operation=D-NA-0002046.1@hsby.hlp>main
+3 Normal Operation
+3 Normal Operation=D-NA-0002049.1@hsby.hlp>main
+4 Memory/Scantime optimization=D-NA-0002055.1@hsby.hlp>main
+4 Synchronizing Time of Day Clocks=D-NA-0002057.1@hsby.hlp>main
+4 While Your System Is Running=D-NA-0002062.1@hsby.hlp>main
+2 Additional Guidelines for IEC Hot Standby 
+2 Additional Guidelines for IEC Hot Standby =D-NA-0002063.1@hsby.hlp>main
+3 General Application Requirements
+3 General Application Requirements=D-NA-0002064.1@hsby.hlp>main
+4 Memory Savings=D-NA-0002065.1@hsby.hlp>main
+4 Memory Statistics=D-NA-0002067.1@hsby.hlp>main
+4 Memory Partition=D-NA-0002068.1@hsby.hlp>main
+2 State RAM=D-NA-0002070.1@hsby.hlp>main
+3 Efficiency Tips
+3 Efficiency Tips=D-NA-0002074.1@hsby.hlp>main
+4 Use Constants Instead of Equal Literals=D-NA-0002075.1@hsby.hlp>main
+4 Use Constants Instead of Open Inputs=D-NA-0002079.1@hsby.hlp>main
+4 Programmed Logic=D-NA-0002082.1@hsby.hlp>main
+4 Reduce the Use Of Complex Data Structures=D-NA-0002083.1@hsby.hlp>main
+2 Ethernet Hot Standby Solution
+2 Ethernet Hot Standby Solution=D-NA-0006438.1@hsby.hlp>main
+3 Overview of Modicon Quantum Hot Standby with Unity Solution for NOEs=D-NA-0002077.1@hsby.hlp>main
+3 Hot Standby Topology=D-NA-0002089.1@hsby.hlp>main
+3 NOE Configuration and Hot Standby=D-NA-0002086.1@hsby.hlp>main
+3 IP Address Assignment=D-NA-0002078.1@hsby.hlp>main
+3 NOE Operating Modes and Modicon Quantum Hot Standby with Unity=D-NA-0002087.1@hsby.hlp>main
+3 Address Swap Times=D-NA-0002084.1@hsby.hlp>main
+3 Network Effects of Modicon Quantum Hot Standby with Unity Solution=D-NA-0002090.1@hsby.hlp>main
+2 Maintenance
+2 Maintenance=D-NA-0002117.1@hsby.hlp>main
+3 Health of a Hot Standby System
+3 Health of a Hot Standby System=D-NA-0002106.1@hsby.hlp>main
+4 Verifying Health of a Hot Standby System=D-NA-0001944.1@hsby.hlp>main
+4 Additional Checks=D-NA-0001950.1@hsby.hlp>main
+3 Errors
+3 Errors=D-NA-0002107.1@hsby.hlp>main
+4 Startup Errors=D-NA-0001953.1@hsby.hlp>main
+4 Communications Errors=D-NA-0001961.1@hsby.hlp>main
+4 Board Level Errors=D-NA-0001979.1@hsby.hlp>main
+3 Failures
+3 Failures=D-NA-0002110.1@hsby.hlp>main
+4 Detecting Failures in a Hot Standby System=D-NA-0001984.1@hsby.hlp>main
+4 Detecting Failures in the Primary Backplane=D-NA-0001986.1@hsby.hlp>main
+4 Detecting Failures in the Standby Backplane=D-NA-0002255.1@hsby.hlp>main
+4 Failure of Fiber Link from Primary Transmit to Standby Receiver=D-NA-0001997.1@hsby.hlp>main
+3 Replacement
+3 Replacement=D-NA-0002113.1@hsby.hlp>main
+4 Replacing a Faulty Module=D-NA-0002002.1@hsby.hlp>main
+4 Changing the Program and Performing a Program Update=D-NA-0002009.1@hsby.hlp>main
+4 Updating PLC System Executives in a 984 HSBY System=D-NA-0002014.1@hsby.hlp>main
+4 Updating PLC System Executives in an IEC HSBY System=D-NA-0002043.1@hsby.hlp>main
+2 Testing=D-NA-0002115.1@hsby.hlp>main
+1 Specifications for CHS 110 Hot Standby=D-NA-0001985.1@hsby.hlp>main
+2 Appendix
+2 Appendix=D-NA-0001988.1@hsby.hlp>main
+3 Com Act Error Patterns
+3 Com Act Error Patterns=D-NA-0001989.1@hsby.hlp>main
+4 CHS 110 Hot Standby Module Error Patterns=D-NA-0001991.1@hsby.hlp>main
+4 CRP Remote I/O Head Processor Error Patterns=D-NA-0001993.1@hsby.hlp>main
+3 Fiber Optic Cable Guide
+3 Fiber Optic Cable Guide=D-NA-0001994.1@hsby.hlp>main
+4 Fiber Optic Cable=D-NA-0001995.1@hsby.hlp>main
+4 Other Tools=D-NA-0002132.1@hsby.hlp>main
+2 ProWORX Nxt Configuration=D-NA-0001996.1@hsby.hlp>main

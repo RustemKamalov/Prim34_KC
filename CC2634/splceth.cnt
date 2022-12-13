@@ -1,0 +1,14 @@
+:Base splceth.hlp
+:Title Ethernet Configurator
+1 Ethernet Configurator
+1 Ethernet Configurator=IDH_CONTENTS@splceth.hlp>main
+2 Help for Ethernet Configurator
+2 Help for Ethernet Configurator=D-SG-0016702.1@splceth.hlp>main
+3 Ethernet I/O Bus Configurator=D-SG-0016704.1@splceth.hlp>main
+3 Slave Configuration=D-SG-0016706.1@splceth.hlp>main
+2 How do you proceed with the Ethernet I/O bus configurator?
+2 How do you proceed with the Ethernet I/O bus configurator?=D-SG-0016703.1@splceth.hlp>main
+3 Specifying Ethernet I/O bus nodes=D-SG-0016714.1@splceth.hlp>main
+3 IP address assignment to hardware (with MAC address)=D-SG-0016715.1@splceth.hlp>main
+3 IP address assignment to hardware (without MAC address)=D-SG-0016716.1@splceth.hlp>main
+3 Changing IP address=D-SG-0016717.1@splceth.hlp>main

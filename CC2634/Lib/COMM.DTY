@@ -1,0 +1,79 @@
+
+(* library.dty       Derived datatypes definition file:          *)
+
+(* You should edit this file, if you need some derived datatypes *)
+(* in conjunction with EFBs of this library.                     *)
+(* Syntax is given by IEC 1131-3 ST (Structured Text) language   *)
+
+(* für ICNT und ICOM (Interbus S) *)
+TYPE
+Ibc:
+ STRUCT
+   service:		BYTE;
+   err_cd:		BYTE;
+   err_cl:		BYTE;
+   cr:			BYTE;
+   size:		BYTE;
+   e_par:		BYTE;
+   index:		WORD;
+   subindex:	BYTE;
+   fillbyte_1:	BYTE;
+   fillword_1:	WORD;
+   fillword_2:	WORD;
+   fillword_3:	WORD;
+   fillword_4:	WORD;
+   fillword_5:	WORD;
+   fillword_6:	WORD;
+ END_STRUCT;
+
+WordArr5:      ARRAY [1..5] OF WORD;
+
+WordArr128:    ARRAY [1..128] OF WORD;
+
+Ibd:
+ STRUCT
+   data:       WordArr128;
+ END_STRUCT;
+END_TYPE
+
+(* data type XMIT_SET contains a structure of configuration parameters *)
+(* for the XMIT EFB (added by Joerg Klatte)                            *)
+ 
+TYPE
+XMIT_CFG:
+ STRUCT
+   Revision    : WORD;
+   FaultStatus : WORD;
+   UserAvail_1 : WORD;
+   BaudRate    : WORD;
+   DataBits    : WORD;
+   Parity      : WORD;
+   StopBits    : WORD;
+   UserAvail_2 : WORD;
+   CommandWord : WORD;
+   MessagePtr  : WORD;
+   MessageLen  : WORD;
+   RespTimeOut : WORD;
+   RetryLimit  : WORD;
+   XmStartDelay: WORD;
+   XmEndDelay  : WORD;
+   CurrentRetry: WORD;
+ END_STRUCT;
+END_TYPE 
+
+TYPE
+XMIT_SET:
+ STRUCT
+   BaudRate    : WORD;
+   DataBits    : BYTE;
+   Parity      : BYTE;
+   StopBits    : BYTE;
+   CommandWord : WORD;
+   MessageLen  : WORD;
+   RespTimeOut : WORD;
+   RetryLimit  : WORD;
+   XmStartDelay: WORD;
+   XmEndDelay  : WORD;
+ END_STRUCT;
+END_TYPE     
+

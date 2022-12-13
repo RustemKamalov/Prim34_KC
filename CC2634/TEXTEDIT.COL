@@ -1,0 +1,1692 @@
+:#  - function -
+:#    syntax coloring settings
+
+:#  - placement -
+:#    in the directory of the editor exe file
+
+:#  - colors available -
+:#    Black, Blue, Lightblue, Green, Lightgreen, Red, Lightred,
+:#    Cyan, Lightcyan, Magenta, Lightmagenta, Yellow, Lightellow,
+:#    Gray, Lightgray, White
+
+
+
+:#############################  ASD coloring  #################################
+
+:StartExtension ASD
+
+:Keywords Lightmagenta
+
+:S
+
+
+:Keywords Lightblue
+
+:K
+
+
+:Separators Lightred
+
+;,
+
+
+
+
+:#############################  AWL coloring  #################################
+
+:StartExtension AWL
+
+:Keywords Lightblue
+
+U
+N
+O
+UN
+ON
+ADD
+SUB
+MUL
+DIV
+DBB
+ANZ
+LBB
+FLN
+LDB
+TBB
+TI
+ZR
+Z-
+BAST
+BAS
+BBS
+BAP
+AK
+AL
+AUS
+BA
+BAB
+F
+FL
+FR
+L
+LBW
+RE
+S
+SI
+STOP
+T
+TBW
+XN
+Z+
+EIN
+K
+SA
+DZB
+ER
+FLP
+I
+KG
+R
+MS
+SE
+SS
+SV
+TBD
+VR
+X
+ZV
+=C
+
+
+:Keywords Magenta
+
+BIT
+BYTE
+WORT
+DWORT
+GWORT
+
+
+:Keywords Green
+
+BEDINGUNG
+VERRIEGELUNG
+AUSLOESER
+AKTION
+REAKTION
+ASW-DIAGNOSE
+SIGNALGRUPPENUEBERWACHUNG
+PROZESSVORAUSSETZUNGEN
+A-DIAG
+R-DIAG
+V-DIAG
+DIAG
+DIAV
+DIAGV
+DIA
+DIAK
+
+
+:Keywords Lightmagenta
+
+***
+BE
+I-VERHALTEN
+M-VERHALTEN
+MI-VERHALTEN
+
+
+:Keywords Cyan
+
+CHAIN_INFO
+END_CHAIN_INFO
+STEP
+END_STEP
+INITIAL_STEP
+STEP_INFO
+END_STEP_INFO
+TRANSITION
+END_TRANSITION
+FROM
+COMM
+H
+JA
+NEIN
+N
+NAME
+RSA
+RSF
+SF
+SB
+SSP
+SSS
+STSP
+STSS
+TBA
+TBASE
+TBF
+TC
+TIMECORR
+TO
+TUE
+TWA
+TYPE
+
+
+:Separators Lightred
+
+,:;()<>=
+
+
+
+
+:#############################  DTY coloring  #################################
+
+:StartExtension DTY
+
+:Keywords Lightblue
+
+ANL_IN
+ANL_OUT
+BOOL
+BYTE
+DINT
+INT
+REAL
+UDINT
+UINT
+WORD
+TIME
+
+
+:Keywords Lightmagenta
+
+DATE
+DATE_AND_TIME
+DT
+DWORD
+LINT
+LREAL
+LWORD
+ULINT
+USINT
+SINT
+STRING
+TIME_OF_DAY
+TOD
+DATE#
+D#
+TIME_OF_DAY#
+TOD#
+DATE_AND_TIME#
+DT#
+date#
+d#
+time_of_day#
+tod#
+date_and_time#
+dt#
+AT
+
+
+:Keywords Lightmagenta
+
+RETAIN
+CONSTANT
+
+
+:Keywords Lightmagenta
+
+TRUE
+
+
+:Keywords Lightmagenta
+
+FALSE
+
+
+:Group Lightblue
+
+ARRAY
+OF   !! doppelt !!
+
+
+:Group Lightblue
+
+STRUCT
+END_STRUCT
+
+
+:Keywords Lightmagenta
+
+LD
+LDN
+ST
+STN
+:#only in IL
+:#R
+:#S
+
+
+:Keywords Lightmagenta
+
+EQ
+GE
+GT
+LE
+LT
+NE
+
+
+:Keywords Lightmagenta
+
+AND
+OR
+XOR
+NOT
+MOD
+
+
+:Keywords Lightmagenta
+
+ANDN
+ORN
+XORN
+EN
+ENO
+
+
+:Keywords Lightmagenta
+
+ADD
+DIV
+MUL
+SUB
+
+
+:Keywords Lightmagenta
+
+CAL
+CALC
+CALCN
+JMP
+JMPC
+JMPCN
+RET
+RETC
+RETCN
+
+
+:Group Lightmagenta
+
+IF
+THEN
+ELSE
+ELSIF
+END_IF
+
+
+:Group Lightmagenta
+
+CASE
+OF       !! doppelt !!
+END_CASE
+
+
+:Group Lightmagenta
+
+FOR
+TO  !! doppelt !!
+BY
+END_FOR
+
+
+:Group Lightmagenta
+
+WHILE
+DO
+END_WHILE
+
+
+:Group Lightmagenta
+
+REPEAT
+UNTIL
+END_REPEAT
+
+
+:Keywords Lightmagenta
+
+EXIT
+RETURN
+
+
+:Group Lightmagenta
+
+INITIAL_STEP
+STEP
+END_STEP
+
+
+:Group Lightmagenta
+
+ACTION
+END_ACTION
+
+
+:Group Lightmagenta
+
+TRANSITION
+FROM
+TO !!!doppelt!!!
+END_TRANSITION
+
+
+:Group Lightblue
+
+TYPE
+END_TYPE
+
+
+:Group Lightmagenta
+
+VAR
+VAR_INPUT
+VAR_OUTPUT
+END_VAR
+
+
+:Keywords Lightmagenta
+
+VAR_ACCESS
+VAR_EXTERNAL
+VAR_GLOBAL
+VAR_IN_OUT
+
+
+:Group Lightmagenta
+
+FUNCTION
+END_FUNCTION
+
+
+:Group Lightmagenta
+
+FUNCTION_BLOCK
+END_FUNCTION_BLOCK
+
+
+:Group Lightmagenta
+
+PROGRAM
+END_PROGRAM
+
+
+:Group Lightmagenta
+
+CONFIGURATION
+END_CONFIGURATION
+
+
+:Group Lightmagenta
+
+RESOURCE
+END_RESOURCE
+
+
+:Keywords Lightmagenta
+
+READ_ONLY
+READ_WRITE
+
+TASK
+WITH
+
+F_EDGE
+R_EDGE
+
+ON
+
+
+:Separators Lightred
+
+(){}[]|&+-*/%<>=.,:;!?"'~\
+
+
+:Comment Green
+
+(*
+*)
+
+
+
+
+:#############################  DDT coloring  #################################
+
+:StartExtension DDT
+
+:Keywords Lightblue
+
+ANL_IN
+ANL_OUT
+BOOL
+BYTE
+DINT
+INT
+REAL
+UDINT
+UINT
+WORD
+TIME
+
+
+:Keywords Lightmagenta
+
+DATE
+DATE_AND_TIME
+DT
+DWORD
+LINT
+LREAL
+LWORD
+ULINT
+USINT
+SINT
+STRING
+TIME_OF_DAY
+TOD
+DATE#
+D#
+TIME_OF_DAY#
+TOD#
+DATE_AND_TIME#
+DT#
+date#
+d#
+time_of_day#
+tod#
+date_and_time#
+dt#
+AT
+
+
+:Keywords Lightmagenta
+
+RETAIN
+CONSTANT
+
+
+:Keywords Lightmagenta
+
+TRUE
+
+
+:Keywords Lightmagenta
+
+FALSE
+
+
+:Group Lightblue
+
+ARRAY
+OF   !! doppelt !!
+
+
+:Group Lightblue
+
+STRUCT
+END_STRUCT
+
+
+:Keywords Lightmagenta
+
+LD
+LDN
+ST
+STN
+:#only in IL
+:#R
+:#S
+
+
+:Keywords Lightmagenta
+
+EQ
+GE
+GT
+LE
+LT
+NE
+
+
+:Keywords Lightmagenta
+
+AND
+OR
+XOR
+NOT
+MOD
+
+
+:Keywords Lightmagenta
+
+ANDN
+ORN
+XORN
+EN
+ENO
+
+
+:Keywords Lightmagenta
+
+ADD
+DIV
+MUL
+SUB
+
+
+:Keywords Lightmagenta
+
+CAL
+CALC
+CALCN
+JMP
+JMPC
+JMPCN
+RET
+RETC
+RETCN
+
+
+:Group Lightmagenta
+
+IF
+THEN
+ELSE
+ELSIF
+END_IF
+
+
+:Group Lightmagenta
+
+CASE
+OF       !! doppelt !!
+END_CASE
+
+
+:Group Lightmagenta
+
+FOR
+TO  !! doppelt !!
+BY
+END_FOR
+
+
+:Group Lightmagenta
+
+WHILE
+DO
+END_WHILE
+
+
+:Group Lightmagenta
+
+REPEAT
+UNTIL
+END_REPEAT
+
+
+:Keywords Lightmagenta
+
+EXIT
+RETURN
+
+
+:Group Lightmagenta
+
+INITIAL_STEP
+STEP
+END_STEP
+
+
+:Group Lightmagenta
+
+ACTION
+END_ACTION
+
+
+:Group Lightmagenta
+
+TRANSITION
+FROM
+TO !!!doppelt!!!
+END_TRANSITION
+
+
+:Group Lightblue
+
+TYPE
+END_TYPE
+
+
+:Group Lightmagenta
+
+VAR
+VAR_INPUT
+VAR_OUTPUT
+END_VAR
+
+
+:Keywords Lightmagenta
+
+VAR_ACCESS
+VAR_EXTERNAL
+VAR_GLOBAL
+VAR_IN_OUT
+
+
+:Group Lightmagenta
+
+FUNCTION
+END_FUNCTION
+
+
+:Group Lightmagenta
+
+FUNCTION_BLOCK
+END_FUNCTION_BLOCK
+
+
+:Group Lightmagenta
+
+PROGRAM
+END_PROGRAM
+
+
+:Group Lightmagenta
+
+CONFIGURATION
+END_CONFIGURATION
+
+
+:Group Lightmagenta
+
+RESOURCE
+END_RESOURCE
+
+
+:Keywords Lightmagenta
+
+READ_ONLY
+READ_WRITE
+
+TASK
+WITH
+
+F_EDGE
+R_EDGE
+
+ON
+
+
+:Separators Lightred
+
+(){}[]|&+-*/%<>=.,:;!?"'~\
+
+
+:Comment Green
+
+(*
+*)
+
+
+
+
+:#############################  IL coloring  ##################################
+
+:StartExtension IL
+
+:Keywords Lightblue
+
+ANL_IN
+ANL_OUT
+BOOL
+BYTE
+DINT
+INT
+REAL
+UDINT
+UINT
+WORD
+TIME
+
+
+:Keywords Lightmagenta
+
+DATE
+DATE_AND_TIME
+DT
+DWORD
+LINT
+LREAL
+LWORD
+ULINT
+USINT
+SINT
+STRING
+TIME_OF_DAY
+TOD
+DATE#
+D#
+TIME_OF_DAY#
+TOD#
+DATE_AND_TIME#
+DT#
+date#
+d#
+time_of_day#
+tod#
+date_and_time#
+dt#
+RET
+RETC
+RETCN
+
+
+:Keywords Lightblue
+
+AT
+
+
+:Keywords Lightmagenta
+
+RETAIN
+CONSTANT
+
+
+:Keywords Lightblue
+
+TRUE
+
+
+:Keywords Lightblue
+
+FALSE
+
+
+:Group Lightmagenta
+
+ARRAY
+:#OF   !! doppelt !!
+
+
+:Group Lightmagenta
+
+STRUCT
+END_STRUCT
+
+
+:Keywords Lightblue
+
+LD
+LDN
+ST
+STN
+:#only in IL
+R
+S
+
+
+:Keywords Lightblue
+
+EQ
+GE
+GT
+LE
+LT
+NE
+
+
+:Keywords Lightblue
+
+AND
+OR
+XOR
+ANDN
+ORN
+XORN
+
+
+:Keywords Lightblue
+
+NOT
+MOD
+
+
+:Keywords Lightmagenta
+
+EN
+ENO
+
+
+:Keywords Lightblue
+
+ADD
+DIV
+MUL
+SUB
+
+
+:Keywords Lightblue
+
+CAL
+CALC
+CALCN
+JMP
+JMPC
+JMPCN
+
+
+
+:Group Lightmagenta
+
+IF
+THEN
+ELSE
+ELSIF
+END_IF
+
+
+:Group Lightmagenta
+
+CASE
+OF       !! doppelt !!
+END_CASE
+
+
+:Group Lightmagenta
+
+FOR
+TO  !! doppelt !!
+BY
+END_FOR
+
+
+:Group Lightmagenta
+
+WHILE
+DO
+END_WHILE
+
+
+:Group Lightmagenta
+
+REPEAT
+UNTIL
+END_REPEAT
+
+
+:Keywords Lightmagenta
+
+EXIT
+RETURN
+
+
+:Group Lightmagenta
+
+INITIAL_STEP
+STEP
+END_STEP
+
+
+:Group Lightmagenta
+
+ACTION
+END_ACTION
+
+
+:Group Lightmagenta
+
+TRANSITION
+FROM
+TO !!!doppelt!!!
+END_TRANSITION
+
+
+:Group Lightmagenta
+
+TYPE
+END_TYPE
+
+
+:Group Lightblue
+
+VAR
+VAR_INPUT
+VAR_OUTPUT
+END_VAR
+
+
+:Keywords Lightmagenta
+
+VAR_ACCESS
+VAR_EXTERNAL
+VAR_GLOBAL
+VAR_IN_OUT
+
+
+:Group Lightmagenta
+
+FUNCTION
+END_FUNCTION
+
+
+:Group Lightmagenta
+
+FUNCTION_BLOCK
+END_FUNCTION_BLOCK
+
+
+:Group Lightmagenta
+
+PROGRAM
+END_PROGRAM
+
+
+:Group Lightmagenta
+
+CONFIGURATION
+END_CONFIGURATION
+
+
+:Group Lightmagenta
+
+RESOURCE
+END_RESOURCE
+
+
+:Keywords Lightmagenta
+
+READ_ONLY
+READ_WRITE
+
+TASK
+WITH
+
+F_EDGE
+R_EDGE
+
+ON
+
+
+:Separators Lightred
+
+(){}[]|.:'=,;
+
+
+:Comment Green
+
+(*
+*)
+
+
+
+
+:#############################  ST coloring  ##################################
+
+:StartExtension ST
+
+:Keywords Lightblue
+
+ANL_IN
+ANL_OUT
+BOOL
+BYTE
+DINT
+INT
+REAL
+UDINT
+UINT
+WORD
+TIME
+
+
+:Keywords Lightmagenta
+
+DATE
+DATE_AND_TIME
+DT
+DWORD
+LINT
+LREAL
+LWORD
+ULINT
+USINT
+SINT
+STRING
+TIME_OF_DAY
+TOD
+DATE#
+D#
+TIME_OF_DAY#
+TOD#
+DATE_AND_TIME#
+DT#
+date#
+d#
+time_of_day#
+tod#
+date_and_time#
+dt#
+
+
+:Keywords Lightblue
+
+AT
+
+
+:Keywords Lightmagenta
+
+RETAIN
+CONSTANT
+
+
+:Keywords Lightblue
+
+TRUE
+
+
+:Keywords Lightblue
+
+FALSE
+
+
+:Group Lightmagenta
+
+ARRAY
+:#OF
+
+:Group Lightmagenta
+
+STRUCT
+END_STRUCT
+
+
+:Keywords Lightmagenta
+
+:# LD  removed - design fault in IEC
+LDN
+ST
+STN
+:#only in IL
+:#R
+:#S
+
+
+:# :Keywords Lightblue
+
+:#EQ
+:#GE
+:#GT
+:#LE
+:#LT
+:#NE
+
+
+:Keywords Lightblue
+
+AND
+OR
+XOR
+NOT
+MOD
+
+
+:Keywords Lightmagenta
+
+ANDN
+ORN
+XORN
+EN
+ENO
+
+
+:# :Keywords Lightblue
+
+:#ADD
+:#DIV
+:#MUL
+:#SUB
+
+
+:Keywords Lightmagenta
+
+CAL
+CALC
+CALCN
+JMP
+JMPC
+JMPCN
+
+
+:Keywords Lightmagenta
+
+RET
+RETC
+RETCN
+
+
+:Group Lightblue
+
+IF
+THEN
+ELSE
+ELSIF
+END_IF
+
+
+:Group Lightblue
+
+CASE
+OF       !! doppelt !!
+END_CASE
+
+
+:Group Lightblue
+
+FOR
+TO  !! doppelt !!
+BY
+END_FOR
+
+
+:Group Lightblue
+
+WHILE
+DO
+END_WHILE
+
+
+:Group Lightblue
+
+REPEAT
+UNTIL
+END_REPEAT
+
+
+:Keywords Lightblue
+
+EXIT
+RETURN
+
+
+:Group Lightmagenta
+
+INITIAL_STEP
+STEP
+END_STEP
+
+
+:Group Lightmagenta
+
+ACTION
+END_ACTION
+
+
+:Group Lightmagenta
+
+TRANSITION
+FROM
+TO !!!doppelt!!!
+END_TRANSITION
+
+
+:Group Lightmagenta
+
+TYPE
+END_TYPE
+
+
+:Group Lightblue
+
+VAR
+VAR_INPUT
+VAR_OUTPUT
+END_VAR
+
+
+:Keywords Lightmagenta
+
+VAR_ACCESS
+VAR_EXTERNAL
+VAR_GLOBAL
+VAR_IN_OUT
+
+
+:Group Lightmagenta
+
+FUNCTION
+END_FUNCTION
+
+
+:Group Lightmagenta
+
+FUNCTION_BLOCK
+END_FUNCTION_BLOCK
+
+
+:Group Lightmagenta
+
+PROGRAM
+END_PROGRAM
+
+
+:Group Lightmagenta
+
+CONFIGURATION
+END_CONFIGURATION
+
+
+:Group Lightmagenta
+
+RESOURCE
+END_RESOURCE
+
+
+:Keywords Lightmagenta
+
+READ_ONLY
+READ_WRITE
+
+TASK
+WITH
+
+F_EDGE
+R_EDGE
+
+ON
+
+
+:Separators Lightred
+
+(){}[]|&+-*/<>=.,:;!?"'~\
+
+
+:Comment Green
+
+(*
+*)
+
+
+
+
+:#############################  TDL coloring  #################################
+
+:StartExtension TDL
+
+:Keywords Lightblue
+
+ANL_IN
+ANL_OUT
+BOOL
+BYTE
+DINT
+INT
+REAL
+UDINT
+UINT
+WORD
+TIME
+
+
+:Keywords Lightmagenta
+
+DATE
+DATE_AND_TIME
+DT
+DWORD
+LINT
+LREAL
+LWORD
+ULINT
+USINT
+SINT
+STRING
+TIME_OF_DAY
+TOD
+DATE#
+D#
+TIME_OF_DAY#
+TOD#
+DATE_AND_TIME#
+DT#
+date#
+d#
+time_of_day#
+tod#
+date_and_time#
+dt#
+
+
+:#############################  MAC coloring  #################################
+
+:StartExtension MAC
+
+:Keywords Lightblue
+
+:Macro
+:MacroEnd
+
+
+:Separators Lightred
+#%
+
+
+
+
+:##############################  C coloring  ##################################
+
+:StartExtension C
+
+:Keywords Lightblue
+
+void
+unsigned
+char
+Bool
+short
+int
+long
+float
+double
+struct
+union
+enum
+const
+
+ANY_ELEM
+BOOL
+SINT
+INT
+DINT
+LINT
+USINT
+UINT
+UDINT
+ULINT
+REAL
+LREAL
+TIME
+DATE
+TIME_OF_DAY
+TOD
+DATE_AND_TIME
+DT
+STRING
+BYTE
+WORD
+DWORD
+LWORD
+PTR_ANY_ELEM
+PTR_BOOL
+PTR_SINT
+PTR_INT
+PTR_DINT
+PTR_LINT
+PTR_USINT
+PTR_UINT
+PTR_UDINT
+PTR_ULINT
+PTR_REAL
+PTR_LREAL
+PTR_TIME
+PTR_DATE
+PTR_TIME_OF_DAY
+PTR_TOD
+PTR_DATE_AND_TIME
+PTR_DT
+PTR_STRING
+PTR_BYTE
+PTR_WORD
+PTR_DWORD
+PTR_LWORD
+
+#include
+#define
+#ifdef
+#undef
+#ifndef
+#elif
+#endif
+TRUE
+FALSE
+this
+
+if
+then
+else
+switch
+case
+default
+break
+continue
+while
+do
+for
+new
+delete
+return
+goto
+
+operator
+_export
+register
+static
+extern
+volatile
+typedef
+inline
+private
+protected
+public
+class
+virtual
+
+memcpy
+memmove
+memcmp
+strcpy
+strncpy
+strcat
+strncat
+strcmpi
+strcmp
+strncmp
+strnicmp
+strupr
+strlwr
+strdup
+printf
+fprintf
+sprintf
+scanf
+fscanf
+sscanf
+malloc
+free
+fopen
+fclose
+open
+close
+read
+write
+lseek
+atoi
+itoa
+atof
+atol
+
+:Separators Lightred
+
+(){}[]|&+-*/<>=.,:;!?"'~\
+
+:Comment Green
+
+/*
+*/
+//
+
+
+
+
+:##############################  H coloring  ##################################
+
+:StartExtension H
+
+:Keywords Lightblue
+
+void
+unsigned
+char
+Bool
+short
+int
+long
+float
+double
+struct
+union
+enum
+const
+
+ANY_ELEM
+BOOL
+SINT
+INT
+DINT
+LINT
+USINT
+UINT
+UDINT
+ULINT
+REAL
+LREAL
+TIME
+DATE
+TIME_OF_DAY
+TOD
+DATE_AND_TIME
+DT
+STRING
+BYTE
+WORD
+DWORD
+LWORD
+PTR_ANY_ELEM
+PTR_BOOL
+PTR_SINT
+PTR_INT
+PTR_DINT
+PTR_LINT
+PTR_USINT
+PTR_UINT
+PTR_UDINT
+PTR_ULINT
+PTR_REAL
+PTR_LREAL
+PTR_TIME
+PTR_DATE
+PTR_TIME_OF_DAY
+PTR_TOD
+PTR_DATE_AND_TIME
+PTR_DT
+PTR_STRING
+PTR_BYTE
+PTR_WORD
+PTR_DWORD
+PTR_LWORD
+
+#include
+#define
+#ifdef
+#undef
+#ifndef
+#elif
+#endif
+TRUE
+FALSE
+this
+
+if
+then
+else
+switch
+case
+default
+break
+continue
+while
+do
+for
+new
+delete
+return
+goto
+
+operator
+_export
+register
+static
+extern
+volatile
+typedef
+inline
+private
+protected
+public
+class
+virtual
+
+memcpy
+memmove
+memcmp
+strcpy
+strncpy
+strcat
+strncat
+strcmpi
+strcmp
+strncmp
+strnicmp
+strupr
+strlwr
+strdup
+printf
+fprintf
+sprintf
+scanf
+fscanf
+sscanf
+malloc
+free
+fopen
+fclose
+open
+close
+read
+write
+lseek
+atoi
+itoa
+atof
+atol
+
+:Separators Lightred
+
+(){}[]|&+-*/<>=.,:;!?"'~\
+
+:Comment Green
+
+/*
+*/
+//

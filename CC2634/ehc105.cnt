@@ -1,0 +1,122 @@
+:Base ehc105.hlp
+:Title 140 EHC 105 00 User Manual
+1 140 EHC 105 00 High Speed Counter Module
+1 140 EHC 105 00 High Speed Counter Module=IDH_CONTENTS@ehc105.hlp>main
+2 EHC 105 00 Functional Overview 
+2 EHC 105 00 Functional Overview =D-SG-0006145.4@ehc105.hlp>main
+3 EHC 105 00 Introduction 
+3 EHC 105 00 Introduction =D-SG-0006148.4@ehc105.hlp>main
+4 General User Characteristics for EHC 105 00=D-SG-0006274.3@ehc105.hlp>main
+4 System Characteristics of EHC 105 00 =D-SG-0006150.3@ehc105.hlp>main
+4 Menu Selection of Terms=D-SG-0006144.3@ehc105.hlp>main
+3 Structural Description of EHC 105 00
+3 Structural Description of EHC 105 00=D-SG-0006151.4@ehc105.hlp>main
+4 Hardware Configuration of EHC 105 00 =D-SG-0006152.3@ehc105.hlp>main
+4 Block Diagram of a Counter Channel =D-SG-0006153.3@ehc105.hlp>main
+4 Overview of I/O Signals =D-SG-0006154.3@ehc105.hlp>main
+3 Operational Characteristics of EHC 105 00
+3 Operational Characteristics of EHC 105 00=D-SG-0006155.4@ehc105.hlp>main
+4 Discrete I/O Signals=D-SG-0006156.3@ehc105.hlp>main
+4 Functional Counter Features=D-SG-0006157.3@ehc105.hlp>main
+4 Start and Stop Counter Functionality =D-SG-0006158.3@ehc105.hlp>main
+4 Start and Stop Priority Ranking of Signals=D-SG-0006159.3@ehc105.hlp>main
+4 Start and Stop Time Diagram without Hardware Input Configuration=D-SG-0006160.3@ehc105.hlp>main
+4 Start and Stop Time Diagram with Hardware Input Configuration=D-SG-0006161.3@ehc105.hlp>main
+4 Counter Enabling and Monitoring=D-SG-0006162.3@ehc105.hlp>main
+4 Output Set Point Mode=D-SG-0006165.3@ehc105.hlp>main
+4 Set Points=D-SG-0006166.3@ehc105.hlp>main
+3 EHC 105 00 Counter Types and their Operating Modes
+3 EHC 105 00 Counter Types and their Operating Modes=D-SG-0006167.4@ehc105.hlp>main
+4 Overview of Counter Types and their Mode Numbers
+4 Overview of Counter Types and their Mode Numbers=D-SG-0006168.4@ehc105.hlp>main
+5 Overview of Counter Types =D-SG-0006169.3@ehc105.hlp>main
+5 Mode Number of Counter Types=D-SG-0006170.3@ehc105.hlp>main
+4 Event Counter
+4 Event Counter=D-SG-0006171.4@ehc105.hlp>main
+5 Operating Modes=D-SG-0006172.3@ehc105.hlp>main
+5 Time Diagrams for Operating Modes 1 and 8=D-SG-0006173.3@ehc105.hlp>main
+5 Time Diagram for Operating Modes 2 and 9=D-SG-0006174.3@ehc105.hlp>main
+5 Time Diagram for Operating Mode A=D-SG-0006175.3@ehc105.hlp>main
+5 Time Diagram for Operating Mode B=D-SG-0006176.3@ehc105.hlp>main
+4 Differential Counter
+4 Differential Counter=D-SG-0006178.4@ehc105.hlp>main
+5 Operating Modes=D-SG-0006179.3@ehc105.hlp>main
+5 Time Diagram for Operating Mode 3=D-SG-0006180.3@ehc105.hlp>main
+5 Time Diagram for Operating Mode 4=D-SG-0006181.3@ehc105.hlp>main
+4 Repetitive Counter
+4 Repetitive Counter=D-SG-0006182.4@ehc105.hlp>main
+5 Operating Mode 5=D-SG-0006183.3@ehc105.hlp>main
+5 Time Diagram for Operating Mode 5=D-SG-0006184.3@ehc105.hlp>main
+4 Rate Counter
+4 Rate Counter=D-SG-0006185.4@ehc105.hlp>main
+5 Operating Modes=D-SG-0006186.3@ehc105.hlp>main
+5 Time Diagram for Operating Modes 6 and 7=D-SG-0006187.3@ehc105.hlp>main
+3 State RAM I/O Structure 
+3 State RAM I/O Structure =D-SG-0006188.4@ehc105.hlp>main
+4 Assignment of Input Structure =D-SG-0006189.3@ehc105.hlp>main
+4 Assignment of Output Structure =D-SG-0006190.3@ehc105.hlp>main
+3 Monitoring and Start-Up
+3 Monitoring and Start-Up=D-SG-0006191.4@ehc105.hlp>main
+4 Monitoring Incoming Pulses=D-SG-0006192.3@ehc105.hlp>main
+4 Quantum System Bus Monitoring=D-SG-0006193.3@ehc105.hlp>main
+4 US24 Monitoring=D-SG-0006195.3@ehc105.hlp>main
+4 Start-Up Characteristics=D-SG-0006196.3@ehc105.hlp>main
+2 EHC 105 00 High Speed Counter Module Description
+2 EHC 105 00 High Speed Counter Module Description=D-SG-0006146.4@ehc105.hlp>main
+3 EHC 105 00 High Speed Counter Module Description
+3 EHC 105 00 High Speed Counter Module Description=D-SG-0006199.4@ehc105.hlp>main
+4 Presentation=D-SG-0006200.3@ehc105.hlp>main
+4 EHC 105 00 Hardware Specifics=D-SG-0006201.3@ehc105.hlp>main
+4 EHC 105 00 Hardware Configuration=D-SG-0006202.3@ehc105.hlp>main
+4 Indicators=D-SG-0006203.3@ehc105.hlp>main
+4 Wiring=D-SG-0006204.3@ehc105.hlp>main
+4 Specifications=D-SG-0006205.48@ehc105.hlp>main
+2 Configuration using Concept 
+2 Configuration using Concept =D-SG-0006499.1@ehc105.hlp>main
+3 Prerequisites, Drop and Counter Characteristics Configuration
+3 Prerequisites, Drop and Counter Characteristics Configuration=D-SG-0006206.4@ehc105.hlp>main
+4 Hardware and Software Prerequisites=D-SG-0006207.3@ehc105.hlp>main
+4 Configuration Steps=D-SG-0006208.3@ehc105.hlp>main
+4 Configuration of Local Quantum Drop =D-SG-0006209.3@ehc105.hlp>main
+4 Configuration of Counter Characteristics and I/O Map=D-SG-0006210.3@ehc105.hlp>main
+4 Classification and Assignment of Derived Data Types=D-SG-0006211.3@ehc105.hlp>main
+3 Configuration Example 1 with Event Counter (Relative) 
+3 Configuration Example 1 with Event Counter (Relative) =D-SG-0006212.4@ehc105.hlp>main
+4 Configuration Order for Example Event Counter (Relative)=D-SG-0006213.3@ehc105.hlp>main
+4 Example Specifications for an Event Counter (Relative)=D-SG-0006214.3@ehc105.hlp>main
+4 Example Hardware Set up for an Event Counter (Relative)=D-SG-0006215.3@ehc105.hlp>main
+4 Example Block Diagram for an Event Counter (Relative) =D-SG-0006216.3@ehc105.hlp>main
+4 Example Software Settings Using Concept for an Event Counter (Relative)=D-SG-0006217.3@ehc105.hlp>main
+4 Configuration with the Help of Drop and I/O Configuration Screen for Example Event Counter (Relative)=D-SG-0006218.3@ehc105.hlp>main
+4 Start for Example Event Counter (Relative)=D-SG-0006219.3@ehc105.hlp>main
+4 Example Time Diagram for an Event Counter (Relative)=D-SG-0006220.3@ehc105.hlp>main
+3 Configuration Example 2 with Repetitive Counter
+3 Configuration Example 2 with Repetitive Counter=D-SG-0006221.4@ehc105.hlp>main
+4 Configuration Order for Example Repetitive Counter=D-SG-0006222.3@ehc105.hlp>main
+4 Example Specifications for a Repetitive Counter=D-SG-0006223.3@ehc105.hlp>main
+4 Example Hardware Setup for a Repetitive Counter =D-SG-0006224.3@ehc105.hlp>main
+4 Example Block Diagram for a Repetitive Counter =D-SG-0006225.3@ehc105.hlp>main
+4 Example Software Settings Using Concept for a Repetitive Counter=D-SG-0006226.3@ehc105.hlp>main
+4 Configuration with the Help of Drop and I/O Configuration Screen for Example Repetitive Counter=D-SG-0006227.3@ehc105.hlp>main
+4 Start for Example Repetitive Counter=D-SG-0006228.3@ehc105.hlp>main
+4 Time Diagram for Example 2, Repetitive Counter=D-SG-0006229.3@ehc105.hlp>main
+3 Configuration Example 3 with Differential Counter 
+3 Configuration Example 3 with Differential Counter =D-SG-0006230.4@ehc105.hlp>main
+4 Configuration Order for Example Differential Counter=D-SG-0006231.3@ehc105.hlp>main
+4 Example Specifications for a Differential Counter=D-SG-0006232.3@ehc105.hlp>main
+4 Example Hardware Setup for a Differential Counter =D-SG-0006233.3@ehc105.hlp>main
+4 Example Block Diagram for a Differential Counter =D-SG-0006234.3@ehc105.hlp>main
+4 Example Software Settings Using Concept for a Differential Counter=D-SG-0006235.3@ehc105.hlp>main
+4 Configuration with the Help of Drop and I/O Configuration Screen for Example Differential Counter=D-SG-0006236.3@ehc105.hlp>main
+4 Start for Example 3, Differential Counter=D-SG-0006237.3@ehc105.hlp>main
+4 Time Diagram for Example 3, Differential Counter =D-SG-0006238.3@ehc105.hlp>main
+3 Configuration Example 4 with Event Counter (Absolute) 
+3 Configuration Example 4 with Event Counter (Absolute) =D-SG-0006239.4@ehc105.hlp>main
+4 Configuration Order for Example Event Counter (Absolute)=D-SG-0006240.3@ehc105.hlp>main
+4 Example Specifications for an Event Counter (Absolute)=D-SG-0006241.3@ehc105.hlp>main
+4 Example Hardware Set up for an Event Counter (Absolute)=D-SG-0006242.3@ehc105.hlp>main
+4 Example Block Diagram for an Event Counter (Absolute) =D-SG-0006243.3@ehc105.hlp>main
+4 Example Software Settings Using Concept for an Event Counter (Absolute)=D-SG-0006244.3@ehc105.hlp>main
+4 Configuration with the Help of Drop and I/O Configuration Screen for Example Event Counter (Absolute)=D-SG-0006245.3@ehc105.hlp>main
+4 Start for Example Event Counter (Absolute)=D-SG-0006246.3@ehc105.hlp>main
+4 Example Time Diagram for an Event Counter (Absolute)=D-SG-0006247.3@ehc105.hlp>main

@@ -1,0 +1,54 @@
+RDE_TEMPLATE
+	CONCEPT_VERSION = "Version 2.6 XL SR7"
+	RDE_TEMPLATE_VERSION = 1
+	COLUMN_WIDTH = "{161,81,81,97,97,81,65,81,129}"
+	WINDOW_LOCATION = "{733,472,992,253}"
+ENTRY
+	ATTRIBUTE Tagname = test_cu
+	ATTRIBUTE Value = "Off"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 0
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = test_cd
+	ATTRIBUTE Value = "Off"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 0
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = test_r
+	ATTRIBUTE Value = "On"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 0
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = test_ld
+	ATTRIBUTE Value = "Off"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 0
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = test_pv
+	ATTRIBUTE Value = "3"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = test_qu
+	ATTRIBUTE Value = "Off"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 0
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = test_qd
+	ATTRIBUTE Value = "On"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 0
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = test_CV
+	ATTRIBUTE Value = "0"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+END_RDE_TEMPLATE

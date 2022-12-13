@@ -1,0 +1,4 @@
+%RECT(1,132,4) %VLINE(24,4) %VLINE(112,4)
+  Schneider Automation                                    Project                                                 %DATE_D
+        Concept                                           %PROJNAME
+

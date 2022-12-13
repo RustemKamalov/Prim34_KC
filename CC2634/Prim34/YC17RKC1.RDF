@@ -1,0 +1,267 @@
+RDE_TEMPLATE
+	CONCEPT_VERSION = "Version 2.6 XL SR7"
+	RDE_TEMPLATE_VERSION = 1
+	COLUMN_WIDTH = "{298,81,89,97,97,81,65,81,129}"
+	WINDOW_LOCATION = "{1,47,1828,983}"
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_ReceiveBlock.ChekSum
+	ATTRIBUTE Address = 408200
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_ReceiveBlock.Block.BlkTYpe
+	ATTRIBUTE Address = 408201
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_ReceiveBlock.Block.CyclCnt
+	ATTRIBUTE Address = 408202
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_ConnState01
+	ATTRIBUTE Address = 408203
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_ConnState02
+	ATTRIBUTE Address = 408204
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_Reserve01
+	ATTRIBUTE Address = 408205
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_Reserve02
+	ATTRIBUTE Address = 408206
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_Signals01
+	ATTRIBUTE Address = 408207
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_Signals02
+	ATTRIBUTE Address = 408208
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_Signals03
+	ATTRIBUTE Address = 408209
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_Signals04
+	ATTRIBUTE Address = 408210
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_Signals05
+	ATTRIBUTE Address = 408211
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendBlock.ChekSum
+	ATTRIBUTE Address = 408300
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendBlock.Block.BlkTYpe
+	ATTRIBUTE Address = 408301
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendBlock.Block.CyclCnt
+	ATTRIBUTE Address = 408302
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals01
+	ATTRIBUTE Address = 408303
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals02
+	ATTRIBUTE Address = 408304
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals03
+	ATTRIBUTE Address = 408305
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals04
+	ATTRIBUTE Address = 408306
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals05
+	ATTRIBUTE Address = 408307
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals06
+	ATTRIBUTE Address = 408308
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals07
+	ATTRIBUTE Address = 408309
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals08
+	ATTRIBUTE Address = 408310
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals09
+	ATTRIBUTE Address = 408311
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals10
+	ATTRIBUTE Address = 408312
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals11
+	ATTRIBUTE Address = 408313
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals12
+	ATTRIBUTE Address = 408314
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals13
+	ATTRIBUTE Address = 408315
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals14
+	ATTRIBUTE Address = 408316
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals15
+	ATTRIBUTE Address = 408317
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals16
+	ATTRIBUTE Address = 408318
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals17
+	ATTRIBUTE Address = 408319
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals18
+	ATTRIBUTE Address = 408320
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals19
+	ATTRIBUTE Address = 408321
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals20
+	ATTRIBUTE Address = 408322
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals21
+	ATTRIBUTE Address = 408323
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = YCO17R_KC1_SendSignals22
+	ATTRIBUTE Address = 408324
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+END_RDE_TEMPLATE

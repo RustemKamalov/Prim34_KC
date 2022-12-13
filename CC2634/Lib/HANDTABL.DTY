@@ -1,0 +1,45 @@
+(*--------------------------------------------*)
+(*                                            *)
+(*  Strukturen fuer Handtableaubedienung      *)
+(*                                            *)
+(*  UDS:                                      *)
+(*  BTMINFO:                                  *)
+(*  BLD2PLC5:                                 *)
+(*                                            *)
+(*--------------------------------------------*)
+
+TYPE
+
+(* *)
+UDS:
+ STRUCT
+  symType:    INT;
+  varSize:    INT;
+  physOffs:   DINT;
+  selsym:     INT;
+  ref:        INT;
+ END_STRUCT;
+
+(* *)
+BTMINFO:
+ STRUCT
+    UDS_left: UDS;
+    UDS_right: UDS;
+    HmSmMode: INT;
+    SoftButton_left: BYTE;
+    SoftButton_right: BYTE;
+ END_STRUCT;
+
+
+(* *)
+BLD2PLC5:
+ STRUCT
+    stamp:   UDINT;
+    alive:   UINT;
+    mode:    UINT;
+    reserve: UDINT;
+    BTM:     ARRAY [1..5] OF BTMINFO;
+ END_STRUCT;
+
+END_TYPE
+

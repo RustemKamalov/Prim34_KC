@@ -1,0 +1,289 @@
+:Base mvb.hlp
+:Title Compact MVB and TIO
+1 Compact MVB and TIO
+1 Compact MVB and TIO=IDH_CONTENTS@mvb.hlp>main
+2 Introduction and Description of the Hardware Configuration
+2 Introduction and Description of the Hardware Configuration=D-SG-0004917.1@mvb.hlp>main
+3 Introduction to the Architecture of the Compact PLC
+3 Introduction to the Architecture of the Compact PLC=D-SG-0004927.4@mvb.hlp>main
+4 possible applications of the Modicon TSX Compact and TIO for train applications with MVB=D-SG-0004928.3@mvb.hlp>main
+4 Structure of the Modicon TSX Compact=D-SG-0004952.3@mvb.hlp>main
+4 Expansion Possiblilities and Configuration Limits of Modicon TSX Compact=D-SG-0004508.3@mvb.hlp>main
+4 Programming Environment - Concept=D-SG-0004509.3@mvb.hlp>main
+4 Overview of Modicon TSX Compact Components=D-SG-0004929.3@mvb.hlp>main
+4 Accessories Overview of Modicon TSX Compact=D-SG-0004511.3@mvb.hlp>main
+3 The Train Data Network
+3 The Train Data Network=D-SG-0004816.4@mvb.hlp>main
+4 Introduction to the train data network
+4 Introduction to the train data network=D-SG-0004817.4@mvb.hlp>main
+5 The Train Communication Network and its Buses=D-SG-0004821.3@mvb.hlp>main
+5 MVB Topology=D-SG-0004822.3@mvb.hlp>main
+5 The Physical Construction of the MVB=D-SG-0004823.3@mvb.hlp>main
+4 Data Transfer via the MVB
+4 Data Transfer via the MVB=D-SG-0004818.4@mvb.hlp>main
+5 Data Types and their Transfer Behavior=D-SG-0004824.3@mvb.hlp>main
+5 Transfer Services=D-SG-0004825.3@mvb.hlp>main
+5 Process Variables=D-SG-0004826.3@mvb.hlp>main
+5 The Source Addressed Broadcast Procedure for Process Variable Transfer=D-SG-0004827.3@mvb.hlp>main
+5 Data Set Construction for Process Variables=D-SG-0004828.3@mvb.hlp>main
+5 Properties of the Process Data Protocol=D-SG-0004829.3@mvb.hlp>main
+5 Message Formats of the MVB=D-SG-0004830.3@mvb.hlp>main
+5 Ports and their Meaning=D-SG-0004831.3@mvb.hlp>main
+5 MVB Telegram Types=D-SG-0004832.3@mvb.hlp>main
+5 The Data Traffic on the MVB=D-SG-0004833.3@mvb.hlp>main
+4 Technical Specifications
+4 Technical Specifications=D-SG-0004819.4@mvb.hlp>main
+5 Equipment Classes=D-SG-0004834.3@mvb.hlp>main
+5 General MVB Performance Limitations=D-SG-0004835.3@mvb.hlp>main
+5 MVB Performance Limitations with Modicon TSX Compact and TIO=D-SG-0004836.3@mvb.hlp>main
+5 I/O Update Times on ASBMVB 258A and their Calculation=D-SG-0004837.3@mvb.hlp>main
+4 MVB and the ISO-OSI Reference Model
+4 MVB and the ISO-OSI Reference Model=D-SG-0004820.4@mvb.hlp>main
+5 The ISO-OSI Reference Model as a Basis for the MVB=D-SG-0004838.3@mvb.hlp>main
+5 Application of the ISO-OSI Reference Models on the MVB=D-SG-0004839.3@mvb.hlp>main
+3 Constructing the Hardware Configuration
+3 Constructing the Hardware Configuration=D-SG-0004930.4@mvb.hlp>main
+4 System Configuration
+4 System Configuration=D-SG-0004522.4@mvb.hlp>main
+5 Mapping and Specifying I/O Slots=D-SG-0004523.3@mvb.hlp>main
+5  dimensioning the power supply=D-SG-0004931.3@mvb.hlp>main
+5 Planning and Distribution of Circuits=D-SG-0004525.3@mvb.hlp>main
+5 Planning and Distribution of Circuits=D-SG-0004526.3@mvb.hlp>main
+4 Connection Schemes for Power Supply
+4 Connection Schemes for Power Supply=D-SG-0004527.4@mvb.hlp>main
+5 connection scheme of the UB power supply (24VDC for modules and sensors) =D-SG-0004932.3@mvb.hlp>main
+5 Detailed connection for the Supply of CPUs and remote I/Os (UB \= 24 V)=D-SG-0005907.1@mvb.hlp>main
+5 Detailed connection for the Supply of Discrete Inputs (UB \= 24 V)=D-SG-0005908.1@mvb.hlp>main
+5 Detailed connection for the Supply of Output Relays (UB \= 24 V)=D-SG-0005909.1@mvb.hlp>main
+5 Detailed connection for the Supply of Analog I/Os (UB \= 24 V)=D-SG-0005910.1@mvb.hlp>main
+5 Connection Scheme for Working Voltage Supply US (24 VDC for Actuators)=D-SG-0004533.3@mvb.hlp>main
+5 Detailed Connection for Modules with Semiconductor Outputs (US \= 24 V)=D-SG-0004534.3@mvb.hlp>main
+5 Detailed Connection for Modules with Relay Outputs (US \= 24 V)=D-SG-0004535.3@mvb.hlp>main
+5 Improving EMC Stability on the Modules=D-SG-0004536.3@mvb.hlp>main
+4 Hardware - Layout and Installation
+4 Hardware - Layout and Installation=D-SG-0004537.4@mvb.hlp>main
+5 View of Complete Installation and Dimensions of Modicon TSX Compact=D-SG-0004538.3@mvb.hlp>main
+5 Top Hat Rail Mounting=D-SG-0004539.3@mvb.hlp>main
+5 Backplane Mounting and Interconnection=D-SG-0004540.3@mvb.hlp>main
+5 CPU and Module Mounting=D-SG-0004933.3@mvb.hlp>main
+5 Mounting the Power Supply Module 470 IPS 258 00 and the MVB-TAP (Terminal Access Point) 470 NAV 512 00=D-SG-0004934.3@mvb.hlp>main
+5 Installation of the MVB Lead=D-SG-0004935.3@mvb.hlp>main
+5 Wiring and Grounding the MVB Lead=D-SG-0004936.3@mvb.hlp>main
+5 Layout for Installation Accessories=D-SG-0004545.3@mvb.hlp>main
+5 TIO Terminal Strip Selection=D-SG-0004937.3@mvb.hlp>main
+5 TIO Terminal Block Safety Encoding=D-SG-0004938.3@mvb.hlp>main
+5 Mounting and Dismounting TIO Terminal Strips=D-SG-0004939.3@mvb.hlp>main
+4 Grounding
+4 Grounding=D-SG-0004960.1@mvb.hlp>main
+5 How to Ground the Modicon TSX Compact Components=D-SG-0004547.3@mvb.hlp>main
+5 Grounding the TIO Components=D-SG-0004940.3@mvb.hlp>main
+5 How to Ground Shielded Cable Lines=D-SG-0004549.3@mvb.hlp>main
+2 Software Configuration and Initial installation
+2 Software Configuration and Initial installation=D-SG-0004918.1@mvb.hlp>main
+3 Software-Configuration
+3 Software-Configuration=D-SG-0004840.4@mvb.hlp>main
+4 Configuration by Software=D-SG-0004841.3@mvb.hlp>main
+4 Configuration of the MVB Device using the TCN Tool=D-SG-0004842.3@mvb.hlp>main
+4 Configuration using Concept for Compact=D-SG-0004843.3@mvb.hlp>main
+4 Determination of the Switching on/off Behavior of the TSX Compact=D-SG-0004844.3@mvb.hlp>main
+3 initial commissioning
+3 initial commissioning=D-SG-0004845.4@mvb.hlp>main
+4 Preparation for Initial Installation=D-SG-0004846.3@mvb.hlp>main
+4 Initial Installation of the PC-E984-258R CPU =D-SG-0004847.3@mvb.hlp>main
+3 AS-BMVB-258A start/stop behavior 
+3 AS-BMVB-258A start/stop behavior =D-SG-0004848.4@mvb.hlp>main
+4 Statuses after applying voltage
+4 Statuses after applying voltage=D-SG-0004849.4@mvb.hlp>main
+5 Statuses During Valid MVB Configuration=D-SG-0004851.3@mvb.hlp>main
+5 Statuses During Invalid MVB Configuration=D-SG-0004852.3@mvb.hlp>main
+5 Statuses When MVB-Module is not Configured or Compact PLC is Stopped =D-SG-0004853.3@mvb.hlp>main
+5 Statuses when MVB has no Parameter Data Configuration or Viable Program=D-SG-0004854.3@mvb.hlp>main
+4 Start/Stop Behavior
+4 Start/Stop Behavior=D-SG-0004850.4@mvb.hlp>main
+5 Statuses during Stopping of the Running PLC Program=D-SG-0004855.3@mvb.hlp>main
+5 Statuses during PLC Restart with Same Configuration=D-SG-0004856.3@mvb.hlp>main
+5 Statuses during PLC Restart with a New Configuration=D-SG-0004857.3@mvb.hlp>main
+5 Behavior during Undervoltage=D-SG-0004858.3@mvb.hlp>main
+2 Programming the MVB and the AS-BMVB-258A Firmware Menus
+2 Programming the MVB and the AS-BMVB-258A Firmware Menus=D-SG-0004919.1@mvb.hlp>main
+3 Programming via the AS-BMVB-258A Communication Module
+3 Programming via the AS-BMVB-258A Communication Module=D-SG-0004859.4@mvb.hlp>main
+4 Function Principles of Programming via the COM1 Port =D-SG-0004860.3@mvb.hlp>main
+4 Configuration Steps on the Hardware=D-SG-0004861.3@mvb.hlp>main
+4 Configuration Steps in Concept =D-SG-0004862.3@mvb.hlp>main
+4 PaDT Connection=D-SG-0004863.3@mvb.hlp>main
+4 Concept Operation=D-SG-0004864.3@mvb.hlp>main
+4 Disconnecting in Concept=D-SG-0004865.3@mvb.hlp>main
+4 Possible Programming Error Messages=D-SG-0004866.3@mvb.hlp>main
+3 AS-BMVB-258A firmware menus
+3 AS-BMVB-258A firmware menus=D-SG-0004867.4@mvb.hlp>main
+4 Access to Firmware Menus=D-SG-0004868.4@mvb.hlp>main
+4 The Main Menu and its Submenus
+4 The Main Menu and its Submenus=D-SG-0004869.4@mvb.hlp>main
+5 MVB Data Menu (d) =D-SG-0004873.3@mvb.hlp>main
+5 Error Report Menu (e)=D-SG-0004874.3@mvb.hlp>main
+5 Global Data Menu (g) =D-SG-0004875.3@mvb.hlp>main
+5 Terminal Setup Menu (t) =D-SG-0004876.3@mvb.hlp>main
+5 Firmware Update Menu (u) =D-SG-0004877.3@mvb.hlp>main
+5 PaDT Connection (p) =D-SG-0004878.3@mvb.hlp>main
+4 The Expert Main Menu and its Submenus
+4 The Expert Main Menu and its Submenus=D-SG-0004870.4@mvb.hlp>main
+5 Expert Mode Menu (x)=D-SG-0004879.3@mvb.hlp>main
+5 Memory Browser Menu (b)=D-SG-0004880.3@mvb.hlp>main
+5 Hardware Test Menu (h)=D-SG-0004881.3@mvb.hlp>main
+5 Task Information Menu (i)=D-SG-0004882.3@mvb.hlp>main
+5 Debug Mask Menu (m)=D-SG-0004883.3@mvb.hlp>main
+5 Board Reset Menu (r) =D-SG-0004884.3@mvb.hlp>main
+3 Downloading the AS-BMVB-258A Firmware=D-SG-0004871.4@mvb.hlp>main
+2 Structur of the error diagnostics and example of an application
+2 Structur of the error diagnostics and example of an application=D-SG-0004920.1@mvb.hlp>main
+3 Slot Check and Status Messages of Modules
+3 Slot Check and Status Messages of Modules=D-SG-0004691.4@mvb.hlp>main
+4 Slot Check for Modules
+4 Slot Check for Modules=D-SG-0004692.4@mvb.hlp>main
+5 Elementary Function Block RIOSTAT=D-SG-0004693.3@mvb.hlp>main
+5 How to Check Slots with RIOSTAT=D-SG-0004694.3@mvb.hlp>main
+4 Status Messages of Modules
+4 Status Messages of Modules=D-SG-0004695.4@mvb.hlp>main
+5 I/O Map Status Word=D-SG-0004696.3@mvb.hlp>main
+5 Register Partitioning of AS-BADU-256=D-SG-0004697.3@mvb.hlp>main
+5 Register Partitioning of AS-BDAP-250=D-SG-0004698.3@mvb.hlp>main
+5 Register Partitioning of AS-BDAU-252=D-SG-0004699.3@mvb.hlp>main
+5 register partitioning of the AS-BMVB-258A=D-SG-0004921.3@mvb.hlp>main
+3 example of application
+3 example of application=D-SG-0004886.4@mvb.hlp>main
+4 Application construction
+4 Application construction=D-SG-0004887.4@mvb.hlp>main
+5 device configuration of the application=D-SG-0004890.3@mvb.hlp>main
+5 communication construction and structure=D-SG-0004891.3@mvb.hlp>main
+4 Configuration of the Application with the TCN-Tool
+4 Configuration of the Application with the TCN-Tool=D-SG-0004888.4@mvb.hlp>main
+5 the four configuration levels of the TCN-Tools V 2.1.0.1=D-SG-0004892.3@mvb.hlp>main
+5 creating the project data base=D-SG-0004893.3@mvb.hlp>main
+5 checking the project settings=D-SG-0004894.3@mvb.hlp>main
+5 recording and configuration of PLC_1, PLC_2=D-SG-0004895.3@mvb.hlp>main
+5 recording and configuration of the bus administrator (BUSAD)=D-SG-0004896.3@mvb.hlp>main
+5 Recording and Configuration of the TIO_1=D-SG-0004897.3@mvb.hlp>main
+5 record application=D-SG-0004898.3@mvb.hlp>main
+5 configuration of the bus systems=D-SG-0004901.3@mvb.hlp>main
+5 recording process data=D-SG-0004906.3@mvb.hlp>main
+5 recording sender-receiver process data=D-SG-0004909.3@mvb.hlp>main
+5 port structure configuration=D-SG-0004910.3@mvb.hlp>main
+5 generating the output files=D-SG-0004911.3@mvb.hlp>main
+5 creating the project history=D-SG-0004912.3@mvb.hlp>main
+4 configuration under Concept
+4 configuration under Concept=D-SG-0004889.4@mvb.hlp>main
+5 linking in the database under Concept=D-SG-0004913.3@mvb.hlp>main
+5 MVB initialization=D-SG-0004914.3@mvb.hlp>main
+2 EFB Descriptions
+2 EFB Descriptions=D-SG-0004915.4@mvb.hlp>main
+3 General information on the EFBs
+3 General information on the EFBs=D-SG-0004916.4@mvb.hlp>main
+4 General information on the EFBs=D-SG-0005492.1@mvb.hlp>main
+4 Optimizing/Adapting the Arrays=D-SG-0005906.1@mvb.hlp>main
+3 MVB_IN: Data exchange between CPU and MVB-258A
+3 MVB_IN: Data exchange between CPU and MVB-258A=D-SG-0003627.4@mvb.hlp>main
+4 Brief description=D-SG-0000895.1@mvb.hlp>main
+4 Representation=D-SG-0000897.1@mvb.hlp>main
+4 Detailed description=D-SG-0000899.1@mvb.hlp>main
+3 MVB_INFO: Requesting bus data via MVB
+3 MVB_INFO: Requesting bus data via MVB=D-SG-0003628.4@mvb.hlp>main
+4 Brief description=D-SG-0000918.1@mvb.hlp>main
+4 Representation=D-SG-0000921.1@mvb.hlp>main
+4 Detailed description=D-SG-0000922.1@mvb.hlp>main
+3 MVB_OUT: Data exchange between AS-BMVB-258A and CPU
+3 MVB_OUT: Data exchange between AS-BMVB-258A and CPU=D-SG-0003629.4@mvb.hlp>main
+4 Brief description=D-SG-0000956.1@mvb.hlp>main
+4 Representation=D-SG-0000958.1@mvb.hlp>main
+4 Detailed description=D-SG-0000959.1@mvb.hlp>main
+3 MVB_RED: Switching redundant source ports
+3 MVB_RED: Switching redundant source ports=D-SG-0003630.4@mvb.hlp>main
+4 Brief description=D-SG-0000961.1@mvb.hlp>main
+4 Representation=D-SG-0000962.1@mvb.hlp>main
+4 Detailed description=D-SG-0000963.3@mvb.hlp>main
+2 Module Descriptions
+2 Module Descriptions=D-SG-0004959.1@mvb.hlp>main
+3 AS-BADU 256: Analog Input
+3 AS-BADU 256: Analog Input=D-SG-0005995.4@mvb.hlp>main
+4 Brief Description=D-SG-0005996.1@mvb.hlp>main
+4 Description of LEDs=D-SG-0005997.1@mvb.hlp>main
+4 Description of the Error Bits=D-SG-0005998.1@mvb.hlp>main
+4 Configuration=D-SG-0005999.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006000.1@mvb.hlp>main
+3 AS-BDAP 250: Binary input and output
+3 AS-BDAP 250: Binary input and output=D-SG-0006002.1@mvb.hlp>main
+4 Brief Description=D-SG-0006001.1@mvb.hlp>main
+4 Description of LEDs=D-SG-0006003.1@mvb.hlp>main
+4 Short Circuit Behavior=D-SG-0006004.1@mvb.hlp>main
+4 Wiring=D-SG-0006005.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006006.1@mvb.hlp>main
+3 AS-BDAP 252, AS-BDAP 253: Binary Input and Output
+3 AS-BDAP 252, AS-BDAP 253: Binary Input and Output=D-SG-0006007.1@mvb.hlp>main
+4 Brief Description=D-SG-0006008.1@mvb.hlp>main
+4 Description of LEDs=D-SG-0006009.1@mvb.hlp>main
+4 Wiring Circuit=D-SG-0006011.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006012.1@mvb.hlp>main
+3 AS-BDAP 258: Binary Output
+3 AS-BDAP 258: Binary Output=D-SG-0005989.4@mvb.hlp>main
+4 Brief Description=D-SG-0005990.3@mvb.hlp>main
+4 Description of LEDs=D-SG-0005992.3@mvb.hlp>main
+4 Wiring=D-SG-0005993.3@mvb.hlp>main
+4 Technical Specifications=D-SG-0005994.3@mvb.hlp>main
+3 AS-BDAU 252: analog output
+3 AS-BDAU 252: analog output=D-SG-0006013.1@mvb.hlp>main
+4 Brief Description=D-SG-0006014.1@mvb.hlp>main
+4 Description of LEDs=D-SG-0006015.1@mvb.hlp>main
+4 Wiring Circuit=D-SG-0006016.1@mvb.hlp>main
+4 Description of Transfer Values=D-SG-0006017.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006018.1@mvb.hlp>main
+3 AS-BDEP 254: Binary Input
+3 AS-BDEP 254: Binary Input=D-SG-0006019.1@mvb.hlp>main
+4 Brief Description=D-SG-0006020.1@mvb.hlp>main
+4 Description of LEDs=D-SG-0006021.1@mvb.hlp>main
+4 Wiring=D-SG-0006022.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006023.1@mvb.hlp>main
+3 AS-BDEP 256, AS-BDEP 257: Binary Input
+3 AS-BDEP 256, AS-BDEP 257: Binary Input=D-SG-0006024.1@mvb.hlp>main
+4 Brief Description=D-SG-0006025.1@mvb.hlp>main
+4 Description of LEDs=D-SG-0006026.1@mvb.hlp>main
+4 Wiring=D-SG-0006027.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006028.1@mvb.hlp>main
+3 AS-BMVB 258A: Communication module for MVB
+3 AS-BMVB 258A: Communication module for MVB=D-SG-0006029.1@mvb.hlp>main
+4 Brief Description=D-SG-0006030.1@mvb.hlp>main
+4 Description of LEDs=D-SG-0006031.1@mvb.hlp>main
+4 Configuration=D-SG-0006032.1@mvb.hlp>main
+4 Description of Error Messages, AS-BMVB 258A Error Codes=D-SG-0006033.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006034.1@mvb.hlp>main
+3 AS-BNUL 200, AS-BNUL 202: Dummy Module
+3 AS-BNUL 200, AS-BNUL 202: Dummy Module=D-SG-0006035.1@mvb.hlp>main
+4 Brief Description=D-SG-0006036.1@mvb.hlp>main
+4 Wiring=D-SG-0006040.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006047.1@mvb.hlp>main
+3 AS-HDTA 200 ... 202: Module Holder
+3 AS-HDTA 200 ... 202: Module Holder=D-SG-0006054.1@mvb.hlp>main
+4 Brief Description=D-SG-0006055.1@mvb.hlp>main
+4 Configuration=D-SG-0006056.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006057.1@mvb.hlp>main
+3 PC-E984 258R: CPU
+3 PC-E984 258R: CPU=D-SG-0006058.1@mvb.hlp>main
+4 Brief Description=D-SG-0006059.1@mvb.hlp>main
+4 Description of LEDs=D-SG-0006060.1@mvb.hlp>main
+4 Configuration=D-SG-0006061.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006062.1@mvb.hlp>main
+3 170 BDM 379 00: Binary Inputs and Outputs, 24 VDC, MVB
+3 170 BDM 379 00: Binary Inputs and Outputs, 24 VDC, MVB=D-SG-0006064.1@mvb.hlp>main
+4 Brief Description=D-SG-0006065.1@mvb.hlp>main
+4 Description of LEDs=D-SG-0006066.1@mvb.hlp>main
+4 Configuration=D-SG-0006067.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006068.1@mvb.hlp>main
+3 470 IPS 258 00: Supply module
+3 470 IPS 258 00: Supply module=D-SG-0006069.1@mvb.hlp>main
+4 Brief Description=D-SG-0006070.1@mvb.hlp>main
+4 Description of LEDs=D-SG-0006071.1@mvb.hlp>main
+4 Configuration=D-SG-0006072.1@mvb.hlp>main
+4 Technical Specifications=D-SG-0006073.1@mvb.hlp>main
+2 Appendix
+2 Appendix=D-SG-0004923.1@mvb.hlp>main
+3 Overview of Standards=D-SG-0004711.4@mvb.hlp>main
+3 Supplier References=D-SG-0004925.4@mvb.hlp>main

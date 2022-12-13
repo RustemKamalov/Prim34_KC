@@ -1,0 +1,2 @@
+%HLINE(1,132)
+Version: %VERSION                                                                                                      Page:%PAGENO

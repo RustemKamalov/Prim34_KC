@@ -1,0 +1,256 @@
+
+______________________________________________________________________________________________________________________________________________________
+>  Direct Address     406221  used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+---	in Var	MDP_TOD_Clk
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     StopFireExtFoam_TF  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	FireExtLogic	  Rd  Fct.	 OR_BOOL - IN2  (.23.256)	@(9,92)
+FBD:	FireExtLogic	* Wr  FB	 F_TRIG - Q  (FBI_23_261)	@(67,82)
+FBD:	HandlingInpVars	  Rd  Fct.	 OR_BOOL - IN2  (.34.11)	@(14,68)
+FBD:	HandlingInpVars	  Rd  Fct.	 OR_BOOL - IN2  (.34.27)	@(54,68)
+FBD:	HandlingInpVars	  Rd  Fct.	 OR_BOOL - IN2  (.34.43)	@(94,68)
+FBD:	HandlingInpVars	  Rd  Fct.	 OR_BOOL - IN2  (.34.59)	@(134,68)
+FBD:	HandlingInpVars	  Rd  Fct.	 OR_BOOL - IN2  (.34.99)	@(174,68)
+
+______________________________________________________________________________________________________________________________________________________
+>  FB-Type     MBP_MSTR  used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	Ethernet_Diagnostics	as	FBI_28_30	@(29,78)
+FBD:	Ethernet_Diagnostics	as	FBI_28_43	@(29,118)
+FBD:	MBPlus_Diagnostics	as	FBI_29_11	@(29,38)
+FBD:	MBPlus_Diagnostics	as	FBI_29_41	@(29,78)
+FBD:	MBPlus_Diagnostics	as	FBI_29_210	@(229,81)
+FBD:	OtherStatFunctions	as	FBI_8_110	@(243,183)
+FBD:	OtherStatFunctions	as	FBI_8_126	@(281,181)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     Diag_MBPlCommTimeOut  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	MBPlus_Diagnostics	  Rd  Fct.	 OR_BOOL - IN4  (.29.3)	@(12,14)
+FBD:	MBPlus_Diagnostics	* Wr  FB	 TON - Q  (FBI_29_234)	@(58,10)
+
+______________________________________________________________________________________________________________________________________________________
+>  FB-Type     MBP_MSTR  used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	Ethernet_Diagnostics	as	FBI_28_30	@(29,78)
+FBD:	Ethernet_Diagnostics	as	FBI_28_43	@(29,118)
+FBD:	MBPlus_Diagnostics	as	FBI_29_11	@(29,38)
+FBD:	MBPlus_Diagnostics	as	FBI_29_41	@(29,78)
+FBD:	MBPlus_Diagnostics	as	FBI_29_210	@(229,81)
+FBD:	OtherStatFunctions	as	FBI_8_110	@(243,183)
+FBD:	OtherStatFunctions	as	FBI_8_126	@(281,181)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     EC052  AT %100683 : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	CollectingInputSignals	  Rd  Fct.	 BIT_TO_WORD - BIT14  (.2.31)	@(202,48)
+FBD:	CollectingInputSignals	  Rd  Fct.	 BIT_TO_WORD - BIT14  (.2.155)	@(202,108)
+IO:		Head 3, Drop 8, Rack 1, Slot 7	=140-DDI-353-00
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     St1CPou066_EC052  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	HandlingSignals	* Wr  FB	 WORD_TO_BIT - BIT14  (FBI_18_21)	@(201,28)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.7)	@(15,44)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.41)	@(95,44)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.97)	@(175,44)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     EC052  AT %100683 : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	CollectingInputSignals	  Rd  Fct.	 BIT_TO_WORD - BIT14  (.2.31)	@(202,48)
+FBD:	CollectingInputSignals	  Rd  Fct.	 BIT_TO_WORD - BIT14  (.2.155)	@(202,108)
+IO:		Head 3, Drop 8, Rack 1, Slot 7	=140-DDI-353-00
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     St1CPou066_EC052  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	HandlingSignals	* Wr  FB	 WORD_TO_BIT - BIT14  (FBI_18_21)	@(201,28)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.7)	@(15,44)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.41)	@(95,44)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.97)	@(175,44)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     St1CPou065_EC051  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	HandlingSignals	* Wr  FB	 WORD_TO_BIT - BIT15  (FBI_18_21)	@(201,29)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.25)	@(55,44)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.57)	@(135,44)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     St1CPou065_EC051  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	HandlingSignals	* Wr  FB	 WORD_TO_BIT - BIT15  (FBI_18_21)	@(201,29)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.25)	@(55,44)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.57)	@(135,44)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     Fe2InpVars.Voltage_OK  :  used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.25)	@(71,44)  :  .Voltage_OK
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     Fe2InpVars.Voltage_OK  :  used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.25)	@(71,44)  :  .Voltage_OK
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     St2CPou005_Fe5OnCFai  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	HandlingSignals	* Wr  FB	 WORD_TO_BIT - BIT11  (FBI_18_30)	@(152,125)
+FBD:	HandlingInpVars	  Rd  Fct.	 OR_BOOL - IN3  (.34.106)	@(174,107)
+FBD:	AuxilaryMachines	  Rd  FB	 AUX2EVNT - F_OnCFai  (FBI_21_93)	@(33,148)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     H010_T  AT %410571 : TIME used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_H010  (FBI_21_1)	@(11,24)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_H010  (FBI_21_2)	@(11,54)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_H010  (FBI_21_3)	@(11,84)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_H010  (FBI_21_4)	@(11,114)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_H010  (FBI_21_92)	@(11,144)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_H010  (FBI_21_5)	@(11,184)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_H010  (FBI_21_105)	@(161,24)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_H010  (FBI_21_117)	@(161,54)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_H010  (FBI_21_129)	@(161,84)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_H010  (FBI_21_141)	@(161,114)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     AB721_S  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	OtherStatFunctions	  Rd  Fct.	 BIT_TO_WORD - BIT2  (.8.127)	@(102,177)
+FBD:	AuxilaryMachines	* Wr  FB	 AUXMACH - aux_SwOn  (FBI_21_2)	@(32,50)
+FBD:	AuxilaryMachines	  Rd  FB	 TP - IN  (FBI_21_21)	@(72,47)
+FBD:	AuxilaryMachines	  Rd  Fct.	 SEL - IN0  (.21.60)	@(101,51)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     AB721_S  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	OtherStatFunctions	  Rd  Fct.	 BIT_TO_WORD - BIT2  (.8.127)	@(102,177)
+FBD:	AuxilaryMachines	* Wr  FB	 AUXMACH - aux_SwOn  (FBI_21_2)	@(32,50)
+FBD:	AuxilaryMachines	  Rd  FB	 TP - IN  (FBI_21_21)	@(72,47)
+FBD:	AuxilaryMachines	  Rd  Fct.	 SEL - IN0  (.21.60)	@(101,51)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     AB721_S  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	OtherStatFunctions	  Rd  Fct.	 BIT_TO_WORD - BIT2  (.8.127)	@(102,177)
+FBD:	AuxilaryMachines	* Wr  FB	 AUXMACH - aux_SwOn  (FBI_21_2)	@(32,50)
+FBD:	AuxilaryMachines	  Rd  FB	 TP - IN  (FBI_21_21)	@(72,47)
+FBD:	AuxilaryMachines	  Rd  Fct.	 SEL - IN0  (.21.60)	@(101,51)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     AB721_S  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	OtherStatFunctions	  Rd  Fct.	 BIT_TO_WORD - BIT2  (.8.127)	@(102,177)
+FBD:	AuxilaryMachines	* Wr  FB	 AUXMACH - aux_SwOn  (FBI_21_2)	@(32,50)
+FBD:	AuxilaryMachines	  Rd  FB	 TP - IN  (FBI_21_21)	@(72,47)
+FBD:	AuxilaryMachines	  Rd  Fct.	 SEL - IN0  (.21.60)	@(101,51)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     Fe1StatWrd  AT %411532 : WORD used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	OtherStatFunctions	  Rd  FB	 GET_BIT - IN  (FBI_8_100)	@(92,7)
+FBD:	FireExtLogic	  Rd  FB	 GET_BIT - IN  (FBI_23_144)	@(1,19)
+FBD:	FireExtLogic	  Rd  FB	 GET_BIT - IN  (FBI_23_461)	@(1,12)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_staR  (FBI_21_1)	@(11,18)
+FBD:	AuxilaryMachines	* Wr  FB	 AUXMACH - aux_staR  (FBI_21_1)	@(32,18)
+FBD:	AuxilaryMachines	  Rd  FB	 GET_BIT - IN  (FBI_21_18)	@(72,5)
+FBD:	ArchivingAuxMach	  Rd  FB	 AUXARCH - Aux_stat  (FBI_24_1)	@(11,15)
+---		in DataProtection
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     Fe1StatWrd  AT %411532 : WORD used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	OtherStatFunctions	  Rd  FB	 GET_BIT - IN  (FBI_8_100)	@(92,7)
+FBD:	FireExtLogic	  Rd  FB	 GET_BIT - IN  (FBI_23_144)	@(1,19)
+FBD:	FireExtLogic	  Rd  FB	 GET_BIT - IN  (FBI_23_461)	@(1,12)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_staR  (FBI_21_1)	@(11,18)
+FBD:	AuxilaryMachines	* Wr  FB	 AUXMACH - aux_staR  (FBI_21_1)	@(32,18)
+FBD:	AuxilaryMachines	  Rd  FB	 GET_BIT - IN  (FBI_21_18)	@(72,5)
+FBD:	ArchivingAuxMach	  Rd  FB	 AUXARCH - Aux_stat  (FBI_24_1)	@(11,15)
+---		in DataProtection
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     Fe1StatWrd  AT %411532 : WORD used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	OtherStatFunctions	  Rd  FB	 GET_BIT - IN  (FBI_8_100)	@(92,7)
+FBD:	FireExtLogic	  Rd  FB	 GET_BIT - IN  (FBI_23_144)	@(1,19)
+FBD:	FireExtLogic	  Rd  FB	 GET_BIT - IN  (FBI_23_461)	@(1,12)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_staR  (FBI_21_1)	@(11,18)
+FBD:	AuxilaryMachines	* Wr  FB	 AUXMACH - aux_staR  (FBI_21_1)	@(32,18)
+FBD:	AuxilaryMachines	  Rd  FB	 GET_BIT - IN  (FBI_21_18)	@(72,5)
+FBD:	ArchivingAuxMach	  Rd  FB	 AUXARCH - Aux_stat  (FBI_24_1)	@(11,15)
+---		in DataProtection
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     Fe1StatWrd  AT %411532 : WORD used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	OtherStatFunctions	  Rd  FB	 GET_BIT - IN  (FBI_8_100)	@(92,7)
+FBD:	FireExtLogic	  Rd  FB	 GET_BIT - IN  (FBI_23_144)	@(1,19)
+FBD:	FireExtLogic	  Rd  FB	 GET_BIT - IN  (FBI_23_461)	@(1,12)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_staR  (FBI_21_1)	@(11,18)
+FBD:	AuxilaryMachines	* Wr  FB	 AUXMACH - aux_staR  (FBI_21_1)	@(32,18)
+FBD:	AuxilaryMachines	  Rd  FB	 GET_BIT - IN  (FBI_21_18)	@(72,5)
+FBD:	ArchivingAuxMach	  Rd  FB	 AUXARCH - Aux_stat  (FBI_24_1)	@(11,15)
+---		in DataProtection
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     Fe1StatWrd  AT %411532 : WORD used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	OtherStatFunctions	  Rd  FB	 GET_BIT - IN  (FBI_8_100)	@(92,7)
+FBD:	FireExtLogic	  Rd  FB	 GET_BIT - IN  (FBI_23_144)	@(1,19)
+FBD:	FireExtLogic	  Rd  FB	 GET_BIT - IN  (FBI_23_461)	@(1,12)
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_staR  (FBI_21_1)	@(11,18)
+FBD:	AuxilaryMachines	* Wr  FB	 AUXMACH - aux_staR  (FBI_21_1)	@(32,18)
+FBD:	AuxilaryMachines	  Rd  FB	 GET_BIT - IN  (FBI_21_18)	@(72,5)
+FBD:	ArchivingAuxMach	  Rd  FB	 AUXARCH - Aux_stat  (FBI_24_1)	@(11,15)
+---		in DataProtection
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     Fe1InpVars  :  used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.1)	@(31,14)  :  .Contactor_ON
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.2)	@(31,19)  :  .Press_Relay
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.3)	@(31,24)  :  .Press_Transd
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.4)	@(31,29)  :  .Pres_Ctr_Req
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.5)	@(31,34)  :  .Common_Pres_Sg
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.6)	@(31,39)  :  .Low_Pres_Cont
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.7)	@(31,44)  :  .Voltage_OK
+FBD:	HandlingInpVars	* Wr  Fct.	 OR_BOOL - OUT  (.34.8)	@(31,49)  :  .Aut_Start
+FBD:	HandlingInpVars	* Wr  Fct.	 OR_BOOL - OUT  (.34.9)	@(31,55)  :  .Res_Start
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.10)	@(31,62)  :  .HSBY_Start
+FBD:	HandlingInpVars	* Wr  Fct.	 OR_BOOL - OUT  (.34.11)	@(31,67)  :  .Aut_Stop
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.12)	@(31,75)  :  .Start_Disable
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.13)	@(31,80)  :  .AlarmSg
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.14)	@(31,85)  :  .Stop_Disable
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.15)	@(31,90)  :  .Reset_System
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.16)	@(31,95)  :  .Cm_Pres_Oth_On
+FBD:	HandlingInpVars	* Wr  Fct.	 MOVE - OUT  (.34.17)	@(31,100)  :  .LocRemContrSw
+FBD:	HandlingInpVars	* Wr  Fct.	 OR_BOOL - OUT  (.34.18)	@(31,105)  :  .UnitFailureLc
+FBD:	AuxilaryMachines	  Rd  FB	 AUXMACH - aux_inp  (FBI_21_1)	@(11,20)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     St1CPou066_EC052  : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	HandlingSignals	* Wr  FB	 WORD_TO_BIT - BIT14  (FBI_18_21)	@(201,28)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.7)	@(15,44)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.41)	@(95,44)
+FBD:	HandlingInpVars	  Rd  Fct.	 MOVE - IN  (.34.97)	@(175,44)
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     EC052  AT %100683 : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	CollectingInputSignals	  Rd  Fct.	 BIT_TO_WORD - BIT14  (.2.31)	@(202,48)
+FBD:	CollectingInputSignals	  Rd  Fct.	 BIT_TO_WORD - BIT14  (.2.155)	@(202,108)
+IO:		Head 3, Drop 8, Rack 1, Slot 7	=140-DDI-353-00
+
+______________________________________________________________________________________________________________________________________________________
+>  Variable     EC052  AT %100683 : BOOL used in PRIM24 in following section
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FBD:	CollectingInputSignals	  Rd  Fct.	 BIT_TO_WORD - BIT14  (.2.31)	@(202,48)
+FBD:	CollectingInputSignals	  Rd  Fct.	 BIT_TO_WORD - BIT14  (.2.155)	@(202,108)
+IO:		Head 3, Drop 8, Rack 1, Slot 7	=140-DDI-353-00

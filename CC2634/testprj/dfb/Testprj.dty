@@ -1,0 +1,19 @@
+(* testprj.dty   :   Derived datatypes definition file *)
+(*                   for the Testprj                   *)
+
+TYPE
+
+OSCILLATION:
+  STRUCT
+    sine   : INT;
+    cosine : INT;
+  END_STRUCT;     
+
+BOOL_Array5:
+  ARRAY [1..5] OF BOOL;   (* block of 5 bits *)
+     
+INDICATOR:
+  ARRAY [1..8] OF BOOL;   (* block of 8 bits *)
+     
+END_TYPE
+

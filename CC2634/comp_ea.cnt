@@ -1,0 +1,405 @@
+:Base comp_ea.hlp
+:Title Compact I/O
+:Index  =comp_cpu.hlp
+1 Compact I/O
+1 Compact I/O=IDH_CONTENTS@comp_ea.hlp>main
+2 Panel Software Options with A120 I/O Modules
+2 Panel Software Options with A120 I/O Modules=D-NA-0002702.1@comp_ea.hlp>main
+3 Panel Software Options with A120 I/O Modules=D-NA-0002684.1@comp_ea.hlp>main
+2 A120 Series Discrete I/O Modules
+2 A120 Series Discrete I/O Modules=D-NA-0000930.1@comp_ea.hlp>main
+3 DAO 216 Discrete Output Module
+3 DAO 216 Discrete Output Module=D-NA-0000460.8@comp_ea.hlp>main
+4 What is the DAO 216 Discrete Output Module?=D-NA-0000461.3@comp_ea.hlp>main
+4 DAO 216 Discrete Output Module Physical Characteristics=D-NA-0000462.3@comp_ea.hlp>main
+4 Protecting the DAO 216 Discrete Output Module from Inductive Back EMF=D-NA-0000463.3@comp_ea.hlp>main
+4 DAO 216 Discrete Output Module Specifications=D-NA-0000464.3@comp_ea.hlp>main
+3 Overview of the DAP 204 Relay Output Module
+3 Overview of the DAP 204 Relay Output Module=D-NA-0000468.8@comp_ea.hlp>main
+4 What is the DAP 204 Relay Output Module?=D-NA-0000469.3@comp_ea.hlp>main
+4 DAP 204 Relay Output Module LEDs=D-NA-0000474.3@comp_ea.hlp>main
+4 DAP 204 Relay Output Module Field Wiring=D-NA-0000475.5@comp_ea.hlp>main
+4 Protecting the DAP 204 Relay Output Module from Inductive Back EMF=D-NA-0000983.3@comp_ea.hlp>main
+4 DAP 204 Relay Output Module Specifications=D-NA-0000471.44@comp_ea.hlp>main
+3 Overview of the DAP 208/258 Relay Output Module
+3 Overview of the DAP 208/258 Relay Output Module=D-NA-0000479.8@comp_ea.hlp>main
+4 What is the DAP 208/258 Relay Output Module?=D-NA-0000480.3@comp_ea.hlp>main
+4 DAP 208/258 Relay Output Module LEDs=D-NA-0000481.3@comp_ea.hlp>main
+4 DAP 208/258 Relay Output Module Field Wiring=D-NA-0000482.9@comp_ea.hlp>main
+4 Protecting the DAP 208/258 Relay Output Module from Inductive Back EMF=D-NA-0000483.11@comp_ea.hlp>main
+4 DAP 208/258 Relay Output Module Specifications=D-NA-0000484.87@comp_ea.hlp>main
+3 Overview of the DAP 209 Output Module
+3 Overview of the DAP 209 Output Module=D-NA-0000500.12@comp_ea.hlp>main
+4 What is the DAP 209 Output Module?=D-NA-0000501.7@comp_ea.hlp>main
+4 DAP 209 Output Module LEDs=D-NA-0000502.5@comp_ea.hlp>main
+4 DAP 209 Output Module Field Wiring=D-NA-0000503.5@comp_ea.hlp>main
+4 DAP 209 Output Module Specifications=D-NA-0000504.3@comp_ea.hlp>main
+3 Overview of the DAP 210 Output Module
+3 Overview of the DAP 210 Output Module=D-NA-0000524.1@comp_ea.hlp>main
+4 What is the DAP 210 Output Module?=D-NA-0000528.1@comp_ea.hlp>main
+4 DAP 210 Output Module LEDs=D-NA-0000523.1@comp_ea.hlp>main
+4 DAP 210 Output Module Field Wiring=D-NA-0000525.1@comp_ea.hlp>main
+4 DAP 210 Output Module Specifications=D-NA-0000527.1@comp_ea.hlp>main
+3 Overview of the DAP 211 Combined I/O Module
+3 Overview of the DAP 211 Combined I/O Module=D-NA-0000534.1@comp_ea.hlp>main
+4 What is the DAP 211 Combined I/O Module?=D-NA-0000536.1@comp_ea.hlp>main
+4 DAP 211 Combined I/O Module Logical Input Routine=D-NA-0000535.1@comp_ea.hlp>main
+4 DAP 211 Combined I/O Module Error Checking Procedure for Output States=D-NA-0000537.1@comp_ea.hlp>main
+4 DAP 211 Combined I/O Module Setup Options=D-NA-0002670.1@comp_ea.hlp>main
+4 DAP 211 Combination I/O Module LEDs=D-NA-0000539.1@comp_ea.hlp>main
+4 DAP 211 Combined I/O Module Field Wiring=D-NA-0000540.1@comp_ea.hlp>main
+4 DAP 211 Combined I/O Module Specifications=D-NA-0000541.1@comp_ea.hlp>main
+3 Overview of the DAP 216/216N Discrete Output Module
+3 Overview of the DAP 216/216N Discrete Output Module=D-NA-0000564.1@comp_ea.hlp>main
+4 What is the DAP 216/216N Discrete Output Module?=D-NA-0000566.1@comp_ea.hlp>main
+4 DAP 216/216N Discrete Output Module LEDs=D-NA-0000565.1@comp_ea.hlp>main
+4 DAP 216/216N Field Wiring=D-NA-0000567.1@comp_ea.hlp>main
+4 Resetting the DAP 216 Module After an Overload of Short Circuit=D-NA-0000568.1@comp_ea.hlp>main
+4 Protecting the DAP 216/216N Discrete Output Module from Inductive Back EMF=D-NA-0000569.1@comp_ea.hlp>main
+4 DAP 216N Discrete Output Module Differences=D-NA-0000570.1@comp_ea.hlp>main
+4 DAP 216/216N Discrete Output Module Specifications=D-NA-0000572.1@comp_ea.hlp>main
+3 Overview of the DAP 217 Discrete Output Module
+3 Overview of the DAP 217 Discrete Output Module=D-NA-0000576.1@comp_ea.hlp>main
+4 What is the DAP 217 Discrete Output Module?=D-NA-0000577.1@comp_ea.hlp>main
+4 DAP 217 Discrete Output Module LEDs=D-NA-0000578.1@comp_ea.hlp>main
+4 DAP 217 Discrete Output Module Field Wiring=D-NA-0000985.1@comp_ea.hlp>main
+4 Protecting the DAP 217 Discrete Output Module from Inductive Back EMF=D-NA-0000580.1@comp_ea.hlp>main
+4 DAP 217 Discrete Output Module Specifications=D-NA-0000581.1@comp_ea.hlp>main
+3 Overview of the DAP 218 Output Module
+3 Overview of the DAP 218 Output Module=D-NA-0000591.1@comp_ea.hlp>main
+4 What is the DAP 218 Output Module?=D-NA-0000592.1@comp_ea.hlp>main
+4 DAP 218 Output Module LEDs=D-NA-0000593.1@comp_ea.hlp>main
+4 DAP 218 Output Module Field Wiring=D-NA-0000594.1@comp_ea.hlp>main
+4 DAP 218 Output Module Specifications=D-NA-0000595.1@comp_ea.hlp>main
+3 Overview of the DAP 2x2/253 Combined I/O Module
+3 Overview of the DAP 2x2/253 Combined I/O Module=D-SG-0005933.1@comp_ea.hlp>main
+4 Overview of the DAP 212/252 Combined I/O Module
+4 Overview of the DAP 212/252 Combined I/O Module=D-SG-0005934.1@comp_ea.hlp>main
+5 What is the DAP 212/252 Combined I/O Module?=D-NA-0000554.1@comp_ea.hlp>main
+5 DAP 212/252 Combined I/O Module LEDs=D-NA-0000562.1@comp_ea.hlp>main
+5 DAP 212/252 Combined I/O Module Field Connections=D-NA-0000557.1@comp_ea.hlp>main
+5 Protecting the DAP 212/252 Combined I/O Module from Inductive Back EMF=D-NA-0000558.1@comp_ea.hlp>main
+5 DAP 212/252 Combined I/O Module Specifications=D-NA-0000559.1@comp_ea.hlp>main
+4 Overview of the DAP 253 Combined I/O Module
+4 Overview of the DAP 253 Combined I/O Module=D-SG-0005935.1@comp_ea.hlp>main
+5 What is the DAP 253 Combined I/O Module?=D-NA-0000679.1@comp_ea.hlp>main
+5 DAP 253 Combined I/O Module LEDs=D-NA-0000680.1@comp_ea.hlp>main
+5 DAP 253 Combined I/O Module Field Wiring=D-NA-0000681.3@comp_ea.hlp>main
+5 Protecting the DAP 253 Combined I/O Module from Inductive Back EMF=D-NA-0000682.3@comp_ea.hlp>main
+5 DAP 253 Combined I/O Module Specifications=D-NA-0000683.1@comp_ea.hlp>main
+4 Overview of the DAP 212/252 Combined I/O Module
+4 Overview of the DAP 212/252 Combined I/O Module=D-SG-0005936.1@comp_ea.hlp>main
+5 What is the DAP 292 Combined I/O Module?=D-NA-0000692.3@comp_ea.hlp>main
+5 DAP 292 Combined I/O Module LEDs=D-NA-0000694.3@comp_ea.hlp>main
+5 DAP 292 Combined I/O Module Field Wiring=D-NA-0000695.3@comp_ea.hlp>main
+5 Protecting the DAP 292 Combined I/O Module from Inductive Back EMF=D-NA-0000696.3@comp_ea.hlp>main
+5 DAP 292 Combined I/O Module Specifications=D-NA-0000697.1@comp_ea.hlp>main
+3 Overview of the DAP 220/250 Combined I/O Module
+3 Overview of the DAP 220/250 Combined I/O Module=D-NA-0000598.1@comp_ea.hlp>main
+4 What is the DAP 220/250 Combined I/O Module=D-NA-0000599.1@comp_ea.hlp>main
+4 DAP 220/250 Combined I/O Module LEDs=D-NA-0000600.1@comp_ea.hlp>main
+4 DAP 220/250 Combined I/O Module Field Wiring=D-NA-0000676.3@comp_ea.hlp>main
+4 DAP 220/250 Combined I/O Module Recovery After Error=D-NA-0000673.1@comp_ea.hlp>main
+4 DAP 220/250 Combined I/O Module Specifications=D-NA-0000602.1@comp_ea.hlp>main
+3 Overview of the DEO 216 Input Module
+3 Overview of the DEO 216 Input Module=D-NA-0002668.1@comp_ea.hlp>main
+4 What is the DEO 216 Input Module?=D-NA-0002667.1@comp_ea.hlp>main
+4 Specifications of the DEO 216 Input Module=D-NA-0002669.1@comp_ea.hlp>main
+3 Overview of the DEP 208 Input Module
+3 Overview of the DEP 208 Input Module=D-NA-0000711.4@comp_ea.hlp>main
+4 What is the DEP 208 Input Module?=D-NA-0000708.3@comp_ea.hlp>main
+4 DEP 208 Input Module LEDs=D-NA-0000709.3@comp_ea.hlp>main
+4 DEP 208 Input Module Field Wiring=D-NA-0000714.3@comp_ea.hlp>main
+4 Using the DEP 208 Input Module wilth Proximity Switches=D-NA-0000710.1@comp_ea.hlp>main
+4 DEP 208 Input Module Specifications=D-NA-0000712.1@comp_ea.hlp>main
+3 Overview of the DEP 209 Input Module
+3 Overview of the DEP 209 Input Module=D-NA-0000730.4@comp_ea.hlp>main
+4 What is the DEP 209 Input Module?=D-NA-0000736.3@comp_ea.hlp>main
+4 DEP 209 Input Module LEDs=D-NA-0000732.3@comp_ea.hlp>main
+4 DEP 209 Input Module Field Wiring=D-NA-0000733.3@comp_ea.hlp>main
+4 Using the DEP 209 Input Module with Proximity Switches=D-NA-0000967.1@comp_ea.hlp>main
+4 DEP 209 Input Module Specifications=D-NA-0000735.3@comp_ea.hlp>main
+3 Overview of the DEP 210 Input Module
+3 Overview of the DEP 210 Input Module=D-NA-0000747.1@comp_ea.hlp>main
+4 What is the DEP 210 Input Module?=D-NA-0000748.3@comp_ea.hlp>main
+4 DEP 210 Input Module LEDs=D-NA-0000749.3@comp_ea.hlp>main
+4 DEP 210 Input Module Field Wiring=D-NA-0000751.3@comp_ea.hlp>main
+4 DEP 210 Input Module Specifications=D-NA-0000755.3@comp_ea.hlp>main
+3 Overview of the DEP 211 Input Module
+3 Overview of the DEP 211 Input Module=D-NA-0000771.4@comp_ea.hlp>main
+4 What is the DEP 211 Input Module?=D-NA-0000772.3@comp_ea.hlp>main
+4 DEP 211 Input Module LEDs=D-NA-0000773.3@comp_ea.hlp>main
+4 DEP 211 Input Module Field Wiring=D-NA-0000774.3@comp_ea.hlp>main
+4 DEP 211 Input Module Specifications=D-NA-0000775.3@comp_ea.hlp>main
+3 Overview of the DEP 214/254 Input Module
+3 Overview of the DEP 214/254 Input Module=D-NA-0000778.4@comp_ea.hlp>main
+4 What is the DEP 214/254 Input Module?=D-NA-0000779.3@comp_ea.hlp>main
+4 DEP 214/254 Input Module LEDs=D-NA-0000780.3@comp_ea.hlp>main
+4 DEP 214/254 Input Module Field Wiring=D-NA-0000781.3@comp_ea.hlp>main
+4 DEP 214/254 Input Module Specifications=D-NA-0000782.3@comp_ea.hlp>main
+3 Overview of the DEP 215 Input Module
+3 Overview of the DEP 215 Input Module=D-NA-0000791.1@comp_ea.hlp>main
+4 What is the DEP 215 Input Module?=D-NA-0000792.1@comp_ea.hlp>main
+4 DEP 215 Input Module LEDs=D-NA-0000805.3@comp_ea.hlp>main
+4 DEP 215 Input Module Field Wiring=D-NA-0000806.3@comp_ea.hlp>main
+4 Unique True Low Characteristics of the DEP 215 Input Module=D-NA-0000807.1@comp_ea.hlp>main
+4 DEP 215 Input Module Specifications=D-NA-0000808.3@comp_ea.hlp>main
+3 Overview of the DEP 220 Input Module
+3 Overview of the DEP 220 Input Module=D-NA-0000846.4@comp_ea.hlp>main
+4 What is the DEP 220 Input Module?=D-NA-0000847.3@comp_ea.hlp>main
+4 DEP 220 Input Module LEDs=D-NA-0000848.3@comp_ea.hlp>main
+4 DEP 220 Input Module Field Wiring=D-NA-0000849.3@comp_ea.hlp>main
+4 DEP 220 Input Module Specifications=D-NA-0000850.3@comp_ea.hlp>main
+3 Overview of the DEP 2x6/2x7 Input Modules
+3 Overview of the DEP 2x6/2x7 Input Modules=D-SG-0005937.1@comp_ea.hlp>main
+4 Overview of the DEP 216/256 Input Module
+4 Overview of the DEP 216/256 Input Module=D-SG-0005938.1@comp_ea.hlp>main
+5 What is the DEP 216/256 Input Module?=D-NA-0000810.3@comp_ea.hlp>main
+5 DEP 216/256 Input Module LEDs=D-NA-0000811.3@comp_ea.hlp>main
+5 DEP 216/256 Input Module Field Wiring=D-NA-0000812.3@comp_ea.hlp>main
+5 DEP 216/256 Input Module Specifications=D-NA-0000813.3@comp_ea.hlp>main
+4 Overview of the DEP 257 Input Module
+4 Overview of the DEP 257 Input Module=D-SG-0005939.1@comp_ea.hlp>main
+5 What is the DEP 257 Input Module?=D-NA-0000884.1@comp_ea.hlp>main
+5 DEP 257 Input Module LEDs=D-NA-0000857.3@comp_ea.hlp>main
+5 DEP 257 Input Module Field Wiring=D-NA-0000858.3@comp_ea.hlp>main
+5 DEP 257 Input Module Specifications=D-NA-0000859.3@comp_ea.hlp>main
+4 Overview of the DEP 296 Input Module
+4 Overview of the DEP 296 Input Module=D-SG-0005940.1@comp_ea.hlp>main
+5 What is the DEP 296 Input Module?=D-NA-0000868.3@comp_ea.hlp>main
+5 DEP 296 Input Module LEDs=D-NA-0000869.3@comp_ea.hlp>main
+5 DEP 296 Input Module Field Wiring=D-NA-0000870.1@comp_ea.hlp>main
+5 DEP 296 Input Module Specifications=D-NA-0000871.3@comp_ea.hlp>main
+4 Overview of the DEP 297 Input Module
+4 Overview of the DEP 297 Input Module=D-SG-0005941.1@comp_ea.hlp>main
+5 What is the DEP 297 Input Module? =D-NA-0000888.3@comp_ea.hlp>main
+5 DEP 297 Input Module LEDs=D-NA-0000889.3@comp_ea.hlp>main
+5 DEP 297 Input Module Field Wiring=D-NA-0000890.3@comp_ea.hlp>main
+5 DEP297 Input Module Specifications=D-NA-0000891.3@comp_ea.hlp>main
+3 Overview of the DEP 217 Input Module
+3 Overview of the DEP 217 Input Module=D-NA-0000817.4@comp_ea.hlp>main
+4 What is the DEP 217 Input Module?=D-NA-0000818.3@comp_ea.hlp>main
+4 DEP 217 Input Module LEDs=D-NA-0000819.3@comp_ea.hlp>main
+4 DEP 217 Input Module Field Wiring=D-NA-0000824.3@comp_ea.hlp>main
+4 DEP 217 Input Module Specifications=D-NA-0000820.3@comp_ea.hlp>main
+3 Overview of the DEP 218 Input Module
+3 Overview of the DEP 218 Input Module=D-NA-0000830.4@comp_ea.hlp>main
+4 What is the DEP 218 Input Module?=D-NA-0000832.3@comp_ea.hlp>main
+4 DEP 218 Input Module LEDs=D-NA-0000833.3@comp_ea.hlp>main
+4 DEP 218 Input Module Field Wiring=D-NA-0000854.3@comp_ea.hlp>main
+4 DEP 218 Input Module Specifications=D-NA-0000835.3@comp_ea.hlp>main
+2 A120 Series Analog I/O Modules
+2 A120 Series Analog I/O Modules=D-NA-0000932.1@comp_ea.hlp>main
+3 Overview of the ADU 204/254 Analog Input Module
+3 Overview of the ADU 204/254 Analog Input Module=D-NA-0000243.15@comp_ea.hlp>main
+4 What is the ADU 204/254 Analog Input Module?=D-NA-0000265.7@comp_ea.hlp>main
+4 ADU 204/254 Analog Input Module Conversion Ranges=D-NA-0000244.107@comp_ea.hlp>main
+4 ADU 204/254 Analog Input Module Field Wiring and LED Displays=D-NA-0000245.6@comp_ea.hlp>main
+4 ADU 204/254 Analog Input Module Noise Suppression DIP Switch=D-NA-0000247.9@comp_ea.hlp>main
+4 ADU 204/254 Analog Input Module Calibration=D-NA-0000248.9@comp_ea.hlp>main
+4 ADU 204/254 Analog Input Module Specifications=D-NA-0000249.36@comp_ea.hlp>main
+3 Overview of the ADU 205 Analog Input Module
+3 Overview of the ADU 205 Analog Input Module=D-NA-0000253.16@comp_ea.hlp>main
+4 What is the ADU 205 Analog Input Module?=D-NA-0000268.5@comp_ea.hlp>main
+4 ADU 205 Analog Input Module Conversion Ranges=D-NA-0000255.41@comp_ea.hlp>main
+4 ADU 205 Analog Input Module Switch Settings=D-NA-0000254.8@comp_ea.hlp>main
+4 ADU 205 Analog Input Module Field Wiring=D-NA-0000259.9@comp_ea.hlp>main
+4 ADU 205 Analog Input Module Calibration=D-NA-0000261.9@comp_ea.hlp>main
+4 ADU 205 Analog Input Module Specifications=D-NA-0000262.31@comp_ea.hlp>main
+3 Overview of the ADU 206/256 Analog Input Module
+3 Overview of the ADU 206/256 Analog Input Module=D-NA-0000263.12@comp_ea.hlp>main
+4 What is the ADU 206/256 Analog Input Module?=D-NA-0000267.5@comp_ea.hlp>main
+4 ADU 206/256 Analog Input Module Conversion Ranges=D-NA-0000264.28@comp_ea.hlp>main
+4 ADU 206/256 Analog Input Module Physical Characteristics=D-NA-0000269.11@comp_ea.hlp>main
+4 ADU 206/256 Analog Input Module Configuration=D-NA-0000270.13@comp_ea.hlp>main
+4 ADU 206/256 Analog Input Module Programming Modes=D-NA-0000271.71@comp_ea.hlp>main
+4 ADU 206/256 Analog Input Module Calibration=D-NA-0000272.6@comp_ea.hlp>main
+4 ADU 206/256 Analog Input Module Specifications=D-NA-0000273.3@comp_ea.hlp>main
+3 Overview of the ADU 210 Isolated Analog Input Module
+3 Overview of the ADU 210 Isolated Analog Input Module=D-NA-0000289.8@comp_ea.hlp>main
+4 What is the ADU 210 Isolated Analog Input Module?=D-NA-0000288.3@comp_ea.hlp>main
+4 ADU 210 Isolated Analog Input Module Physical Characteristics=D-NA-0000293.10@comp_ea.hlp>main
+4 Installing the ADU 210 Isolated Analog Input Module=D-NA-0000301.3@comp_ea.hlp>main
+4 ADU 210 Isolated Analog Input Module Operation=D-NA-0000317.3@comp_ea.hlp>main
+4 ADU 210 Isolated Analog Input Module Specifications=D-NA-0000350.3@comp_ea.hlp>main
+3 Overview of the ADU 211/212 Universal Analog Input Module
+3 Overview of the ADU 211/212 Universal Analog Input Module=D-NA-0000366.12@comp_ea.hlp>main
+4 What is the ADU 211/212 Universal Analog Input Module?=D-NA-0000367.5@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module "J" Thermocouple Quick Start=D-NA-0000371.6@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module Inputs=D-NA-0000369.7@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module Installation=D-NA-0000372.5@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module Switch Settings=D-NA-0000374.27@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module Field Wiring=D-NA-0000376.30@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module Field Wiring Examples=D-NA-0000377.17@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module Application Notes=D-NA-0000378.27@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module Configuration=D-NA-0000379.5@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module Output Registers=D-NA-0000380.133@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module Input Registers=D-NA-0000382.31@comp_ea.hlp>main
+4 Sequentially Reading ADU 211/212 Universal Analog Input Module Channel Data=D-NA-0000383.6@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module Troubleshooting=D-NA-0000384.15@comp_ea.hlp>main
+4 ADU 211/212 Universal Analog Input Module Specifications=D-NA-0000385.75@comp_ea.hlp>main
+3 ADU 214 Analog Input Module
+3 ADU 214 Analog Input Module=D-NA-0002448.1@comp_ea.hlp>main
+4 Overview of the ADU 214 Analog Input Module=D-NA-0002450.1@comp_ea.hlp>main
+4 Conversion Values=D-NA-0002491.1@comp_ea.hlp>main
+4 Configuration - Concept=D-NA-0002458.1@comp_ea.hlp>main
+4 Installation=D-NA-0002457.1@comp_ea.hlp>main
+4 ADU 214 Input Module Specifications=D-NA-0002476.1@comp_ea.hlp>main
+3 ADU 216 Analog Input Module
+3 ADU 216 Analog Input Module=D-NA-0000352.8@comp_ea.hlp>main
+4 What Is the ADU 216 Analog Input Module?=D-NA-0000353.3@comp_ea.hlp>main
+4 ADU 216 Analog Input Module Conversion Ranges=D-NA-0000354.3@comp_ea.hlp>main
+4 ADU 216 Analog Input Module Physical Characteristics=D-NA-0000355.13@comp_ea.hlp>main
+4 ADU 216 Analog Input Module Configuration=D-NA-0000356.3@comp_ea.hlp>main
+4 ADU 216 Analog Input Module Programming Modes=D-NA-0000357.21@comp_ea.hlp>main
+4 ADU 216 Analog Input Module Calibration=D-NA-0000362.3@comp_ea.hlp>main
+4 ADU 216 Analog Input Module Specifications=D-NA-0000363.30@comp_ea.hlp>main
+3 Overview of the ADU 257 Analog Input Module
+3 Overview of the ADU 257 Analog Input Module=D-NA-0000399.8@comp_ea.hlp>main
+4 What is the ADU 257 Analog Input Module?=D-NA-0000400.3@comp_ea.hlp>main
+4 ADU 257 Analog Input Module Physical Characteristics=D-NA-0000402.3@comp_ea.hlp>main
+4 Installing the ADU 257 Analog Input Module=D-NA-0000404.3@comp_ea.hlp>main
+4 ADU 257 Isolated Analog Input Module Operation=D-NA-0000405.3@comp_ea.hlp>main
+4 ADU 257 Analog Input Module Specifications=D-NA-0000409.3@comp_ea.hlp>main
+3 DAU 202/252 Analog Output Module
+3 DAU 202/252 Analog Output Module=D-NA-0000410.8@comp_ea.hlp>main
+4 What Is the DAU 202/252 Analog Output Module?=D-NA-0000411.3@comp_ea.hlp>main
+4 DAU 202/252 Analog Output Module Field Wiring=D-NA-0000418.3@comp_ea.hlp>main
+4 DAU 202/252 Analog Output Module Calibration=D-NA-0000420.3@comp_ea.hlp>main
+4 DAU 202/252 Analog Output Module Specifications=D-NA-0000422.3@comp_ea.hlp>main
+3 DAU 204 Analog Output Module
+3 DAU 204 Analog Output Module=D-NA-0000423.10@comp_ea.hlp>main
+4 What Is the DAU 204 Analog Output Module?=D-NA-0000427.3@comp_ea.hlp>main
+4 DAU 204 Analog Output Module Conversion Ranges=D-NA-0000428.3@comp_ea.hlp>main
+4 DAU 204 Analog Output Module Special Features=D-NA-0000429.3@comp_ea.hlp>main
+4 DAU 204 Analog Output Module Installation=D-NA-0000432.3@comp_ea.hlp>main
+4 DAU 204 Analog Output Module Switch Settings=D-NA-0000434.5@comp_ea.hlp>main
+4 DAU 204 Analog Output Module Field Wiring=D-NA-0000437.3@comp_ea.hlp>main
+4 DAU 204 Analog Output Module Configuration=D-NA-0000438.3@comp_ea.hlp>main
+4 DAU 204 Analog Output Module Custom Calibration=D-NA-0000440.3@comp_ea.hlp>main
+4 DAU 204 Analog Output Module Indicators=D-NA-0000445.3@comp_ea.hlp>main
+4 DAU 204 Analog Output Module Specifications=D-NA-0000448.3@comp_ea.hlp>main
+3 Overview of DAU 208 Analog Output Module
+3 Overview of DAU 208 Analog Output Module=D-NA-0000455.7@comp_ea.hlp>main
+4 What is the DAU 208 Analog Output Module?=D-NA-0000450.3@comp_ea.hlp>main
+4 DAU 208 Analog Output Module Conversion Ranges=D-NA-0000457.3@comp_ea.hlp>main
+4 DAU 208 Analog Output Module Physical Characteristics=D-NA-0000451.3@comp_ea.hlp>main
+4 DAU 208 Analog Output Module Configuration=D-NA-0000458.3@comp_ea.hlp>main
+4 DAU 208 Analog Output Module Field Wiring=D-NA-0000452.3@comp_ea.hlp>main
+4 DAU 208 Analog Output Module Calibration=D-NA-0000453.3@comp_ea.hlp>main
+4 DAU 208 Analog Output Module Specifications=D-NA-0000454.3@comp_ea.hlp>main
+2 A120 Series Communication Modules
+2 A120 Series Communication Modules=D-SG-0005932.1@comp_ea.hlp>main
+3 BKF 201 (16W) & (64W) InterBus S Master Module
+3 BKF 201 (16W) & (64W) InterBus S Master Module=D-NA-0001615.1@comp_ea.hlp>main
+4 What Is the BKF 201 (16W) & (64W) InterBus S Master Module?=D-NA-0001616.1@comp_ea.hlp>main
+4 Physical Characteristics of the BKF 201 (16W) & (64W) InterBus S Master Module=D-NA-0001617.1@comp_ea.hlp>main
+4 Switch Settings for the BKF 201=D-NA-0001618.1@comp_ea.hlp>main
+4 Installation of the BKF 201 (16W) & (64W) Interbus Master Module=D-NA-0001619.1@comp_ea.hlp>main
+4 Operation of the BKF 201 Master Module: I/O Map=D-NA-0001620.1@comp_ea.hlp>main
+4 Example of Hardware and I/O Mapping for the BKF 201=D-NA-0001621.1@comp_ea.hlp>main
+4 Specifications=D-NA-0001622.1@comp_ea.hlp>main
+3 BKF 202 InterBus S Slave Module
+3 BKF 202 InterBus S Slave Module=D-NA-0001624.1@comp_ea.hlp>main
+4 What Is the BKF 202 InterBus S Slave Module?=D-NA-0001625.1@comp_ea.hlp>main
+4 Physical Characteristics of the BKF 202 InterBus S Slave Module=D-NA-0001626.1@comp_ea.hlp>main
+4 Switch Settings for the BKF 202 InterBus S Slave Module=D-NA-0001627.1@comp_ea.hlp>main
+4 Installation of the BKF 202 InterBus S Slave Module=D-NA-0001628.1@comp_ea.hlp>main
+4 Operation of the BKF 202 InterBus S Slave Module=D-NA-0001629.1@comp_ea.hlp>main
+4 Specifications of the BKF 202 InterBus S Slave Module=D-NA-0001630.1@comp_ea.hlp>main
+3 DEA 202 InterBus S Interface Module	
+3 DEA 202 InterBus S Interface Module	=D-NA-0001631.1@comp_ea.hlp>main
+4 DEA 202 Features and Functions=D-NA-0001635.1@comp_ea.hlp>main
+4 Configuration of the DEA 202=D-NA-0001632.1@comp_ea.hlp>main
+4 DEA 202 LEDs=D-NA-0001633.1@comp_ea.hlp>main
+4 	DEA 202 Specifications=D-NA-0001634.1@comp_ea.hlp>main
+3 AS-BKOS-260: Communication module
+3 AS-BKOS-260: Communication module=D-SG-0006279.1@comp_ea.hlp>main
+4 Short description=D-SG-0006280.1@comp_ea.hlp>main
+4 LED descriptions=D-SG-0006283.1@comp_ea.hlp>main
+4 Configuration=D-SG-0006282.1@comp_ea.hlp>main
+4 Loading the firmware=D-SG-0006323.1@comp_ea.hlp>main
+4 Technical data=D-SG-0006284.1@comp_ea.hlp>main
+2 A120 Series Intelligent Modules	
+2 A120 Series Intelligent Modules	=D-NA-0000929.1@comp_ea.hlp>main
+3 Overview of MOT 20X Motion Modules
+3 Overview of MOT 20X Motion Modules=D-NA-0000916.4@comp_ea.hlp>main
+4 What are the MOT 20X Modules?=D-NA-0000926.1@comp_ea.hlp>main
+4 Overview of the MOT 201 Motion Module=D-NA-0000923.1@comp_ea.hlp>main
+4 Overview of the MOT 202 Motion Module=D-NA-0000924.3@comp_ea.hlp>main
+4 MOT 20X Module System Information=D-NA-0000928.1@comp_ea.hlp>main
+4 MOT 20X Motion Module Specifications=D-NA-0000927.1@comp_ea.hlp>main
+3 Overview of the VIC/VRC/CTR 2XX Counter Input Module
+3 Overview of the VIC/VRC/CTR 2XX Counter Input Module=D-NA-0001540.1@comp_ea.hlp>main
+4 What is the VIC/VRC/CTR 2XX Counter Input Module?=D-NA-0001037.1@comp_ea.hlp>main
+4 VIC/CRC/CTR 2XX Counter Input Module LEDs=D-NA-0001038.1@comp_ea.hlp>main
+4 Installation of the VRC/CTR 2XX Module=D-NA-0001542.1@comp_ea.hlp>main
+4 VIC/CRC/CTR 2XX Counter Input Module Field Wiring=D-NA-0001039.1@comp_ea.hlp>main
+4 VIC/CRC/CTR 2XX Counter Input Module Configuration for 16-bit Compact Controllers=D-NA-0001040.1@comp_ea.hlp>main
+4 Troubleshooting=D-NA-0002671.1@comp_ea.hlp>main
+4 VIC/CRC/CTR 2XX Counter Input Module Specifications=D-NA-0001042.1@comp_ea.hlp>main
+3 Overview of the ZAE 201 Counter/Positioner Module
+3 Overview of the ZAE 201 Counter/Positioner Module=D-NA-0001543.1@comp_ea.hlp>main
+4 Overview of the ZAE 201 Counter/Positioner Module
+4 Overview of the ZAE 201 Counter/Positioner Module=D-NA-0001555.1@comp_ea.hlp>main
+5 What is the ZAE 201 Counter/Positioner Module?=D-NA-0001546.1@comp_ea.hlp>main
+5 LED Indicator Displays of the ZAE 201 Counter/Positioner Module=D-NA-0001547.1@comp_ea.hlp>main
+5 Choosing Operating Mode and Input Voltage Level for the ZAE 201 Counter/Positioner Module=D-NA-0001548.1@comp_ea.hlp>main
+5 Operating States of the ZAE 201 Counter/Positioner Module=D-NA-0001553.1@comp_ea.hlp>main
+5 Representing the ZAE 201 Data Blocks in the I/O Map=D-NA-0001558.1@comp_ea.hlp>main
+4 Using the ZAE 201 Counter/Positioner Module as a High-Speed Counter
+4 Using the ZAE 201 Counter/Positioner Module as a High-Speed Counter=D-NA-0001559.1@comp_ea.hlp>main
+5 Field Wiring the ZAE 201 for Counting Applications=D-NA-0001561.1@comp_ea.hlp>main
+5 Switch Settings for Using the ZAE 201 as a High-Speed Counter=D-NA-0001560.1@comp_ea.hlp>main
+5 Overview of ZAE 201 Counter Mode Commands and States=D-NA-0001562.1@comp_ea.hlp>main
+5 ZAE 201Counter Mode Commands=D-NA-0001563.1@comp_ea.hlp>main
+5 Example: Using the ZAE 201 as a High-Speed Counter=D-NA-0001564.1@comp_ea.hlp>main
+4 Using the ZAE 201 Counter/Positioner Module as a Positioning Controller
+4 Using the ZAE 201 Counter/Positioner Module as a Positioning Controller=D-NA-0001590.1@comp_ea.hlp>main
+5 Field Wiring for ZAE 201 Positioning Applications=D-NA-0001592.1@comp_ea.hlp>main
+5 Switch Settings for Using the ZAE 201 as a Positioning Controller=D-NA-0001591.1@comp_ea.hlp>main
+5 Overview of ZAE 201 Positioning Mode Commands and States=D-NA-0001594.1@comp_ea.hlp>main
+5 The ZAE 201 Positioning Mode Commands=D-NA-0001595.1@comp_ea.hlp>main
+5 Example: Using the ZAE 201 Module as a Positioner=D-NA-0001596.1@comp_ea.hlp>main
+3 Specifications of the ZAE 201 Counter/Positioner Module=D-NA-0001679.1@comp_ea.hlp>main
+3 Overview of the ZAE 204 High-Speed Counter Module
+3 Overview of the ZAE 204 High-Speed Counter Module=D-NA-0001598.1@comp_ea.hlp>main
+4 What is the ZAE 204 High-Speed Counter Module?=D-NA-0001599.1@comp_ea.hlp>main
+4 Operating and Display Elements of the ZAE 204 High-Speed Counter Module=D-NA-0001600.1@comp_ea.hlp>main
+4 Configuration of the ZAE 204 High-Speed Counter Module=D-NA-0001601.1@comp_ea.hlp>main
+4 Example Field Connections and Signal Addresses for the ZAE 204 Module=D-NA-0001602.1@comp_ea.hlp>main
+4 Output Register Formats of the ZAE 204 Module=D-NA-0001603.1@comp_ea.hlp>main
+4 Input Register Formats of the ZAE 204 Module=D-NA-0001604.1@comp_ea.hlp>main
+4 Operation of the ZAE 204 Module=D-NA-0001605.1@comp_ea.hlp>main
+4 Specifications of the ZAE 204 High-Speed Counting Module=D-NA-0001606.1@comp_ea.hlp>main
+3 Overview of the FRQ 204/254 Frequency Module
+3 Overview of the FRQ 204/254 Frequency Module=D-NA-0001608.1@comp_ea.hlp>main
+4 What is the FRQ 204/254 Frequency Module?=D-NA-0001609.1@comp_ea.hlp>main
+4 Physical Characteristics of the FRQ 204/254 Frequency Module=D-NA-0001610.1@comp_ea.hlp>main
+4 Operating Modes of the FRQ 204/254 Frequency Module=D-NA-0001611.1@comp_ea.hlp>main
+4 Configuration of the FRQ 204/254 Frequency Module=D-NA-0001613.1@comp_ea.hlp>main
+4 Operation and LED Displays of the FRQ 204/254 Frequency Module=D-NA-0001612.1@comp_ea.hlp>main
+4 Specifications of the FRQ 204/254 Frequency Module=D-NA-0001614.1@comp_ea.hlp>main
+2 Appendix
+2 Appendix=D-NA-0002679.1@comp_ea.hlp>main
+3 A120 Option Modules	
+3 A120 Option Modules	=D-NA-0001637.1@comp_ea.hlp>main
+4 SIM 203 Analog Simulator Module=D-NA-0001638.1@comp_ea.hlp>main
+4 SIM 216 Binary Simulator Module=D-NA-0001639.1@comp_ea.hlp>main
+4 NUL 200 and 202 Modules=D-NA-0001640.1@comp_ea.hlp>main
+3 Technical Assistance
+3 Technical Assistance=D-NA-0001641.1@comp_ea.hlp>main
+4 Schneider Automation Customer Service Numbers=D-NA-0001642.1@comp_ea.hlp>main
+4 Installing the Loadables for A120 Series I/O Modules=D-NA-0001643.1@comp_ea.hlp>main
+3 IEC Wiring Diagrams for A120 I/O Modules
+3 IEC Wiring Diagrams for A120 I/O Modules=D-NA-0001650.1@comp_ea.hlp>main
+4 IEC Nomenclature Legend=D-NA-0001651.1@comp_ea.hlp>main
+4 IEC Wiring Diagrams for A120 Modules=D-NA-0001652.1@comp_ea.hlp>main
+3 Requirements for CE Compliance
+3 Requirements for CE Compliance=D-NA-0001653.1@comp_ea.hlp>main
+4 CE Compliance Requirements for Compact 984 Group 1=D-NA-0001654.1@comp_ea.hlp>main
+4 CE Compliance Requirements for Compact 984 Group 2=D-NA-0001660.1@comp_ea.hlp>main
+3 I/O Configuration with Concept
+3 I/O Configuration with Concept=D-NA-0001659.1@comp_ea.hlp>main
+4 Communication Interfaces=D-NA-0001676.1@comp_ea.hlp>main
+4 Concept I/O Map Status Words=D-NA-0001677.1@comp_ea.hlp>main

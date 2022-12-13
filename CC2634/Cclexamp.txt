@@ -1,0 +1,65 @@
+; CCLAUNCH: Topology-file
+;----------------------------------------------------------------------------
+; This file is an example topology-file for CCLAUNCH.EXE 
+; It contains 5 segments and 12 PLC's
+;
+; Syntax for an entry:
+; -------------------
+;  [Segment] = SegX           ; Segx=Segmentname 
+;   PLC1= 13: Prj1.prj        ; PlcName1= MB+Adr1 : Prj1 (optional)
+;   PLC2= 46: Prj2.prj        ; PlcName2= MB+Adr2 : Prj2 (optional)
+;  [Routing] SegmentA = 32    ; Routing path to Segment A
+;  [Routing] SegmentC = 32.23 ; Routing path to Segment C
+;
+; Remarks:
+; -------
+; All projects are located on drive "D:\Prj\Prjx.prj", where 'x' is 1-12. 
+; The common path "D:\Prj" has to be entered in CCLaunch as "Path for Projects".
+;----------------------------------------------------------------------------
+;
+
+[Segment]=SegmentA
+ PLC1=25	: Prj1.prj
+ PLC2=14	: Prj2.prj
+ PLC3=3		: Prj3.prj
+ PLC4=20	: Prj4.prj
+[Routing]SegmentB=6.44
+[Routing]SegmentC=6
+[Routing]SegmentD=6.9
+[Routing]SegmentE=6.48
+
+
+[Segment] = SegmentB
+ PLC5=23	: Prj5.prj
+ PLC6=17	: Prj6.prj
+[Routing] SegmentA = 2.4
+[Routing] SegmentC = 2
+[Routing] SegmentD = 2.9
+[Routing] SegmentE = 2.48
+
+
+[Segment]=SegmentC
+ PLC7=21	: Prj7.prj
+ PLC8=11	: Prj8.prj
+[Routing]SegmentA=4
+[Routing]SegmentB=44
+[Routing]SegmentD=9
+[Routing]SegmentE=48
+
+
+[Segment]=SegmentD
+ PLC9=38	: Prj9.prj
+ PLC10=19	: Prj10.prj
+[Routing]SegmentA=10.4
+[Routing]SegmentB=10.44
+[Routing]SegmentC=10
+[Routing]SegmentE=10.48
+
+
+[Segment]=SegmentE
+ PLC11=21	: Prj11.prj
+ PLC12=11	: Prj12.prj
+[Routing]SegmentA=37.4
+[Routing]SegmentB=37.44
+[Routing]SegmentC=37
+[Routing]SegmentD=37.9

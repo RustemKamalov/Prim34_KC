@@ -1,0 +1,42 @@
+0,varanl_in,ANL_IN,,,ANL_IN variable
+0,varanl_out,ANL_OUT,,,ANL_OUT variable
+0,varbool,BOOL,,TRUE,BOOL variable with initial value 1
+0,varbyte,BYTE,,16#EA,BYTE variable with initial value 234
+0,vardint,DINT,,1111111,DINT variable with initial value 1111111
+0,varint,INT,,-32768,INT variable with initial value -32768
+0,varreal,REAL,,3.141593,REAL variable with initial value 1  3.1415926
+0,vartime,TIME,,t#1m_5s,TIME variable with initial value t#1m5s
+0,varudint,UDINT,,12,UDINT variable with initial value 12
+0,varuint,UINT,,187,UINT variable with initial value 187
+0,varword,WORD,,16#007A,WORD variable with initial value 122
+2,conbool,BOOL,,FALSE,BOOL constant with value 0
+2,conbyte,BYTE,,16#10,BYTE constant with value  16
+2,condint,DINT,,12345678,DINT constant with value 12345678
+2,conint,INT,,14,INT constant with value 14
+2,conreal,REAL,,1.2,REAL constant with value 1.2
+2,contime,TIME,,t#1h,TIME constant with value t#1h
+2,conudint,UDINT,,987654321,UDINT constant with value 987654321
+2,conuint,UINT,,76,UINT constant with value 76
+2,conword,WORD,,16#0000,WORD constant with value 0
+3,in1anl_i,ANL_IN,1,,ANL_IN input at position 1
+3,in2anl_o,ANL_OUT,2,,ANL_OUT input at position 2
+3,in3bool,BOOL,3,TRUE,BOOL input at position 3 with default value TRUE
+3,in4byte,BYTE,4,16#05,BYTE input at position 4 with default value 5
+3,in5dint,DINT,5,32,DINT input at position 5 with default value 32
+3,in6int,INT,6,5,INT input at position 6 with default value 5
+3,in7real,REAL,7,5.0,REAL input at position 7 with default value 5.0
+3,in8time,TIME,8,t#5m,TIME input at position 8 with default value t#5m
+3,in9udint,UDINT,9,5,UDINT input at position 9 with default value 5
+3,in10uint,UINT,10,5,UINT input at position 10 with default value 5
+3,in11word,WORD,11,16#0005,WORD input at position 11 with default value 5
+4,o1anl_in,ANL_IN,1,,ANL_IN output at position 1
+4,o2anl_ou,ANL_OUT,2,,ANL_OUT output at position 2
+4,o3bool,BOOL,3,,BOOL output at position 3
+4,o4byte,BYTE,4,,BYTE output at position 4
+4,o5dint,DINT,5,,DINT output at position 5
+4,o6int,INT,6,,INT output at position 6
+4,o7real,REAL,7,,REAL output at position 7
+4,o8time,TIME,8,,TIME output at position 8
+4,o9udint,UDINT,9,,UDINT output at position 9
+4,o10uint,UINT,10,,UINT output at position 10
+4,o11word,WORD,11,,WORD output at position 11

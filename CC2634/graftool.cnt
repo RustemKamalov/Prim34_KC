@@ -1,0 +1,39 @@
+:Base graftool.hlp
+:Title Concept Graphic tool
+:Index  =concept.hlp
+1 Concept Graphic Tool Help
+1 Concept Graphic Tool Help=IDH_CONTENTS@graftool.hlp>main
+2 Concept-Graphic-Tool-Interface
+2 Concept-Graphic-Tool-Interface=D-SG-0002667.1@graftool.hlp>main
+3 General information about the Concept Graph Tool=D-SG-0003394.1@graftool.hlp>main
+3  Concept Graphic Tool user interface=D-SG-0002720.1@graftool.hlp>main
+3 Key combinations=D-SG-0002722.1@graftool.hlp>main
+1 File=D-SG-0002647.1@graftool.hlp>main
+2 Graph
+2 Graph=D-SG-0002662.1@graftool.hlp>main
+3 Graphic scaling=D-SG-0002679.1@graftool.hlp>main
+3 Grid=D-SG-0002680.1@graftool.hlp>main
+3 Bipolar=D-SG-0002681.1@graftool.hlp>main
+3 Tiled=D-SG-0003392.1@graftool.hlp>main
+3 Start=D-SG-0002682.1@graftool.hlp>main
+3 Stop=D-SG-0002684.1@graftool.hlp>main
+3 Clear=D-SG-0002686.1@graftool.hlp>main
+3  No Min/Max display=D-SG-0002696.1@graftool.hlp>main
+3 Absolute Value Min/Max=D-SG-0002701.1@graftool.hlp>main
+3  Scroll Min/Max values=D-SG-0002705.1@graftool.hlp>main
+2 DDE
+2 DDE=D-SG-0002663.1@graftool.hlp>main
+3 DDE connection=D-SG-0002708.1@graftool.hlp>main
+3 Write DDE variables to the server =D-SG-0002712.1@graftool.hlp>main
+3 Start=D-SG-0002713.1@graftool.hlp>main
+3 Stop=D-SG-0002714.1@graftool.hlp>main
+2 Options
+2 Options=D-SG-0002664.1@graftool.hlp>main
+3 Options - Colors=D-SG-0002715.1@graftool.hlp>main
+3 Options - Graphic=D-SG-0002716.1@graftool.hlp>main
+3 Save=D-SG-0002717.1@graftool.hlp>main
+2 Help
+2 Help=D-SG-0002665.1@graftool.hlp>main
+3 Contents...=D-SG-0002718.1@graftool.hlp>main
+3 About...=D-SG-0002719.1@graftool.hlp>main
+1 Glossary=D-SG-0000454.1@graftool.hlp>main

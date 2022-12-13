@@ -1,0 +1,61 @@
+
+  Project Number:
+  
+  Creation Date:      %CREDATE
+  
+  Modification Date:  %MODDATE
+
+  Language :                                                    STATUS:
+   %RECT(15,6,15)                                        %RECT(74,6,11)
+                 x      SFC                                                x     DRAFT
+   %HLINE(15,6)                                          %HLINE(74,6)
+                 x      FBD                                                      IN REVIEW
+   %HLINE(15,6)                                          %HLINE(74,6)
+                 x      LD                                                       RELEASED
+   %HLINE(15,6)                                          %HLINE(74,6)
+                 x      ST                                                       IN CHANGE
+   %HLINE(15,6)                                          %HLINE(74,6)
+                 x      IL                                                       INVALID
+   %HLINE(15,6)
+                 x      LL984
+   %HLINE(15,6)
+                 x      DFBs
+
+
+  Description:   
+                     
+                     
+                     
+
+  Comments:  
+                    
+                   
+
+
+
+  Author(s):     Concept Development Team
+
+  Approved:
+
+
+
+
+
+  History of Modification:
+
+    %RECT(1,132,17)    %VLINE(10,17) %VLINE(20,17) %VLINE(36,17)
+   Rev.     Date     Author          Description of Modifications
+    %HLINE(1,132)    
+   2.0    22.07.96   Concept Team    all
+    %HLINE(1,132)
+
+    %HLINE(1,132)
+
+    %HLINE(1,132)
+
+    %HLINE(1,132)
+
+    %HLINE(1,132)
+
+    %HLINE(1,132)
+

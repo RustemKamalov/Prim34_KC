@@ -1,0 +1,84 @@
+:Base fuzzy.hlp
+:Title FUZZY Block Library
+:Index  =Akfefb.hlp
+:Index  =Ana_io.hlp
+:Index  =comm.hlp
+:Index  =Cont_ctl.hlp
+:Index  =Diagno.hlp
+:Index  =Experts.hlp
+:Index  =Extended.hlp
+:Index  =Fuzzy.hlp
+:Index  =Handtabl.hlp
+:Index  =Iec.hlp
+:Index  =Lib984.hlp
+:Index  =System.hlp
+:Index  =concman.hlp
+1 Concept IEC Block Library FUZZY
+1 Concept IEC Block Library FUZZY=IDH_CONTENTS@fuzzy.hlp>main
+2 General information on the FUZZY Block Library
+2 General information on the FUZZY Block Library=D-SG-0003716.1@fuzzy.hlp>main
+3 Parameterizing functions and function blocks=D-SG-0002132.1@fuzzy.hlp>main
+3 Fuzzy Control
+3 Fuzzy Control=D-SG-0003360.4@fuzzy.hlp>main
+4 Introduction to Fuzzy Control Theory
+4 Introduction to Fuzzy Control Theory=D-SG-0003362.4@fuzzy.hlp>main
+5 Fundamental Principles of Fuzzy Control=D-SG-0003363.3@fuzzy.hlp>main
+5 Fuzzy Control in control engineering=D-SG-0003364.3@fuzzy.hlp>main
+5 Concepts of Fuzzy Theory=D-SG-0003365.3@fuzzy.hlp>main
+4 Fuzzy Control in Concept
+4 Fuzzy Control in Concept=D-SG-0003361.4@fuzzy.hlp>main
+5 EFBs in the FUZZY Library=D-SG-0003366.3@fuzzy.hlp>main
+5 Fuzzification=D-SG-0003367.3@fuzzy.hlp>main
+5 Inference=D-SG-0003368.3@fuzzy.hlp>main
+5 Defuzzification=D-SG-0003369.3@fuzzy.hlp>main
+5 Example for Concept=D-SG-0003370.3@fuzzy.hlp>main
+2 EFB descriptions 
+2 EFB descriptions =D-SG-0003717.1@fuzzy.hlp>main
+3 DEFUZ_INT, DEFUZ_REAL: Defuzzification with singletons
+3 DEFUZ_INT, DEFUZ_REAL: Defuzzification with singletons=D-SG-0003718.4@fuzzy.hlp>main
+4 Brief Description=D-SG-0002012.1@fuzzy.hlp>main
+4 Description=D-SG-0001922.1@fuzzy.hlp>main
+4 Detailed description=D-SG-0001923.1@fuzzy.hlp>main
+4 Runtime errors=D-SG-0001924.1@fuzzy.hlp>main
+3 DEFUZ_STI, DEFUZ_STR: Defuzzification with singletons (structure)
+3 DEFUZ_STI, DEFUZ_STR: Defuzzification with singletons (structure)=D-SG-0003719.4@fuzzy.hlp>main
+4 Brief Description=D-SG-0001932.1@fuzzy.hlp>main
+4 Representation=D-SG-0001933.1@fuzzy.hlp>main
+4 Detailed description=D-SG-0001934.1@fuzzy.hlp>main
+4 Runtime errors=D-SG-0001935.1@fuzzy.hlp>main
+3 FUZ_ATERM_INT, FUZ_ATERM_REAL: Fuzzification of all terms
+3 FUZ_ATERM_INT, FUZ_ATERM_REAL: Fuzzification of all terms=D-SG-0003720.4@fuzzy.hlp>main
+4 Brief Description=D-SG-0001936.1@fuzzy.hlp>main
+4 Representation=D-SG-0001937.1@fuzzy.hlp>main
+4 Detailed description=D-SG-0001938.1@fuzzy.hlp>main
+4 Runtime errors=D-SG-0001939.1@fuzzy.hlp>main
+3 FUZ_ATERM_STI, FUZ_ATERM_STR: Fuzzification of all terms (structure)
+3 FUZ_ATERM_STI, FUZ_ATERM_STR: Fuzzification of all terms (structure)=D-SG-0003721.4@fuzzy.hlp>main
+4 Brief Description=D-SG-0001940.1@fuzzy.hlp>main
+4 Description=D-SG-0001941.1@fuzzy.hlp>main
+4 Detailed description=D-SG-0001942.1@fuzzy.hlp>main
+4 Runtime errors=D-SG-0001943.1@fuzzy.hlp>main
+3 FUZ_MAX_***: Fuzzy Maximum
+3 FUZ_MAX_***: Fuzzy Maximum=D-SG-0003722.4@fuzzy.hlp>main
+4 Brief Description=D-SG-0001944.1@fuzzy.hlp>main
+4 Description=D-SG-0001945.1@fuzzy.hlp>main
+3 FUZ_MIN_***: Fuzzy Minimum
+3 FUZ_MIN_***: Fuzzy Minimum=D-SG-0003723.4@fuzzy.hlp>main
+4 Brief Description=D-SG-0001946.1@fuzzy.hlp>main
+4 Description=D-SG-0001947.1@fuzzy.hlp>main
+3 FUZ_PROD_***: Fuzzy Product
+3 FUZ_PROD_***: Fuzzy Product=D-SG-0003724.4@fuzzy.hlp>main
+4 Brief Description=D-SG-0001948.1@fuzzy.hlp>main
+4 Description=D-SG-0001949.1@fuzzy.hlp>main
+4 Detailed description=D-SG-0001950.1@fuzzy.hlp>main
+3 FUZ_STERM_***: Fuzzification of one term
+3 FUZ_STERM_***: Fuzzification of one term=D-SG-0003725.4@fuzzy.hlp>main
+4 Brief Description=D-SG-0001951.1@fuzzy.hlp>main
+4 Description=D-SG-0001952.1@fuzzy.hlp>main
+4 Detailed description=D-SG-0001953.1@fuzzy.hlp>main
+4 Runtime errors=D-SG-0001956.1@fuzzy.hlp>main
+3 FUZ_SUM_***: Fuzzy Sum
+3 FUZ_SUM_***: Fuzzy Sum=D-SG-0003726.4@fuzzy.hlp>main
+4 Brief Description=D-SG-0001957.1@fuzzy.hlp>main
+4 Description=D-SG-0001958.1@fuzzy.hlp>main
+1 Glossary=D-SG-0000454.1@fuzzy.hlp>main

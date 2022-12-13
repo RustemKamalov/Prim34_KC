@@ -1,0 +1,85 @@
+:Base NOA622.hlp
+:Title 140 NOA 622 00 User Manual
+1 140 NOA 622 00
+1 140 NOA 622 00=IDH_CONTENTS@NOA622.hlp>main
+2 Safety Information=t2956@NOA622.hlp>main
+2 INTERBUS and INTERBUS Communication with TSX Quantum 140 NOA 622 00
+2 INTERBUS and INTERBUS Communication with TSX Quantum 140 NOA 622 00=D-SG-0007176.1@NOA622.hlp>main
+3  General
+3  General=D-SG-0007015.1@NOA622.hlp>main
+4 Overview=D-SG-0007016.1@NOA622.hlp>main
+4 General Architecture of an INTERBUS Field Bus System=D-SG-0008084.1@NOA622.hlp>main
+3  Performance
+3  Performance=D-SG-0007021.1@NOA622.hlp>main
+4 Protocols=D-SG-0008305.1@NOA622.hlp>main
+4 Network Control=D-SG-0008306.1@NOA622.hlp>main
+4 Response Time for the Application=D-SG-0007024.1@NOA622.hlp>main
+4 Data Transfer Rate per Station=D-SG-0007025.1@NOA622.hlp>main
+3 The 140 NOA 622 00 as INTERBUS Master
+3 The 140 NOA 622 00 as INTERBUS Master=D-SG-0007177.1@NOA622.hlp>main
+4 The 140 NOA 622 00 as INTERBUS-Master=D-SG-0007178.1@NOA622.hlp>main
+4 Possible uses of the 140 NOA 622 00 depending on CPU type=D-SG-0007180.1@NOA622.hlp>main
+4 Comparison of the INTERBUS Master Modules=D-SG-0007202.1@NOA622.hlp>main
+3 Accessories and Replacement Parts
+3 Accessories and Replacement Parts=D-SG-0007181.1@NOA622.hlp>main
+4 Accessories and Replacement Parts for Software=D-SG-0008649.1@NOA622.hlp>main
+4 Accessories and Replacement Parts for Copper Lines=D-SG-0007182.1@NOA622.hlp>main
+4 Accessories and Replacement Parts for Fibre Optic Cable Technology=D-SG-0008629.1@NOA622.hlp>main
+2 Module descriptions
+2 Module descriptions=D-SG-0006330.1@NOA622.hlp>main
+3 140 NOA 622 00: Communication Module for INTERBUS
+3 140 NOA 622 00: Communication Module for INTERBUS=D-SG-0006331.1@NOA622.hlp>main
+4 Brief description=D-SG-0006332.1@NOA622.hlp>main
+4 Description of the Operating and Display Elements (LEDs)=D-SG-0006333.1@NOA622.hlp>main
+4 Configuration=D-SG-0006334.1@NOA622.hlp>main
+4 Technical Data=D-SG-0006335.1@NOA622.hlp>main
+2 Software
+2 Software=D-SG-0007184.1@NOA622.hlp>main
+3 Commissioning
+3 Commissioning=D-SG-0007185.1@NOA622.hlp>main
+4 Principle of Commissioning=D-SG-0007777.1@NOA622.hlp>main
+4 Software Startup for using the 140 NOA 622 00=D-SG-0010719.3@NOA622.hlp>main
+4 Shutdown and Startup Procedure of the 140 NOA 622 00=D-SG-0009078.1@NOA622.hlp>main
+4 Addressing Modes of the Inputs and Outputs=D-SG-0007056.1@NOA622.hlp>main
+4 Firmware for the INTERBUS Master=D-SG-0008628.1@NOA622.hlp>main
+3 Configuration and Diagnostics
+3 Configuration and Diagnostics=D-SG-0008082.1@NOA622.hlp>main
+4 Diagnostics and Control via the Generic Bus=D-SG-0008083.1@NOA622.hlp>main
+4 Details about the Status Words=D-SG-0009571.1@NOA622.hlp>main
+3 Using the PCP Channel
+3 Using the PCP Channel=D-SG-0010733.1@NOA622.hlp>main
+4 the PCP channel with the 140 NOA 622 00=D-SG-0010734.1@NOA622.hlp>main
+4 Example of Addressing a PCP Node=D-SG-0015947.1@NOA622.hlp>main
+3 Groups and Alternatives
+3 Groups and Alternatives=D-SG-0016412.1@NOA622.hlp>main
+4 Groups=D-SG-0016413.1@NOA622.hlp>main
+4 Alternatives=D-SG-0016414.3@NOA622.hlp>main
+2 EFB descriptions
+2 EFB descriptions=D-SG-0007187.1@NOA622.hlp>main
+3 IBS_READ: Reading variables via INTERBUS
+3 IBS_READ: Reading variables via INTERBUS=D-SG-0007196.1@NOA622.hlp>main
+4 Brief Description=D-SG-0011989.1@NOA622.hlp>main
+4 Representation=D-SG-0007194.1@NOA622.hlp>main
+4 Runtime error=D-SG-0010731.1@NOA622.hlp>main
+3 IBS_SEND_REQ: Diagnostic query on the INTERBUS Master 140 NOA 622 00
+3 IBS_SEND_REQ: Diagnostic query on the INTERBUS Master 140 NOA 622 00=D-SG-0007756.4@NOA622.hlp>main
+4 Brief Description=D-SG-0011991.1@NOA622.hlp>main
+4 Representation=D-SG-0007758.3@NOA622.hlp>main
+4 Runtime errors=D-SG-0010773.1@NOA622.hlp>main
+4 Examples of Request/Response Blocks=D-SG-0010721.1@NOA622.hlp>main
+3 IBS_WRITE: Writing variables to INTERBUS PCP nodes
+3 IBS_WRITE: Writing variables to INTERBUS PCP nodes=D-SG-0007722.4@NOA622.hlp>main
+4 Brief Description=D-SG-0011990.1@NOA622.hlp>main
+4 Representation=D-SG-0007723.1@NOA622.hlp>main
+2 Appendix
+2 Appendix=D-SG-0011064.4@NOA622.hlp>main
+3 Example for diagnosis and control of a slave
+3 Example for diagnosis and control of a slave=D-SG-0015949.1@NOA622.hlp>main
+4 Example for control of a slave via a generic bus=D-SG-0015950.1@NOA622.hlp>main
+4 Example of Diagnosing a PCP Node=D-SG-0015951.3@NOA622.hlp>main
+3 Upgrading from 140 NOA 611 x0 to 140 NOA 622 00
+3 Upgrading from 140 NOA 611 x0 to 140 NOA 622 00=D-SG-0009221.1@NOA622.hlp>main
+4 Requirements for changing from 140 NOA 611 x0 to 140 NOA 622 00=D-SG-0007203.1@NOA622.hlp>main
+4 Instructions for upgrading from 140 NOA 611 x0 to 140 NOA 622 00=D-SG-0009222.1@NOA622.hlp>main
+2 Import CMD G4 Projects in SyCon=D-SG-0010785.4@NOA622.hlp>main
+1 Glossary=D-SG-0007094.1@NOA622.hlp>main

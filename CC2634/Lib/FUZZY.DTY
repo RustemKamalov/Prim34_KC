@@ -1,0 +1,32 @@
+TYPE
+FUZ_MD_INT: 
+	STRUCT 
+		n: INT;
+		term1: INT; 
+		term2: INT; 
+		term3: INT; 
+		term4: INT; 
+		term5: INT; 
+		term6: INT; 
+		term7: INT; 
+		term8: INT; 
+		term9: INT; 
+	END_STRUCT;
+
+FUZ_MD_REAL: 
+	STRUCT 
+		n: INT;
+		term1: REAL; 
+		term2: REAL; 
+		term3: REAL; 
+		term4: REAL; 
+		term5: REAL; 
+		term6: REAL; 
+		term7: REAL; 
+		term8: REAL; 
+		term9: REAL; 
+	END_STRUCT;
+
+END_TYPE
+
+

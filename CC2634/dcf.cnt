@@ -1,0 +1,22 @@
+:Base dcf.hlp
+:Title 140 DCF 077 00 Benutzerhandbuch
+:Index  =quantum.hlp
+1 140 DCF 077 00
+1 140 DCF 077 00=IDH_CONTENTS@dcf.hlp>main
+2 Funktionalität
+2 Funktionalität=D-SG-0003673.1@dcf.hlp>main
+3 Funktionalität der 140 DCF 077 00
+3 Funktionalität der 140 DCF 077 00=D-SG-0003674.1@dcf.hlp>main
+4 Übersicht über den Einsatz der 140 DCF 077 00=D-SG-0003675.1@dcf.hlp>main
+4 Arbeitsweise der 140 DCF 077 00=D-SG-0003677.1@dcf.hlp>main
+4 Arbeitsweise mit DCF-Empfänger=D-SG-0003678.1@dcf.hlp>main
+4 Arbeitsweise mit GPS-Empfänger=D-SG-0003680.1@dcf.hlp>main
+4 Abgeleitete Datentypen für 140 DCF 077 00=D-SG-0003672.1@dcf.hlp>main
+2 Modul-Beschreibungen
+2 Modul-Beschreibungen=D-SG-0003634.1@dcf.hlp>main
+3 140 DCF 077 00: Uhrzeit-Modul
+3 140 DCF 077 00: Uhrzeit-Modul=D-SG-0003635.1@dcf.hlp>main
+4 Kurzbeschreibung=D-SG-0003638.1@dcf.hlp>main
+4 Beschreibung der LEDs=D-SG-0003639.1@dcf.hlp>main
+4 Projektierung=D-SG-0003640.1@dcf.hlp>main
+4 Technische Daten=D-SG-0003637.1@dcf.hlp>main

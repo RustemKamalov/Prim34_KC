@@ -1,0 +1,60 @@
+:Base cceptefb.hlp
+:Title Concept EFB Context Help
+:Index  =efbman.hlp
+1 Concept EFB Context Help
+1 Concept EFB Context Help=IDH_CONTENTS@cceptefb.hlp>main
+2 File Menu
+2 File Menu=D-SG-0006613.1@cceptefb.hlp>main
+3 New Library Menu=D-SG-0006614.1@cceptefb.hlp>main
+3 Open Library Menu=D-SG-0006615.1@cceptefb.hlp>main
+3 Convert Library Menu=D-SG-0006616.1@cceptefb.hlp>main
+3 Import EFBs Menu=D-SG-0006617.1@cceptefb.hlp>main
+3 Move EFB Menu=D-SG-0006620.1@cceptefb.hlp>main
+3 Print Menu=D-SG-0006621.1@cceptefb.hlp>main
+3 Exit Menu=D-SG-0006622.1@cceptefb.hlp>main
+2 Library Menu
+2 Library Menu=D-SG-0006623.1@cceptefb.hlp>main
+3 Derived Datatypes Menu=D-SG-0006624.1@cceptefb.hlp>main
+3 Menu C-Header of Derived Datatypes=D-SG-0006625.1@cceptefb.hlp>main
+3 Generate Files Menu=D-SG-0006626.1@cceptefb.hlp>main
+3 Make Menu=D-SG-0006627.1@cceptefb.hlp>main
+3 Build Menu=D-SG-0006628.1@cceptefb.hlp>main
+3 Install Menu=D-SG-0006629.1@cceptefb.hlp>main
+3 Logfile Menu=D-SG-0006630.1@cceptefb.hlp>main
+3 Summary Menu=D-SG-0006631.1@cceptefb.hlp>main
+3 Find Backups Menu=D-SG-0006640.1@cceptefb.hlp>main
+3 Delete Library Menu=D-SG-0006641.1@cceptefb.hlp>main
+2 Objects Menu
+2 Objects Menu=D-SG-0006642.1@cceptefb.hlp>main
+3 New Function Menu=D-SG-0006643.1@cceptefb.hlp>main
+3 New Function Block Menu=D-SG-0006644.1@cceptefb.hlp>main
+3 Select EFB Menu=D-SG-0006645.1@cceptefb.hlp>main
+3 Definition Menu=D-SG-0006646.1@cceptefb.hlp>main
+3 Source Menu=D-SG-0006647.1@cceptefb.hlp>main
+3 Prototype Menu=D-SG-0006648.1@cceptefb.hlp>main
+3 Backup Menu=D-SG-0006649.1@cceptefb.hlp>main
+3 Delete Backups=D-SG-0006650.1@cceptefb.hlp>main
+3 Delete EFB Menu=D-SG-0006651.1@cceptefb.hlp>main
+3 Deactivate EFB Menu=D-SG-0006671.1@cceptefb.hlp>main
+3 Reactivate EFB Menu=D-SG-0006672.1@cceptefb.hlp>main
+2 Options Menu
+2 Options Menu=D-SG-0006673.1@cceptefb.hlp>main
+3 Set Development Path Menu=D-SG-0006674.1@cceptefb.hlp>main
+3 Create Development Path Menu=D-SG-0006675.1@cceptefb.hlp>main
+3 Set Borland Include Path Menu=D-SG-0006676.1@cceptefb.hlp>main
+3 Options Menu=D-SG-0006679.1@cceptefb.hlp>main
+2 Help Menu
+2 Help Menu=D-SG-0006680.1@cceptefb.hlp>main
+3 Contents Menu=D-SG-0006681.1@cceptefb.hlp>main
+3 About Menu=D-SG-0006682.1@cceptefb.hlp>main
+1 System menus=D-SG-0000674.1@cceptefb.hlp>main
+2 Window
+2 Window=D-SG-0006683.1@cceptefb.hlp>main
+3 Cascade=D-SG-0006684.1@cceptefb.hlp>main
+3 Arrange All=D-SG-0006685.1@cceptefb.hlp>main
+3 Tile=D-SG-0006686.1@cceptefb.hlp>main
+3 Arrange Icons=D-SG-0006687.1@cceptefb.hlp>main
+3 Close All=D-SG-0006688.1@cceptefb.hlp>main
+3 Messages=D-SG-0006689.1@cceptefb.hlp>main
+3 Names of Open Sections=D-SG-0006690.1@cceptefb.hlp>main
+1 Glossary=D-SG-0006609.1@cceptefb.hlp>main

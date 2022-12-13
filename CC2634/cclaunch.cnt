@@ -1,0 +1,12 @@
+:Base cclaunch.hlp
+:Title CCLaunch Tool
+:Index  =concman.hlp
+:Index  =concept.hlp
+1 CCLaunch Tool Help
+1 CCLaunch Tool Help=IDH_CONTENTS@cclaunch.hlp>main
+2 CCLaunch Context Sensitive Help=D-SG-0015246.1@cclaunch.hlp>main
+2 Automatic Connection to the PLC
+2 Automatic Connection to the PLC=D-SG-0015232.1@cclaunch.hlp>main
+3 Automatic Connection with Command Line Parameters (Modbus, Modbus +, TCP/IP)=D-SG-0015233.1@cclaunch.hlp>main
+3 Automatic Connection with the CCLaunch Tool (Modbus Plus)=D-SG-0015234.1@cclaunch.hlp>main
+1 Glossary=D-SG-0015319.1@cclaunch.hlp>main

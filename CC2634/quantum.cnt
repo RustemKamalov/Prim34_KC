@@ -1,0 +1,224 @@
+:Base quantum.hlp
+:Title Quantum Automation Series
+1 Quantum Hardware Reference Guide (V. 11.0)
+1 Quantum Hardware Reference Guide (V. 11.0)=IDH_CONTENTS@quantum.hlp>main
+2 Safety Information=t828@quantum.hlp>main
+2 Quantum Automation System Overview
+2 Quantum Automation System Overview=D-NA-0001400.1@quantum.hlp>main
+3 Modicon Quantum Automation System Overview
+3 Modicon Quantum Automation System Overview=D-NA-0001149.1@quantum.hlp>main
+4 Modicon Quantum Automation Series Overview=D-NA-0001150.1@quantum.hlp>main
+4 Quantum Power Supplies=D-NA-0001153.1@quantum.hlp>main
+4 Quantum CPU Modules=D-NA-0001155.1@quantum.hlp>main
+4 Quantum I/O Modules=D-NA-0001154.1@quantum.hlp>main
+4 Quantum Communication Interface Modules=D-NA-0001157.1@quantum.hlp>main
+4 Quantum Intelligent/Special Purpose I/O Modules=D-NA-0001159.1@quantum.hlp>main
+4 Quantum Simulator Modules (XSM)=D-NA-0001156.1@quantum.hlp>main
+4 Quantum Battery, Backplanes, and CableFast Cabling=D-NA-0001158.1@quantum.hlp>main
+4 Quantum Programming Packages=D-NA-0001161.1@quantum.hlp>main
+2 Quantum System Configurations
+2 Quantum System Configurations=D-NA-0001429.1@quantum.hlp>main
+3 Quantum Configurations
+3 Quantum Configurations=D-NA-0001164.1@quantum.hlp>main
+4 Quantum Local I/O, Remote I/O and Distributed I/O Configurations=D-NA-0001166.1@quantum.hlp>main
+4 Quantum Local I/O=D-NA-0001167.1@quantum.hlp>main
+4 Quantum Remote I/O (RIO)=D-NA-0001168.1@quantum.hlp>main
+4 Quantum Distributed I/O (DIO)=D-NA-0001170.1@quantum.hlp>main
+3 Network Configurations
+3 Network Configurations=D-NA-0001171.1@quantum.hlp>main
+4 Quantum Network Support=D-NA-0001172.1@quantum.hlp>main
+4 Quantum Network Interface Techniques=D-NA-0001174.1@quantum.hlp>main
+4 Quantum Modbus and Modbus Plus Communications=D-NA-0001175.1@quantum.hlp>main
+2 Quantum System Specifications
+2 Quantum System Specifications=D-NA-0001431.1@quantum.hlp>main
+3 System Specifications for the Quantum Module =D-NA-0001185.1@quantum.hlp>main
+2 Quantum Module Specifications and Configuration
+2 Quantum Module Specifications and Configuration=D-NA-0001286.1@quantum.hlp>main
+3 Hardware Specifications for the Quantum Modules=D-NA-0001288.1@quantum.hlp>main
+3 Power Supply Modules
+3 Power Supply Modules=D-NA-0001290.1@quantum.hlp>main
+4 140CPS11100 AC Power Supply 115/230 Vac 3 A Module=D-NA-0001221.1@quantum.hlp>main
+4 140CPS11100 AC Power Supply 115/230 Vac 3 A Module=D-NA-0007421.1@quantum.hlp>main
+4 140CPS11400 AC Power Supply, 115/230 Vac, 8 A Module=D-NA-0001498.1@quantum.hlp>main
+4 140CPS11410 AC Summable Power Supply 115/230 Vac, 8 A=D-NA-0001499.1@quantum.hlp>main
+4 140CPS11420 AC Summable Power Supply 115/230 Vac, 11 A=D-NA-0004269.3@quantum.hlp>main
+4 140CPS12400 AC Redundant Power Supply, 115/230 Vac 8 A Module=D-NA-0001500.1@quantum.hlp>main
+4 140CPS12420 AC Redundant Power Supply, 115/230 Vac 11 A Module=D-NA-0004271.3@quantum.hlp>main
+4 140CPS21100 DC Power Supply, 24 Vdc, 3 A Module=D-NA-0001501.1@quantum.hlp>main
+4 140CPS21400 DC Summable Power Supply, 24 Vdc, 8 A Module=D-NA-0001502.1@quantum.hlp>main
+4 140CPS22400 DC Redundant Power Supply, 24 Vdc, 8 A Module=D-NA-0001503.1@quantum.hlp>main
+4 140CPS41400 DC Summable Power Supply, 48 Vdc, 8 A Module=D-NA-0001504.1@quantum.hlp>main
+4 140CPS42400 DC Redundant Power Supply, 48 Vdc, 8 A Module=D-NA-0001505.1@quantum.hlp>main
+4 140CPS51100 DC Power Supply, 125 Vdc, 3 A Module=D-NA-0001506.1@quantum.hlp>main
+4 140CPS52400 DC Standalone/Redundant Power Supply, 125 Vdc, 8 A=D-NA-0001507.1@quantum.hlp>main
+3 CPU Modules
+3 CPU Modules=D-NA-0001293.1@quantum.hlp>main
+4 140CPU11302 CPU Module=D-NA-0001240.1@quantum.hlp>main
+4 140CPU11303 CPU Module=D-NA-0001281.1@quantum.hlp>main
+4 140CPU21304 CPU Module=D-NA-0001252.1@quantum.hlp>main
+4 140CPU42402 CPU Module=D-NA-0001254.1@quantum.hlp>main
+4 140CPU43412 CPU Module=D-NA-0001256.1@quantum.hlp>main
+4 140CPU43412A CPU Module=D-NA-0002421.1@quantum.hlp>main
+4 140CPU53414 CPU Module=D-NA-0001304.1@quantum.hlp>main
+4 140CPU53414A CPU Module=D-NA-0002423.1@quantum.hlp>main
+3 Quantum Field Bus Modules
+3 Quantum Field Bus Modules=D-NA-0002426.1@quantum.hlp>main
+4 140CRP81100 Profibus DP Master Communications Module=D-NA-0002429.1@quantum.hlp>main
+4 140EIA92100 Quantum AS-i Master Module=D-NA-0003185.1@quantum.hlp>main
+4 140NOA6XXXX Quantum InterBus Communications Modules=D-NA-0001311.1@quantum.hlp>main
+4 140NOL911X0 Quantum LonWorks Network Option Modules=D-NA-0001312.1@quantum.hlp>main
+3 Distributed I/O (DIO) for the Quantum Modules
+3 Distributed I/O (DIO) for the Quantum Modules=D-NA-0001297.1@quantum.hlp>main
+4 140CRA21X10 Quantum Distributed I/O (DIO) Modules=D-NA-0001284.1@quantum.hlp>main
+4 140CRA21X20 Quantum Distributed I/O (DIO) Modules=D-NA-0001305.1@quantum.hlp>main
+3 Quantum Remote I/O Communication Modules
+3 Quantum Remote I/O Communication Modules=D-NA-0001296.1@quantum.hlp>main
+4 140CRP93X00 Remote I/O (RIO) Head Single and Dual Channel Module=D-NA-0001263.1@quantum.hlp>main
+4 140CRA93X00 Quantum RIO Adapter Drop Single and Dual Channel Module=D-NA-0001283.1@quantum.hlp>main
+2 Quantum Modbus Plus Network Option Modules=D-NA-0001299.1@quantum.hlp>main
+2 Quantum Modbus Plus Networking on Fiber Module=D-NA-0001433.1@quantum.hlp>main
+3 Quantum Ethernet Modules
+3 Quantum Ethernet Modules=D-NA-0001308.1@quantum.hlp>main
+4 140NOE2X100 Quantum Ethernet TCP/IP Module=D-NA-0001307.1@quantum.hlp>main
+4 140NOE3X100 Quantum Ethernet SY/MAX Modules=D-NA-0001309.1@quantum.hlp>main
+4 140NOE5X100 Quantum Ethernet MMS Modules=D-NA-0001310.1@quantum.hlp>main
+4 140NOE771xx Ethernet Modules=D-NA-0004292.1@quantum.hlp>main
+3 Intelligent/Special Purpose Modules for the Quantum
+3 Intelligent/Special Purpose Modules for the Quantum=D-NA-0001314.1@quantum.hlp>main
+4 140EHC10500 High Speed Counter Module=D-NA-0001318.1@quantum.hlp>main
+4 I/O Configuration for 140EHC20200=D-NA-0006606.1@quantum.hlp>main
+4 140EHC20200 High Speed Counter Module=D-NA-0001319.1@quantum.hlp>main
+4 140ESI06210 ASCII Interface Module=D-NA-0001321.1@quantum.hlp>main
+4 140HLI34000 High Speed Interrupt Module=D-NA-0001434.1@quantum.hlp>main
+4 140MSB/MSC10100 Quantum MSX Motion Modules=D-NA-0001387.1@quantum.hlp>main
+4 140XBE10000 Backplane Expander and Cable=D-NA-0002431.1@quantum.hlp>main
+4 140CHS11000 Hot Standby Module=D-NA-0001316.1@quantum.hlp>main
+3 Quantum Intrinsically Safe Analog/Digital, Input/Output Modules
+3 Quantum Intrinsically Safe Analog/Digital, Input/Output Modules=D-NA-0001593.1@quantum.hlp>main
+4 Intrinsically Safe Modules - General Information=D-NA-0006594.1@quantum.hlp>main
+4 Intrinsically Safe Analog Modules
+4 Intrinsically Safe Analog Modules=D-NA-0006592.1@quantum.hlp>main
+5 I/O Configuration for Intrinsically Safe Analog Modules=D-NA-0006590.1@quantum.hlp>main
+5 140AII33000 Intrinsically Safe Analog Input Module=D-NA-0001586.1@quantum.hlp>main
+5 140AII33010 Intrinsically Safe Current Input Module=D-NA-0001587.1@quantum.hlp>main
+5 140AIO33000 Intrinsically Safe Analog Output Module=D-NA-0001585.1@quantum.hlp>main
+4 Intrinsically Safe Discrete Modules
+4 Intrinsically Safe Discrete Modules=D-NA-0006593.1@quantum.hlp>main
+5 I/O Configuration for Intrinsically Safe Discrete Modules=D-NA-0006591.1@quantum.hlp>main
+5 140DII33000 Intrinsically Safe Discrete Input Module=D-NA-0001588.1@quantum.hlp>main
+5 140DIO33000 Intrinsically Safe Discrete Output Module=D-NA-0001589.1@quantum.hlp>main
+3 Quantum Simulator Modules
+3 Quantum Simulator Modules=D-NA-0001391.1@quantum.hlp>main
+4 140XSM00200 Quantum Point Discrete Simulator Module=D-NA-0001392.1@quantum.hlp>main
+4 140XSM01000 Analog Simulator Module=D-NA-0001393.1@quantum.hlp>main
+3 Quantum Battery Module
+3 Quantum Battery Module=D-NA-0001395.1@quantum.hlp>main
+4 I/O Configuration for the 140XCP90000 Battery Module=D-NA-0001565.1@quantum.hlp>main
+4 140XCP90000 Quantum Battery Module=D-NA-0001397.1@quantum.hlp>main
+3 Quantum I/O Modules
+3 Quantum I/O Modules=D-NA-0001538.1@quantum.hlp>main
+4 Overview of I/O Modules
+4 Overview of I/O Modules=D-NA-0006364.1@quantum.hlp>main
+5 Quantum I/O Modules=D-NA-0001539.1@quantum.hlp>main
+5 I/O Map Status Byte=D-NA-0001536.1@quantum.hlp>main
+4 Analog Input Modules
+4 Analog Input Modules=D-NA-0006363.1@quantum.hlp>main
+5 I/O Configuration for Analog Input Modules=D-NA-0001551.1@quantum.hlp>main
+5 140ACI03000 I/O Analog In Module=D-NA-0001656.1@quantum.hlp>main
+5 140ACI04000 High Density Analog in I/O Module=D-NA-0002420.1@quantum.hlp>main
+5 140ARI03010 I/O RTD Input 8 Channel Module=D-NA-0001464.1@quantum.hlp>main
+5 140ATI03000 I/O Thermocouple Input 8 Channel Module=D-NA-0001465.1@quantum.hlp>main
+5 140AVI03000 I/O Analog IN 8 Channel Bipolar Module=D-NA-0001466.1@quantum.hlp>main
+4 Analog Output Modules
+4 Analog Output Modules=D-NA-0006367.1@quantum.hlp>main
+5 I/O Configuration for Analog Output Modules=D-NA-0001552.1@quantum.hlp>main
+5 140ACO02000 Quantum I/O Analog Current Out Module=D-NA-0001462.1@quantum.hlp>main
+5 140ACO13000 High Density Analog Out I/O Module=D-NA-0002419.1@quantum.hlp>main
+5 140AVO02000 Quantum I/O Analog Voltage Out Module=D-NA-0001467.1@quantum.hlp>main
+4 Analog Input/Output Modules
+4 Analog Input/Output Modules=D-NA-0006368.1@quantum.hlp>main
+5 Configuration of the 140AMM09000 Analog Input/Output Module=D-NA-0001554.1@quantum.hlp>main
+5 140AMM09000 Analog Input/Output Module=D-NA-0001463.1@quantum.hlp>main
+4 Discrete Input Modules
+4 Discrete Input Modules=D-NA-0006362.1@quantum.hlp>main
+5 I/O Configuration for Discrete Input Modules=D-NA-0001544.1@quantum.hlp>main
+5 140DAI34000 Quantum I/O 24 VAC IN Module=D-NA-0001468.1@quantum.hlp>main
+5 140DAI35300 Quantum I/O AC Input 24 Vac Module=D-NA-0001469.1@quantum.hlp>main
+5 140DAI44000 Quantum I/O 48 VAC IN Module=D-NA-0001470.1@quantum.hlp>main
+5 140DAI45300 Quantum I/O AC Input 48 Vac 4x8 Module=D-NA-0001471.1@quantum.hlp>main
+5 140DAI54000 Quantum I/O 115 VAC In Module=D-NA-0001472.1@quantum.hlp>main
+5 140DAI54300 Quantum I/O AC Input 115 Vac 2x8 Module=D-NA-0001473.1@quantum.hlp>main
+5 140DAI55300 Quantum I/O AC Input 115 Vac 4x8 Module=D-NA-0001474.1@quantum.hlp>main
+5 140DAI74000 Quantum I/O AC Input 230 Vac 16x1 Module=D-NA-0001475.1@quantum.hlp>main
+5 140DAI75300 Quantum I/O AC Input 230 Vac 4x8 Module=D-NA-0001476.1@quantum.hlp>main
+5 140DDI15310 Quantum I/O DC Input 5 V TTL 4x8 Source Module=D-NA-0001482.1@quantum.hlp>main
+5 140DDI35300 Quantum I/O DC Input 24 Vdc 4x8 Sink Module=D-NA-0001483.1@quantum.hlp>main
+5 140DDI35310 Quantum I/O DC Input 24 Vdc True Low 4x8 Input Module=D-NA-0001484.1@quantum.hlp>main
+5 140DDI36400 I/O DC Input 24 VDC 6x16 Telefast Input Module=D-NA-0003183.1@quantum.hlp>main
+5 140DDI67300 Quantum I/O DC Input 125 Vdc 3x8 Sink Module=D-NA-0001485.1@quantum.hlp>main
+5 140DDI84100 Quantum I/O DC Input 10 ... 60 Vdc 8x2 Sink Module=D-NA-0001486.1@quantum.hlp>main
+5 140DDI85300 Quantum I/O DC Input 10 ... 60 Vdc 4x8 Sink Module=D-NA-0001487.1@quantum.hlp>main
+4 Discrete Output Modules
+4 Discrete Output Modules=D-NA-0006365.1@quantum.hlp>main
+5 I/O Configuration for Discrete Output Modules=D-NA-0001545.1@quantum.hlp>main
+5 140DAO84000 I/O AC Output 24 ... 230 Vac 16x1 Module=D-NA-0001478.1@quantum.hlp>main
+5 140DAO84010 I/O AC Output 24 ... 115 Vac 16x1 Module=D-NA-0001753.1@quantum.hlp>main
+5 140DAO84210 Quantum I/O AC Output 100 ... 230 Vac 4x4 Module=D-NA-0001479.1@quantum.hlp>main
+5 140DAO84220 Quantum I/O AC Output 24 ... 48 Vac 4x4 Module=D-NA-0001480.1@quantum.hlp>main
+5 140DAO85300 Quantum I/O AC Output 24 ... 230 Vac 4x8 Module=D-NA-0001481.1@quantum.hlp>main
+5 140DDO15310 I/O DC Output 5 V TTL 4x8 Sink Module=D-NA-0001491.1@quantum.hlp>main
+5 140DDO35300 Quantum I/O DC Output 24 Vdc 4x8 Source Module=D-NA-0001492.1@quantum.hlp>main
+5 140DDO35301 I/O DC Output 24 VDC 4x8 Discrete Source Module=D-NA-0003181.1@quantum.hlp>main
+5 140DDO35310 I/O DC Output 24 Vdc 4x8 Sink Module=D-NA-0001493.1@quantum.hlp>main
+5 140DDO36400 I/O DC Output 24VDC 6x16 Telefast Output Module=D-NA-0002434.1@quantum.hlp>main
+5 140DDO84300 Quantum I/O DC Output 10 ... 60 Vdc 2x8 Source Module=D-NA-0001494.1@quantum.hlp>main
+5 140DDO88500 Quantum I/O DC Output 24-125 Vdc 2x6 Source Module=D-NA-0001495.1@quantum.hlp>main
+5 140DRA84000 Quantum I/O Relay Output 16x1 Normally Open Module=D-NA-0001496.1@quantum.hlp>main
+5 140DRC83000 Quantum I/O Relay Output 8x1 Normally Open/Normally Closed Module=D-NA-0001497.1@quantum.hlp>main
+4 Discrete Verified Output Module
+4 Discrete Verified Output Module=D-NA-0006458.1@quantum.hlp>main
+5 I/O Configuration for the Discrete Verified Output Module - 140DVO85300 =D-NA-0001549.1@quantum.hlp>main
+5 140DVO85300 I/O Verified 10-30 VDC Out Module=D-NA-0002417.1@quantum.hlp>main
+4 Discrete Supervised Input Module
+4 Discrete Supervised Input Module=D-NA-0006585.1@quantum.hlp>main
+5 I/O Configuration for the Discrete Supervised Input Module - 140DSI35300=D-NA-0006595.1@quantum.hlp>main
+5 140DSI35300 I/O DC 24V Supervised Input Module=D-NA-0002418.1@quantum.hlp>main
+4 Discrete Input/Output Modules
+4 Discrete Input/Output Modules=D-NA-0006366.1@quantum.hlp>main
+5 I/O Configuration for Discrete Input/Output Modules=D-NA-0001550.1@quantum.hlp>main
+5 140DAM59000 Quantum I/O AC Input 115 Vac 2x8 / AC Output 115 Vac 2x4)=D-NA-0001477.1@quantum.hlp>main
+5 140DDM39000 I/O DC Input 24 Vdc 2x8 Sink/DC Output 24 Vdc 2x4 Source Module=D-NA-0001488.1@quantum.hlp>main
+5 140DDM69000 I/O 125 VDC Input/High Power Output Module=D-NA-0001489.1@quantum.hlp>main
+2 Appendix
+2 Appendix=D-NA-0001520.1@quantum.hlp>main
+3 Miscellaneous Components=D-NA-0001521.1@quantum.hlp>main
+3 Spare Parts=D-NA-0001523.1@quantum.hlp>main
+3 Hardware Installation
+3 Hardware Installation=D-NA-0001525.1@quantum.hlp>main
+4 Hardware Installation - Selecting Backplanes=D-NA-0001526.1@quantum.hlp>main
+4 Hardware Installation - Mounting Brackets=D-NA-0001527.1@quantum.hlp>main
+4 Hardware Installation - Space Requirements for the Quantum System=D-NA-0001528.1@quantum.hlp>main
+4 Hardware Installation - Mounting Quantum Modules=D-NA-0001529.1@quantum.hlp>main
+3 Power and Grounding Guidelines
+3 Power and Grounding Guidelines=D-NA-0001530.1@quantum.hlp>main
+4 Power and Grounding Considerations for AC and DC Powered Systems=D-NA-0001531.1@quantum.hlp>main
+4 System Design Considerations for Quantum Power Supplies=D-NA-0001532.1@quantum.hlp>main
+4 Grounding=D-NA-0001533.1@quantum.hlp>main
+4 Closed System Installation=D-NA-0001534.1@quantum.hlp>main
+3 CableFast Cabling
+3 CableFast Cabling=D-NA-0001566.1@quantum.hlp>main
+4 Features of the CableFast Cabling System=D-NA-0001567.1@quantum.hlp>main
+4 140 CFA 040 00 Quantum CableFast Cabling Block=D-NA-0001568.1@quantum.hlp>main
+4 140 CFB 032 00 Quantum CableFast Cabling Block=D-NA-0001569.1@quantum.hlp>main
+4 140 CFC 032 00 Quantum CableFast Cabling Block=D-NA-0001570.1@quantum.hlp>main
+4 140 CFD 032 00 Quantum CableFast Cabling Block=D-NA-0001571.1@quantum.hlp>main
+4 140 CFE 032 00 Quantum CableFast Cabling Block=D-NA-0001572.1@quantum.hlp>main
+4 140 CFG 016 00 Quantum CableFast Cabling Block=D-NA-0001573.1@quantum.hlp>main
+4 140 CFH 008 00 Quantum CableFast Cabling Block=D-NA-0001574.1@quantum.hlp>main
+4 140CFI00800 Quantum CableFast Cabling Block=D-NA-0001575.1@quantum.hlp>main
+4 140CFJ00400 Quantum CableFast Cabling Block=D-NA-0001576.1@quantum.hlp>main
+4 140CFK00400 Quantum CableFast Cabling Block=D-NA-0001577.1@quantum.hlp>main
+4 CableFast Cables=D-NA-0001578.1@quantum.hlp>main
+4 CableFast Accessories=D-NA-0001579.1@quantum.hlp>main
+2 Error Stopped Codes=D-NA-0001580.1@quantum.hlp>main
+2 Agency Approvals=D-NA-0001582.1@quantum.hlp>main

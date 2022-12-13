@@ -1,0 +1,21 @@
+1,expvar,INT,400013,1024,Exportable INT variable with initial value 1024
+0,varanl_in,ANL_IN,,,ANL_IN variable
+0,varanl_out,ANL_OUT,,,ANL_OUT variable
+0,varbool,BOOL,000001,,BOOL variable
+0,varbyte,BYTE,400001,16#EA,BYTE variable with initial value 234
+0,vardint,DINT,400002,1111111,DINT variable with initial value 1111111
+0,varint,INT,400004,-32768,INT variable with initial value -32768
+0,varreal,REAL,400005,3.14159,REAL variable with initial value 1  3.1415926
+0,vartime,TIME,400007,t#1m_5s,TIME variable with initial value t#1m5s
+0,varudint,UDINT,400009,12,UDINT variable with initial value 12
+0,varuint,UINT,,187,Unlocated UINT variable with initial value 187
+0,varword,WORD,,16#007A,Unlocated WORD variable with initial value 122
+2,conbool,BOOL,,FALSE,BOOL constant with value 0
+2,conbyte,BYTE,,16#10,BYTE constant with value  16
+2,condint,DINT,,12345678,DINT constant with value 12345678
+2,conint,INT,,14,INT constant with value 14
+2,conreal,REAL,,1.2,REAL constant with value 1.2
+2,contime,TIME,,t#1h,TIME constant with value t#1h
+2,conudint,UDINT,,987654321,UDINT constant with value 987654321
+2,conuint,UINT,,76,UINT constant with value 76
+2,conword,WORD,,16#0000,WORD constant with value 0

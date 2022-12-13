@@ -1,0 +1,4 @@
+       --------------------------------------------------------
+         1: begtyp; UNTITLED,USERVARSIZE=0,PROG,AREA=001000H,PREF=0001H
+         2: typVers,NULL; 00004268H,036BH
+         3: endTyp,NULL; 1,imc

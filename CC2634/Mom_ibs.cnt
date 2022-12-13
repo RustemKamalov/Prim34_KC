@@ -1,0 +1,72 @@
+:Base Mom_ibs.hlp
+:Title Momentum Bus Adapter for INTERBUS User's Manual
+1 Momentum Bus Adapter for INTERBUS
+1 Momentum Bus Adapter for INTERBUS=IDH_CONTENTS@Mom_ibs.hlp>main
+2 Safety Information=t828@Mom_ibs.hlp>main
+2 INTERBUS and INTERBUS Configuration with Momentum
+2 INTERBUS and INTERBUS Configuration with Momentum=D-SG-0013211.1@Mom_ibs.hlp>main
+3 INTERBUS and INTERBUS Configuration with Momentum
+3 INTERBUS and INTERBUS Configuration with Momentum=D-SG-0013212.1@Mom_ibs.hlp>main
+4 General Information about INTERBUS=D-SG-0013213.1@Mom_ibs.hlp>main
+4 INTERBUS Configuration with TSX Momentum=D-SG-0013214.1@Mom_ibs.hlp>main
+4 Examples of Configuration for INTERBUS=D-SG-0013215.1@Mom_ibs.hlp>main
+4 Configuration Limits=D-SG-0013216.1@Mom_ibs.hlp>main
+3 Use of I/O Units, the INTERBUS-Adapters and the INTERBUS Branch Interface Modules
+3 Use of I/O Units, the INTERBUS-Adapters and the INTERBUS Branch Interface Modules=D-SG-0013217.1@Mom_ibs.hlp>main
+4 General Relationship Between I/O Unit and Adapter=D-SG-0013218.1@Mom_ibs.hlp>main
+4 Use of INTERBUS Branch Interface Modules=D-SG-0013219.1@Mom_ibs.hlp>main
+4 Mechanical Construction of the I/O Unit and Adapter=D-SG-0013220.1@Mom_ibs.hlp>main
+4 Mechanical Construction of Branch Interface Modules=D-SG-0013221.1@Mom_ibs.hlp>main
+4 Potential Isolation of the I/O Modules (with Bus Adapter 170 INT 110 03)=D-SG-0013222.1@Mom_ibs.hlp>main
+3 Assembly of Components and Connection of Cables
+3 Assembly of Components and Connection of Cables=D-SG-0013223.1@Mom_ibs.hlp>main
+4 Mounting of the Bus Adapter=D-SG-0013224.1@Mom_ibs.hlp>main
+4 Mounting the I/O Module=D-SG-0013225.1@Mom_ibs.hlp>main
+4 Mounting the Branch Interface Module=D-SG-0013226.1@Mom_ibs.hlp>main
+4 General Information about Connecting the Remote Bus Cable=D-SG-0013227.1@Mom_ibs.hlp>main
+4 Connection of Remote Bus Cable, Copper Cable=D-SG-0013228.1@Mom_ibs.hlp>main
+4 Preparation of the Remote Bus Cable, using Copper Wiring=D-SG-0013229.1@Mom_ibs.hlp>main
+4 Connection of Remote Bus Cable, Construction in Fiber Optic Cable=D-SG-0013230.1@Mom_ibs.hlp>main
+3 Electromagnetic Compatibility Measures for Bus Adapter 170 INT 110 03
+3 Electromagnetic Compatibility Measures for Bus Adapter 170 INT 110 03=D-SG-0013231.1@Mom_ibs.hlp>main
+4 Central Shielding Measures for the INTERBUS=D-SG-0013232.1@Mom_ibs.hlp>main
+4 Overvoltage Protection for Remote Bus Lines (Lightning protection)=D-SG-0013233.1@Mom_ibs.hlp>main
+3 Ordering Information for INTERBUS Components
+3 Ordering Information for INTERBUS Components=D-SG-0013234.1@Mom_ibs.hlp>main
+4 Overview of Ordering Information=D-SG-0013235.1@Mom_ibs.hlp>main
+4 Ordering Details for INTERBUS Components=D-SG-0013236.1@Mom_ibs.hlp>main
+2 Module Description for INTERBUS Modules
+2 Module Description for INTERBUS Modules=D-SG-0013237.1@Mom_ibs.hlp>main
+3 Module Description for Branch Interface 170 BNO 671 00 / 170 BNO 671 01
+3 Module Description for Branch Interface 170 BNO 671 00 / 170 BNO 671 01=D-SG-0002284.4@Mom_ibs.hlp>main
+4 Short Description=D-SG-0004131.3@Mom_ibs.hlp>main
+4 Electrical Functions of Branch Interface Module 170 BNO 671 00 / 01=D-SG-0002272.1@Mom_ibs.hlp>main
+4 Display Elements=D-SG-0002225.1@Mom_ibs.hlp>main
+4 Mounting the Terminal Blocks=D-SG-0013242.1@Mom_ibs.hlp>main
+4 Wiring of the 170 BNO 671 00/01 Branch Interface Module=D-SG-0002226.1@Mom_ibs.hlp>main
+4 Technical Data=D-SG-0002227.1@Mom_ibs.hlp>main
+3 Module Description for Branch Interface Module 170 BNO 681 00
+3 Module Description for Branch Interface Module 170 BNO 681 00=D-SG-0004011.1@Mom_ibs.hlp>main
+4 Short Description=D-SG-0004023.3@Mom_ibs.hlp>main
+4 Electrical Functions of the Branch Interface Module 170 BNO 681 00=D-SG-0004025.3@Mom_ibs.hlp>main
+4 Description of Display and Operational Elements=D-SG-0004051.1@Mom_ibs.hlp>main
+4 Mounting the Terminal Blocks=D-SG-0013249.1@Mom_ibs.hlp>main
+4 Wiring of the Branch Interface Module 170 BNO 681 00=D-SG-0004350.1@Mom_ibs.hlp>main
+4 Technical Data=D-SG-0004031.3@Mom_ibs.hlp>main
+3 Module Description for Bus Adapter 170 INT 110 03
+3 Module Description for Bus Adapter 170 INT 110 03=D-SG-0013252.1@Mom_ibs.hlp>main
+4 Brief Description=D-SG-0013253.1@Mom_ibs.hlp>main
+4 LED Display=D-SG-0013254.1@Mom_ibs.hlp>main
+4 Technical Data=D-SG-0013255.1@Mom_ibs.hlp>main
+3 Description of Module for Bus Adapter 170 INT 120 00 (Fiber Optic Cable)
+3 Description of Module for Bus Adapter 170 INT 120 00 (Fiber Optic Cable)=D-SG-0004010.1@Mom_ibs.hlp>main
+4 Brief Description=D-SG-0004015.3@Mom_ibs.hlp>main
+4 Description of Display and Operational Elements=D-SG-0004017.3@Mom_ibs.hlp>main
+4 Technical Data=D-SG-0004021.3@Mom_ibs.hlp>main
+2 Software Connection of INTERBUS Modules
+2 Software Connection of INTERBUS Modules=D-SG-0013260.1@Mom_ibs.hlp>main
+3 Data Management and I/O Words
+3 Data Management and I/O Words=D-SG-0013261.1@Mom_ibs.hlp>main
+4 I/O Words and ID Code=D-SG-0013262.1@Mom_ibs.hlp>main
+4 Data Management for I/O Units=D-SG-0013263.1@Mom_ibs.hlp>main
+4 Diagnostics=D-SG-0013264.1@Mom_ibs.hlp>main

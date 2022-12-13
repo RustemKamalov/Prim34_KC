@@ -1,0 +1,74 @@
+:Base AEC920.hlp
+:Title AEC 920 (c) Schneider Automation
+1 What's in this help project?
+1 What's in this help project?=IDH_CONTENTS@AEC920.hlp>main
+2 Function overview
+2 Function overview=D-SG-0003408.1@AEC920.hlp>main
+3 Introduction
+3 Introduction=D-SG-0001437.1@AEC920.hlp>main
+4 Introduction=D-SG-0001438.1@AEC920.hlp>main
+4 Function mode and Application Range=D-SG-0001447.1@AEC920.hlp>main
+3 Description of the operating modes
+3 Description of the operating modes=D-SG-0001475.1@AEC920.hlp>main
+4 Overview of the operating modes=D-SG-0001487.1@AEC920.hlp>main
+4 Common counter properties=D-SG-0001488.1@AEC920.hlp>main
+4 Count Channel for Count Functions with Pulse and Incremental Encoder=D-SG-0001489.1@AEC920.hlp>main
+4 Operating modes for Pulse and Incremental Encoders=D-SG-0001493.1@AEC920.hlp>main
+4 Operating Modes for Absolute Encoder=D-SG-0001517.1@AEC920.hlp>main
+4 Count channel for counting functions with absolute encoders=D-SG-0001518.1@AEC920.hlp>main
+3 TSX Momentum adapter
+3 TSX Momentum adapter=D-SG-0003554.1@AEC920.hlp>main
+4 TSX Momentum Bus Adapter=D-SG-0001440.1@AEC920.hlp>main
+4 CPU adapters and interface adapters of the TSX Momentum=D-SG-0001445.1@AEC920.hlp>main
+2 Module description
+2 Module description=D-SG-0003410.1@AEC920.hlp>main
+3 Structure of the AEC 920
+3 Structure of the AEC 920=D-SG-0001521.1@AEC920.hlp>main
+4 Internal Connections and Meaning of Signals=D-SG-0001527.1@AEC920.hlp>main
+4 Wiring and Examples=D-SG-0001528.1@AEC920.hlp>main
+4 LED Status Indicators=D-SG-0001529.1@AEC920.hlp>main
+4 Technical Data=D-SG-0001530.1@AEC920.hlp>main
+4 Selecting a Momentum adapter=D-SG-0001524.1@AEC920.hlp>main
+4 Selection of Terminal Blocks=D-SG-0001525.1@AEC920.hlp>main
+2 Configuration
+2 Configuration=D-SG-0003411.1@AEC920.hlp>main
+3 Configuration of Output Words
+3 Configuration of Output Words=D-SG-0001522.1@AEC920.hlp>main
+4 Configuration=D-SG-0001526.8@AEC920.hlp>main
+4 Summary of the output words=D-SG-0003555.1@AEC920.hlp>main
+4 Configuring output words 1 and 2=D-SG-0001531.1@AEC920.hlp>main
+4 Configuring output words 3 and 4=D-SG-0001532.1@AEC920.hlp>main
+4 Data in output word 5/6 and 7/8=D-SG-0001533.1@AEC920.hlp>main
+4 File format of set data=D-SG-0001534.1@AEC920.hlp>main
+3 Status Messages and Count Values
+3 Status Messages and Count Values=D-SG-0001523.1@AEC920.hlp>main
+4 Status and error bits (words 1 and 2)=D-SG-0001673.1@AEC920.hlp>main
+4 Status returned (Words 3 and 4)=D-SG-0001674.1@AEC920.hlp>main
+4 Actual values for counters 1 and 2=D-SG-0001675.1@AEC920.hlp>main
+3 Parameter Setting of the AEC Block
+3 Parameter Setting of the AEC Block=D-SG-0001693.1@AEC920.hlp>main
+4 Brief description=D-SG-0001699.1@AEC920.hlp>main
+4 Representation=D-SG-0001697.1@AEC920.hlp>main
+4 Parameter description=D-SG-0001700.1@AEC920.hlp>main
+3 Application examples
+3 Application examples=D-SG-0001714.1@AEC920.hlp>main
+4 Up counter (Mode 2)
+4 Up counter (Mode 2)=D-SG-0001786.1@AEC920.hlp>main
+5 Example 1:=D-SG-0001803.1@AEC920.hlp>main
+5 Solution:=D-SG-0001805.1@AEC920.hlp>main
+4 Up counter with preset value
+4 Up counter with preset value=D-SG-0001835.1@AEC920.hlp>main
+5 Task specification=D-SG-0001852.1@AEC920.hlp>main
+5 Solution:=D-SG-0001853.1@AEC920.hlp>main
+4 Up counter with internal clock pulse
+4 Up counter with internal clock pulse=D-SG-0001839.1@AEC920.hlp>main
+5 Task specification=D-SG-0001854.1@AEC920.hlp>main
+5 Solution:=D-SG-0001855.1@AEC920.hlp>main
+4 Pulse counter with external time base
+4 Pulse counter with external time base=D-SG-0001842.1@AEC920.hlp>main
+5 Example 4:=D-SG-0001856.1@AEC920.hlp>main
+5 Solution:=D-SG-0001857.1@AEC920.hlp>main
+4 Period meter with internal time base
+4 Period meter with internal time base=D-SG-0001844.1@AEC920.hlp>main
+5 Task specification=D-SG-0001858.1@AEC920.hlp>main
+5 Solution:=D-SG-0001859.1@AEC920.hlp>main

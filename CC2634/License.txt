@@ -1,0 +1,92 @@
+SINGLE USER LICENSE AGREEMENT (EULA)
+
+IMPORTANT - READ BEFORE USING
+
+
+1- Subject matter of the Agreement :
+
+The present Agreement is concluded between yourself, the recipient company of the software package you received  (the "Licensee"), and the Schneider Electric Group company listed on the web site http://www.schneider-electric.com/ for the country where your company has issued its order for this software package (the "Licensor"). The present Agreement has for subject matter to define the terms and conditions of use of the computer software, information and printed documentation found with the software package, to the exclusion of all other terms bearing on a similar subject matter which may appear on Licensee's order.
+
+2 - License : 
+
+Subject to the terms of this Agreement, Licensor grants Licensee a non-exclusive, non-transferable, limited license to directly use the object code of the computer software named Concept , and any updates, for the system configuration defined in the same exhibit (the "Software"), along with the accompanying instructions, specifications and documentation found with the software package (the "Documentation"), only for the specific purposes stated herein and/or in the Documentation and for the system configuration defined therein (the "License"). 
+
+Subject to the terms hereof, Licensee may use the Software exclusively for the specific purposes of programming and operating Schneider Electric products, including but not limited to Compact, Momentum and Quantum Programmable Logic Controller units. Licensee undertakes to comply with the instructions for use of the Software contained herein and in any furnished Documentation. 
+
+The License is limited to use by employees of Licensee during the course of their employment with Licensee in the country where Licensee's order is issued. 
+
+Single User License applies an affixed label on this Agreement or on the software media itself states "Single User License". Conversely, a Multiple User License applies where anything other than the Single User License pertains.
+
+Licensee can only install and use the Single User License product on a single PC at any given time and this License prohibits use on a network or any other multi-station computer system that allows simultaneous use, unless otherwise agreed in writing.  Multiple User Licenses are each restricted to concurrent installation and use on a single site by the number of users corresponding to the purchased and registered product. Site shall be defined as a single building, or bounded buildings having internal access from the same entry point, from which Licensee operates its usual business. To avoid any doubt, Multiple User License prohibits concurrent use or installation from or to several locations. Where Multiple User License is used on a network by users on the same site, it shall be Licensee's responsibility to put in place such means as necessary to guarantee that license restrictions stated herein are followed.    
+
+3 - Acceptance :
+
+Licensee is deemed to have accepted the terms of this Agreement by loading the Software into any computer, by installing the Software on any computer, by registering the License, or by copying or using the Software or Documentation. Should Licensee not consent to the terms of this Agreement within 90 calendar days from receipt of the Software or Documentation, Licensee shall not use the Software or Documentation, shall not be granted any license, and shall return
+the software package with the relevant invoice in exchange for a refund at the address of his Licensor.  However, return and refund shall not be possible after registration of the License.  
+
+4 - Fees / Mandatory Registration :
+
+Notwithstanding any other term hereof, acceptance of Licensee's order by Licensor or one of its official distributors, as the case may be, shall be a condition precedent to the coming into effect of the License. This License is also subject to the condition precedent that Licensee has registered its License to Schneider Electric through one of the following possibilities: phone, mail, fax or a website, where available as indicated by Licensor. 
+
+5 - Installation and Support Services :
+
+Licensee shall be responsible for the proper installation of the Software as per the terms of the Documentation and shall bear all expenses and costs in connection therewith. Licensor provides no maintenance or support services in connection with the Software, other than those which may be defined by way of separate agreement. 
+
+6 - Title :
+
+The Software and Documentation, as well as all rights, title, technology, know-how, and interest, whether patented or not, embodied in the Software or Documentation, as well as all rights of industrial and/or intellectual property attached to the Software or Documentation shall remain the sole property of Licensor. Nothing in the present Agreement shall be deemed to convey any of Licensor's ownership rights or copyright in the Software and the Documentation to Licensee. Licensor does not sell the Software and Documentation to Licensee but only grants the License to use the Software according to the terms and conditions of this License.
+Should Licensee become aware of any infringement to such proprietary rights of the Licensor, it shall immediately inform Licensor of such infringement and provide all reasonable information required to defend Licensor's interests.
+
+Except as otherwise expressly required by statute, Licensee is not granted any right to modify, adapt, maintain or service the Software or the Documentation, nor to create derived rights and Licensee undertakes not to copy, reproduce, decompile, reverse engineer, disassemble or otherwise seek to reconstitute the source-code of the Software. Should Licensee not fully comply with the above provisions, Licensee shall bear all and any consequences, including any damages whatsoever, resulting therefrom. The Software and Documentation are protected by applicable copyright legislation and international treaties. Any use or reproduction no expressly authorised in the License is prohibited. All rights are reserved.
+
+Without prejudice to Licensor's rights under its copyright on the Software and Documentation, Licensee is permitted to copy the Software beyond the installation of the Software to a network storage medium owned by Licensee within its facilities. Licensee undertakes to take such measures as are necessary in order to preserve Licensor's rights herein for each copy made.  
+
+Any third party's technology which may be embodied in the Software is also subject to the terms of this Agreement. 
+
+7 - Assignment and Transfer :
+
+Licensee's rights or obligations under this Agreement may not be sold, sub-licensed, rented, assigned, delegated, transferred or otherwise conveyed without Licensor's prior written consent. The License is granted on an intuitu personae basis. Licensor may however assign the License to any company within the Schneider Electric Group of companies or to any company it may acquire control of or merge with.
+
+8 - Duration and Early Termination :
+
+This Agreement and the License granted to Licensee shall come into affect as of the date of acceptance of the terms hereof and are entered into for as long as the Schneider Electric products Compact, Momentum and Quantum are not obsolete and the  Software is not replaced by new software adapted to the new range of products.
+
+Notwithstanding the above, this Agreement and License may be unilaterally terminated as of right with immediate effect in case of a serious default by either Party to any of its obligations herein left unremedied thirty (30) days after written notice of such default by registered mail to the defaulting party.
+
+Upon termination, Licensee undertakes to discontinue use of the Software and Documentation to destroy the Software, the Documentation and related copies and data, including without limitation those stored on Licensee's computer hard disks. Licensee's obligations with respect to any part of the Software, the Documentation, or related copies and data which are not fully erased or destroyed after termination by either party shall survive termination until they are fully erased or destroyed.
+
+9 - Warranty and Limitation of Liability :
+
+Licensor warrants the floppy disks or CD-ROM supporting the Software, as applicable, against any physical defect preventing its usage for a period of 90 days as from delivery. Should any such defect be detected, Licensor's obligation shall be exclusively limited to the free replacement of the Software upon its return at Licensor's address in lieu of all other remedies. Licensor warrants that it owns or is licensed to distribute the Software.
+Licensor makes no other warranty than those contained in this clause 9, either express or implied, as to the Software, the updates and enhancements and the Documentation, including without limitation warranties of fitness for any particular purpose, merchantability, title or sample. Further, while Licensor has taken reasonable steps to ensure the accuracy of the information contained in or shown by the Software or Documentation, Licensor makes no warranty or representation of any kind, whether express or implied, as to whether the Software or any information contained in or shown by the Software and the Documentation will meet Licensee's requirements, expectations or purposes.
+
+In no event shall Licensor nor its affiliates be liable for any indirect, immaterial, incidental or consequential damages, loss, expense or cause of action, whether based in contract, warranty, tort (including negligence), strict liability, statute or otherwise, including, without limitation, damages for loss of business, loss of profits, business interruption, loss of data, or for any other pecuniary or non pecuniary loss or damage arising out of or in connection with the inability to use or the misuse of the Software or Documentation, even if the Licensor has been advised of the possibility of such damages. In all cases, Licensor excludes all liability, whether in contract, warranty, tort including negligence), strict liability, statute or otherwise, for defects, bugs, errors and viruses which may result from the inability to use or misuse of the Software or Documentation.
+
+Licensor's total aggregate liability under this Agreement shall in no case exceed the amount of fees paid by Licensee for the software package. 
+
+10 - Entire Agreement :
+
+The present Agreement constitutes the entire Agreement between Licensee and Licensor with respect to the object hereof and replaces any previous agreement or understanding, whether oral or written, with a similar object.
+
+The Documentation forms an integral part of the present Agreement. In case of a discrepancy between the terms of this Agreement and the Documentation, the terms of this Agreement shall prevail. Should they differ, the terms of the printed version of this Agreement which may be supplied with the software package shall prevail over those which may be read on a computer screen.
+
+Any modification, waiver or renunciation to any term of the present Agreement, whether express or implied, shall only be valid if made in writing and signed by each Party's duly authorised officer. 
+
+11 - Severability :
+
+Should any of the provisions of this Agreement be held invalid, illegal or unenforceable by a competent jurisdiction, the Parties shall take all reasonable steps in order to modify such provisions to render it valid, legal or enforceable, bearing in mind their original intentions, and all other provisions shall remain valid and unaffected by such declared invalidity, illegality or non-enforceability. 
+
+12 - Trade Marks :
+
+Licensee recognises that one or more of the following trademarks cover the Software Product and the factory automation devices that connect to the Software Product: Schneider Electric, Schneider Automation, Merlin Gerin, Modicon, Square D, and Telemecanique trademarks, which are the property of Licensor or of Licensor's shareholders. Licensee shall not engage directly or indirectly in any activity likely to constitute an infringement, appropriation or imitation of any of such trademark(s) or which would otherwise diminish the value of Licensor's or Licensor's shareholders therein.
+
+13 - Applicable Law and Disputes :
+
+This Agreement shall be exclusively governed and performed in accordance with the laws of the state where Licensor has its headquarters, to the exclusion of the conflict of laws rules of such state.
+
+Any dispute between the Parties arising out of or in connection with the present Agreement and/or the Software, whether based in contract, warranty, tort (including negligence), strict liability, statute or otherwise, which cannot be amicably settled, shall in all cases be finally settled according to the applicable law defined above by the courts having jurisdiction in the city where Licensor has its headquarters, to the exclusion of all other jurisdiction 
+
+whatsoever, including in case of plurality of defendants, injunction-like 
+proceedings and appeal in warranty.
+
+Copyright Schneider Electric, June 24th 2004

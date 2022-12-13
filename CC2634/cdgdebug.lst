@@ -1,0 +1,4 @@
+Predict BE Error-Code [0] at Statement [3]
+dwCodeSize[192], dwDataSize[4168], dwBETmpSize[1686], dwFETmpSize[0]
+dwCodeCnt[2] : dwCodeFreeCnt[2], dwDataCnt[2] : dwDataFreeCnt[2], dwBETmpCnt[5] : dwBETmpFreeCnt[5], dwFETmpCnt[0] : dwFETmpFreeCnt[0]
+dwBETmpSize[1686] :: dwBETmpPeak[1672], dwBETmpCurr[0]

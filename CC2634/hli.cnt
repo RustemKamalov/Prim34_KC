@@ -1,0 +1,53 @@
+:Base hli.hlp
+:Title Quantum Automation Series 140 HLI 340 00 High Speed Interrupt I/O Module User Guide
+:Index  =llinstwx.hlp
+1 Quantum Automation Series 140 HLI 340 00 High Speed Interrupt I/O Module User Guide
+1 Quantum Automation Series 140 HLI 340 00 High Speed Interrupt I/O Module User Guide=IDH_CONTENTS@hli.hlp>main
+2 Safety Information=t6584@hli.hlp>main
+2 Introduction
+2 Introduction=D-NA-0002438.1@hli.hlp>main
+3 Quantum System and Panel Software Support=D-NA-0002169.1@hli.hlp>main
+3 Related Communication Sources=D-NA-0002172.1@hli.hlp>main
+3 Overview=D-NA-0002173.1@hli.hlp>main
+3 Theory of Operation=D-NA-0002174.1@hli.hlp>main
+2 Module Performance, Ladder Logic Instructions, Application Instructions -- 140HLI34000
+2 Module Performance, Ladder Logic Instructions, Application Instructions -- 140HLI34000=D-NA-0006296.1@hli.hlp>main
+3 Module Performance -- 140HLI34000 High Speed Interrupt I/O Module=D-NA-0006288.1@hli.hlp>main
+3 Interrupt Timing -- 140HLI34000 High Speed Interrupt I/O Module=D-NA-0006290.1@hli.hlp>main
+3 Interrupt Timing Restrictions -- 140HLI34000 High Speed Interrupt I/O Module=D-NA-0006291.1@hli.hlp>main
+3 Instructions that Cannot Be Used in an Interrupt Handler=D-NA-0006292.1@hli.hlp>main
+3 Short Description: IMOD - Interrupt Module=D-NA-0004640.1@hli.hlp>main
+3 Representation: IMOD - Interrupt Module=D-NA-0004641.1@hli.hlp>main
+3 Parameter Description: IMOD - Interrupt Module=D-NA-0004642.1@hli.hlp>main
+3 Short Description: ITMR - Interval Timer Interrupt=D-NA-0004644.1@hli.hlp>main
+3 Representation: ITMR - Interval Timer Interrupt=D-NA-0004645.1@hli.hlp>main
+3 Parameter Description: ITMR - Interval Timer Interrupt=D-NA-0004646.1@hli.hlp>main
+3 Short Description: ID - Interrupt Disable=D-NA-0004627.1@hli.hlp>main
+3 Representation: ID - Interrupt Disable=D-NA-0004628.1@hli.hlp>main
+3 Parameter Description: ID - Interrupt Disable=D-NA-0004629.1@hli.hlp>main
+3 Short Description: IE - Interrupt Enable=D-NA-0004631.1@hli.hlp>main
+3 Representation: IE - Interrupt Enable=D-NA-0004632.1@hli.hlp>main
+3 Parameter Description: IE - Interrupt Enable=D-NA-0004633.1@hli.hlp>main
+3 Short Description: BMDI - Block Move Interrupts Disabled=D-NA-0004373.1@hli.hlp>main
+3 Representation: BMDI - Block Move Interrupts Disabled=D-NA-0004374.1@hli.hlp>main
+3 Short Description: IMIO - Immediate I/O=D-NA-0004635.1@hli.hlp>main
+3 Representation: IMIO - Immediate I/O=D-NA-0004636.1@hli.hlp>main
+3 Parameter Description: IMIO - Immediate I/O=D-NA-0004637.1@hli.hlp>main
+3 Run Time Error Handling: IMIO - Immediate I/O=D-NA-0004638.1@hli.hlp>main
+3 Using the 140HLI34000 High Speed Interrupt I/O=D-NA-0006413.1@hli.hlp>main
+3 Application Example -- Modsoft=D-NA-0006421.1@hli.hlp>main
+3 Application Example -- ProWORX=D-NA-0006422.1@hli.hlp>main
+3 Application Example -- Concept=D-NA-0006423.1@hli.hlp>main
+2 Module Configuration and Module Block Zoom Screens
+2 Module Configuration and Module Block Zoom Screens=D-NA-0006416.1@hli.hlp>main
+3 Module Configuration -- Modsoft=D-NA-0006417.1@hli.hlp>main
+3 Module Configuration -- ProWORX=D-NA-0006419.1@hli.hlp>main
+3 Module Configuration -- Concept=D-NA-0006420.1@hli.hlp>main
+2 Appendix
+2 Appendix=D-NA-0006414.1@hli.hlp>main
+3 Instruction Execution Times=D-NA-0006415.1@hli.hlp>main
+3 Hardware Overview and System Specifications
+3 Hardware Overview and System Specifications=D-NA-0002439.1@hli.hlp>main
+4 140 HLI 340 00 High Speed Latch and Interrupt Module Hardware Specifications=D-NA-0002202.1@hli.hlp>main
+4 Module Specifications and Wiring Diagram=D-NA-0002211.1@hli.hlp>main
+4 Quantum Automation Series System Specifications=D-NA-0002214.1@hli.hlp>main

@@ -1,0 +1,568 @@
+TYPE
+AUX_1_INP_VARS:
+   STRUCT
+        Contactor_ON:   BOOL;
+        Press_Relay:    BOOL;
+        Press_Transd:   BOOL;
+        Pres_Ctr_Req:   BOOL;
+        Common_Pres_Sg: BOOL;
+        Low_Pres_Cont:  BOOL;
+        Voltage_OK:     BOOL;
+        Aut_Start:      BOOL;
+        Res_Start:      BOOL;
+        HSBY_Start:     BOOL;
+        Aut_Stop:       BOOL;
+        Start_Disable:  BOOL;
+        AlarmSg:        BOOL;
+        Stop_Disable:   BOOL;
+        Reset_System:   BOOL;
+        Cm_Pres_Oth_On: BOOL;
+        LocRemContrSw:  BOOL;
+        UnitFailureLc:  BOOL;
+        StartCmPanel1:  BOOL;
+        StopCmPanel1:   BOOL;
+        StartCmPanel2:  BOOL;
+        StopCmPanel2:   BOOL;
+   END_STRUCT;
+AUX_1_OUT_VARS:
+   STRUCT
+        SwitchON:       BOOL;
+        SwitchOFF:      BOOL;
+        Start_HSBY:     BOOL;
+   END_STRUCT;
+AUX_1_DUTY_SEL:
+   STRUCT
+        Autom:          BOOL;
+        Reser:          BOOL;
+        Button:         BOOL;
+        Manual:         BOOL;
+        Remont:         BOOL;
+        Duty_Sel_05:    BOOL;
+        Duty_Sel_06:    BOOL;
+        Duty_Sel_07:    BOOL;
+        Duty_Sel_08:    BOOL;
+        Duty_Sel_09:    BOOL;
+        Duty_Sel_10:    BOOL;
+        Duty_Sel_11:    BOOL;
+        Main_Order_4:   BOOL;
+        Main_Order_3:   BOOL;
+        Main_Order_2:   BOOL;
+        Main_Order_1:   BOOL;
+    END_STRUCT;
+AUX_1_STAT_WRD:
+   STRUCT
+        Failure:        BOOL;
+        SyAutSt:        BOOL;
+        BlwThrSucc:     BOOL;
+        MagSwON:        BOOL;
+        BlowThroughPrc: BOOL;
+        LocDtSl:        BOOL;
+        Voltage:        BOOL;
+        Stat_B07:       BOOL;
+        Stat_B08:       BOOL;
+        Stat_B09:       BOOL;
+        RdyToSt:        BOOL;
+        NotStpd:        BOOL;
+        StpProc:        BOOL;
+        StrProc:        BOOL;
+        Stopped:        BOOL;
+        Working:        BOOL;
+    END_STRUCT;
+AUX_1_EVNT_REGS:
+    STRUCT
+      event1:        WORD;
+      event2:        WORD;
+      event3:        WORD;
+      event4:        WORD;
+   END_STRUCT;
+AUX_1_EVNT_MESS:
+   STRUCT
+        AUTOMAT_Set_MDP:      BOOL;
+        RESERVE_Set_MDP:      BOOL;
+        BUTTON_Set_MDP:       BOOL;
+        MANUAL_Set_MDP:       BOOL;
+        REMONT_Set_MDP:       BOOL;
+        AUTOMAT_Set_OPR:      BOOL;
+        RESERVE_Set_OPR:      BOOL;
+        BUTTON_Set_OPR:       BOOL;
+        MANUAL_Set_OPR:       BOOL;
+        REMONT_Set_OPR:       BOOL;
+        Aut_Start_Di_WrDt:    BOOL;
+        MDP_Start_Di_WrDt:    BOOL;
+        OPR_Start_Di_WrDt:    BOOL;
+        AUT_Start_Di_Alrm:    BOOL;
+        MDP_Start_Di_Alrm:    BOOL;
+        OPR_Start_Di_Alrm:    BOOL;
+        MDP_Start_Di_Tech:    BOOL;
+        OPR_Start_Di_Tech:    BOOL;
+        AUT_Start_Di_Fail:    BOOL;
+        MDP_Start_Di_Fail:    BOOL;
+        OPR_Start_Di_Fail:    BOOL;
+        Aut_Start_Cmd:        BOOL;
+        MDP_Start_Cmd:        BOOL;
+        OPR_Start_Cmd:        BOOL;
+        Switched_On:          BOOL;
+        NtSwd_On_NVolt:       BOOL;
+        NtSwd_On_MgSwFai:     BOOL;
+        NtSwd_On_NoPress:     BOOL;
+        Swd_On_Unknwn_R:      BOOL;
+        FaiUn_Swd_On_Unkn:    BOOL;
+        OFF:                  BOOL;
+        OFF_NoVolt:           BOOL;
+        Fail_No_Press:        BOOL;
+        OFF_Unknwn_R:         BOOL;
+        Aut_Stop_Di_WrDt:     BOOL;
+        MDP_Stop_Di_WrDt:     BOOL;
+        OPR_Stop_Di_WrDt:     BOOL;
+        Aut_Stop_Cmd:         BOOL;
+        MDP_Stop_Cmd:         BOOL;
+        OPR_Stop_CMd:         BOOL;
+        Swd_OFF:              BOOL;
+        Swd_OFF_Pres_Rem:     BOOL;
+        NoSwd_OFF:            BOOL;
+        Aut_Stop_Di_Tech:     BOOL;
+        MDP_Stop_Di_Tech:     BOOL;
+        OPR_Stop_Di_Tech:     BOOL;
+        Pres_Transd_OK:       BOOL;
+        Pres_Relay_OK:        BOOL;
+        BRU_Start_Cmd:        BOOL;
+        BRU_Stop_Cmd:         BOOL;
+        Loc_Start_Cmd:        BOOL;
+        Loc_Stop_Cmd:         BOOL;
+        Prot_Aut_Stop:        BOOL;
+        Loc_Swd_On_Pres_OK:   BOOL;
+        FaiUn_Swd_On_Loc:     BOOL;
+        Loc_Swd_Off:          BOOL;
+        APV:                  BOOL;
+        Loc_Swd_On_NoPres:    BOOL;
+        Res_Aut_Start:        BOOL;
+        ResFai_NoAutStr:      BOOL;
+        StartedLocally:       BOOL;
+        APV_tooLong:          BOOL;
+        B062:                 BOOL;
+        B063:                 BOOL;
+    END_STRUCT;
+AUX_2_EVNT_MESS:
+   STRUCT
+        AUT_Start_Di_F_SwFa:  BOOL;
+        MDP_Start_Di_F_SwFa:  BOOL;
+        OPR_Start_Di_F_SwFa:  BOOL;
+        AUT_Start_Di_F_SwNS:  BOOL;
+        MDP_Start_Di_F_SwNS:  BOOL;
+        OPR_Start_Di_F_SwNS:  BOOL;
+        AUT_Start_Di_F_OnCFai:BOOL;
+        MDP_Start_Di_F_OnCFai:BOOL;
+        OPR_Start_Di_F_OnCFai:BOOL;
+        B009:                 BOOL;
+        B010:                 BOOL;
+        B011:                 BOOL;
+        B012:                 BOOL;
+        B013:                 BOOL;
+        B014:                 BOOL;
+        B015:                 BOOL;
+    END_STRUCT;
+AUX_1_ARCH_TABL:
+   STRUCT
+        SysDSOnMth:             WORD;
+        SysDSOnDay:             WORD;
+        SysDSOnYea:             WORD;
+        SysTSOnHou:             WORD;
+        SysTSOnMin:             WORD;
+        SysTSOnSec:             WORD;
+        SysDSOfMth:             WORD;
+        SysDSOfDay:             WORD;
+        SysDSOfYea:             WORD;
+        SysTSOfHou:             WORD;
+        SysTSOfMin:             WORD;
+        SysTSOfSec:             WORD;
+        SysStCoWAc:             UINT;
+        SysStCoWPv:             UINT;
+        SysStHtWAc:             UINT;
+        SysStHtWPv:             UINT;
+        SysWrkHoAc:             UINT;
+        SysWrkHoPv:             UINT;
+        SysFailrAc:             UINT;
+        SysFailrPv:             UINT;
+        SysStCoMth:             UINT;
+        SysStCoMPv:             UINT;
+        SysStHWMth:             UINT;
+        SysStHWMPv:             UINT;
+        SysWrHoMth:             UINT;
+        SysWrHoMPv:             UINT;
+        SysFailMth:             UINT;
+        SysFailMPv:             UINT;
+        SysStCoRem:             UINT;
+        SysStHWRem:             UINT;
+        SysWoHoRem:             UINT;
+        SysFailRem:             UINT;
+        SysDSReMth:             WORD;
+        SysDSReDay:             WORD;
+        SysDSReYea:             WORD;
+        SysTSReHou:             WORD;
+        SysStCoOpr:             UINT;
+        SysStHWOpr:             UINT;
+        SysWoHoOpr:             UINT;
+        SysFailOpr:             UINT;
+        SysDSOpMth:             WORD;
+        SysDSOpDay:             WORD;
+        SysDSOpYea:             WORD;
+        SysTSOpHou:             WORD;
+        SysWorkHou:             UINT;
+    END_STRUCT;
+AUX_1_TIMERS:
+   STRUCT
+        Hxx1:                   TIME;
+        Hxx2:                   TIME;
+        Hxx3:                   TIME;
+        Hxx4:                   TIME;
+    END_STRUCT;
+AN_VAL_TBL:
+         ARRAY [0..127] OF UINT;
+ACI_30:
+   STRUCT
+      MEA1:    UINT;
+      MEA2:    UINT;
+      MEA3:    UINT;
+      MEA4:    UINT;
+      MEA5:    UINT;
+      MEA6:    UINT;
+      MEA7:    UINT;
+      MEA8:    UINT;
+      C_STAT:     WORD;
+   END_STRUCT;
+AN_PARS:
+   STRUCT
+        ContrWrd:                WORD;
+        ManValue:                UINT;
+        ZeroCorr:                UINT;
+        CredbHiLim:              UINT;
+        CredbLoLim:              UINT;
+        FilterConst:             UINT;
+        MaxAlarmLim:             UINT;
+        MaximLim:                UINT;
+        MinimLim:                UINT;
+        MinAlarmLim:             UINT;
+        Hyster:                  UINT;
+        UpTrendLim:              UINT;
+        DwTrendLim:              UINT;
+        MaxDevia:                UINT;
+   END_STRUCT;
+AN_PAR_TBL:
+        ARRAY [0..127] OF AN_PARS;
+AN_VARS:
+   STRUCT
+         ActStat:                WORD;
+         ActValue:               UINT;
+         ActTrend:               UINT;
+         UpTrendMax:             UINT;
+         DwTrendMax:             UINT;
+         FixedVal:               UINT;
+         Maximum:                UINT;
+         Minimum:                UINT;
+   END_STRUCT;
+AN_VAR_TBL:
+	ARRAY [0..127] OF AN_VARS;
+TOD_CLOCK:
+   STRUCT
+         RT_CLK_Ctr_Wrd:         WORD;
+         Day_of_the_Week:        WORD;
+         Month_of_the_Year:      WORD;
+         Day_of_the_Month:       WORD;
+         Year:                   WORD;
+         Hour:                   WORD;
+         Minute:                 WORD;
+         Second:                 WORD;
+   END_STRUCT;
+STPROTTB:
+        ARRAY [0..2] OF WORD;
+STSTDITB:
+        ARRAY [0..0] OF WORD;
+STCTPMTB:
+        ARRAY [0..11] OF WORD;
+STAPROTDITB:
+   STRUCT
+        Protect:             STPROTTB;
+        StrtDis:             STSTDITB;
+   END_STRUCT;
+STAPROTTAB:
+   STRUCT
+        Protect:             STPROTTB;
+        StrtDis:             STSTDITB;
+        CntrPrm:             STCTPMTB;
+   END_STRUCT;
+STA_CNTR_WD:
+   STRUCT
+        B01_StrAuSy:        BOOL;
+        B02_StpAuSy:        BOOL;
+        B03_AlrStop:        BOOL;
+        B04_OBSwBlo:        BOOL;
+        B05_OBSwDbl:        BOOL;
+        B06_SStabOn:        BOOL;
+        B07_SStabOf:        BOOL;
+        B08_SiTstSt:        BOOL;
+        B09_SiTstSp:        BOOL;
+        B10_LpTstSt:        BOOL;
+        B11_LpTstSt:        BOOL;
+        B12:                BOOL;
+        B13_DblPigS:        BOOL;
+        B14_DbDiTMS:        BOOL;
+        B15_DblProt:        BOOL;
+        B16_SounAck:        BOOL;
+    END_STRUCT;
+STA_DUTY_SEL:
+   STRUCT
+        B01:                BOOL;
+        B02:                BOOL;
+        B03:                BOOL;
+        B04:                BOOL;
+        B05:                BOOL;
+        B06:                BOOL;
+        B07:                BOOL;
+        B08:                BOOL;
+        B09:                BOOL;
+        B10:                BOOL;
+        B11:                BOOL;
+        B12:                BOOL;
+        B13_Parallel:       BOOL;
+        B14_Serial:         BOOL;
+        B15_Local:          BOOL;
+        B16_Telem:          BOOL;
+    END_STRUCT;
+STA_STAT_WRD:
+   STRUCT
+        B01_StatStabDuty:   BOOL;
+        B02:                BOOL;
+        B03:                BOOL;
+        B04_PNSAuSyWrk:     BOOL;
+        B05_PNSWorking:     BOOL;
+        B06_PNSTMSTrDi:     BOOL;
+        B07_PNSProtect:     BOOL;
+        B08_PNSStrtDis:     BOOL;
+        B09_Parallel:       BOOL;
+        B10_Serial:         BOOL;
+        B11_OBRSwBl:        BOOL;
+        B12_AuSyWrk:        BOOL;
+        B13_Working:        BOOL;
+        B14_TMStrDi:        BOOL;
+        B15_Protect:        BOOL;
+        B16_StrtDis:        BOOL;
+    END_STRUCT;
+AGPROTTB:
+        ARRAY [0..2] OF WORD;
+AGSTDITB:
+        ARRAY [0..0] OF WORD;
+AGRPROTTAB:
+   STRUCT
+        Protect:             AGPROTTB;
+        StrtDis:             AGSTDITB;
+   END_STRUCT;
+GVARCHTBL:
+    STRUCT
+        GtVl_OpAc:  UINT;
+        GtVl_OpPv:  UINT;
+        GtVl_OMth:  UINT;
+        GtVl_OMPv:  UINT;
+        GtVl_OOpr:  UINT;
+        GtVl_OMnt:  WORD;
+        GtVl_ODay:  WORD;
+        GtVl_OYea:  WORD;
+        GtVl_OHou:  WORD;
+    END_STRUCT;
+ST_TBL_T:
+   ARRAY [0..15] OF WORD;
+AUX_ST_TBL_T:
+   ARRAY [0..3] OF AUX_1_EVNT_REGS;
+PROTTAB:
+   STRUCT
+      Dummy:      WORD;
+      StaProt:    STPROTTB;
+      Ag1Prot:    AGPROTTB;
+      Ag2Prot:    AGPROTTB;
+      Ag3Prot:    AGPROTTB;
+      Ag4Prot:    AGPROTTB;
+   END_STRUCT;
+PROTTABF:
+   STRUCT
+      Dummy:      WORD;
+      StaProt:    STPROTTB;
+      StaProt1:   STPROTTB;
+      Ag2Prot:    AGPROTTB;
+      Ag3Prot:    AGPROTTB;
+      Ag4Prot:    AGPROTTB;
+   END_STRUCT;
+AGSTDIMS:
+   STRUCT
+      StaStDi:     STAPROTDITB;
+      StaStDiTst:  STAPROTDITB;
+      AgrStDi:     AGRPROTTAB;
+      AgrStDiTst:  AGRPROTTAB;
+   END_STRUCT;
+ARCH_EVENTS:
+   ARRAY [0..2] OF WORD;
+GV_ARCH_EVENTS:
+   ARRAY [0..9] OF WORD;
+ARCHEVENTTB:
+   STRUCT
+      RemTim:  ARCH_EVENTS;
+      OprTim:  ARCH_EVENTS;
+      GVlOpr:  GV_ARCH_EVENTS;
+   END_STRUCT;
+ST_TBLS_T:
+   STRUCT
+   StatTbl00:  PROTTABF;
+   StatTbl01:  STAPROTTAB;
+   StatTbl02:  STAPROTTAB;
+   StatTbl03:  STAPROTTAB;
+   StatTbl04:  STAPROTTAB;
+   StatTbl05:  STAPROTTAB;
+   StatTbl06:  STAPROTTAB;
+   StatTbl07:  ST_TBL_T;
+   StatTbl08:  STAPROTTAB;
+   StatTbl09:  ST_TBL_T;
+   StatTbl10:  ST_TBL_T;
+   StatTbl11:  STAPROTTAB;
+   StatTbl12:  ST_TBL_T;
+   StatTbl13:  ST_TBL_T;
+   StatTbl14:  STAPROTTAB;
+   StatTbl15:  ST_TBL_T;
+   StatTbl16:  ST_TBL_T;
+   StatTbl17:  STAPROTTAB;
+   StatTbl18:  ST_TBL_T;
+   StatTbl19:  ST_TBL_T;
+   StatTbl20:  AUX_ST_TBL_T;
+   StatTbl21:  AUX_ST_TBL_T;
+   StatTbl22:  AUX_ST_TBL_T;
+   StatTbl23:  AUX_ST_TBL_T;
+   StatTbl24:  AUX_ST_TBL_T;
+   StatTbl25:  AUX_ST_TBL_T;
+   StatTbl26:  AUX_ST_TBL_T;
+   StatTbl27:  AUX_ST_TBL_T;
+   StatTbl28:  AUX_ST_TBL_T;
+   StatTbl29:  AUX_ST_TBL_T;
+   StatTbl30:  AUX_ST_TBL_T;
+   StatTbl31:  PROTTABF;
+   END_STRUCT;
+ST_TBLS_T1:
+   STRUCT
+   StatTbl00:  PROTTABF;
+   StatTbl01:  STAPROTTAB;
+   StatTbl02:  STAPROTTAB;
+   StatTbl03:  STAPROTTAB;
+   StatTbl04:  STAPROTTAB;
+   StatTbl05:  STAPROTTAB;
+   StatTbl06:  STAPROTTAB;
+   StatTbl07:  ST_TBL_T;
+   StatTbl08:  STAPROTTAB;
+   StatTbl09:  ST_TBL_T;
+   StatTbl10:  ST_TBL_T;
+   StatTbl11:  STAPROTTAB;
+   StatTbl12:  ST_TBL_T;
+   StatTbl13:  ST_TBL_T;
+   StatTbl14:  STAPROTTAB;
+   StatTbl15:  ST_TBL_T;
+   StatTbl16:  ST_TBL_T;
+   StatTbl17:  STAPROTTAB;
+   StatTbl18:  ST_TBL_T;
+   StatTbl19:  ST_TBL_T;
+   StatTbl20:  ST_TBL_T;
+   StatTbl21:  ST_TBL_T;
+   StatTbl22:  ST_TBL_T;
+   StatTbl23:  ST_TBL_T;
+   StatTbl24:  ST_TBL_T;
+   StatTbl25:  ST_TBL_T;
+   StatTbl26:  ST_TBL_T;
+   StatTbl27:  ST_TBL_T;
+   StatTbl28:  ARCHEVENTTB;
+   StatTbl29:  ARCHEVENTTB;
+   StatTbl30:  ST_TBL_T;
+   StatTbl31:  PROTTABF;
+   END_STRUCT;
+GV_ST_TBL_T:
+   ARRAY [0..1] OF WORD;
+GV_ST_TBLS_T:
+   ARRAY [0..127] OF GV_ST_TBL_T;
+AN_ST_TBL_T:
+   STRUCT
+      Status:     WORD;
+   END_STRUCT;
+AN_ST_TBLS_T:
+   ARRAY [0..127] OF AN_ST_TBL_T;
+HS_TBL_T:
+   ARRAY [0..15] OF WORD;
+HS_TBLS_T:
+   ARRAY [0..31] OF HS_TBL_T;
+GV_HS_TBLS_T:
+   ARRAY [0..127] OF GV_ST_TBL_T;
+AN_HS_TBLS_T:
+   ARRAY [0..127] OF AN_ST_TBL_T;
+IN_TBLS_T:
+   ARRAY [0..31] OF HS_TBL_T;
+GV_IN_TBLS_T:
+   ARRAY [0..127] OF GV_ST_TBL_T;
+AN_IN_TBLS_T:
+   ARRAY [0..127] OF AN_ST_TBL_T;
+DS_TBLS_T:
+   ARRAY [0..1] OF HS_TBL_T;
+GV_DS_TBLS_T:
+   ARRAY [0..1] OF WORD;
+AN_DS_TBLS_T:
+   STRUCT
+      Stat_descr:   WORD;
+   END_STRUCT;
+EVENT_T:
+   STRUCT
+      Event:      WORD;
+      TimeStamp:  WORD;
+   END_STRUCT;
+EVENT_BUF_T:
+   STRUCT
+      Event_Nmbr:    WORD;
+      CommB_Ev_Nmbr: WORD;
+      Rd_Pointer:    WORD;
+      Wr_Pointer:    WORD;
+      Buffer:        ARRAY[0..1023] OF EVENT_T;
+   END_STRUCT;
+COMMUN_BLOCK:
+   STRUCT
+      TimeStamp:     WORD;
+      EvntSysStatus: WORD;
+      NbOfEvents:    WORD;
+      Block:         ARRAY[0..57] OF EVENT_T;
+   END_STRUCT;
+DIAG_BLOCK:
+   STRUCT
+      StTbl_Nbr:        WORD;
+      StTbl_Size:       WORD;
+      GvStTbl_Nbr:      WORD;
+      AnStTbl_Nbr:      WORD;
+      EvBuf_Size:       WORD;
+      CommBlk_Size:     WORD;
+      EvBuf_WrPtr:      WORD;
+      EvBuf_RdPtr:      WORD;
+      EvBuf_EvNbr:      WORD;
+      EvBuf_CbEvNbr:    WORD;
+      CBl_TimeStamp:    WORD;
+      CBl_EvntSysStat:  WORD;
+      CBl_NbOfEvents:   WORD;
+      Res1:             WORD;
+      Res2:             WORD;
+      Res3:             WORD;
+   END_STRUCT;
+BLK:
+	STRUCT
+		BlkTYpe:	WORD;
+		CyclCnt:	UINT;
+		Data:		ARRAY [0..96] OF WORD;
+	END_STRUCT;
+KC_BLK:   
+   STRUCT
+	ChekSum: WORD;  
+	Block:    BLK;
+   END_STRUCT;
+CHD:
+    ARRAY [0..99] OF WORD;
+ARCH_TABLES:
+   ARRAY [0..31] OF AUX_1_ARCH_TABL;
+GV_ARCH_TABLES:
+   ARRAY [0..127] OF GVARCHTBL;
+END_TYPE

@@ -1,0 +1,31 @@
+:Base mom_mbp.hlp
+:Title Momentum Modbus Plus PNT Series Communication Adapters
+1 Momentum Modbus Plus PNT Series Communication Adapters
+1 Momentum Modbus Plus PNT Series Communication Adapters=IDH_CONTENTS@mom_mbp.hlp>main
+2 Introduction
+2 Introduction=D-NA-0002699.1@mom_mbp.hlp>main
+3 Product Overview=D-NA-0002700.1@mom_mbp.hlp>main
+3 Status Indicators=D-NA-0002703.1@mom_mbp.hlp>main
+3 Address Switches=D-NA-0002704.1@mom_mbp.hlp>main
+3 Ports and Cabling=D-NA-0002705.1@mom_mbp.hlp>main
+2 Assembling a Communications Adapter and I/O Base
+2 Assembling a Communications Adapter and I/O Base=D-NA-0002706.1@mom_mbp.hlp>main
+3 Connections Between the Adapter and I/O Base=D-NA-0002707.1@mom_mbp.hlp>main
+3 Assembling the I/O Base and the Adapter=D-NA-0002708.1@mom_mbp.hlp>main
+3 Labeling the Assembled Module=D-NA-0002709.1@mom_mbp.hlp>main
+3 Disassembling an Adapter from an I/O Base=D-NA-0002710.1@mom_mbp.hlp>main
+2 Using Modbus Plus for Distributed I/O Servicing
+2 Using Modbus Plus for Distributed I/O Servicing=D-NA-0002711.1@mom_mbp.hlp>main
+3 Strategies for Distributed I/O Servicing=D-NA-0002712.1@mom_mbp.hlp>main
+3 Network Configuration=D-NA-0002715.1@mom_mbp.hlp>main
+3 Modbus Plus Network Layouts=D-NA-0002717.1@mom_mbp.hlp>main
+2 How Communication Adapters Handle Messages
+2 How Communication Adapters Handle Messages=D-NA-0002718.1@mom_mbp.hlp>main
+3 How Messages Are Defined in the Application=D-NA-0002719.1@mom_mbp.hlp>main
+3 How Messages are Transacted=D-NA-0002720.1@mom_mbp.hlp>main
+2 Communication Access Registers
+2 Communication Access Registers=D-NA-0002721.1@mom_mbp.hlp>main
+3 Overview of Register Types=D-NA-0002722.1@mom_mbp.hlp>main
+3 Data Registers=D-NA-0002723.1@mom_mbp.hlp>main
+3 Configuration Registers=D-NA-0002724.1@mom_mbp.hlp>main
+3 Status Registers=D-NA-0002725.1@mom_mbp.hlp>main

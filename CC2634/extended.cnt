@@ -1,0 +1,186 @@
+:Base extended.hlp
+:Title EXTENDED Block Library
+:Index  =Akfefb.hlp
+:Index  =Ana_io.hlp
+:Index  =comm.hlp
+:Index  =Cont_ctl.hlp
+:Index  =Diagno.hlp
+:Index  =Experts.hlp
+:Index  =Extended.hlp
+:Index  =Fuzzy.hlp
+:Index  =Handtabl.hlp
+:Index  =Iec.hlp
+:Index  =Lib984.hlp
+:Index  =System.hlp
+:Index  =concman.hlp
+1 Concept IEC Block Library EXTENDED
+1 Concept IEC Block Library EXTENDED=IDH_CONTENTS@extended.hlp>main
+2 General information on the block library EXTENDED
+2 General information on the block library EXTENDED=D-SG-0003641.1@extended.hlp>main
+3 Parameterizing functions and function blocks=D-SG-0002132.1@extended.hlp>main
+2 EFB-descriptions
+2 EFB-descriptions=D-SG-0003642.1@extended.hlp>main
+3 AVE_***: Averaging
+3 AVE_***: Averaging=D-SG-0003643.4@extended.hlp>main
+4 Brief description=D-SG-0001716.1@extended.hlp>main
+4 Representation=D-SG-0001717.1@extended.hlp>main
+3 AVGMV: Floating mean with fixed window size
+3 AVGMV: Floating mean with fixed window size=D-SG-0003644.4@extended.hlp>main
+4  Brief description=D-SG-0001720.1@extended.hlp>main
+4 Representation=D-SG-0001721.1@extended.hlp>main
+4 Detailed description=D-SG-0001723.1@extended.hlp>main
+4 Runtime error=D-SG-0001725.1@extended.hlp>main
+3 AVGMV_K: Floating mean with frozen correction factor
+3 AVGMV_K: Floating mean with frozen correction factor=D-SG-0003645.4@extended.hlp>main
+4 Brief description=D-SG-0001728.1@extended.hlp>main
+4 Representation=D-SG-0001729.1@extended.hlp>main
+4 Detailed description=D-SG-0001731.1@extended.hlp>main
+3 BCD_TO_INT: Conversion from 16 Bit BCD to INT
+3 BCD_TO_INT: Conversion from 16 Bit BCD to INT=D-SG-0008068.1@extended.hlp>main
+4 Brief description=D-SG-0008071.1@extended.hlp>main
+4 Representation=D-SG-0008070.1@extended.hlp>main
+3 BIT_TO_BYTE: Type conversion
+3 BIT_TO_BYTE: Type conversion=D-SG-0003646.4@extended.hlp>main
+4 Brief description=D-SG-0001734.1@extended.hlp>main
+4 Representation=D-SG-0001735.1@extended.hlp>main
+3 BIT_TO_WORD: Type conversion
+3 BIT_TO_WORD: Type conversion=D-SG-0003647.4@extended.hlp>main
+4 Brief description=D-SG-0001738.1@extended.hlp>main
+4 Representation=D-SG-0001739.1@extended.hlp>main
+3 BYTE_AS_WORD: Type conversion
+3 BYTE_AS_WORD: Type conversion=D-SG-0003648.4@extended.hlp>main
+4 Brief description=D-SG-0001742.1@extended.hlp>main
+4 Representation=D-SG-0001743.1@extended.hlp>main
+3 BYTE_TO_BIT: Type conversion
+3 BYTE_TO_BIT: Type conversion=D-SG-0003649.4@extended.hlp>main
+4 Brief description=D-SG-0001746.1@extended.hlp>main
+4 Representation=D-SG-0001747.1@extended.hlp>main
+3 CTD_***: Down counter
+3 CTD_***: Down counter=D-SG-0003650.4@extended.hlp>main
+4 Brief description=D-SG-0001749.1@extended.hlp>main
+4 Representation=D-SG-0001750.1@extended.hlp>main
+3 CTU_***: Up counter
+3 CTU_***: Up counter=D-SG-0003651.4@extended.hlp>main
+4 Brief description=D-SG-0001752.1@extended.hlp>main
+4 Representation=D-SG-0001753.1@extended.hlp>main
+3 CTUD_***: Up/Down counter
+3 CTUD_***: Up/Down counter=D-SG-0003652.4@extended.hlp>main
+4 Brief description=D-SG-0001755.1@extended.hlp>main
+4 Representation=D-SG-0001756.3@extended.hlp>main
+3 DBCD_TO_DINT: Conversion from 32 Bit BCD to DINT
+3 DBCD_TO_DINT: Conversion from 32 Bit BCD to DINT=D-SG-0008059.1@extended.hlp>main
+4 Brief description=D-SG-0008060.1@extended.hlp>main
+4 Representation=D-SG-0008061.1@extended.hlp>main
+3 DBCD_TO_INT: Conversion from 32 Bit BCD to INT
+3 DBCD_TO_INT: Conversion from 32 Bit BCD to INT=D-SG-0008062.1@extended.hlp>main
+4 Brief description=D-SG-0008063.1@extended.hlp>main
+4 Representation=D-SG-0008064.1@extended.hlp>main
+3 DEAD_ZONE_REAL: Dead zone
+3 DEAD_ZONE_REAL: Dead zone=D-SG-0003653.4@extended.hlp>main
+4 Brief description=D-SG-0001758.1@extended.hlp>main
+4 Representation=D-SG-0001759.1@extended.hlp>main
+4 Detailed description=D-SG-0001760.1@extended.hlp>main
+3 DINT_AS_WORD: Type conversion
+3 DINT_AS_WORD: Type conversion=D-SG-0003654.4@extended.hlp>main
+4 Brief description=D-SG-0001722.1@extended.hlp>main
+4 Representation=D-SG-0001724.1@extended.hlp>main
+3 DINT_TO_DBCD: Conversion from DINT to 32 Bit BCD
+3 DINT_TO_DBCD: Conversion from DINT to 32 Bit BCD=D-SG-0008065.1@extended.hlp>main
+4 Brief description=D-SG-0008066.1@extended.hlp>main
+4 Representation=D-SG-0008067.1@extended.hlp>main
+3 DIVMOD_***: Division and Modulo
+3 DIVMOD_***: Division and Modulo=D-SG-0003655.4@extended.hlp>main
+4 Brief description=D-SG-0001730.1@extended.hlp>main
+4 Representation=D-SG-0001733.1@extended.hlp>main
+4 Runtime error=D-SG-0001737.1@extended.hlp>main
+3 HYST_***: Indicator signal for maximum value delimiter with hysteresis
+3 HYST_***: Indicator signal for maximum value delimiter with hysteresis=D-SG-0003656.4@extended.hlp>main
+4 Brief description=D-SG-0001762.1@extended.hlp>main
+4 Representation=D-SG-0001763.1@extended.hlp>main
+4 Detailed Description=D-SG-0001764.1@extended.hlp>main
+3 INDLIM_***: Indicator signal for delimiters with hysteresis
+3 INDLIM_***: Indicator signal for delimiters with hysteresis=D-SG-0003657.4@extended.hlp>main
+4 Brief description=D-SG-0001766.1@extended.hlp>main
+4 Representation=D-SG-0001767.1@extended.hlp>main
+4 Detailed description=D-SG-0001768.1@extended.hlp>main
+3 INT_TO_BCD: Conversion from INT to 16 Bit BCD
+3 INT_TO_BCD: Conversion from INT to 16 Bit BCD=D-SG-0008076.1@extended.hlp>main
+4 Brief description=D-SG-0008077.1@extended.hlp>main
+4 Representation=D-SG-0008078.1@extended.hlp>main
+3 INT_TO_DBCD: Conversion from INT to 32 Bit BCD
+3 INT_TO_DBCD: Conversion from INT to 32 Bit BCD=D-SG-0008072.1@extended.hlp>main
+4 Brief description=D-SG-0008073.1@extended.hlp>main
+4 Representation=D-SG-0008074.1@extended.hlp>main
+3 LIMIT_IND_***: Limit with indicator
+3 LIMIT_IND_***: Limit with indicator=D-SG-0003658.4@extended.hlp>main
+4 Brief description=D-SG-0001770.1@extended.hlp>main
+4 Representation=D-SG-0001771.1@extended.hlp>main
+3 LOOKUP_TABLE1: Traverse progression with 1st degree interpolation
+3 LOOKUP_TABLE1: Traverse progression with 1st degree interpolation=D-SG-0003659.4@extended.hlp>main
+4 Brief description=D-SG-0001773.1@extended.hlp>main
+4 Representation=D-SG-0001774.1@extended.hlp>main
+4 Detailed description=D-SG-0001775.1@extended.hlp>main
+3 NEG_***: Negation
+3 NEG_***: Negation=D-SG-0003660.4@extended.hlp>main
+4 Brief description=D-SG-0001777.1@extended.hlp>main
+4 Representation=D-SG-0001778.1@extended.hlp>main
+4 Runtime error=D-SG-0001779.1@extended.hlp>main
+3 REAL_AS_WORD: Type conversion
+3 REAL_AS_WORD: Type conversion=D-SG-0004621.1@extended.hlp>main
+4 Brief description=D-SG-0004622.1@extended.hlp>main
+4 Representation=D-SG-0004623.1@extended.hlp>main
+3 SAH: Detecting and holding with rising edge
+3 SAH: Detecting and holding with rising edge=D-SG-0003661.4@extended.hlp>main
+4 Brief description=D-SG-0001781.1@extended.hlp>main
+4 Representation=D-SG-0001782.1@extended.hlp>main
+3 SIGN_***: Sign evaluation
+3 SIGN_***: Sign evaluation=D-SG-0003662.4@extended.hlp>main
+4 Brief description=D-SG-0001784.1@extended.hlp>main
+4 Representation=D-SG-0001785.1@extended.hlp>main
+3 TIME_AS_WORD: Type conversion
+3 TIME_AS_WORD: Type conversion=D-SG-0004624.1@extended.hlp>main
+4 Brief description=D-SG-0004625.1@extended.hlp>main
+4 Representation=D-SG-0004626.1@extended.hlp>main
+3 TOF_P: Off Delay with Pause
+3 TOF_P: Off Delay with Pause=D-SG-0009213.1@extended.hlp>main
+4 Brief description=D-SG-0009215.1@extended.hlp>main
+4 Representation=D-SG-0009216.1@extended.hlp>main
+4 Detailed description=D-SG-0009217.1@extended.hlp>main
+3 TON_P: On Delay with Pause
+3 TON_P: On Delay with Pause=D-SG-0009214.1@extended.hlp>main
+4 Brief description=D-SG-0009218.1@extended.hlp>main
+4 Representation=D-SG-0009219.1@extended.hlp>main
+4 Detailed description=D-SG-0009220.1@extended.hlp>main
+3 TRIGGER: Detection of all types of edges
+3 TRIGGER: Detection of all types of edges=D-SG-0003663.4@extended.hlp>main
+4 Brief description=D-SG-0001788.1@extended.hlp>main
+4 Representation=D-SG-0001789.1@extended.hlp>main
+3 UDINT_AS_WORD: Type conversion
+3 UDINT_AS_WORD: Type conversion=D-SG-0004627.1@extended.hlp>main
+4 Brief description=D-SG-0004628.1@extended.hlp>main
+4 Representation=D-SG-0004629.1@extended.hlp>main
+3 WORD_AS_BYTE: Type conversion
+3 WORD_AS_BYTE: Type conversion=D-SG-0003664.4@extended.hlp>main
+4 Brief description=D-SG-0001791.1@extended.hlp>main
+4 Representation=D-SG-0001792.1@extended.hlp>main
+3 WORD_AS_DINT: Type conversion
+3 WORD_AS_DINT: Type conversion=D-SG-0003665.4@extended.hlp>main
+4 Brief description=D-SG-0001794.1@extended.hlp>main
+4 Representation=D-SG-0001796.1@extended.hlp>main
+3 WORD_AS_REAL: Type conversion
+3 WORD_AS_REAL: Type conversion=D-SG-0004633.1@extended.hlp>main
+4 Brief description=D-SG-0004634.1@extended.hlp>main
+4 Representation=D-SG-0004635.1@extended.hlp>main
+3 WORD_AS_TIME: Type conversion
+3 WORD_AS_TIME: Type conversion=D-SG-0004636.1@extended.hlp>main
+4 Brief description=D-SG-0004637.1@extended.hlp>main
+4 Representation=D-SG-0004638.1@extended.hlp>main
+3 WORD_AS_UDINT: Type conversion
+3 WORD_AS_UDINT: Type conversion=D-SG-0004630.1@extended.hlp>main
+4 Brief description=D-SG-0004631.1@extended.hlp>main
+4 Representation=D-SG-0004632.1@extended.hlp>main
+3 WORD_TO_BIT: Type conversion
+3 WORD_TO_BIT: Type conversion=D-SG-0003666.4@extended.hlp>main
+4 Brief description=D-SG-0001800.1@extended.hlp>main
+4 Representation=D-SG-0001802.1@extended.hlp>main
+1 Glossary=D-SG-0000454.1@extended.hlp>main

@@ -1,0 +1,92 @@
+:Base Noa61110.hlp
+:Title 140 NOA 611 10 User's Manual
+1 140 NOA 611 10 INTERBUS Master
+1 140 NOA 611 10 INTERBUS Master=IDH_CONTENTS@Noa61110.hlp>main
+2 Safety Information=t1996@Noa61110.hlp>main
+2 INTERBUS and INTERBUS Configuration with TSX Quantum
+2 INTERBUS and INTERBUS Configuration with TSX Quantum=D-SG-0004719.1@Noa61110.hlp>main
+3 INTERBUS in the TSX Quantum
+3 INTERBUS in the TSX Quantum=D-SG-0005798.1@Noa61110.hlp>main
+4 INTERBUS Configuration=D-SG-0004722.3@Noa61110.hlp>main
+4 Overview of INTERBUS Communication with TSX Quantum=D-SG-0004644.1@Noa61110.hlp>main
+4 INTERBUS Master Modules=D-SG-0004645.1@Noa61110.hlp>main
+4 Protocols=D-SG-0004648.1@Noa61110.hlp>main
+4 Network Control=D-SG-0004649.1@Noa61110.hlp>main
+3 The 140 NOA 611 10 as INTERBUS Master
+3 The 140 NOA 611 10 as INTERBUS Master=D-SG-0004642.1@Noa61110.hlp>main
+4 The 140 NOA 611 10 as INTERBUS Master=D-SG-0004643.3@Noa61110.hlp>main
+4 Special Properties of the 140 NOA 611 10=D-SG-0004721.1@Noa61110.hlp>main
+4 Uses According to CPU Type=D-SG-0005916.1@Noa61110.hlp>main
+2 Accessories and Spare Parts =D-SG-0005876.1@Noa61110.hlp>main
+2 Module Descriptions
+2 Module Descriptions=D-SG-0004465.1@Noa61110.hlp>main
+3 140 NOA 611 10: Communication Module for INTERBUS
+3 140 NOA 611 10: Communication Module for INTERBUS=D-SG-0004466.1@Noa61110.hlp>main
+4 Brief description=D-SG-0004467.1@Noa61110.hlp>main
+4 Description of the LEDs=D-SG-0004468.3@Noa61110.hlp>main
+4 7 Segment Display=D-SG-0014161.1@Noa61110.hlp>main
+4 Reset Button=D-SG-0014162.1@Noa61110.hlp>main
+4 Configuration=D-SG-0004469.3@Noa61110.hlp>main
+4 Technical Specifications=D-SG-0004470.3@Noa61110.hlp>main
+2 Software Descriptions
+2 Software Descriptions=D-SG-0004614.1@Noa61110.hlp>main
+3 Loadables for NOA 611 10
+3 Loadables for NOA 611 10=D-SG-0004616.4@Noa61110.hlp>main
+4 Memory Requirements for Loadables=D-SG-0005915.1@Noa61110.hlp>main
+4 Required LL984 Loadables=D-SG-0004716.1@Noa61110.hlp>main
+4 Loading Loadables for Concept=D-SG-0004717.3@Noa61110.hlp>main
+3 Parameterization of the 140 NOA 611 10
+3 Parameterization of the 140 NOA 611 10=D-SG-0004723.1@Noa61110.hlp>main
+4 Parameterization Software=D-SG-0004724.1@Noa61110.hlp>main
+4 Shutdown and Startup Procedure of the 140 NOA 611 10=D-SG-0004725.3@Noa61110.hlp>main
+4 Example of the parameterization of the command sequence in the CMD tool=D-SG-0004726.3@Noa61110.hlp>main
+4 Restart Procedure of the 140 NOA 611 10=D-SG-0005792.1@Noa61110.hlp>main
+4 predefined command sequences for 140 NOA 611 10=D-SG-0005797.1@Noa61110.hlp>main
+4 Setting the Watchdog time in the PLC=D-SG-0004436.1@Noa61110.hlp>main
+3 Storage of I/O Data on the INTERBUS for TSX Quantum
+3 Storage of I/O Data on the INTERBUS for TSX Quantum=D-SG-0004641.1@Noa61110.hlp>main
+4 Access to 140 NOA 611 10 I/O Data=D-SG-0005799.1@Noa61110.hlp>main
+4 Storing I/O Discretes in INTERBUS Words (Discrete Ordering Modes)=D-SG-0005839.1@Noa61110.hlp>main
+4 Configuration and Address Example=D-SG-0005864.1@Noa61110.hlp>main
+3 Integration of the DEA 202
+3 Integration of the DEA 202=D-SG-0005865.1@Noa61110.hlp>main
+4 Addressing the I/O in a DEA Station=D-SG-0005866.1@Noa61110.hlp>main
+4 Example for Addressing the I/O in a DEA Station=D-SG-0005867.1@Noa61110.hlp>main
+4 Status and Error Messages in the DEA 202=D-SG-0005870.1@Noa61110.hlp>main
+3 Derived Data Types for 140 NOA 611 10
+3 Derived Data Types for 140 NOA 611 10=D-SG-0004613.1@Noa61110.hlp>main
+4 Derived Data Types for 140 NOA 611 10=D-SG-0005880.1@Noa61110.hlp>main
+4 Addressing Example with Derived Data Types=D-SG-0005881.1@Noa61110.hlp>main
+3 Status and Diagnostics Words for INTERBUS
+3 Status and Diagnostics Words for INTERBUS=D-SG-0005878.1@Noa61110.hlp>main
+4 Status and Diagnostic Registers for the INTERBUS (Input Register)=D-SG-0005879.1@Noa61110.hlp>main
+4 Status and Diagnostic Registers for the INTERBUS (Output Register)=D-SG-0005917.1@Noa61110.hlp>main
+3 Use of the PCP Channel
+3 Use of the PCP Channel=D-SG-0005871.1@Noa61110.hlp>main
+4 Use of the PCP Channel, Overview=D-SG-0006618.1@Noa61110.hlp>main
+4 Operational Characteristics of EFBs=D-SG-0005872.1@Noa61110.hlp>main
+4 Operational Characteristics of Loadables=D-SG-0006619.1@Noa61110.hlp>main
+4 Configuration Limits for PCP Devices and Buffer Length.=D-SG-0005873.1@Noa61110.hlp>main
+4 Addressing the PCP Device=D-SG-0005874.1@Noa61110.hlp>main
+4 Example of Addressing the PCP Device=D-SG-0005875.1@Noa61110.hlp>main
+4 Example of a PCP Channel=D-SG-0005883.1@Noa61110.hlp>main
+3 ICNT: Connect/disconnect an INTERBUS communication
+3 ICNT: Connect/disconnect an INTERBUS communication=D-SG-0003580.4@Noa61110.hlp>main
+4 Brief Description=D-SG-0001145.1@Noa61110.hlp>main
+4 Representation=D-SG-0001146.1@Noa61110.hlp>main
+4 Runtime errors=D-SG-0001147.1@Noa61110.hlp>main
+3 ICOM: Data transfer
+3 ICOM: Data transfer=D-SG-0003581.4@Noa61110.hlp>main
+4 Brief Description=D-SG-0001157.1@Noa61110.hlp>main
+4 Representation=D-SG-0001159.1@Noa61110.hlp>main
+4 Runtime error=D-SG-0001160.1@Noa61110.hlp>main
+3 The ICNT Loadable
+3 The ICNT Loadable=D-SG-0006632.1@Noa61110.hlp>main
+4 Representation=D-SG-0006634.1@Noa61110.hlp>main
+4 Derived Data Types (Node Data)=D-SG-0006635.1@Noa61110.hlp>main
+4 ICNT and ICOM Loadable Error Messages=D-SG-0006637.1@Noa61110.hlp>main
+3 The ICOM Loadable
+3 The ICOM Loadable=D-SG-0006636.1@Noa61110.hlp>main
+4 Representation=D-SG-0006638.1@Noa61110.hlp>main
+4 Derived Data Types (Node Data)=D-SG-0006639.1@Noa61110.hlp>main
+4 ICNT and ICOM Loadable Error Messages=D-SG-0006633.1@Noa61110.hlp>main

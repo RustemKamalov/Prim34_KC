@@ -1,0 +1,30 @@
+:Base msx.hlp
+:Title Quantum Single Axis Motion Module Reference Guide
+1 Quantum Single Axis Motion Module Reference Guide
+1 Quantum Single Axis Motion Module Reference Guide=IDH_CONTENTS@msx.hlp>main
+2 Overview=D-NA-0002352.1@msx.hlp>main
+2 Specifications and Hardware Overview
+2 Specifications and Hardware Overview=D-NA-0002354.1@msx.hlp>main
+3 MSx Motion Modules
+3 MSx Motion Modules=D-NA-0002356.1@msx.hlp>main
+4 Quantum Single Axis Motion (MSx) Modules=D-NA-0002415.1@msx.hlp>main
+4 Front Panel Indicators for the 140 MCX 101 00=D-NA-0002422.1@msx.hlp>main
+4 Front Panel Connectors=D-NA-0002358.1@msx.hlp>main
+4 Rear Panel Switches=D-NA-0002383.1@msx.hlp>main
+4 Setting the Operating Mode with SW1=D-NA-0002384.1@msx.hlp>main
+4 Setting Modbus Comm Characteristics with SW2=D-NA-0002385.1@msx.hlp>main
+4 Operational Specifications=D-NA-0002386.1@msx.hlp>main
+4 Electrical Specifications=D-NA-0002387.1@msx.hlp>main
+2 Breakout Module=D-NA-0002388.1@msx.hlp>main
+2 System Information
+2 System Information=D-NA-0002396.1@msx.hlp>main
+3 Flash Memory=D-NA-0002390.1@msx.hlp>main
+3 Communications Protocol=D-NA-0002391.1@msx.hlp>main
+3 On-line and Off-line Development with MMDS=D-NA-0002393.1@msx.hlp>main
+2 Appendix
+2 Appendix=D-NA-0002394.1@msx.hlp>main
+3 Parts List=D-NA-0002395.1@msx.hlp>main
+3 Hardware Installation
+3 Hardware Installation=D-NA-0002399.1@msx.hlp>main
+4 Mounting and Connecting the MSx Modules=D-NA-0002400.1@msx.hlp>main
+4 Cables=D-NA-0002436.1@msx.hlp>main

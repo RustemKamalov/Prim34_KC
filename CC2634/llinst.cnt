@@ -1,0 +1,793 @@
+:Base llinst.hlp
+:Title Block Library LL984
+:Index  =Akfefb.hlp
+:Index  =Ana_io.hlp
+:Index  =comm.hlp
+:Index  =Cont_ctl.hlp
+:Index  =Diagno.hlp
+:Index  =Experts.hlp
+:Index  =Extended.hlp
+:Index  =Fuzzy.hlp
+:Index  =Handtabl.hlp
+:Index  =Iec.hlp
+:Index  =Lib984.hlp
+:Index  =System.hlp
+1 Concept Block Library LL984
+1 Concept Block Library LL984=IDH_CONTENTS@llinst.hlp>main
+2 General Information
+2 General Information=D-SG-0004565.1@llinst.hlp>main
+3 Instructions=D-SG-0004571.1@llinst.hlp>main
+3 Instruction Groups
+3 Instruction Groups=D-SG-0004572.1@llinst.hlp>main
+4 Instruction Groups=D-SG-0004941.3@llinst.hlp>main
+4 ASCII Functions=D-SG-0004942.3@llinst.hlp>main
+4 Counters and Timers Instructions=D-SG-0004573.1@llinst.hlp>main
+4 Fast I/O Instructions=D-SG-0004943.3@llinst.hlp>main
+4 Loadable DX=D-SG-0004944.3@llinst.hlp>main
+4 Math Instructions=D-SG-0004945.3@llinst.hlp>main
+4 Matrix Instructions=D-SG-0004946.3@llinst.hlp>main
+4 Miscellaneous=D-SG-0004947.3@llinst.hlp>main
+4 Move Instructions=D-SG-0004948.3@llinst.hlp>main
+4 Skips/Specials=D-SG-0004949.3@llinst.hlp>main
+4 Special Instructions=D-SG-0004950.3@llinst.hlp>main
+4 Coils, Contacts and Interconnects=D-SG-0004951.3@llinst.hlp>main
+3 Closed Loop Control / Analog Values
+3 Closed Loop Control / Analog Values=D-SG-0004953.4@llinst.hlp>main
+4 Closed Loop Control / Analog Values=D-SG-0004954.3@llinst.hlp>main
+4 PCFL Subfunctions=D-SG-0004958.3@llinst.hlp>main
+4 A PID Example=D-SG-0004956.3@llinst.hlp>main
+4 PID2 Level Control Example=D-SG-0004957.3@llinst.hlp>main
+3 Formatting Messages for ASCII READ/WRIT Operations
+3 Formatting Messages for ASCII READ/WRIT Operations=D-SG-0004975.4@llinst.hlp>main
+4 Formatting Messages for ASCII READ/WRIT Operations=D-SG-0004976.3@llinst.hlp>main
+4 Format Specifiers=D-SG-0004977.3@llinst.hlp>main
+4 Special Set-up Considerations for Control/Monitor Signals Format=D-SG-0004978.3@llinst.hlp>main
+2 Interrupt Handling=D-SG-0004979.4@llinst.hlp>main
+2 Subroutine Handling=D-SG-0004981.4@llinst.hlp>main
+2 Installation of DX Loadables=D-SG-0004755.1@llinst.hlp>main
+3 Coils, Contacts and Interconnects
+3 Coils, Contacts and Interconnects=D-SG-0004984.4@llinst.hlp>main
+4 Coils=D-SG-0004985.3@llinst.hlp>main
+4 Contacts=D-SG-0004986.3@llinst.hlp>main
+4 Interconnects (Shorts)=D-SG-0004987.3@llinst.hlp>main
+2 Instruction Descriptions (A to D)
+2 Instruction Descriptions (A to D)=D-SG-0006459.4@llinst.hlp>main
+3 AD16: Ad 16 Bit
+3 AD16: Ad 16 Bit=D-SG-0004570.4@llinst.hlp>main
+4 Short Description=D-SG-0004567.3@llinst.hlp>main
+4 Representation=D-SG-0004568.3@llinst.hlp>main
+3 ADD: Addition
+3 ADD: Addition=D-SG-0004576.4@llinst.hlp>main
+4 Short Description=D-SG-0004577.3@llinst.hlp>main
+4 Representation=D-SG-0004578.3@llinst.hlp>main
+3 AND: Logical And
+3 AND: Logical And=D-SG-0004579.4@llinst.hlp>main
+4 Short Description=D-SG-0004580.3@llinst.hlp>main
+4 Representation=D-SG-0004581.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004582.3@llinst.hlp>main
+3 BCD: Binary to Binary Code
+3 BCD: Binary to Binary Code=D-SG-0004583.4@llinst.hlp>main
+4 Short Description=D-SG-0004584.3@llinst.hlp>main
+4 Representation=D-SG-0004585.3@llinst.hlp>main
+3 BLKM: Block Move
+3 BLKM: Block Move=D-SG-0004586.4@llinst.hlp>main
+4 Short Description=D-SG-0004587.3@llinst.hlp>main
+4 Representation=D-SG-0004588.3@llinst.hlp>main
+3 BLKT: Block to Table
+3 BLKT: Block to Table=D-SG-0004589.4@llinst.hlp>main
+4 Short Description=D-SG-0004590.3@llinst.hlp>main
+4 Representation=D-SG-0004591.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004592.1@llinst.hlp>main
+3 BMDI: Block Move with Interrupts Disabled
+3 BMDI: Block Move with Interrupts Disabled=D-SG-0004593.4@llinst.hlp>main
+4 Short Description=D-SG-0004594.3@llinst.hlp>main
+4 Representation=D-SG-0004595.3@llinst.hlp>main
+3 BROT: Bit Rotate
+3 BROT: Bit Rotate=D-SG-0004596.4@llinst.hlp>main
+4 Short Description=D-SG-0004597.3@llinst.hlp>main
+4 Representation=D-SG-0004598.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004599.1@llinst.hlp>main
+3 CHS: Configure Hot Standby
+3 CHS: Configure Hot Standby=D-SG-0004742.4@llinst.hlp>main
+4 Short Description=D-SG-0004743.3@llinst.hlp>main
+4 Representation=D-SG-0004744.3@llinst.hlp>main
+4 Detailed Description=D-SG-0004745.3@llinst.hlp>main
+3 CKSM: Check Sum
+3 CKSM: Check Sum=D-SG-0004747.4@llinst.hlp>main
+4 Short Description=D-SG-0004748.3@llinst.hlp>main
+4 Representation=D-SG-0004749.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004750.3@llinst.hlp>main
+3 CMPR: Compare Register
+3 CMPR: Compare Register=D-SG-0004751.4@llinst.hlp>main
+4 Short Description=D-SG-0004752.3@llinst.hlp>main
+4 Representation=D-SG-0004753.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004754.3@llinst.hlp>main
+3 COMP: Complement a Matrix
+3 COMP: Complement a Matrix=D-SG-0004768.4@llinst.hlp>main
+4 Short Description=D-SG-0004769.3@llinst.hlp>main
+4 Representation=D-SG-0004770.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004771.3@llinst.hlp>main
+3 DCTR: Down Counter
+3 DCTR: Down Counter=D-SG-0004772.4@llinst.hlp>main
+4 Short Description=D-SG-0004773.3@llinst.hlp>main
+4 Representation=D-SG-0004774.3@llinst.hlp>main
+3 DIV: Divide
+3 DIV: Divide=D-SG-0004779.4@llinst.hlp>main
+4 Short Description=D-SG-0004780.3@llinst.hlp>main
+4 Representation=D-SG-0004781.3@llinst.hlp>main
+4 Example=D-SG-0004782.3@llinst.hlp>main
+3 DIOH: Distributed I/O Health
+3 DIOH: Distributed I/O Health=D-SG-0004775.4@llinst.hlp>main
+4 Short Description=D-SG-0004776.3@llinst.hlp>main
+4 Representation=D-SG-0004777.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004778.3@llinst.hlp>main
+3 DLOG: Data Logging for PCMCIA Read/Write Support
+3 DLOG: Data Logging for PCMCIA Read/Write Support=D-SG-0004783.4@llinst.hlp>main
+4 Short Description=D-SG-0004784.3@llinst.hlp>main
+4 Representation=D-SG-0004785.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004786.3@llinst.hlp>main
+4 Run Time Error Handling=D-SG-0004787.3@llinst.hlp>main
+3 DRUM: DRUM Sequencer
+3 DRUM: DRUM Sequencer=D-SG-0004788.1@llinst.hlp>main
+4 Short Description=D-SG-0004789.3@llinst.hlp>main
+4 Representation=D-SG-0004790.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004791.3@llinst.hlp>main
+3 DV16: Divide 16 Bit
+3 DV16: Divide 16 Bit=D-SG-0004618.4@llinst.hlp>main
+4 Short Description=D-SG-0004619.3@llinst.hlp>main
+4 Representation=D-SG-0004792.3@llinst.hlp>main
+4 Example=D-SG-0004793.3@llinst.hlp>main
+2 Instruction Descriptions (E)
+2 Instruction Descriptions (E)=D-SG-0006454.4@llinst.hlp>main
+3 EMTH: Extended Math
+3 EMTH: Extended Math=D-SG-0004600.7@llinst.hlp>main
+4 Short Description=D-SG-0004601.3@llinst.hlp>main
+4 Representation=D-SG-0004602.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004603.3@llinst.hlp>main
+4 Floating Point EMTH Functions=D-SG-0004615.3@llinst.hlp>main
+3 EMTH-ADDDP: Double Precision Addition
+3 EMTH-ADDDP: Double Precision Addition=D-SG-0004605.4@llinst.hlp>main
+4 Short Description=D-SG-0004606.3@llinst.hlp>main
+4 Representation=D-SG-0004607.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004608.3@llinst.hlp>main
+3 EMTH-ADDFP: Floating Point Addition
+3 EMTH-ADDFP: Floating Point Addition=D-SG-0004609.4@llinst.hlp>main
+4 Short Description=D-SG-0004610.3@llinst.hlp>main
+4 Representation=D-SG-0004611.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004612.3@llinst.hlp>main
+3 EMTH-ADDIF: Integer + Floating Point Addition
+3 EMTH-ADDIF: Integer + Floating Point Addition=D-SG-0005006.4@llinst.hlp>main
+4 Short Description=D-SG-0005007.3@llinst.hlp>main
+4 Representation=D-SG-0005008.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005009.3@llinst.hlp>main
+3 EMTH-ANLOG: Base 10 Antilogarithm
+3 EMTH-ANLOG: Base 10 Antilogarithm=D-SG-0005010.4@llinst.hlp>main
+4 Short Description=D-SG-0005011.3@llinst.hlp>main
+4 Representation=D-SG-0005012.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005013.3@llinst.hlp>main
+3 EMTH-ARCOS: Floating Point Arc Cosine of an Angle (in Radians)
+3 EMTH-ARCOS: Floating Point Arc Cosine of an Angle (in Radians)=D-SG-0005014.4@llinst.hlp>main
+4 Short Description=D-SG-0005015.3@llinst.hlp>main
+4 Representation=D-SG-0005016.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005017.3@llinst.hlp>main
+3 EMTH-ARSIN: Floating Point Arcsine of an Angle (in Radians)
+3 EMTH-ARSIN: Floating Point Arcsine of an Angle (in Radians)=D-SG-0005018.4@llinst.hlp>main
+4 Short Description=D-SG-0005019.3@llinst.hlp>main
+4 Representation=D-SG-0005020.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005021.3@llinst.hlp>main
+3 EMTH-ARTAN: Floating Point Arc Tangent of an Angle (in Radians)
+3 EMTH-ARTAN: Floating Point Arc Tangent of an Angle (in Radians)=D-SG-0005022.4@llinst.hlp>main
+4 Short Description=D-SG-0005023.3@llinst.hlp>main
+4 Representation=D-SG-0005024.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005025.3@llinst.hlp>main
+3 EMTH-CHSIN: Changing the Sign of a Floating Point Number
+3 EMTH-CHSIN: Changing the Sign of a Floating Point Number=D-SG-0005026.4@llinst.hlp>main
+4 Short Description=D-SG-0005027.3@llinst.hlp>main
+4 Representation=D-SG-0005028.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005029.3@llinst.hlp>main
+3 EMTH-CMPFP: Floating Point Comparison
+3 EMTH-CMPFP: Floating Point Comparison=D-SG-0005030.4@llinst.hlp>main
+4 Short Description=D-SG-0005031.3@llinst.hlp>main
+4 Representation=D-SG-0005032.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005033.3@llinst.hlp>main
+3 EMTH-CMPIF: Integer-Floating Point Comparison
+3 EMTH-CMPIF: Integer-Floating Point Comparison=D-SG-0005034.4@llinst.hlp>main
+4 Short Description=D-SG-0005035.3@llinst.hlp>main
+4 Representation=D-SG-0005036.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005037.3@llinst.hlp>main
+3 EMTH-CNVDR: Floating Point Conversion of Degrees to Radians
+3 EMTH-CNVDR: Floating Point Conversion of Degrees to Radians=D-SG-0005038.4@llinst.hlp>main
+4 Short Description=D-SG-0005039.3@llinst.hlp>main
+4 Representation=D-SG-0005040.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005041.3@llinst.hlp>main
+3 EMTH-CNVFI: Floating Point to Integer Conversion
+3 EMTH-CNVFI: Floating Point to Integer Conversion=D-SG-0005042.4@llinst.hlp>main
+4 Short Description=D-SG-0005043.3@llinst.hlp>main
+4 Representation=D-SG-0005044.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005045.3@llinst.hlp>main
+4 Runtime Error Handling=D-SG-0005150.3@llinst.hlp>main
+3 EMTH-CNVIF: Integer-to-Floating Point Conversion
+3 EMTH-CNVIF: Integer-to-Floating Point Conversion=D-SG-0005046.4@llinst.hlp>main
+4 Short Description=D-SG-0005047.3@llinst.hlp>main
+4 Representation=D-SG-0005048.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005049.3@llinst.hlp>main
+4 Runtime Error Handling=D-SG-0005151.3@llinst.hlp>main
+3 EMTH-CNVRD: Floating Point Conversion of Radians to Degrees
+3 EMTH-CNVRD: Floating Point Conversion of Radians to Degrees=D-SG-0005050.4@llinst.hlp>main
+4 Short Description=D-SG-0005051.3@llinst.hlp>main
+4 Representation=D-SG-0005052.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005053.3@llinst.hlp>main
+3 EMTH-COS: Floating Point Cosine of an Angle (in Radians)
+3 EMTH-COS: Floating Point Cosine of an Angle (in Radians)=D-SG-0005054.4@llinst.hlp>main
+4 Short Description=D-SG-0005055.3@llinst.hlp>main
+4 Representation=D-SG-0005056.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005057.3@llinst.hlp>main
+3 EMTH-DIVDP: Double Precision Division
+3 EMTH-DIVDP: Double Precision Division=D-SG-0005058.4@llinst.hlp>main
+4 Short Description=D-SG-0005059.3@llinst.hlp>main
+4 Representation=D-SG-0005060.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005061.3@llinst.hlp>main
+4 Runtime Error Handling=D-SG-0005152.3@llinst.hlp>main
+3 EMTH-DIVFI: Floating Point Divided by Integer
+3 EMTH-DIVFI: Floating Point Divided by Integer=D-SG-0005062.4@llinst.hlp>main
+4 Short Description=D-SG-0005063.3@llinst.hlp>main
+4 Representation=D-SG-0005064.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005065.3@llinst.hlp>main
+3 EMTH-DIVFP: Floating Point Division
+3 EMTH-DIVFP: Floating Point Division=D-SG-0005066.4@llinst.hlp>main
+4 Short Description=D-SG-0005067.3@llinst.hlp>main
+4 Representation=D-SG-0005068.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005069.3@llinst.hlp>main
+3 EMTH-DIVIF: Integer Divided by Floating Point
+3 EMTH-DIVIF: Integer Divided by Floating Point=D-SG-0005070.4@llinst.hlp>main
+4 Short Description=D-SG-0005071.3@llinst.hlp>main
+4 Representation=D-SG-0005072.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005073.3@llinst.hlp>main
+3 EMTH-ERLOG: Floating Point Error Report Log
+3 EMTH-ERLOG: Floating Point Error Report Log=D-SG-0005074.4@llinst.hlp>main
+4 Short Description=D-SG-0005075.3@llinst.hlp>main
+4 Representation=D-SG-0005076.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005077.3@llinst.hlp>main
+3 EMTH-EXP: Floating Point Exponential Function
+3 EMTH-EXP: Floating Point Exponential Function=D-SG-0005078.4@llinst.hlp>main
+4 Short Description=D-SG-0005079.3@llinst.hlp>main
+4 Representation=D-SG-0005080.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005081.3@llinst.hlp>main
+3 EMTH-LNFP: Floating Point Natural Logarithm
+3 EMTH-LNFP: Floating Point Natural Logarithm=D-SG-0005082.4@llinst.hlp>main
+4 Short Description=D-SG-0005083.3@llinst.hlp>main
+4 Representation=D-SG-0005084.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005085.3@llinst.hlp>main
+3 EMTH-LOG: Base 10 Logarithm
+3 EMTH-LOG: Base 10 Logarithm=D-SG-0005086.4@llinst.hlp>main
+4 Short Description=D-SG-0005087.3@llinst.hlp>main
+4 Representation=D-SG-0005088.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005089.3@llinst.hlp>main
+3 EMTH-LOGFP: Floating Point Common Logarithm
+3 EMTH-LOGFP: Floating Point Common Logarithm=D-SG-0005090.4@llinst.hlp>main
+4 Short Description=D-SG-0005091.3@llinst.hlp>main
+4 Representation=D-SG-0005092.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005093.3@llinst.hlp>main
+3 EMTH-MULDP: Double Precision Multiplication
+3 EMTH-MULDP: Double Precision Multiplication=D-SG-0005094.4@llinst.hlp>main
+4 Short Description=D-SG-0005095.3@llinst.hlp>main
+4 Representation=D-SG-0005096.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005097.3@llinst.hlp>main
+3 EMTH-MULFP: Floating Point Multiplication
+3 EMTH-MULFP: Floating Point Multiplication=D-SG-0005098.4@llinst.hlp>main
+4 Short Description=D-SG-0005099.3@llinst.hlp>main
+4 Representation=D-SG-0005100.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005101.3@llinst.hlp>main
+3 EMTH-MULIF: Integer x Floating Point Multiplication
+3 EMTH-MULIF: Integer x Floating Point Multiplication=D-SG-0005102.4@llinst.hlp>main
+4 Short Description=D-SG-0005103.3@llinst.hlp>main
+4 Representation=D-SG-0005104.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005105.3@llinst.hlp>main
+3 EMTH-PI: Load the Floating Point Value of "Pi"
+3 EMTH-PI: Load the Floating Point Value of "Pi"=D-SG-0005106.4@llinst.hlp>main
+4 Short Description=D-SG-0005107.3@llinst.hlp>main
+4 Representation=D-SG-0005108.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005109.3@llinst.hlp>main
+3 EMTH-POW: Raising a Floating Point Number to an Integer Power
+3 EMTH-POW: Raising a Floating Point Number to an Integer Power=D-SG-0005110.4@llinst.hlp>main
+4 Short Description=D-SG-0005111.3@llinst.hlp>main
+4 Representation=D-SG-0005112.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005113.3@llinst.hlp>main
+3 EMTH-SINE: Floating Point Sine of an Angle (in Radians)
+3 EMTH-SINE: Floating Point Sine of an Angle (in Radians)=D-SG-0005114.4@llinst.hlp>main
+4 Short Description=D-SG-0005115.3@llinst.hlp>main
+4 Representation=D-SG-0005116.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005117.3@llinst.hlp>main
+3 EMTH-SQRFP: Floating Point Square Root
+3 EMTH-SQRFP: Floating Point Square Root=D-SG-0005118.4@llinst.hlp>main
+4 Short Description=D-SG-0005119.3@llinst.hlp>main
+4 Representation=D-SG-0005120.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005121.3@llinst.hlp>main
+3 EMTH-SQRT: Floating Point Square Root
+3 EMTH-SQRT: Floating Point Square Root=D-SG-0005122.4@llinst.hlp>main
+4 Short Description=D-SG-0005123.3@llinst.hlp>main
+4 Representation=D-SG-0005124.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005125.3@llinst.hlp>main
+3 EMTH-SQRTP: Process Square Root
+3 EMTH-SQRTP: Process Square Root=D-SG-0005126.4@llinst.hlp>main
+4 Short Description=D-SG-0005127.3@llinst.hlp>main
+4 Representation=D-SG-0005128.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005129.3@llinst.hlp>main
+4 Example=D-SG-0005160.3@llinst.hlp>main
+3 EMTH-SUBDP: Double Precision Subtraction
+3 EMTH-SUBDP: Double Precision Subtraction=D-SG-0005130.4@llinst.hlp>main
+4 Short Description=D-SG-0005131.3@llinst.hlp>main
+4 Representation=D-SG-0005132.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005133.3@llinst.hlp>main
+3 EMTH-SUBFI: Floating Point - Integer Subtraction
+3 EMTH-SUBFI: Floating Point - Integer Subtraction=D-SG-0005134.4@llinst.hlp>main
+4 Short Description=D-SG-0005135.3@llinst.hlp>main
+4 Representation=D-SG-0005136.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005137.3@llinst.hlp>main
+3 EMTH-SUBFP: Floating Point Subtraction
+3 EMTH-SUBFP: Floating Point Subtraction=D-SG-0005138.4@llinst.hlp>main
+4 Short Description=D-SG-0005139.3@llinst.hlp>main
+4 Representation=D-SG-0005140.1@llinst.hlp>main
+4 Parameter Description=D-SG-0005141.3@llinst.hlp>main
+3 EMTH-SUBIF: Integer - Floating Point Subtraction
+3 EMTH-SUBIF: Integer - Floating Point Subtraction=D-SG-0005142.4@llinst.hlp>main
+4 Short Description=D-SG-0005143.3@llinst.hlp>main
+4 Representation=D-SG-0005144.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005145.3@llinst.hlp>main
+3 EMTH-TAN: Floating Point Tangent of an Angle (in Radians)
+3 EMTH-TAN: Floating Point Tangent of an Angle (in Radians)=D-SG-0005146.4@llinst.hlp>main
+4 Short Description=D-SG-0005147.3@llinst.hlp>main
+4 Representation=D-SG-0005148.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005149.3@llinst.hlp>main
+3 ESI: Support of the ESI Module
+3 ESI: Support of the ESI Module=D-SG-0004966.4@llinst.hlp>main
+4 Short Description=D-SG-0004967.3@llinst.hlp>main
+4 Representation=D-SG-0004968.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004969.1@llinst.hlp>main
+4 READ ASCII Message (Subfunction 1)=D-SG-0004971.1@llinst.hlp>main
+4 WRITE ASCII Message (Subfunction 2)=D-SG-0004972.1@llinst.hlp>main
+4 GET DATA (Subfunction 3)=D-SG-0004973.1@llinst.hlp>main
+4 PUT DATA (Subfunction 4)=D-SG-0004974.1@llinst.hlp>main
+4 ABORT (Middle Input ON)=D-SG-0005005.1@llinst.hlp>main
+4 Run Time Errors=D-SG-0004970.1@llinst.hlp>main
+3 EUCA: Engineering Unit Conversion and Alarms
+3 EUCA: Engineering Unit Conversion and Alarms=D-SG-0005161.4@llinst.hlp>main
+4 Short Description=D-SG-0005162.3@llinst.hlp>main
+4 Representation=D-SG-0005163.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005164.3@llinst.hlp>main
+4 Examples=D-SG-0005165.3@llinst.hlp>main
+2 Instruction Descriptions (F to N)
+2 Instruction Descriptions (F to N)=D-SG-0006455.4@llinst.hlp>main
+3 FIN: First In
+3 FIN: First In=D-SG-0005166.4@llinst.hlp>main
+4 Short Description=D-SG-0005167.3@llinst.hlp>main
+4 Representation=D-SG-0005168.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005169.3@llinst.hlp>main
+3 FOUT: First Out
+3 FOUT: First Out=D-SG-0005170.4@llinst.hlp>main
+4 Short Description=D-SG-0005171.3@llinst.hlp>main
+4 Representation=D-SG-0005172.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005173.3@llinst.hlp>main
+3 FTOI: Floating Point to Integer
+3 FTOI: Floating Point to Integer=D-SG-0005174.4@llinst.hlp>main
+4 Short Description=D-SG-0005175.3@llinst.hlp>main
+4 Representation=D-SG-0005176.3@llinst.hlp>main
+3 HLTH: History and Status Matrices
+3 HLTH: History and Status Matrices=D-SG-0005177.4@llinst.hlp>main
+4 Short Description=D-SG-0005178.3@llinst.hlp>main
+4 Representation=D-SG-0005179.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005180.3@llinst.hlp>main
+4 Parameter Description Top Node (History Matrix)=D-SG-0005181.3@llinst.hlp>main
+4 Parameter Description Middle Node (Status Matrix)=D-SG-0005182.3@llinst.hlp>main
+4 Parameter Description Bottom Node (Length)=D-SG-0005183.3@llinst.hlp>main
+3 IBKR: Indirect Block Read
+3 IBKR: Indirect Block Read=D-SG-0005189.4@llinst.hlp>main
+4 Short Description=D-SG-0005190.3@llinst.hlp>main
+4 Representation=D-SG-0005191.3@llinst.hlp>main
+3 IBKW: Indirect Block Write
+3 IBKW: Indirect Block Write=D-SG-0005192.4@llinst.hlp>main
+4 Short Description=D-SG-0005193.3@llinst.hlp>main
+4 Representation=D-SG-0005194.3@llinst.hlp>main
+3 ICMP: Input Compare
+3 ICMP: Input Compare=D-SG-0005195.4@llinst.hlp>main
+4 Short Description=D-SG-0005196.3@llinst.hlp>main
+4 Representation=D-SG-0005197.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005198.3@llinst.hlp>main
+4 Cascaded DRUM/ICMP Blocks=D-SG-0005199.3@llinst.hlp>main
+3 ID: Interrupt Disable
+3 ID: Interrupt Disable=D-SG-0005200.4@llinst.hlp>main
+4 Short Description=D-SG-0005201.3@llinst.hlp>main
+4 Representation=D-SG-0005202.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005203.3@llinst.hlp>main
+3 IE: Interrupt Enable
+3 IE: Interrupt Enable=D-SG-0005204.4@llinst.hlp>main
+4 Short Description=D-SG-0005205.3@llinst.hlp>main
+4 Representation=D-SG-0005206.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005207.3@llinst.hlp>main
+3 IMIO: Immediate I/O
+3 IMIO: Immediate I/O=D-SG-0005208.4@llinst.hlp>main
+4 Short Description=D-SG-0005209.3@llinst.hlp>main
+4 Representation=D-SG-0005210.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005211.3@llinst.hlp>main
+4 Run Time Error Handling=D-SG-0005212.3@llinst.hlp>main
+3 IMOD: Interrupt Module Instruction
+3 IMOD: Interrupt Module Instruction=D-SG-0005213.4@llinst.hlp>main
+4 Short Description=D-SG-0005214.3@llinst.hlp>main
+4 Representation=D-SG-0005215.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005216.3@llinst.hlp>main
+3 ITMR: Interrupt Timer
+3 ITMR: Interrupt Timer=D-SG-0005217.4@llinst.hlp>main
+4 Short Description=D-SG-0005218.3@llinst.hlp>main
+4 Representation=D-SG-0005219.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005220.3@llinst.hlp>main
+3 ITOF: Integer to Floating Point
+3 ITOF: Integer to Floating Point=D-SG-0005221.4@llinst.hlp>main
+4 Short Description=D-SG-0005222.3@llinst.hlp>main
+4 Representation=D-SG-0005223.3@llinst.hlp>main
+3 JSR: Jump to Subroutine
+3 JSR: Jump to Subroutine=D-SG-0005224.4@llinst.hlp>main
+4 Short Description=D-SG-0005225.3@llinst.hlp>main
+4 Representation=D-SG-0005226.3@llinst.hlp>main
+3 LAB: Label for a Subroutine
+3 LAB: Label for a Subroutine=D-SG-0005227.4@llinst.hlp>main
+4 Short Description=D-SG-0005228.3@llinst.hlp>main
+4 Representation=D-SG-0005229.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005230.3@llinst.hlp>main
+3 LOAD: Load Flash
+3 LOAD: Load Flash=D-SG-0005231.4@llinst.hlp>main
+4 Short Description=D-SG-0005232.3@llinst.hlp>main
+4 Representation=D-SG-0005233.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005234.3@llinst.hlp>main
+3 MAP 3: MAP Transaction
+3 MAP 3: MAP Transaction=D-SG-0005235.4@llinst.hlp>main
+4 Short Description=D-SG-0005236.3@llinst.hlp>main
+4 Representation=D-SG-0005237.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005238.3@llinst.hlp>main
+3 MBIT: Modify Bit
+3 MBIT: Modify Bit=D-SG-0005239.4@llinst.hlp>main
+4 Short Description=D-SG-0005240.3@llinst.hlp>main
+4 Representation=D-SG-0005241.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005242.3@llinst.hlp>main
+3 MBUS: MBUS Transaction
+3 MBUS: MBUS Transaction=D-SG-0005243.4@llinst.hlp>main
+4 Short Description=D-SG-0005244.3@llinst.hlp>main
+4 Representation=D-SG-0005245.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005246.3@llinst.hlp>main
+4 The MBUS Get Statistics Function=D-SG-0005247.3@llinst.hlp>main
+3 MRTM: Multi-Register Transfer Module
+3 MRTM: Multi-Register Transfer Module=D-SG-0005248.4@llinst.hlp>main
+4 Short Description=D-SG-0005249.3@llinst.hlp>main
+4 Representation=D-SG-0005250.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005251.3@llinst.hlp>main
+3 MSTR: Master
+3 MSTR: Master=D-SG-0004795.4@llinst.hlp>main
+4 Short Description=D-SG-0004798.3@llinst.hlp>main
+4 Representation=D-SG-0004799.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004800.3@llinst.hlp>main
+4 Write MSTR Operation=D-SG-0004796.3@llinst.hlp>main
+4 READ MSTR Operation=D-SG-0004801.1@llinst.hlp>main
+4 Get Local Statistics MSTR Operation=D-SG-0005260.3@llinst.hlp>main
+4 Clear Local Statistics MSTR Operation=D-SG-0005261.3@llinst.hlp>main
+4 Write Global Data MSTR Operation=D-SG-0005262.3@llinst.hlp>main
+4 Read Global Data MSTR Operation=D-SG-0005263.3@llinst.hlp>main
+4 Get Remote Statistics MSTR Operation=D-SG-0005265.3@llinst.hlp>main
+4 Clear Remote Statistics MSTR Operation=D-SG-0005266.3@llinst.hlp>main
+4 Peer Cop Health MSTR Operation=D-SG-0005267.3@llinst.hlp>main
+4 Reset Option Module MSTR Operation=D-SG-0005268.3@llinst.hlp>main
+4 Read CTE (Config Extension Table) MSTR Operation=D-SG-0005269.3@llinst.hlp>main
+4 Write CTE (Config Extension Table) MSTR Operation=D-SG-0005270.3@llinst.hlp>main
+4 Modbus Plus Network Statistics=D-SG-0005271.3@llinst.hlp>main
+4 TCP/IP Ethernet Statistics=D-SG-0005272.3@llinst.hlp>main
+4 Run Time Errors =D-SG-0004797.3@llinst.hlp>main
+4 Modbus Plus and SY/MAX Ethernet Error Codes=D-SG-0005277.3@llinst.hlp>main
+4 SY/MAX-specific Error Codes=D-SG-0005278.3@llinst.hlp>main
+4 TCP/IP Ethernet Error Codes=D-SG-0005279.3@llinst.hlp>main
+4 CTE Error Codes for SY/MAX and TCP/IP Ethernet=D-SG-0005280.3@llinst.hlp>main
+3 MU16: Multiply 16 Bit
+3 MU16: Multiply 16 Bit=D-SG-0005252.4@llinst.hlp>main
+4 Short Description=D-SG-0005253.3@llinst.hlp>main
+4 Representation=D-SG-0005254.3@llinst.hlp>main
+3 MUL: Multiply
+3 MUL: Multiply=D-SG-0005255.4@llinst.hlp>main
+4 Short Description=D-SG-0005256.3@llinst.hlp>main
+4 Representation=D-SG-0005257.3@llinst.hlp>main
+4 Example=D-SG-0005259.3@llinst.hlp>main
+3 NBIT: Bit Control
+3 NBIT: Bit Control=D-SG-0005281.4@llinst.hlp>main
+4 Short Description=D-SG-0005282.3@llinst.hlp>main
+4 Representation=D-SG-0005283.3@llinst.hlp>main
+3 NCBT: Normally Closed Bit
+3 NCBT: Normally Closed Bit=D-SG-0005284.4@llinst.hlp>main
+4 Short Description=D-SG-0005285.3@llinst.hlp>main
+4 Representation=D-SG-0005286.3@llinst.hlp>main
+3 NOBT: Normally Open Bit
+3 NOBT: Normally Open Bit=D-SG-0005287.4@llinst.hlp>main
+4 Short Description=D-SG-0005288.3@llinst.hlp>main
+4 Representation=D-SG-0005289.3@llinst.hlp>main
+3 NOL: Network Option Module for Lonworks
+3 NOL: Network Option Module for Lonworks=D-SG-0004808.1@llinst.hlp>main
+4 Short Description=D-SG-0004809.1@llinst.hlp>main
+4 Representation=D-SG-0004810.3@llinst.hlp>main
+4 Detailed Description=D-SG-0004811.3@llinst.hlp>main
+2 Instruction Descriptions (O to Q)
+2 Instruction Descriptions (O to Q)=D-SG-0006456.4@llinst.hlp>main
+3 OR: Logical OR
+3 OR: Logical OR=D-SG-0005290.4@llinst.hlp>main
+4 Short Description=D-SG-0005291.3@llinst.hlp>main
+4 Representation=D-SG-0005292.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005293.3@llinst.hlp>main
+3 PCFL: Process Control Function Library
+3 PCFL: Process Control Function Library=D-SG-0004899.4@llinst.hlp>main
+4 Short Description=D-SG-0004900.3@llinst.hlp>main
+4 Representation=D-SG-0004902.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004903.3@llinst.hlp>main
+3 PCFL-AIN: Analog Input
+3 PCFL-AIN: Analog Input=D-SG-0004904.4@llinst.hlp>main
+4 Short Description=D-SG-0004905.3@llinst.hlp>main
+4 Representation=D-SG-0004907.3@llinst.hlp>main
+4 Parameter Description=D-SG-0004908.3@llinst.hlp>main
+3 PCFL-ALARM: Central Alarm Handler
+3 PCFL-ALARM: Central Alarm Handler=D-SG-0005294.4@llinst.hlp>main
+4 Short Description=D-SG-0005295.3@llinst.hlp>main
+4 Representation=D-SG-0005296.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005297.3@llinst.hlp>main
+3 PCFL-AOUT: Analog Output
+3 PCFL-AOUT: Analog Output=D-SG-0005298.4@llinst.hlp>main
+4 Short Description=D-SG-0005299.3@llinst.hlp>main
+4 Representation=D-SG-0005300.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005301.3@llinst.hlp>main
+3 PCFL-AVER: Average Weighted Inputs Calculate
+3 PCFL-AVER: Average Weighted Inputs Calculate=D-SG-0005302.4@llinst.hlp>main
+4 Short Description=D-SG-0005303.3@llinst.hlp>main
+4 Representation=D-SG-0005304.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005305.3@llinst.hlp>main
+3 PCFL-CALC: Calculated preset formula
+3 PCFL-CALC: Calculated preset formula=D-SG-0005306.4@llinst.hlp>main
+4 Short Description=D-SG-0005307.3@llinst.hlp>main
+4 Representation=D-SG-0005308.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005309.3@llinst.hlp>main
+3 PCFL-DELAY: Time Delay Queue
+3 PCFL-DELAY: Time Delay Queue=D-SG-0005310.4@llinst.hlp>main
+4 Short Description=D-SG-0005311.1@llinst.hlp>main
+4 Representation=D-SG-0005312.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005313.3@llinst.hlp>main
+3 PCFL-EQN: Formatted Equation Calculator
+3 PCFL-EQN: Formatted Equation Calculator=D-SG-0005314.4@llinst.hlp>main
+4 Short Description=D-SG-0005315.3@llinst.hlp>main
+4 Representation=D-SG-0005316.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005317.3@llinst.hlp>main
+3 PCFL-INTEG: Integrate Input at Specified Interval
+3 PCFL-INTEG: Integrate Input at Specified Interval=D-SG-0005318.4@llinst.hlp>main
+4 Short Description=D-SG-0005319.3@llinst.hlp>main
+4 Representation=D-SG-0005320.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005321.3@llinst.hlp>main
+3 PCFL-KPID: Comprehensive ISA Non Interacting PID
+3 PCFL-KPID: Comprehensive ISA Non Interacting PID=D-SG-0005322.4@llinst.hlp>main
+4 Short Description=D-SG-0005323.3@llinst.hlp>main
+4 Representation=D-SG-0005324.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005325.3@llinst.hlp>main
+3 PCFL-LIMIT: Limiter for the Pv
+3 PCFL-LIMIT: Limiter for the Pv=D-SG-0005326.4@llinst.hlp>main
+4 Short Description=D-SG-0005327.3@llinst.hlp>main
+4 Representation=D-SG-0005328.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005329.3@llinst.hlp>main
+3 PCFL-LIMV: Velocity Limiter for Changes in the Pv
+3 PCFL-LIMV: Velocity Limiter for Changes in the Pv=D-SG-0005330.4@llinst.hlp>main
+4 Short Description=D-SG-0005331.3@llinst.hlp>main
+4 Representation=D-SG-0005332.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005333.3@llinst.hlp>main
+3 PCFL-LKUP: Look-up Table
+3 PCFL-LKUP: Look-up Table=D-SG-0005334.4@llinst.hlp>main
+4 Short Description=D-SG-0005335.3@llinst.hlp>main
+4 Representation=D-SG-0005336.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005337.3@llinst.hlp>main
+3 PCFL-LLAG: First-order Lead/Lag Filter
+3 PCFL-LLAG: First-order Lead/Lag Filter=D-SG-0005338.4@llinst.hlp>main
+4 Short Description=D-SG-0005339.3@llinst.hlp>main
+4 Representation=D-SG-0005340.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005341.3@llinst.hlp>main
+3 PCFL-MODE: Put Input in Auto or Manual Mode
+3 PCFL-MODE: Put Input in Auto or Manual Mode=D-SG-0005342.4@llinst.hlp>main
+4 Short Description=D-SG-0005343.3@llinst.hlp>main
+4 Representation=D-SG-0005344.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005345.3@llinst.hlp>main
+3 PCFL-ONOFF: ON/OFF Values for Deadband
+3 PCFL-ONOFF: ON/OFF Values for Deadband=D-SG-0005346.4@llinst.hlp>main
+4 Short Description=D-SG-0005347.3@llinst.hlp>main
+4 Representation=D-SG-0005348.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005349.3@llinst.hlp>main
+3 PCFL-PI: ISA Non Interacting PI
+3 PCFL-PI: ISA Non Interacting PI=D-SG-0005350.4@llinst.hlp>main
+4 Short Description=D-SG-0005351.3@llinst.hlp>main
+4 Representation=D-SG-0005352.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005353.3@llinst.hlp>main
+3 PCFL-PID: PID Algorithms
+3 PCFL-PID: PID Algorithms=D-SG-0005354.4@llinst.hlp>main
+4 Short Description=D-SG-0005355.3@llinst.hlp>main
+4 Representation=D-SG-0005356.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005357.3@llinst.hlp>main
+3 PCFL-RAMP: Ramp to Set Point at a Constant Rate
+3 PCFL-RAMP: Ramp to Set Point at a Constant Rate=D-SG-0005358.4@llinst.hlp>main
+4 Short Description=D-SG-0005359.3@llinst.hlp>main
+4 Representation=D-SG-0005360.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005361.3@llinst.hlp>main
+3 PCFL-RATE: Derivative Rate Calculation over a Specified Time
+3 PCFL-RATE: Derivative Rate Calculation over a Specified Time=D-SG-0005362.4@llinst.hlp>main
+4 Short Description=D-SG-0005363.3@llinst.hlp>main
+4 Representation=D-SG-0005364.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005365.3@llinst.hlp>main
+3 PCFL-RATIO: Four Station Ratio Controller
+3 PCFL-RATIO: Four Station Ratio Controller=D-SG-0005366.4@llinst.hlp>main
+4 Short Description=D-SG-0005367.3@llinst.hlp>main
+4 Representation=D-SG-0005368.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005369.3@llinst.hlp>main
+3 PCFL-RMPLN: Logarithmic Ramp to Set Point
+3 PCFL-RMPLN: Logarithmic Ramp to Set Point=D-SG-0005370.4@llinst.hlp>main
+4 Short Description=D-SG-0005371.3@llinst.hlp>main
+4 Representation=D-SG-0005372.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005373.3@llinst.hlp>main
+3 PCFL-SEL: Input Selection
+3 PCFL-SEL: Input Selection=D-SG-0005374.4@llinst.hlp>main
+4 Short Description=D-SG-0005375.3@llinst.hlp>main
+4 Representation=D-SG-0005376.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005377.3@llinst.hlp>main
+3 PCFL-TOTAL: Totalizer for Metering Flow
+3 PCFL-TOTAL: Totalizer for Metering Flow=D-SG-0005378.4@llinst.hlp>main
+4 Short Description=D-SG-0005379.3@llinst.hlp>main
+4 Representation=D-SG-0005380.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005381.3@llinst.hlp>main
+3 PEER: PEER Transaction
+3 PEER: PEER Transaction=D-SG-0005382.4@llinst.hlp>main
+4 Short Description=D-SG-0005383.3@llinst.hlp>main
+4 Representation=D-SG-0005384.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005385.3@llinst.hlp>main
+3 PID2: Proportional Integral Derivative
+3 PID2: Proportional Integral Derivative=D-SG-0005386.4@llinst.hlp>main
+4 Short Description=D-SG-0005387.3@llinst.hlp>main
+4 Representation=D-SG-0005388.3@llinst.hlp>main
+4 Detailed Description=D-SG-0005389.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005390.3@llinst.hlp>main
+4 Run Time Errors=D-SG-0005391.3@llinst.hlp>main
+2 Instruction Descriptions (R to Z)
+2 Instruction Descriptions (R to Z)=D-SG-0006457.4@llinst.hlp>main
+3 R &minus\;&minus\;> T: Register to Table
+3 R &minus\;&minus\;> T: Register to Table=D-SG-0005392.4@llinst.hlp>main
+4 Short Description=D-SG-0005393.3@llinst.hlp>main
+4 Representation=D-SG-0005394.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005395.3@llinst.hlp>main
+3 RBIT: Reset Bit
+3 RBIT: Reset Bit=D-SG-0005396.4@llinst.hlp>main
+4 Short Description=D-SG-0005397.3@llinst.hlp>main
+4 Representation=D-SG-0005398.3@llinst.hlp>main
+3 READ: Read
+3 READ: Read=D-SG-0005399.4@llinst.hlp>main
+4 Short Description=D-SG-0005400.3@llinst.hlp>main
+4 Representation=D-SG-0005401.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005402.3@llinst.hlp>main
+3 RET: Return from a Subroutine
+3 RET: Return from a Subroutine=D-SG-0005403.4@llinst.hlp>main
+4 Short Description=D-SG-0005404.3@llinst.hlp>main
+4 Representation=D-SG-0005405.3@llinst.hlp>main
+3 SAVE: Save Flash
+3 SAVE: Save Flash=D-SG-0005406.4@llinst.hlp>main
+4 Short Description=D-SG-0005407.3@llinst.hlp>main
+4 Representation=D-SG-0005408.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005409.3@llinst.hlp>main
+3 SBIT: Set Bit
+3 SBIT: Set Bit=D-SG-0005410.4@llinst.hlp>main
+4 Short Description=D-SG-0005411.3@llinst.hlp>main
+4 Representation=D-SG-0005412.3@llinst.hlp>main
+3 SCIF: Sequential Control Interfaces
+3 SCIF: Sequential Control Interfaces=D-SG-0005413.4@llinst.hlp>main
+4 Short Description=D-SG-0005414.3@llinst.hlp>main
+4 Representation=D-SG-0005415.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005416.3@llinst.hlp>main
+3 SENS: Sense
+3 SENS: Sense=D-SG-0005417.4@llinst.hlp>main
+4 Short Description=D-SG-0005418.3@llinst.hlp>main
+4 Representation=D-SG-0005419.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005420.3@llinst.hlp>main
+3 SKPC: Skip (Constants)
+3 SKPC: Skip (Constants)=D-SG-0005421.4@llinst.hlp>main
+4 Short Description=D-SG-0005422.3@llinst.hlp>main
+4 Representation=D-SG-0005423.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005424.3@llinst.hlp>main
+4 Example=D-SG-0005425.3@llinst.hlp>main
+3 SKPR: Skip (Registers)
+3 SKPR: Skip (Registers)=D-SG-0005426.4@llinst.hlp>main
+4 Short Description=D-SG-0005427.3@llinst.hlp>main
+4 Representation=D-SG-0005428.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005429.3@llinst.hlp>main
+4 Example=D-SG-0005430.3@llinst.hlp>main
+3 SRCH: Search
+3 SRCH: Search=D-SG-0005431.4@llinst.hlp>main
+4 Short Description=D-SG-0005432.3@llinst.hlp>main
+4 Representation=D-SG-0005433.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005434.3@llinst.hlp>main
+3 STAT: Status
+3 STAT: Status=D-SG-0005435.4@llinst.hlp>main
+4 Short Description=D-SG-0005436.3@llinst.hlp>main
+4 Representation=D-SG-0005437.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005438.3@llinst.hlp>main
+4 Description of the Status Table=D-SG-0005493.3@llinst.hlp>main
+4 Controller Status Words 1 - 11 for Quantum and Momentum=D-SG-0005494.3@llinst.hlp>main
+4 I/O Module Health Status Words 12 - 20 for Momentum=D-SG-0005495.3@llinst.hlp>main
+4 I/O Module Health Status Words 12 - 171 for Quantum=D-SG-0005496.3@llinst.hlp>main
+4 Communication Status Words 172 - 277 for Quantum=D-SG-0005497.3@llinst.hlp>main
+4 Controller Status Words 1 - 11 for TSX Compact and Atrium=D-SG-0005498.3@llinst.hlp>main
+4 I/O Module Health Status Words 12 - 15 for TSX Compact=D-SG-0005499.3@llinst.hlp>main
+4 Global Health and Communications Retry Status Words 182 ... 184 for TSX Compact=D-SG-0005500.3@llinst.hlp>main
+3 SU16: Subtract 16 Bit
+3 SU16: Subtract 16 Bit=D-SG-0005439.4@llinst.hlp>main
+4 Short Description=D-SG-0005440.3@llinst.hlp>main
+4 Representation=D-SG-0005441.3@llinst.hlp>main
+3 SUB: Subtraction
+3 SUB: Subtraction=D-SG-0005442.4@llinst.hlp>main
+4 Short Description=D-SG-0005443.3@llinst.hlp>main
+4 Representation=D-SG-0005444.3@llinst.hlp>main
+3 T&minus\;&minus\;>R: Table to Register
+3 T&minus\;&minus\;>R: Table to Register=D-SG-0005445.4@llinst.hlp>main
+4 Short Description=D-SG-0005446.3@llinst.hlp>main
+4 Representation=D-SG-0005447.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005448.3@llinst.hlp>main
+3 T&minus\;&minus\;>T: Table to Table
+3 T&minus\;&minus\;>T: Table to Table=D-SG-0005449.4@llinst.hlp>main
+4 Short Description=D-SG-0005450.3@llinst.hlp>main
+4 Representation=D-SG-0005451.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005452.3@llinst.hlp>main
+3 T.01 Timer: One Hundredth Second Timer
+3 T.01 Timer: One Hundredth Second Timer=D-SG-0005453.4@llinst.hlp>main
+4 Short Description=D-SG-0005454.3@llinst.hlp>main
+4 Representation=D-SG-0005455.3@llinst.hlp>main
+3 T0.1 Timer: One Tenth Second Timer
+3 T0.1 Timer: One Tenth Second Timer=D-SG-0005456.4@llinst.hlp>main
+4 Short Description=D-SG-0005457.3@llinst.hlp>main
+4 Representation=D-SG-0005458.3@llinst.hlp>main
+3 T1.0 Timer: One Second Timer
+3 T1.0 Timer: One Second Timer=D-SG-0005459.4@llinst.hlp>main
+4 Short Description=D-SG-0005460.3@llinst.hlp>main
+4 Representation=D-SG-0005461.3@llinst.hlp>main
+3 T1MS Timer: One Millisecond Timer
+3 T1MS Timer: One Millisecond Timer=D-SG-0005462.4@llinst.hlp>main
+4 Short Description=D-SG-0005463.3@llinst.hlp>main
+4 Representation=D-SG-0005464.3@llinst.hlp>main
+4 Example=D-SG-0005465.3@llinst.hlp>main
+3 TBLK: Table to Block
+3 TBLK: Table to Block=D-SG-0005466.4@llinst.hlp>main
+4 Short Description=D-SG-0005467.3@llinst.hlp>main
+4 Representation=D-SG-0005468.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005469.3@llinst.hlp>main
+3 TEST: Test of 2 Values
+3 TEST: Test of 2 Values=D-SG-0005470.4@llinst.hlp>main
+4 Short Description=D-SG-0005471.3@llinst.hlp>main
+4 Representation=D-SG-0005472.3@llinst.hlp>main
+3 UCTR: Up Counter
+3 UCTR: Up Counter=D-SG-0005473.4@llinst.hlp>main
+4 Short Description=D-SG-0005474.3@llinst.hlp>main
+4 Representation=D-SG-0005475.3@llinst.hlp>main
+3 WRIT: Write
+3 WRIT: Write=D-SG-0005476.4@llinst.hlp>main
+4 Short Description=D-SG-0005477.3@llinst.hlp>main
+4 Representation=D-SG-0005478.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005479.3@llinst.hlp>main
+3 XMIT: XMIT Communication Block
+3 XMIT: XMIT Communication Block=D-SG-0005154.4@llinst.hlp>main
+4 Short Description=D-SG-0005155.3@llinst.hlp>main
+4 Representation=D-SG-0005157.3@llinst.hlp>main
+4 Detailed Description=D-SG-0005159.1@llinst.hlp>main
+3 XMRD: Extended Memory Read
+3 XMRD: Extended Memory Read=D-SG-0005480.4@llinst.hlp>main
+4 Short Description=D-SG-0005481.3@llinst.hlp>main
+4 Representation=D-SG-0005482.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005483.3@llinst.hlp>main
+3 XMWT: Extended Memory Write
+3 XMWT: Extended Memory Write=D-SG-0005484.4@llinst.hlp>main
+4 Short Description=D-SG-0005485.3@llinst.hlp>main
+4 Representation=D-SG-0005486.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005487.3@llinst.hlp>main
+3 XOR: Exclusive OR
+3 XOR: Exclusive OR=D-SG-0005488.4@llinst.hlp>main
+4 Short Description=D-SG-0005489.3@llinst.hlp>main
+4 Representation=D-SG-0005490.3@llinst.hlp>main
+4 Parameter Description=D-SG-0005491.3@llinst.hlp>main
+1 Glossary=D-SG-0000454.1@llinst.hlp>main

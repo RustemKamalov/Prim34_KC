@@ -1,0 +1,130 @@
+
+%mainmenu
+
+This program is designed to load MODICON PLC's, that support FLASHRAM, with
+a different revision of EXECUTIVE code. 
+
+The following steps should be followed to download a new revision of 
+software into your PLC.
+
+*****  USE YOUR PROGRAMMING SOFTWARE TO SAVE THE CONTENTS OF YOUR PLC  *****
+*****  ALL PLC LADDER LOGIC, CONFIGURATION, AND STATE RAM WILL BE LOST *****
+
+    STEP 1 - SETUP THE APPROPRIATE COMMUNICATION PARAMETERS
+    STEP 2 - SELECT A FILE TO BE LOADED
+    STEP 3 - DOWNLOAD THE PREVIOUSLY SELECTED FILE FROM STEP 2 TO THE PLC
+
+*END*
+%filefind
+
+
+ The FILE selection window will display all files in the current Directory.
+ Files that display "Incorrect File Format" cannot be selected or downloaded
+ into a PLC.  The user may use the Up Arrow and Down Arrow keys to select a
+ file.  Once a valid file is selected (highlighted), hit the ENTER or
+ RETURN key.
+     FIELD     - Definitons
+
+     FILE #    - Specifies the file number in the directory - (No Value).
+     FILENAME  - Specifies the file name in the current directory.
+     FILE TYPE - Specifies the file type for this file.
+                 (ie 685 - CPU, 785 - CPU etc.)
+     REVISION  - Specifies the revision of the EXECUTIVE Firmware for 
+                 this file.  This represent the same number displayed
+                 on the MODSOFT PLC Status Screen or Login Screen.
+     ESC       - The ESC key will abort this window without selecting a file.
+     ENTER     - The ENTER or RETURN key will select current file.
+     D         - The letter 'D' will allow the user to change directories
+*END*
+%commtype
+
+
+
+
+
+    This selection window allows the user to select the type of
+    communication protocol out of the computer.
+
+    MODBUS - Allows the user to communicate throught the serial port
+             of COM1 or COM2
+
+    MODBUS PLUS - Allows the user to communicate through a Host base 
+             device card located in the computer.  Examples of these
+             device cards are SA85, SM85, AT984, MC984.
+
+*END*
+%commport
+
+
+
+
+
+
+
+
+      This selection window allows the user to select which serial port
+      out of the computer they would like to use.  Valid selections are
+      COM1, COM2, COM3, or COM4.
+*END*
+%baud_par_data_stop
+
+ 
+
+
+
+    These selection windows allow the user to set up the communication
+    speed, number of bits per character, parity and number of stop bits.
+
+    The TWO most common setups are :
+  
+       COM1  -  9600  -  8 Data Bits  -  EVEN Parity  -  1 Stop Bit
+
+       COM1  -  9600  -  7 Data Bits  -  NO Parity    -  2 Stop Bits
+
+*END*
+%path
+
+
+
+
+       The TARGET PATH selection allows the user to determine which device
+       they would like to modify in the PLC.
+
+       REQUIRED SETTING to Upgrade the PLC EXECUTIVE :
+
+       TARGET PATH = 0 when using the MODBUS PORT on the PLC
+
+       TARGET PATH = 1 when using the MODBUS PLUS PORT on the PLC
+
+
+       You are NOT allowed to UPGRADE PLC Executive firmware through
+       an AM-S985-80x Modbus Plus Option card.
+
+       UPGRADING of Executive firmware is allowed through the On Board
+       Modbus Port or Modbus Plus port only.
+
+*END*    
+%accept
+
+
+
+
+
+       This window allows the user to perform 1 of three functions:
+
+       ACCEPT CHANGES - This will set the communication parameters to the
+                 desired setting on the screen.
+
+       CANCEL CHANGES - This will ignore the selected parameters on the 
+                 screen and return the setting to the previous settings.
+
+       EDIT CHANGES  - This will allow the user to change the parameters
+                 again, without having to exit the COMMUNICATION SETUP window.
+*END*
+
+
+
+
+%end-of-file
+
+

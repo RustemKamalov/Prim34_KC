@@ -1,0 +1,37 @@
+:Base xmit_iec.hlp
+:Title XXMIT / RTXMIT
+:Index  =m1.hlp
+1 Concept Function Blocks XXMIT, RTXMIT Transmit (Receive) 
+1 Concept Function Blocks XXMIT, RTXMIT Transmit (Receive) =IDH_CONTENTS@xmit_iec.hlp>main
+2 Introduction to XXMIT and RTXMIT
+2 Introduction to XXMIT and RTXMIT=D-SG-0006325.1@xmit_iec.hlp>main
+3 XXMIT Functionality=D-SG-0006326.1@xmit_iec.hlp>main
+3 RTXMIT Functionality=D-SG-0011952.1@xmit_iec.hlp>main
+2 XXMIT: Transmit (Compact, Momentum, Quantum)
+2 XXMIT: Transmit (Compact, Momentum, Quantum)=D-SG-0003593.4@xmit_iec.hlp>main
+3 Brief Description=D-SG-0006411.1@xmit_iec.hlp>main
+3 Representation=D-SG-0003381.1@xmit_iec.hlp>main
+3 Detailed Parameter Description=D-SG-0003382.1@xmit_iec.hlp>main
+3 XXMIT Communication Functions=D-SG-0003383.1@xmit_iec.hlp>main
+3 XXMIT ASCII Functions=D-SG-0003384.1@xmit_iec.hlp>main
+3 XXMIT Modem Functions=D-SG-0003385.1@xmit_iec.hlp>main
+3 XXMIT Modbus Functions=D-SG-0003386.1@xmit_iec.hlp>main
+3 FIFO and Flow Control=D-SG-0003387.1@xmit_iec.hlp>main
+3 Run Time Errors=D-SG-0003388.1@xmit_iec.hlp>main
+3 Application Example=D-SG-0003389.1@xmit_iec.hlp>main
+2 RTXMIT: Full Duplex Transmit (Compact, Momentum, Quantum)
+2 RTXMIT: Full Duplex Transmit (Compact, Momentum, Quantum)=D-SG-0011944.1@xmit_iec.hlp>main
+3 Brief Description=D-SG-0011945.1@xmit_iec.hlp>main
+3 Representation=D-SG-0011954.1@xmit_iec.hlp>main
+3 Parameter Description=D-SG-0011955.1@xmit_iec.hlp>main
+3 Runtime Errors=D-SG-0009607.1@xmit_iec.hlp>main
+3 Application Example=D-SG-0012717.1@xmit_iec.hlp>main
+2 Technical References for XXMIT function block
+2 Technical References for XXMIT function block=D-SG-0006277.1@xmit_iec.hlp>main
+3 Modbus Query/Response Parameter Limits=D-SG-0005862.1@xmit_iec.hlp>main
+3 XXMIT Configuration using Hayes Compatible Dial-Up Modems (Only)=D-SG-0006276.1@xmit_iec.hlp>main
+2 Cabling Information
+2 Cabling Information=D-SG-0011964.1@xmit_iec.hlp>main
+3 Cable Pinouts=D-SG-0005863.1@xmit_iec.hlp>main
+3 Cable Adapter Kits=D-SG-0006275.1@xmit_iec.hlp>main
+1 Glossary=D-SG-0000454.1@xmit_iec.hlp>main

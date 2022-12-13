@@ -1,0 +1,23 @@
+
+(* library.dty       Derived datatypes definition file:          *)
+
+(* You should edit this file, if you need some derived datatypes *)
+(* in conjunction with EFBs of this library.                     *)
+(* Syntax is given by IEC 1131-3 textual language format         *)
+
+
+TYPE 
+
+FIFOQUEUE:    ARRAY [0..1999] OF BOOL;
+
+DLOG_CTRL: STRUCT
+           status:    WORD;
+           operation: WORD;
+           window:    WORD;
+           offset:    WORD;
+           count:     WORD;
+           END_STRUCT; 
+
+END_TYPE
+
+

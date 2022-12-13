@@ -1,0 +1,141 @@
+:Base comm.hlp
+:Title COMM block library
+:Index  =Akfefb.hlp
+:Index  =Ana_io.hlp
+:Index  =comm.hlp
+:Index  =Cont_ctl.hlp
+:Index  =Diagno.hlp
+:Index  =Experts.hlp
+:Index  =Extended.hlp
+:Index  =Fuzzy.hlp
+:Index  =Handtabl.hlp
+:Index  =Iec.hlp
+:Index  =Lib984.hlp
+:Index  =System.hlp
+:Index  =xmit_iec.hlp
+:Index  =concman.hlp
+:Index  =concman.hlp
+:Index  =xmit_iec.hlp
+1 Concept IEC Block Library COMM
+1 Concept IEC Block Library COMM=IDH_CONTENTS@comm.hlp>main
+2 General information about the COMM module library
+2 General information about the COMM module library=D-SG-0003574.1@comm.hlp>main
+3 Parameterizing functions and function blocks=D-SG-0002132.1@comm.hlp>main
+2 EFB descriptions
+2 EFB descriptions=D-SG-0003575.1@comm.hlp>main
+3 CREAD_REG: Continuous register reading
+3 CREAD_REG: Continuous register reading=D-SG-0003576.4@comm.hlp>main
+4 Brief description=D-SG-0001078.1@comm.hlp>main
+4 Representation=D-SG-0001079.1@comm.hlp>main
+4 Function mode=D-SG-0001080.1@comm.hlp>main
+4 Parameter description=D-SG-0001082.1@comm.hlp>main
+3 CREADREG: Continuous register reading
+3 CREADREG: Continuous register reading=D-SG-0003577.4@comm.hlp>main
+4 Brief description=D-SG-0001099.1@comm.hlp>main
+4 Representation=D-SG-0001101.1@comm.hlp>main
+4 Function mode=D-SG-0001104.1@comm.hlp>main
+4 Parameter description=D-SG-0001106.1@comm.hlp>main
+3 CWRITE_REG: Continuous register writing
+3 CWRITE_REG: Continuous register writing=D-SG-0003578.4@comm.hlp>main
+4 Brief description=D-SG-0001117.1@comm.hlp>main
+4 Representation=D-SG-0001118.1@comm.hlp>main
+4 Function mode=D-SG-0001119.1@comm.hlp>main
+4 Parameter description=D-SG-0001120.1@comm.hlp>main
+3 CWRITREG: Continuous register writing
+3 CWRITREG: Continuous register writing=D-SG-0003579.4@comm.hlp>main
+4 Brief description=D-SG-0001121.1@comm.hlp>main
+4 Representation=D-SG-0001122.1@comm.hlp>main
+4 Function mode=D-SG-0001123.1@comm.hlp>main
+4 Parameter description=D-SG-0001124.1@comm.hlp>main
+2 IBS_READ: Reading variables via INTERBUS=D-SG-0007196.1@comm.hlp>main
+2 IBS_SEND_REQ: Diagnostic query on the INTERBUS Master 140 NOA 622 00=D-SG-0007756.4@comm.hlp>main
+2 IBS_WRITE: Writing variables to INTERBUS PCP nodes=D-SG-0007722.4@comm.hlp>main
+3 ICNT: Connect/disconnect an INTERBUS communication
+3 ICNT: Connect/disconnect an INTERBUS communication=D-SG-0003580.4@comm.hlp>main
+4 Brief Description=D-SG-0001145.1@comm.hlp>main
+4 Representation=D-SG-0001146.1@comm.hlp>main
+4 Runtime errors=D-SG-0001147.1@comm.hlp>main
+3 ICOM: Data transfer
+3 ICOM: Data transfer=D-SG-0003581.4@comm.hlp>main
+4 Brief Description=D-SG-0001157.1@comm.hlp>main
+4 Representation=D-SG-0001159.1@comm.hlp>main
+4 Runtime error=D-SG-0001160.1@comm.hlp>main
+3 MBP_MSTR: Modbus Plus Master
+3 MBP_MSTR: Modbus Plus Master=D-SG-0003582.4@comm.hlp>main
+4 Brief description=D-SG-0001194.1@comm.hlp>main
+4 Representation=D-SG-0001196.1@comm.hlp>main
+4 Function mode=D-SG-0001197.1@comm.hlp>main
+4 Parameter description=D-SG-0001198.1@comm.hlp>main
+4 Write data=D-SG-0001203.1@comm.hlp>main
+4 Read data=D-SG-0001204.1@comm.hlp>main
+4 Read local statistics=D-SG-0001205.1@comm.hlp>main
+4 Clear local statistics=D-SG-0001206.1@comm.hlp>main
+4 Write global data=D-SG-0001224.1@comm.hlp>main
+4 Read global data=D-SG-0001225.1@comm.hlp>main
+4 Get remote statistics=D-SG-0001232.1@comm.hlp>main
+4 Clear remote statistics=D-SG-0001233.1@comm.hlp>main
+4 Peer cop health=D-SG-0001235.1@comm.hlp>main
+4 Optional module reset=D-SG-0001240.1@comm.hlp>main
+4 Read CTE (Config extension table)=D-SG-0001241.1@comm.hlp>main
+4 Write CTE (Config extension table)=D-SG-0001242.1@comm.hlp>main
+4 Peer cop communications health status=D-SG-0001271.1@comm.hlp>main
+4 Modbus Plus network statistics=D-SG-0001272.1@comm.hlp>main
+4 TCP/IP Ethernet Network statistics=D-SG-0001273.1@comm.hlp>main
+4 Runtime errors=D-SG-0001286.1@comm.hlp>main
+4 Modbus Plus and SY/MAX Ethernet Error Codes=D-SG-0001287.1@comm.hlp>main
+4 SY/MAX-specific error codes=D-SG-0001288.1@comm.hlp>main
+4 TCP/IP Ethernet error codes=D-SG-0001298.1@comm.hlp>main
+4 CTE error codes for SY/MAX and TCP/IP Ethernet=D-SG-0001299.1@comm.hlp>main
+3 MODBUSP_ADDR: Modbus Plus Address
+3 MODBUSP_ADDR: Modbus Plus Address=D-SG-0003583.4@comm.hlp>main
+4 Brief description=D-SG-0001462.1@comm.hlp>main
+4 Representation=D-SG-0001464.1@comm.hlp>main
+4 Detailed Description=D-SG-0001465.1@comm.hlp>main
+3 PORTSTAT: Modbus Port Status
+3 PORTSTAT: Modbus Port Status=D-SG-0013857.1@comm.hlp>main
+4 Brief description=D-SG-0013858.1@comm.hlp>main
+4 Representation=D-SG-0013859.1@comm.hlp>main
+3 READ_REG: Read register
+3 READ_REG: Read register=D-SG-0003584.4@comm.hlp>main
+4 Brief description=D-SG-0001161.1@comm.hlp>main
+4 Representation=D-SG-0001162.1@comm.hlp>main
+4 Function mode=D-SG-0001163.1@comm.hlp>main
+4 Parameter description=D-SG-0001164.1@comm.hlp>main
+3 READREG: Read register
+3 READREG: Read register=D-SG-0003585.4@comm.hlp>main
+4 Brief description=D-SG-0001168.1@comm.hlp>main
+4 Representation=D-SG-0001169.1@comm.hlp>main
+4 Function mode=D-SG-0001170.1@comm.hlp>main
+4 Parameter description=D-SG-0001171.1@comm.hlp>main
+3 RTXMIT: Full duplex Transfer (Compact, Momentum, Quantum)
+3 RTXMIT: Full duplex Transfer (Compact, Momentum, Quantum)=D-SG-0009210.1@comm.hlp>main
+4 Brief Description=D-SG-0009211.1@comm.hlp>main
+4 Representation=D-SG-0009212.1@comm.hlp>main
+4 Runtime Errors=D-SG-0009607.1@comm.hlp>main
+3 SYMAX_IP_ADDR: SY/MAX IP Address
+3 SYMAX_IP_ADDR: SY/MAX IP Address=D-SG-0003586.4@comm.hlp>main
+4 Brief description=D-SG-0001490.1@comm.hlp>main
+4 Representation=D-SG-0001491.1@comm.hlp>main
+4 Detailed description=D-SG-0001492.1@comm.hlp>main
+3 TCP_IP_ADDR: TCP/IP Address
+3 TCP_IP_ADDR: TCP/IP Address=D-SG-0003587.4@comm.hlp>main
+4 Brief description=D-SG-0001495.1@comm.hlp>main
+4 Representation=D-SG-0001496.1@comm.hlp>main
+4 Detailed Description=D-SG-0001497.1@comm.hlp>main
+3 WRITE_REG: Write register
+3 WRITE_REG: Write register=D-SG-0003588.4@comm.hlp>main
+4 Brief description=D-SG-0001173.1@comm.hlp>main
+4 Representation=D-SG-0001174.1@comm.hlp>main
+4 Function mode=D-SG-0001175.1@comm.hlp>main
+4 Parameter description=D-SG-0001176.1@comm.hlp>main
+3 WRITEREG: Write register
+3 WRITEREG: Write register=D-SG-0003589.4@comm.hlp>main
+4 Short description=D-SG-0001177.1@comm.hlp>main
+4 Representation=D-SG-0001178.1@comm.hlp>main
+4 Function mode=D-SG-0001179.1@comm.hlp>main
+4 Parameter description=D-SG-0001180.1@comm.hlp>main
+3 XXMIT: Transmit (Compact, Momentum, Quantum)
+3 XXMIT: Transmit (Compact, Momentum, Quantum)=D-SG-0003593.4@comm.hlp>main
+4 Brief Description=D-SG-0003380.1@comm.hlp>main
+4 Representation=D-SG-0003381.1@comm.hlp>main
+1 Glossary=D-SG-0000454.1@comm.hlp>main

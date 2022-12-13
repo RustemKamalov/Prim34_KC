@@ -1,0 +1,303 @@
+TYPE
+
+  (* ----------------- general sub data types: ------------------------- *)
+
+  Exp_Status:  (* error status of transfer *)
+    STRUCT
+      ErrFlag1:    BOOL;     (* TRUE: epxert not pluged, wrong expert
+                                DPM-access-error *)
+      ErrFlag2:    BOOL;     (* TRUE: Bit 7 of DPM Identcode is set;
+                                logical DMP-access-error *)
+      UserStatus:  WORD;     (* status of expert *)
+      ErrNo:       WORD;     (* errornumber *)
+    END_STRUCT;
+
+  (* ----------------- data blocks, explicitly typed: ------------------ *)
+
+  ByteArr2:        ARRAY [1..2] OF BYTE;    (* 2 bytes *)
+  ByteArr4:        ARRAY [1..4] OF BYTE;    (* 4 bytes *)
+  ByteArr5:        ARRAY [1..5] OF BYTE;    (* 5 bytes *)
+  ByteArr8:        ARRAY [1..8] OF BYTE;    (* 8 bytes *)
+  ByteArr9:        ARRAY [1..9] OF BYTE;    (* 9 bytes *)
+  ByteArr12:       ARRAY [1..12] OF BYTE;   (* block of 12 bytes *)
+  ByteArr36:       ARRAY [1..36] OF BYTE;   (* block of 36 bytes *)
+  IntArr12:        ARRAY [1..12] OF INT;    (* block of 12 integers *)
+  WordArr9:        ARRAY [1..9] OF WORD;    (* block of 9 words *)
+  WordArr11:       ARRAY [1..11] OF WORD;   (* block of 11 words *)
+  WordArr26:       ARRAY [1..26] OF WORD;   (* 26 words *)
+  WordArr31:       ARRAY [1..31] OF WORD;   (* 31 words *)
+  WordArr256:      ARRAY [1..256] OF WORD;  (* 256 words *)
+  DIntArr5:        ARRAY [1..5] OF DINT;    (* 5 double integers *)
+  DIntArr12:       ARRAY [1..12] OF DINT;   (* block of 12 double integers *)
+  DIntArr32:       ARRAY [1..32] OF DINT;   (* 32 double integers *)
+  DIntArr84:       ARRAY [1..84] OF DINT;   (* block of 84 double integers *)
+  DIntArr125:      ARRAY [1..125] OF DINT;  (* block of 125 double integers *)
+
+  (* ---------------- ESI specific data structures: -------------------- *)
+
+  DPM_Time:  (* time stamp *)
+    STRUCT
+      sync:        BOOL;     (* sync clock, pos. edge by hour or telegr. *)
+      ms:          WORD;     (* milli-seconds *)
+      min:         BYTE;     (* minutes; (min AND 16#80) = not valid *)
+      hour:        BYTE;     (* hours; (hour AND 16#80) = summer time *)
+      day:         BYTE;     (* days of week:  (day AND 16#E0) =  1..7
+                                days of month: (day AND 16#1F) =  1..31 *)
+      mon:         BYTE;     (* month *)
+      year:        BYTE;     (* year *)
+    END_STRUCT;
+
+  ESI_Status:  (* Status of ESI *)
+    STRUCT
+      wdog:        BYTE;     (* expert watchdog-counter *)
+      stat1:       BYTE;     (* error status 1 *)
+      stat2:       BYTE;     (* error status 2 *)
+      stat3:       BYTE;     (* error status 3 *)
+      slot:        WORD;     (* slot number *)
+      user:        WORD;     (* virtual slot number *)
+      esitime:     DPM_Time; (* time stamp *)
+    END_STRUCT;
+
+  ESI_Block:  (* datas of ESI *)
+    STRUCT
+      func:        BYTE;     (* function *)
+      mux:         WORD;     (* distribution *)
+      attr:        BYTE;     (* attribut *)
+      cause:       BYTE;     (* reason *)
+      station:     WORD;     (* station number *)
+      object:      WORD;     (* objekt number *)
+      data:        ByteArr9; (* data bytes *)
+    END_STRUCT;
+
+  ESI_BlockArr14: ARRAY[1..14] OF ESI_Block;    (* used as sub type *)
+
+  ESI_InOut:  (* ESI input / output data structure *)
+    STRUCT
+      tstat:       BYTE;     (* transfer status, handshake *)
+      blocks:      BYTE;     (* number of used blocks *)
+      res:         BYTE;     (* reserved *)
+      block:       ESI_BlockArr14;     (* data block *)
+    END_STRUCT;
+
+  ESI_In:  (* ESI - input data, cyclic transmited, cycle from I/O-Map *)
+    STRUCT
+      in:          ESI_InOut;     (* ESI input data *)
+      esi:         ESI_Status;
+      dummy:       BYTE;          (* supplement to modulo 16 *)
+      slot:        Exp_Status;
+    END_STRUCT;
+
+  ESI_OUT:   (* ESI - output data *)
+    STRUCT   (* or: ESI_InOut; alias data types currently not supported *)
+      tstat:       BYTE;     (* transfer status, handshake *)
+      blocks:      BYTE;     (* number of used blocks *)
+      res:         BYTE;     (* reserved *)
+      block:       ESI_BlockArr14;     (* data block *)
+    END_STRUCT;
+
+
+  (* ---------------- NOA611 specific data structures: ----------------- *)
+
+  NOA1_In:  (* input data,  mode 1 *)
+    STRUCT
+      status:      WORD;          (* status and error flags *)
+      busy:        WORD;          (* busy bits of INTERBUS S *)
+      retrn:       WORD;          (* return bits of INTERBUS S *)
+      diag:        WORD;          (* diagnostic word of INTERBUS S *)
+      data:        WordArr26;     (* IBS input data *)
+    END_STRUCT;
+
+  NOA2_In:  (* input data,  mode 2 *)
+    STRUCT
+      status:      WORD;          (* status and error flags *)
+      busy:        WORD;          (* busy bits of INTERBUS S *)
+      retrn:       WORD;          (* return bits of INTERBUS S *)
+      diag:        WORD;          (* diagnostic word of INTERBUS S *)
+      ind:         WORD;          (* indication word of INTERBUS S *)
+      data:        WordArr256;    (* IBS input data *)
+      reserved:    ARRAY[1..6] OF WORD;    (* reserved *)
+    END_STRUCT;
+
+  NOA1_Out:  (* output data,  mode 1 *)
+    STRUCT
+      active:      WORD;          (* active bits of INTERBUS S *)
+      data:        WordArr31;     (* IBS output data *)
+    END_STRUCT;
+
+  NOA2_Out:  (* output data,  mode 2 *)
+    STRUCT
+      active:      WORD;          (* active bits of INTERBUS S *)
+      data:        WordArr256;    (* IBS output data *)
+      reserved:    ARRAY[1..7] OF WORD;     (* reserved *)
+    END_STRUCT;
+
+
+  (* ---------------- MMB / MMD data type structures: ------------------ *)
+
+  MMBD_Commands:  (* MMB/MMD output data *)
+    STRUCT
+      mode:        BYTE;     (* new operating mode for MMB/D *)
+      commands:    BYTE;     (* commands for axisgroup 1 and 2 *)
+      specCom:     BYTE;     (* special commands *)
+      dirBits:     BYTE;     (* direction bits for manual + ref. mode *)
+      progNoAG1:   BYTE;     (* program number for automatic mode group 1 *)
+      progNoAG2:   BYTE;     (* program number for automatic mode group 2 *)
+      userDef1:    WORD;     (* user defined *)
+      userDef2:    WORD;     (* user defined *)
+      counter:     BYTE;     (* transfer counter *)
+      dataType:    BYTE;     (* data type for optional data *)
+      optData:     WordArr11;     (* data according data type *)
+    END_STRUCT;
+
+  MMBD_ActDat:  (* MMB/MMD input data *)
+    STRUCT
+      xStat:       BYTE;     (* status X axis *)
+      yStat:       BYTE;     (* status Y axis *)
+      zStat:       BYTE;     (* status Z axis *)
+      cStat:       BYTE;     (* status C axis *)
+      errNo:       WORD;     (* error number *)
+      mode:        BYTE;     (* actual operating mode for MMB/D *)
+      vpStat:      BYTE;     (* status of automatic mode *)
+      progNoAG1:   BYTE;     (* actual program number group 1 *)
+      progNoAG2:   BYTE;     (* actual program number group 2 *)
+      userDef1:    WORD;     (* user defined *)
+      userDef2:    WORD;     (* user defined *)
+      counter:     BYTE;     (* transfer counter *)
+      dataType:    BYTE;     (* data type for optional data *)
+      optData:     WordArr9; (* data according DataType *)
+    END_STRUCT;
+
+  MMBD_PPAR:  (* MMB/MMD PPAR data *)
+    STRUCT
+      pq:     DIntArr84;     (* position parameter *)
+      pf:     DIntArr12;     (* speed parameter *)
+      pl:     ByteArr36;     (* label parameter *)
+      pt:     IntArr12;      (* dwell time parameter *)
+      pv:     IntArr12;      (* voltage parameter *)
+      po:     ByteArr12;     (* dig. output parameter *)
+      pi:     ByteArr12;     (* dig. input parameter *)
+    END_STRUCT;
+
+  (* ---------------- EHC 105 specific data structures: ---------------- *)
+
+  EHC105_In:  (* actual values *)
+    STRUCT
+      error:       BYTE;     (* error flags *)
+      final:       BYTE;     (* final signals *)
+      preced1:     BYTE;     (* preceded signals 1 *)
+      preced2:     BYTE;     (* preceded signals 2 *)
+      actual:      DIntArr5; (* actual values *)
+    END_STRUCT;
+
+  EHC105_Out:  (* setpoint values *)
+    STRUCT
+      quit:        BYTE;     (* quit bits *)
+      control:     ByteArr5; (* control bits *)
+      final:       DintArr5; (* final values *)
+    END_STRUCT;
+
+  (* ------------------ ERT specific data structures: ------------------ *)
+
+  ERT_Status:  (* status of ERT *)
+    STRUCT
+      wdog:        BYTE;     (* expert watchdog-counter *)
+      stat1:       BYTE;     (* error status 1:  - TE - A -  -  FP FW
+                                TE = time_normal error
+                                A  = master watchdog error
+                                FP = missing parameter
+                                FW = firmware-error                 *)
+      stat2:       BYTE;     (* not used *)
+      stat3:       BYTE;     (* error status 3:  - TU - - S  T  P  PF
+                                TU = time invalid
+                                S  = slot number error
+                                T  = user number error
+                                P  = parameter invalid
+                                PF = buffer overflow                *)
+    END_STRUCT;
+
+  ERT_TimeStamp:  (* time stamp *)
+    STRUCT
+      group:       BYTE;     (* input group *)
+      in:          ByteArr2; (* input 1 .. 16 *)
+      ms:          WORD;     (* milli-seconds *)
+      min:         BYTE;     (* minutes; (min AND 16#80) = not valid *)
+      hour:        BYTE;     (* hours; (hour AND 16#80) = summer time *)
+      day:         BYTE;     (* days of week:  (day AND 16#E0) =  1..7
+                                days of month: (day AND 16#1F) =  1..31 *)
+    END_STRUCT;
+
+  ERT_TimeStampArr6: ARRAY [1..6] OF ERT_TimeStamp;
+
+  ERT_IcField:  (* actual value field 1, inputs and counter values *)
+    STRUCT
+      tstat:       BYTE;     (* transfer status, handshake *)
+      user:        BYTE;     (* virtual slot number *)
+      in:          ByteArr4; (* inputs 1 ... 32 *)
+      reserved:    ByteArr4; (* reserved *)
+      count:       DIntArr32;     (* counter value *)
+    END_STRUCT;
+
+  ERT_TsField:  (* actual value field 2, time stamped data *)
+    STRUCT
+      tstat:       BYTE;     (* transfer status, handshake *)
+      user:        BYTE;     (* virtual slot number *)
+      ts:          ERT_TimeStampArr6;     (* block of time stamps *)
+    END_STRUCT;
+
+  ERT_In:  (* ERT input datas, cyclic transmited, cycle from I/O Map *)
+    STRUCT
+      ic:          ERT_IcField;   (* input and counter field *)
+      ts:          ERT_TsField;   (* time stamped data field *)
+      ert:         ERT_Status;    (* expert error status *)
+      erttime:     DPM_Time;      (* time stamp *)
+      dummy:       ByteArr8;      (* supplement to modulo 16 *)
+      slot:        Exp_Status;    (* transfer error status *)
+    END_STRUCT;
+
+
+  (* ---------------- ERT_TIME specific data structure: ---------------- *)
+
+  SlotStr:         ARRAY [1..32] OF BYTE;  (* 32 slots *)
+
+
+  (* -------------- ERT854 10 specific data structures: ---------------- *)
+
+   ERT_10_TTag:    STRUCT
+            user:   BYTE;		(* user number [module No] *)
+            input:  BYTE;		(* input type + input No *)
+            in:     BYTE;		(* input value 1 .. 8 *)
+            ms:     WORD;		(* milli-seconds *)
+            min:    BYTE;		(* minutes; (min AND 16#80) = not valid *)
+            hour:   BYTE;       (* hours; (hour AND 16#80) = summer time*)
+            day:    BYTE;		(* days of week:  (day AND 16#E0) =  1..7
+            					   days of month: (day AND 16#1F) =  1..31 *)
+   END_STRUCT;
+
+   UDIntArr32: 		ARRAY [1..32] OF UDINT;
+   BoolArr32: 		ARRAY [1..32] OF BOOL;
+
+
+(* ------------------------------------------------------------- *)
+(* mvb           Derived datatypes                               *)
+(* ------------------------------------------------------------- *)
+(* MVB_xxxxx: for MVB_258A modul                                 *)
+(* MVB_STATUS for the MVB_IN EFB necessary                       *)
+ MVB_STATUS:  ARRAY [1..32]   OF WORD;
+ MVB_INPUT :  ARRAY [1..1024] OF WORD;
+ MVB_OUTPUT:  ARRAY [1..1024] OF WORD;
+(* ------------------------------------------------------------- *)
+
+
+(* ------------------------------------------------------------- *)
+(* simtsx.dty       Derived datatypes definition file:          *)
+(* ------------------------------------------------------------- *)
+
+SIMAC_PARAM : STRUCT
+		 NOMBRE	    : UINT;   (* Number of variables to copy *)
+		 OFF_SOURCE : UINT;   (* Offset to first 4x register *)
+		 OFF_DEST   : UINT;   (* Offset to first 1x ou 3x register*)
+	      END_STRUCT;
+
+(* ------------------------------------------------------------- *)
+
+END_TYPE

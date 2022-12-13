@@ -1,0 +1,81 @@
+:Base efbman.hlp
+:Title Concept EFB User Manual
+:Index  =cceptefb.hlp
+1 Concept EFB User Manual
+1 Concept EFB User Manual=IDH_CONTENTS@efbman.hlp>main
+2 Implementation in Concept EFB
+2 Implementation in Concept EFB=D-SG-0009358.1@efbman.hlp>main
+3 Introduction=D-SG-0009359.1@efbman.hlp>main
+3 Restrictions=D-SG-0011922.1@efbman.hlp>main
+3 Advantages of User Defined EFBs=D-SG-0009360.1@efbman.hlp>main
+3 New functions of Concept EFB 2.5 and higher compared to Concept EFB 2.2=D-SG-0009361.1@efbman.hlp>main
+2 Installation Instructions for Concept EFB
+2 Installation Instructions for Concept EFB=D-SG-0009362.1@efbman.hlp>main
+3 Introduction=D-SG-0009363.1@efbman.hlp>main
+3 Installation Order=D-SG-0009364.1@efbman.hlp>main
+3 Installation of Concept EFB=D-SG-0009365.1@efbman.hlp>main
+3 Installation of Borland C 5.01/5.02=D-SG-0009366.1@efbman.hlp>main
+3 Installation the 16 bit and 32 bit Turbo Assembler (TASM and TASM32)=D-SG-0009367.1@efbman.hlp>main
+3 System Settings=D-SG-0009368.1@efbman.hlp>main
+3 Setting the Options in Concept EFB=D-SG-0009369.1@efbman.hlp>main
+3 Checking the Installation=D-SG-0009370.1@efbman.hlp>main
+2 Concept EFB Main menu
+2 Concept EFB Main menu=D-SG-0009371.1@efbman.hlp>main
+3 Introduction=D-SG-0009372.1@efbman.hlp>main
+3 File menu=D-SG-0009373.1@efbman.hlp>main
+3 Library Menu=D-SG-0009374.1@efbman.hlp>main
+3 Objects Menu=D-SG-0009375.1@efbman.hlp>main
+3 Options Menu=D-SG-0009376.1@efbman.hlp>main
+3 Help Menu=D-SG-0009377.1@efbman.hlp>main
+2 Creating and Editing EFBs
+2 Creating and Editing EFBs=D-SG-0009378.1@efbman.hlp>main
+3 Creating EFBs=D-SG-0009379.1@efbman.hlp>main
+3 Editing Definition files=D-SG-0009380.1@efbman.hlp>main
+3 Editing a source file=D-SG-0009381.1@efbman.hlp>main
+3 Backup the Source file=D-SG-0009382.1@efbman.hlp>main
+3 Editing the prototype file=D-SG-0009383.1@efbman.hlp>main
+3 Construction of an EFB=D-SG-0009384.1@efbman.hlp>main
+3 Code Limitations=D-SG-0009385.1@efbman.hlp>main
+3 Keywords of a definition file=D-SG-0009386.1@efbman.hlp>main
+3 PIN Syntax=D-SG-0009387.1@efbman.hlp>main
+2 Background Information for EFB Design
+2 Background Information for EFB Design=D-SG-0009388.1@efbman.hlp>main
+3 Selecting the Hardware Platform=D-SG-0009389.1@efbman.hlp>main
+3 Differences between functions and function blocks=D-SG-0009390.1@efbman.hlp>main
+3 Implementation of the Interface=D-SG-0009391.1@efbman.hlp>main
+3 Data Types=D-SG-0009392.1@efbman.hlp>main
+3 Data Type ANY and ANY_xxx=D-SG-0009393.1@efbman.hlp>main
+3 Usage of Extendable PINs=D-SG-0009394.1@efbman.hlp>main
+3 Keywords for Input and Output PINs=D-SG-0009395.1@efbman.hlp>main
+3 System Functions (API) Usage=D-SG-0009396.1@efbman.hlp>main
+2 EFB Libraries 
+2 EFB Libraries =D-SG-0009397.1@efbman.hlp>main
+3 Creating EFB Libraries=D-SG-0009398.1@efbman.hlp>main
+3 Installation of EFB Libraries=D-SG-0009399.1@efbman.hlp>main
+3 Installation of Libraries on Different Computers=D-SG-0009400.1@efbman.hlp>main
+3 Testing Created EFB=D-SG-0009401.1@efbman.hlp>main
+3 Overview of the EFB Library Delivered=D-SG-0009402.1@efbman.hlp>main
+2 Advanced Information for EFB Developers
+2 Advanced Information for EFB Developers=D-SG-0009403.1@efbman.hlp>main
+3 Directory Structure=D-SG-0009404.1@efbman.hlp>main
+3 Derived Data Types=D-SG-0009405.1@efbman.hlp>main
+3 File Extensions=D-SG-0009406.1@efbman.hlp>main
+3 User Includes=D-SG-0009407.1@efbman.hlp>main
+3 Floating Point Processor=D-SG-0009408.1@efbman.hlp>main
+3 Deactivating and Reactivating Function Blocks=D-SG-0009409.1@efbman.hlp>main
+3 Creating Context Sensitive Help (Online Help)=D-SG-0009410.1@efbman.hlp>main
+3 Testing EFBs with the Debugger=D-SG-0009411.1@efbman.hlp>main
+2 Editor
+2 Editor=D-SG-0009412.1@efbman.hlp>main
+3 Introduction=D-SG-0009413.1@efbman.hlp>main
+3 File Menu=D-SG-0009414.1@efbman.hlp>main
+3 Edit Menu=D-SG-0009415.1@efbman.hlp>main
+3 Search Menu=D-SG-0009416.1@efbman.hlp>main
+3 Find Menu=D-SG-0009417.1@efbman.hlp>main
+3 Replace Menu=D-SG-0009418.1@efbman.hlp>main
+3 Syntax Highlighting=D-SG-0009419.1@efbman.hlp>main
+2 Errors
+2 Errors=D-SG-0009420.1@efbman.hlp>main
+3 Error messages, error correction=D-SG-0009421.1@efbman.hlp>main
+3 Recognizing Instructions with DGROUP Segment=D-SG-0009422.1@efbman.hlp>main
+1 Glossary=D-SG-0009423.1@efbman.hlp>main

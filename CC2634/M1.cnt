@@ -1,0 +1,245 @@
+:Base m1.hlp
+:Title  Momentum M1 Processor Adapter and Option Adapter User Guide
+1 Momentum M1 Processor Adapter and Option Adapter User Guide (V 4.0)
+1 Momentum M1 Processor Adapter and Option Adapter User Guide (V 4.0)=IDH_CONTENTS@m1.hlp>main
+2 Safety Information=t828@m1.hlp>main
+2 Getting Started with Momentum Components
+2 Getting Started with Momentum Components=D-NA-0000278.7@m1.hlp>main
+3 Overview of Momentum M1 Processor Adapters
+3 Overview of Momentum M1 Processor Adapters=D-NA-0000257.7@m1.hlp>main
+4 Introducing the M1 Processor Adapters
+4 Introducing the M1 Processor Adapters=D-NA-0000281.4@m1.hlp>main
+5 Front Panel illustration (M1 Processor Adapters)=D-NA-0000260.52@m1.hlp>main
+5 Overview of Ports (M1 Processor Adapters)=D-NA-0000282.20@m1.hlp>main
+5 Memory and Performance Characteristics of M1 Processor Adapters=D-NA-0000283.29@m1.hlp>main
+5 Power Supply for M1 Processor Adapters=D-NA-0000296.9@m1.hlp>main
+4 Features of Each M1 Processor Adapter
+4 Features of Each M1 Processor Adapter=D-NA-0000303.10@m1.hlp>main
+5 171 CCS 700 00 (M1 Processor Adapter)=D-NA-0000304.243@m1.hlp>main
+5 171 CCS 700 10 (M1 Processor Adapter)=D-NA-0000305.195@m1.hlp>main
+5 171 CCS 760 00 (M1 Processor Adapter)=D-NA-0000307.395@m1.hlp>main
+5 171 CCC 760 10 (M1 Processor Adapter)=D-NA-0000308.248@m1.hlp>main
+5 171 CCS 780 00 (M1 Processor Adapter)=D-NA-0000306.199@m1.hlp>main
+5 171 CCC 780 10 (M1 Processor Adapter)=D-NA-0000309.199@m1.hlp>main
+5 171 CCC 960 20 (M1 Processor Adapter)=D-NA-0000310.174@m1.hlp>main
+5 171 CCC 960 30 M1 Processor Adapter=D-NA-0002589.1@m1.hlp>main
+5 171 CCC 980 20 (M1 Processor Adapter)=D-NA-0000412.3@m1.hlp>main
+5 171 CCC 980 30 (M1 Processor Adapter)=D-NA-0002598.1@m1.hlp>main
+3 Overview of Momentum Option Adapters
+3 Overview of Momentum Option Adapters=D-NA-0000275.7@m1.hlp>main
+4 Introducing the Momentum Option Adapters=D-NA-0000312.24@m1.hlp>main
+4 Serial Option Adapter (Momentum)
+4 Serial Option Adapter (Momentum)=D-NA-0000976.4@m1.hlp>main
+5 Front Panel Components of Momentum Serial Option Adapter=D-NA-0000315.49@m1.hlp>main
+5 Specifications of the Momentum Serial Option Adapter=D-NA-0000316.31@m1.hlp>main
+4 Modbus Plus Option Adapter
+4 Modbus Plus Option Adapter=D-NA-0000318.10@m1.hlp>main
+5 Front Panel Components of the Momentum Modbus Plus Option Adapter=D-NA-0000319.39@m1.hlp>main
+5 Specifications of the Momentum Modbus Plus Option Adapter=D-NA-0000320.61@m1.hlp>main
+4 Redundant Modbus Plus Option Adapter (A Momentum Component)
+4 Redundant Modbus Plus Option Adapter (A Momentum Component)=D-NA-0000321.10@m1.hlp>main
+5 Front Panel Components of the Momentum Redundant Modbus Plus Option Adapter=D-NA-0000322.90@m1.hlp>main
+5 Specifications of the Momentum Redundant Modbus Plus Option Adapter=D-NA-0000323.89@m1.hlp>main
+3 Assembling Momentum Components
+3 Assembling Momentum Components=D-NA-0000276.4@m1.hlp>main
+4 Assembling an M1 CPU with an I/O Base
+4 Assembling an M1 CPU with an I/O Base=D-NA-0000324.7@m1.hlp>main
+5 Assembling a Processor Adapter onto an I/O Base=D-NA-0000325.32@m1.hlp>main
+5 Disassembling a Momentum 170ENT11001 from an I/O Base=D-NA-0000326.39@m1.hlp>main
+4 Assembling an M1 CPU with a Momentum Option Adapter
+4 Assembling an M1 CPU with a Momentum Option Adapter=D-NA-0000327.7@m1.hlp>main
+5 Assembling an M1 Processor Adapter and a Momentum Option Adapter=D-NA-0000328.23@m1.hlp>main
+5 Mounting the Assembled Adapters on the I/O Base=D-NA-0000329.19@m1.hlp>main
+5 Disassembling a Momentum Module with an Option Adapter=D-NA-0000330.31@m1.hlp>main
+3 Installing Batteries in a Momentum Option Adapter=D-NA-0000331.25@m1.hlp>main
+3 Labeling the M1 CPU=D-NA-0000332.31@m1.hlp>main
+2 Communication Ports on Momentum Components
+2 Communication Ports on Momentum Components=D-NA-0000333.10@m1.hlp>main
+3 Using the Modbus Ports for Momentum Components
+3 Using the Modbus Ports for Momentum Components=D-NA-0000277.7@m1.hlp>main
+4 Modbus Port 1 (On Selected M1 Processor Adapters)
+4 Modbus Port 1 (On Selected M1 Processor Adapters)=D-NA-0000334.7@m1.hlp>main
+5 Modbus Port 1 (On Selected M1 Processor Adapters)=D-NA-0000335.50@m1.hlp>main
+5 Cable Accessories for Modbus Port 1 on M1 Processor Adapters=D-NA-0000993.1@m1.hlp>main
+5 Pinouts for Modbus Port 1 on M1 Processor Adapters=D-NA-0000337.13@m1.hlp>main
+4 Modbus Port 2 (On Selected Momentum Components)
+4 Modbus Port 2 (On Selected Momentum Components)=D-NA-0000338.8@m1.hlp>main
+5 Modbus Port 2 (On Selected Momentum Components)=D-NA-0000339.57@m1.hlp>main
+5 Four-Wire Cabling Schemes for Modbus RS485 Networks Connecting Momentum Components=D-NA-0000340.59@m1.hlp>main
+5 Two-Wire Cabling Schemes for Modbus RS485 Networks Connecting Momentum Components=D-NA-0000341.39@m1.hlp>main
+5 Cable for Modbus RS485 Networks Connecting Momentum Components=D-NA-0000342.53@m1.hlp>main
+5 Connectors for Modbus RS485 Networks Connecting Momentum Components=D-NA-0000343.36@m1.hlp>main
+5 Terminating Devices for Modbus RS485 Networks Connecting Momentum Components=D-NA-0000344.19@m1.hlp>main
+5 Pinouts for Modbus RS485 Networks Connecting Momentum Components=D-NA-0000345.61@m1.hlp>main
+3 Using the Modbus Plus Ports with Momentum Components
+3 Using the Modbus Plus Ports with Momentum Components=D-NA-0000666.4@m1.hlp>main
+4 Modbus Plus Features for Momentum=D-NA-0000667.1@m1.hlp>main
+4 Two Types of Modbus Plus Networks for Momentum Components=D-NA-0000575.1@m1.hlp>main
+4 Standard Cabling Schemes=D-NA-0000588.1@m1.hlp>main
+4 Cluster Mode Cabling Schemes=D-NA-0000596.1@m1.hlp>main
+4 Cable Accessories for Modbus Plus Networks=D-NA-0000640.1@m1.hlp>main
+4 Pinouts and Wiring Illustrations for Modbus Plus Networks with Momentum Components=D-NA-0000643.8@m1.hlp>main
+4 Modbus Plus Addresses in Networks with Momentum Components=D-NA-0000415.1@m1.hlp>main
+4 Peer Cop on Modbus Plus Networks with Momentum Components=D-NA-0000668.3@m1.hlp>main
+3 Using the Ethernet Port on Selected M1 Processor Adapters
+3 Using the Ethernet Port on Selected M1 Processor Adapters=D-NA-0000485.4@m1.hlp>main
+4 Ethernet Port=D-NA-0000250.1@m1.hlp>main
+4 Network Design Considerations for M1 Ethernet Processors=D-NA-0000486.3@m1.hlp>main
+4 Security Firewalls for Networks with M1 Ethernet Processors=D-NA-0000946.3@m1.hlp>main
+4 Cabling Schemes for Ethernet Networks with Momentum Components=D-NA-0000251.24@m1.hlp>main
+4 Pinouts for Networks with Momentum Components=D-NA-0000488.3@m1.hlp>main
+4 Assigning Ethernet Address Parameters on M1 Ethernet Processors=D-NA-0000489.3@m1.hlp>main
+4 Using BOOTP Lite to Assign Address Parameters for Momentum Components=D-NA-0000492.3@m1.hlp>main
+4 Reading Ethernet Network Statistics=D-NA-0000493.3@m1.hlp>main
+4 Description of Ethernet Network Statistics for Momentum Components=D-NA-0000494.3@m1.hlp>main
+3 Using the I/O Bus Port for Networks Momentum Components
+3 Using the I/O Bus Port for Networks Momentum Components=D-NA-0000499.4@m1.hlp>main
+4 I/O Bus Ports on Momentum Components=D-NA-0000660.3@m1.hlp>main
+4 How I/O Bus Works with Momentum Components=D-NA-0000661.3@m1.hlp>main
+4 Network Status Indication in the M1 Ethernet Module=D-NA-0000487.3@m1.hlp>main
+4 Guidelines for Momentum M1 I/OBus Networks=D-NA-0000663.3@m1.hlp>main
+4 Cable Accessories for I/OBus Networks with Momentum Components=D-NA-0000664.3@m1.hlp>main
+4 Pinouts for Momentum I/OBus Remote Bus Cables=D-NA-0000665.3@m1.hlp>main
+2 Modsoft and Momentum Components
+2 Modsoft and Momentum Components=D-NA-0000669.1@m1.hlp>main
+3 Configuring an M1 CPU with Modsoft
+3 Configuring an M1 CPU with Modsoft=D-NA-0000670.1@m1.hlp>main
+4 Configuring the Processor Adapter
+4 Configuring the Processor Adapter=D-NA-0000671.1@m1.hlp>main
+5 Selecting an M1 Processor Adapter with Modsoft=D-NA-0000672.1@m1.hlp>main
+5 Specifying an M1 Processor Type in Modsoft=D-NA-0000674.1@m1.hlp>main
+5 Default Modsoft Configuration Parameters (for Momentum Components)=D-NA-0000720.1@m1.hlp>main
+5 Changing the Range of Discrete and Register References for an M1 CPU with Modsoft=D-NA-0000722.1@m1.hlp>main
+5 Changing the Size of Your Application Logic Space with Modsoft for M1 CPUs=D-NA-0000723.1@m1.hlp>main
+5 Changing the Number of Segments for M1 CPUs with Modsoft=D-NA-0000725.1@m1.hlp>main
+5 Changing the Size of the I/O Map for M1 CPUs with Modsoft=D-NA-0000727.1@m1.hlp>main
+5 Establishing Configuration Extension Memory for M1 CPUs with Modsoft=D-NA-0000728.1@m1.hlp>main
+4 Configuring Momentum Option Adapter Features in Modsoft
+4 Configuring Momentum Option Adapter Features in Modsoft=D-NA-0000738.1@m1.hlp>main
+5 Reserving and Monitoring a Battery Coil with Modsoft for Momentum Option Adapters=D-NA-0000424.3@m1.hlp>main
+5 Setting up the Time-of-Day Clock in Modsoft for Momentum Option Adapters=D-NA-0000740.1@m1.hlp>main
+5 Setting the Time on Momentum Components in Modsoft=D-NA-0000741.1@m1.hlp>main
+5 Reading the Time-of-Day Clock on Momentum Components with Modsoft=D-NA-0000750.1@m1.hlp>main
+4 Modifying Modbus Communication Port Parameters on Momentum Components with Modsoft
+4 Modifying Modbus Communication Port Parameters on Momentum Components with Modsoft=D-NA-0000752.1@m1.hlp>main
+5 Accessing the Port Editor Screen with Modsoft to Modify Modbus Port Settings for Momentum Components=D-NA-0000753.1@m1.hlp>main
+5 Modbus Communication Port Parameters (on Momentum Components) Which Should Not Be Changed=D-NA-0000754.1@m1.hlp>main
+5 Changing the Mode and Data Bits on Modbus Ports for Momentum Components with Modsoft=D-NA-0000756.1@m1.hlp>main
+5 Changing Parity on Modbus Communication Ports for Momentum Components Using Modsoft=D-NA-0000758.1@m1.hlp>main
+5 Changing the Baud Rate on Modbus Communication Ports for Momentum Components Using Modsoft=D-NA-0000757.1@m1.hlp>main
+5 Changing the Modbus Address for Modbus Communication Ports for Momentum Components Using Modsoft=D-NA-0000759.1@m1.hlp>main
+5 Changing the Delay Parameter on Modbus Communication Ports for Momentum Components Using Modsoft=D-NA-0000760.1@m1.hlp>main
+5 Changing the Protocol on Modbus Port 2 on Momentum Components =D-NA-0000761.1@m1.hlp>main
+3 I/O Mapping Local I/O Points for M1 Processor Adapters with Modsoft=D-NA-0000764.1@m1.hlp>main
+3 I/O Mapping an I/O Bus Network for Momentum Components with Modsoft
+3 I/O Mapping an I/O Bus Network for Momentum Components with Modsoft=D-NA-0000766.1@m1.hlp>main
+4 Supporting an I/O Map for an I/O Bus Network with Modsoft for Momentum Components=D-NA-0000873.1@m1.hlp>main
+4 Accessing an I/O Map Screen for an I/OBus Network with Modsoft for Momentum Components=D-NA-0000874.1@m1.hlp>main
+4 Editing the I/O Bus I/O Map with Modsoft for Momentum Components=D-NA-0000876.1@m1.hlp>main
+3 Configuring a Modbus Plus Network in Modsoft with Peer Cop for Momentum Components
+3 Configuring a Modbus Plus Network in Modsoft with Peer Cop for Momentum Components=D-NA-0000821.1@m1.hlp>main
+4 Getting Started (Configuring a Modbus Plus Network in Modsoft with Peer Cop for Momentum Components)
+4 Getting Started (Configuring a Modbus Plus Network in Modsoft with Peer Cop for Momentum Components)=D-NA-0000822.1@m1.hlp>main
+5 Accessing the Peer Cop Configuration Extension Screen with Modsoft for Momentum Components=D-NA-0000823.1@m1.hlp>main
+5 The Default Peer Cop Screen (with Modsoft for Momentum Components)=D-NA-0000825.1@m1.hlp>main
+4 Using Modbus Plus with Modsoft to Handle I/O on Networks with Momentum Components
+4 Using Modbus Plus with Modsoft to Handle I/O on Networks with Momentum Components=D-NA-0000826.1@m1.hlp>main
+5 Devices on a Sample Modbus Plus I/O Network with Components (Using Modsoft)=D-NA-0000827.1@m1.hlp>main
+5 Defining the Link and Accessing a Node Using on a Modbus Plus Network with Momentum Components=D-NA-0000829.1@m1.hlp>main
+5 Confirming Peer Cop Summary Information (with Modsoft for a Modbus Network with Momentum Components)=D-NA-0000836.1@m1.hlp>main
+5 Specifying References for Input Data (with Modsoft for a Modbus Network with Momentum Components)=D-NA-0000837.1@m1.hlp>main
+5 Accessing the Remaining Devices=D-NA-0000838.1@m1.hlp>main
+5 Completing the I/O Device Configuration in Peer Cop=D-NA-0000839.1@m1.hlp>main
+4 Passing Supervisory Data over Modbus Plus
+4 Passing Supervisory Data over Modbus Plus=D-NA-0000841.1@m1.hlp>main
+5 Devices on a Sample Modbus Plus Supervisory Network with Components (Using Modsoft) =D-NA-0000842.1@m1.hlp>main
+5 Configuring a Node to Exchange Data on a Modbus Plus Supervisory Network with TSX Momentum Components (Using Modsoft)=D-NA-0000843.1@m1.hlp>main
+5 Confirming the Peer Cop Summary Information on a Modbus Supervisory Network with Momentum Components (Using Modsoft)=D-NA-0000845.1@m1.hlp>main
+5 Specifying References for Input and Output Data on a Modbus Supervisory Network with Momentum Components (Using Modsoft)=D-NA-0000851.1@m1.hlp>main
+5 Defining the References for the Next Node on a Modbus Supervisory Network with Momentum Components (Using Modsoft)=D-NA-0000860.1@m1.hlp>main
+5 Defining References for the Supervisory Computer on a Modbus Network with Momentum Components (Using Modsoft)=D-NA-0000861.1@m1.hlp>main
+5 Completing the Configuration of a Modbus Plus Supervisory Network with Momentum Components (Using Modsoft)=D-NA-0000862.1@m1.hlp>main
+3 Saving to Flash in Modsoft for Momentum Components
+3 Saving to Flash in Modsoft for Momentum Components=D-NA-0000814.1@m1.hlp>main
+4 Preparing to Save to Flash in Modsoft for Momentum Components=D-NA-0000815.1@m1.hlp>main
+4 Saving to Flash in Modsoft for Momentum Components=D-NA-0000816.1@m1.hlp>main
+2 Concept and Momentum Components
+2 Concept and Momentum Components=D-NA-0000977.1@m1.hlp>main
+3 Configuring an M1 CPU with Concept
+3 Configuring an M1 CPU with Concept=D-NA-0000703.1@m1.hlp>main
+4 Configuring the M1 CPU Processor Adapter with Concept
+4 Configuring the M1 CPU Processor Adapter with Concept=D-NA-0000704.1@m1.hlp>main
+5 Selecting an M1 Processor Adapter=D-NA-0000705.3@m1.hlp>main
+5 Default Configuration Parameters=D-NA-0000706.1@m1.hlp>main
+5 Changing the Range of Discrete and Register References for an M1 CPU with Concept=D-NA-0000713.1@m1.hlp>main
+5 Changing the Size of the Full Logic Area for an M1 CPU with Concept=D-NA-0000715.1@m1.hlp>main
+5 Understanding the Number of Segments=D-NA-0000717.1@m1.hlp>main
+5 Changing the Size of the I/O Map for M1 CPUs with Concept=D-NA-0000718.1@m1.hlp>main
+5 Establishing Configuration Extension Memory for Peer Cop for M1 CPUs with Concept=D-NA-0000721.1@m1.hlp>main
+4 Configuring Option Adapter Features
+4 Configuring Option Adapter Features=D-NA-0000724.1@m1.hlp>main
+5 Reserving and Monitoring a Battery Coil=D-NA-0000425.1@m1.hlp>main
+5 Setting up the Time-of-Day Clock on Momentum Components with Concept=D-NA-0000729.1@m1.hlp>main
+5 Setting the Time on Momentum Components with Concept=D-NA-0000737.1@m1.hlp>main
+5 Reading the Time-of-Day Clock on Momentum Components with Concept=D-NA-0000742.1@m1.hlp>main
+4 Modifying Modbus Port Parameters
+4 Modifying Modbus Port Parameters=D-NA-0000743.1@m1.hlp>main
+5 Accessing the Modbus Port Settings Dialog Box=D-NA-0000744.1@m1.hlp>main
+5 Changing the Baud Rate on Modbus Comm Ports for Momentum Components Using Concept=D-NA-0000745.1@m1.hlp>main
+5 Changing Mode and Data Bits=D-NA-0000763.1@m1.hlp>main
+5 Stop Bit Should Not Be Changed=D-NA-0000767.1@m1.hlp>main
+5 Changing Parity on Modbus Comm Ports=D-NA-0000768.1@m1.hlp>main
+5 Changing the Delay on Modbus Ports=D-NA-0000769.1@m1.hlp>main
+5 Changing the Modbus Address=D-NA-0000770.1@m1.hlp>main
+5 Changing the Protocol on Modbus Port 2 for Momentum Components Using Concept=D-NA-0000776.1@m1.hlp>main
+4 Configuring Ethernet Address Parameters and I/O Scanning
+4 Configuring Ethernet Address Parameters and I/O Scanning=D-NA-0000777.1@m1.hlp>main
+5 Accessing the Ethernet / I/O Scanner Screen=D-NA-0000495.1@m1.hlp>main
+5 Ethernet Configuration Options for Networks with Momentum Components (Using Concept)=D-NA-0000785.1@m1.hlp>main
+5 Setting Ethernet Address Parameters for a Network with Momentum Components (Using Concept)=D-NA-0000490.1@m1.hlp>main
+5 Configuring Ethernet I/O for Momentum Components (Using Concept)=D-NA-0000787.1@m1.hlp>main
+5 Completing the Ethernet I/O Configuration=D-NA-0000789.1@m1.hlp>main
+3 I/O Mapping the Local I/O Points=D-NA-0000793.1@m1.hlp>main
+3 I/O Mapping an I/O Bus Network with Concept
+3 I/O Mapping an I/O Bus Network with Concept=D-NA-0000954.1@m1.hlp>main
+4 Supporting an I/O Map for an I/OBus Network=D-NA-0000585.1@m1.hlp>main
+4 Accessing an I/O Map Screen for an I/OBus Network=D-NA-0000955.1@m1.hlp>main
+4 Editing the I/OBus I/O Map for Components Using Concept=D-NA-0000973.1@m1.hlp>main
+3 Configuring a Modbus Plus Network in Concept with Peer Cop
+3 Configuring a Modbus Plus Network in Concept with Peer Cop=D-NA-0000646.1@m1.hlp>main
+4 Getting Started
+4 Getting Started=D-NA-0000956.1@m1.hlp>main
+5 Accessing the Peer Cop Dialog Box=D-NA-0000649.1@m1.hlp>main
+5 Adjusting the Amount of Extension Memory with Peer Cop=D-NA-0000650.1@m1.hlp>main
+5 Other Default Settings in the Peer Cop Dialog Box=D-NA-0000651.1@m1.hlp>main
+4 Using Modbus Plus to Handle I/O
+4 Using Modbus Plus to Handle I/O=D-NA-0000653.1@m1.hlp>main
+5 Devices on the Network=D-NA-0000654.1@m1.hlp>main
+5 Changing the Peer Cop Summary Information=D-NA-0000655.1@m1.hlp>main
+5 Specifying References for Input Data=D-NA-0000656.1@m1.hlp>main
+5 Specifying References for Output Data)=D-NA-0000657.1@m1.hlp>main
+4 Passing Supervisory Data over Modbus
+4 Passing Supervisory Data over Modbus=D-NA-0000688.1@m1.hlp>main
+5 Devices on a Supervisory Modbus Plus Network=D-NA-0000689.1@m1.hlp>main
+5 Specifying References for Input and Output Data=D-NA-0000690.1@m1.hlp>main
+5 Defining the References for the Next Node=D-NA-0000698.1@m1.hlp>main
+5 Defining References for the Supervisory PLC=D-NA-0000701.1@m1.hlp>main
+2 Saving to Flash in Concept=D-NA-0000702.1@m1.hlp>main
+2 ProWORX32 and Momentum Components
+2 ProWORX32 and Momentum Components=D-NA-0006460.1@m1.hlp>main
+3 Configuring an M1 with ProWORX32
+3 Configuring an M1 with ProWORX32=D-NA-0006461.1@m1.hlp>main
+4 Configuring an M1 Module with ProWORX32=D-NA-0006462.1@m1.hlp>main
+4 Configuring an I/OMap and I/OBus with the Configuration Tool=D-NA-0006464.1@m1.hlp>main
+4 Configuring Additional I/O with Traffic Cop=D-NA-0006492.1@m1.hlp>main
+4 Traffic Cop and I/O Bus Networks=D-NA-0006463.1@m1.hlp>main
+4 Monitoring the Health of the System=D-NA-0006493.1@m1.hlp>main
+4 Saving to Flash with ProWORX32=D-NA-0006465.1@m1.hlp>main
+2 Appendix
+2 Appendix=D-NA-0000957.1@m1.hlp>main
+3 Ladder Logic Elements and Instructions
+3 Ladder Logic Elements and Instructions=D-NA-0000989.1@m1.hlp>main
+4 Standard Ladder Logic Elements for M1 Processor Adapters=D-NA-0000990.1@m1.hlp>main
+4 A Special STAT Instruction =D-NA-0000992.1@m1.hlp>main
+2 Run LED Flash Patterns and Error Codes=D-NA-0000975.1@m1.hlp>main
+2 Battery Life Information for Alkaline Batteries=D-NA-0006526.1@m1.hlp>main

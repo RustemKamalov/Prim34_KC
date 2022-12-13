@@ -1,0 +1,19 @@
+TYPE
+    SECT_CTRL: STRUCT
+        disable  : BOOL;
+        hsbyState: BOOL;
+    END_STRUCT;
+
+    SFCSTEP_STATE: STRUCT
+        t      : TIME;
+        x      : BOOL;
+        tminErr: BOOL;
+        tmaxErr: BOOL;
+    END_STRUCT;
+
+    SFCSTEP_TIMES: STRUCT
+        delay: TIME;
+        min  : TIME;
+        max  : TIME;
+    END_STRUCT;
+END_TYPE

@@ -1,0 +1,67 @@
+:Base akfefb.hlp
+:Title Block library AKFEFB
+:Index  =Akfefb.hlp
+:Index  =Ana_io.hlp
+:Index  =comm.hlp
+:Index  =Cont_ctl.hlp
+:Index  =Diagno.hlp
+:Index  =Experts.hlp
+:Index  =Extended.hlp
+:Index  =Fuzzy.hlp
+:Index  =Handtabl.hlp
+:Index  =Iec.hlp
+:Index  =Lib984.hlp
+:Index  =System.hlp
+:Index  =concman.hlp
+1 Concept IEC Block Library AKFEFB
+1 Concept IEC Block Library AKFEFB=IDH_CONTENTS@akfefb.hlp>main
+2 General information about the AKFEFB library
+2 General information about the AKFEFB library=D-SG-0003564.1@akfefb.hlp>main
+3 Parameterizing functions and function blocks=D-SG-0002132.1@akfefb.hlp>main
+2 EFB descriptions
+2 EFB descriptions=D-SG-0003563.1@akfefb.hlp>main
+3 AKF_FL: Detection of any edge
+3 AKF_FL: Detection of any edge=D-SG-0003565.4@akfefb.hlp>main
+4 Brief description=D-SG-0000863.1@akfefb.hlp>main
+4 Representation=D-SG-0000864.1@akfefb.hlp>main
+3 AKF_TA: Switch off delay
+3 AKF_TA: Switch off delay=D-SG-0003566.4@akfefb.hlp>main
+4 Brief description=D-SG-0000865.1@akfefb.hlp>main
+4 Representation=D-SG-0000875.1@akfefb.hlp>main
+4 Detailed description=D-SG-0000876.1@akfefb.hlp>main
+3 AKF_TE: Switch-on delay
+3 AKF_TE: Switch-on delay=D-SG-0003567.4@akfefb.hlp>main
+4 Brief description=D-SG-0000889.1@akfefb.hlp>main
+4 Representation=D-SG-0000890.1@akfefb.hlp>main
+4 Detailed Description=D-SG-0000907.1@akfefb.hlp>main
+3 AKF_TI: Pulse
+3 AKF_TI: Pulse=D-SG-0003568.4@akfefb.hlp>main
+4 Brief description=D-SG-0000912.1@akfefb.hlp>main
+4 Representation=D-SG-0000913.1@akfefb.hlp>main
+4 Detailed Description=D-SG-0000914.1@akfefb.hlp>main
+3 AKF_TS: Storing ON delay
+3 AKF_TS: Storing ON delay=D-SG-0003569.4@akfefb.hlp>main
+4 Brief description=D-SG-0000931.1@akfefb.hlp>main
+4 Representation=D-SG-0000933.1@akfefb.hlp>main
+4 Detailed Description=D-SG-0000935.1@akfefb.hlp>main
+3 AKF_TV: Extended pulse
+3 AKF_TV: Extended pulse=D-SG-0003570.4@akfefb.hlp>main
+4 Brief description=D-SG-0000941.1@akfefb.hlp>main
+4 Representation=D-SG-0000942.1@akfefb.hlp>main
+4 Detailed Description=D-SG-0000944.1@akfefb.hlp>main
+3 AKF_ZR: Decremental counter
+3 AKF_ZR: Decremental counter=D-SG-0003571.4@akfefb.hlp>main
+4 Brief description=D-SG-0000977.1@akfefb.hlp>main
+4 Representation=D-SG-0000978.1@akfefb.hlp>main
+4 Detailed Description=D-SG-0000979.1@akfefb.hlp>main
+3 AKF_ZV: Incremental counter
+3 AKF_ZV: Incremental counter=D-SG-0003572.4@akfefb.hlp>main
+4 Brief description=D-SG-0000980.1@akfefb.hlp>main
+4 Representation=D-SG-0000982.1@akfefb.hlp>main
+4 Detailed Description=D-SG-0000983.1@akfefb.hlp>main
+3 AKF_ZVR: Incremental/decremental counter
+3 AKF_ZVR: Incremental/decremental counter=D-SG-0003573.4@akfefb.hlp>main
+4 Brief description=D-SG-0000984.1@akfefb.hlp>main
+4 Representation=D-SG-0000986.1@akfefb.hlp>main
+4 Detailed Description=D-SG-0000987.1@akfefb.hlp>main
+1 Glossary=D-SG-0000454.1@akfefb.hlp>main

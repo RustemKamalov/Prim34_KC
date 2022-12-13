@@ -1,0 +1,104 @@
+RDE_TEMPLATE
+	CONCEPT_VERSION = "Version 2.6 XL SR7"
+	RDE_TEMPLATE_VERSION = 1
+	COLUMN_WIDTH = "{201,81,81,97,97,81,65,81,129}"
+	WINDOW_LOCATION = "{1,47,1928,983}"
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].ContrWrd
+	ATTRIBUTE Address = 406501
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].ManValue
+	ATTRIBUTE Address = 406502
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].ZeroCorr
+	ATTRIBUTE Address = 406503
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].CredbHiLim
+	ATTRIBUTE Address = 406504
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].CredbLoLim
+	ATTRIBUTE Address = 406505
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].FilterConst
+	ATTRIBUTE Address = 406506
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].MaxAlarmLim
+	ATTRIBUTE Address = 406507
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].MaximLim
+	ATTRIBUTE Address = 406508
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].MinimLim
+	ATTRIBUTE Address = 406509
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].MinAlarmLim
+	ATTRIBUTE Address = 406510
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].Hyster
+	ATTRIBUTE Address = 406511
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].UpTrendLim
+	ATTRIBUTE Address = 406512
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].DwTrendLim
+	ATTRIBUTE Address = 406513
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = Analog_Par[0].MaxDevia
+	ATTRIBUTE Address = 406514
+	ATTRIBUTE Value = ""
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+END_RDE_TEMPLATE

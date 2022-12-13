@@ -1,0 +1,331 @@
+:Base mom_io.hlp
+:Title Momentum I/O Base User Guide
+1 Momentum I/O Base User Guide (V 4.0)
+1 Momentum I/O Base User Guide (V 4.0)=IDH_CONTENTS@mom_io.hlp>main
+2 Safety Information=t828@mom_io.hlp>main
+2 Using Momentum I/O Bases
+2 Using Momentum I/O Bases=D-SG-0006075.1@mom_io.hlp>main
+3 Introducing the TSX Momentum I/O Bases
+3 Introducing the TSX Momentum I/O Bases=D-SG-0006076.1@mom_io.hlp>main
+4 Basic Features of I/O Bases=D-SG-0006285.1@mom_io.hlp>main
+4 Types of I/O Bases=D-SG-0006286.1@mom_io.hlp>main
+3 Selecting Other TSX Momentum Components
+3 Selecting Other TSX Momentum Components=D-SG-0006077.1@mom_io.hlp>main
+4 Which Components Should I Use?=D-SG-0006287.1@mom_io.hlp>main
+4 Communication Adapters=D-SG-0006288.1@mom_io.hlp>main
+4 Processor Adapters=D-SG-0006289.1@mom_io.hlp>main
+4 Option Adapters=D-SG-0006290.1@mom_io.hlp>main
+4 Terminal Connectors=D-SG-0006291.1@mom_io.hlp>main
+4 Busbars=D-SG-0006292.1@mom_io.hlp>main
+3 Assembly
+3 Assembly=D-SG-0006078.1@mom_io.hlp>main
+4 Assembling an Adapter and an I/O Base=D-SG-0006293.1@mom_io.hlp>main
+4 Disassembling an Adapter from an I/O Base=D-SG-0006294.1@mom_io.hlp>main
+4 Assembling a Processor Adapter and an Option Adapter=D-SG-0006295.1@mom_io.hlp>main
+4 Mounting the Assembled Adapters on the I/O Base=D-SG-0006296.1@mom_io.hlp>main
+4 Disassembling a Module with an Option Adapter=D-SG-0006307.1@mom_io.hlp>main
+4 Using Terminal Connector Coding Keys=D-SG-0006322.1@mom_io.hlp>main
+4 Inserting Terminal Connectors=D-SG-0006324.1@mom_io.hlp>main
+4 Removing a Terminal Connector=D-SG-0006329.1@mom_io.hlp>main
+4 Attaching a Busbar=D-SG-0006336.1@mom_io.hlp>main
+4 Labeling the Components in the Assembly=D-SG-0006337.1@mom_io.hlp>main
+3 Dimensions and Mounting Instructions
+3 Dimensions and Mounting Instructions=D-SG-0006079.1@mom_io.hlp>main
+4 Dimensions of Assembled TSX Momentum Devices=D-SG-0006338.1@mom_io.hlp>main
+4 Standard Adapter on a Typical Base=D-SG-0006339.1@mom_io.hlp>main
+4 Standard Adapter on a Discrete VAC Base=D-SG-0006342.1@mom_io.hlp>main
+4 Processor and Option Adapter on a Typical Base=D-SG-0006343.1@mom_io.hlp>main
+4 Processor and Option Adapter on a Discrete VAC Base=D-SG-0006344.1@mom_io.hlp>main
+4 Mounting TSX Momentum Devices=D-SG-0006345.1@mom_io.hlp>main
+3 Power and Grounding Guidelines
+3 Power and Grounding Guidelines=D-SG-0006080.1@mom_io.hlp>main
+4 Voltage Types=D-SG-0006346.1@mom_io.hlp>main
+4 Structuring Your Power Supply System=D-SG-0006347.1@mom_io.hlp>main
+4 Selecting Power Supplies=D-SG-0006348.1@mom_io.hlp>main
+4 Single Power Supply Configuration=D-SG-0006350.1@mom_io.hlp>main
+4 Protective Circuits for DC Actuators=D-SG-0006357.1@mom_io.hlp>main
+4 Protective Circuits for AC Actuators=D-SG-0006358.1@mom_io.hlp>main
+4 Suggested Component Values for AC and DC Actuators=D-SG-0006360.1@mom_io.hlp>main
+4 Grounding TSX Momentum Devices=D-SG-0006361.1@mom_io.hlp>main
+4 Grounding DIN Rail Terminals and Cabinets=D-SG-0006394.1@mom_io.hlp>main
+4 Grounding Analog I/O Lines=D-SG-0006408.1@mom_io.hlp>main
+2 I/O Base Descriptions
+2 I/O Base Descriptions=D-SG-0006053.1@mom_io.hlp>main
+3 170 AAI 030 00 Analog 8 Channel Differential Input Module Base
+3 170 AAI 030 00 Analog 8 Channel Differential Input Module Base=D-SG-0006052.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006042.1@mom_io.hlp>main
+4 Specifications=D-SG-0006043.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006044.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006045.1@mom_io.hlp>main
+4 Wiring Illustrations=D-SG-0006046.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006063.1@mom_io.hlp>main
+4 Analog Channel Parameters=D-SG-0006048.1@mom_io.hlp>main
+4 Analog Inputs=D-SG-0006049.1@mom_io.hlp>main
+4 Input Measuring Ranges=D-SG-0006051.1@mom_io.hlp>main
+3 170 AAI 140 00 Analog 16 Channel Single-Ended Input Module Base
+3 170 AAI 140 00 Analog 16 Channel Single-Ended Input Module Base=D-SG-0006087.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006297.1@mom_io.hlp>main
+4 Specifications=D-SG-0006266.44@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006298.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006299.1@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006534.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006313.1@mom_io.hlp>main
+4 Analog Channel Parameters=D-SG-0006691.1@mom_io.hlp>main
+4 Analog Inputs=D-SG-0006692.1@mom_io.hlp>main
+4 Input Measuring Ranges=D-SG-0006693.1@mom_io.hlp>main
+3 170 AAI 520 40 Analog 4 Channel RTD, Therm. and mV Input Module Base
+3 170 AAI 520 40 Analog 4 Channel RTD, Therm. and mV Input Module Base=D-SG-0006088.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006304.1@mom_io.hlp>main
+4 Specifications=D-SG-0006267.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006305.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006306.1@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006535.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006312.1@mom_io.hlp>main
+4 Analog Channel Parameters=D-SG-0006696.1@mom_io.hlp>main
+4 Analog Inputs=D-SG-0006695.1@mom_io.hlp>main
+4 RTD, Thermocouple and mV Input Measuring Ranges=D-SG-0006694.1@mom_io.hlp>main
+3 170 AAO 120 00 Analog 4 Channel Output Module Base +/- 10 V, 0 - 20 mA
+3 170 AAO 120 00 Analog 4 Channel Output Module Base +/- 10 V, 0 - 20 mA=D-SG-0006089.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006415.1@mom_io.hlp>main
+4 Specifications=D-SG-0006268.44@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006460.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006511.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006536.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006652.13@mom_io.hlp>main
+4 Analog Channel Parameters=D-SG-0006697.1@mom_io.hlp>main
+4 Analog Outputs=D-SG-0006699.1@mom_io.hlp>main
+4 Output Ranges=D-SG-0006700.1@mom_io.hlp>main
+3 170 AAO 921 00 Analog 4 Channel Output Module Base +/- 10 V, 4 ... 20 mA
+3 170 AAO 921 00 Analog 4 Channel Output Module Base +/- 10 V, 4 ... 20 mA=D-SG-0006412.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006416.1@mom_io.hlp>main
+4 Specifications=D-SG-0006269.44@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006461.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006513.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006557.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006677.1@mom_io.hlp>main
+4 Analog Channel Parameters=D-SG-0006703.1@mom_io.hlp>main
+4 Analog Outputs=D-SG-0006702.1@mom_io.hlp>main
+4 Output Ranges=D-SG-0006701.1@mom_io.hlp>main
+3 170 ADI 340 00 24 VDC - 16 Pt. Discrete Input Module Base
+3 170 ADI 340 00 24 VDC - 16 Pt. Discrete Input Module Base=D-SG-0006091.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006417.1@mom_io.hlp>main
+4 Specifications=D-SG-0006270.44@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006462.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006514.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006537.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006653.13@mom_io.hlp>main
+3 170 ADI 350 00 24 VDC - 32 Pt. Discrete Input Module Base
+3 170 ADI 350 00 24 VDC - 32 Pt. Discrete Input Module Base=D-SG-0006092.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006418.1@mom_io.hlp>main
+4 Specifications=D-SG-0006271.44@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006463.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006515.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006540.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006654.13@mom_io.hlp>main
+3 170 ADI 540 50 120 VAC - 16 Point Discrete Input Module Base
+3 170 ADI 540 50 120 VAC - 16 Point Discrete Input Module Base=D-SG-0006093.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006419.1@mom_io.hlp>main
+4 Specifications=D-SG-0006249.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006464.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006516.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006541.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006655.13@mom_io.hlp>main
+3 170 ADI 740 50 230 VAC - 16 Point Discrete Input Module Base
+3 170 ADI 740 50 230 VAC - 16 Point Discrete Input Module Base=D-SG-0006719.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006720.1@mom_io.hlp>main
+4 Specifications=D-SG-0006721.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006722.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006723.1@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006724.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006725.1@mom_io.hlp>main
+3 170 ADM 350 10 24 VDC - 16 Pt. In / 16 Pt. Out Module Base
+3 170 ADM 350 10 24 VDC - 16 Pt. In / 16 Pt. Out Module Base=D-SG-0006095.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006420.1@mom_io.hlp>main
+4 Specifications=D-SG-0006250.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006465.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006517.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006542.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006656.13@mom_io.hlp>main
+3 170 ADM 350 11 24 VDC - 16 Pt. In / 16 Pt. Out Module Base
+3 170 ADM 350 11 24 VDC - 16 Pt. In / 16 Pt. Out Module Base=D-SG-0006108.4@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006422.1@mom_io.hlp>main
+4 Specifications=D-SG-0006251.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006466.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006518.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006543.6@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006657.13@mom_io.hlp>main
+3 170 ADM 350 15 24 VDC - 16 Pt. In / 16 Pt. Out Module Base
+3 170 ADM 350 15 24 VDC - 16 Pt. In / 16 Pt. Out Module Base=D-SG-0006752.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006754.1@mom_io.hlp>main
+4 Specifications=D-SG-0006755.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006756.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006757.1@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006758.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006753.1@mom_io.hlp>main
+3 170 ADM 370 10 24 VDC - 16 Pt. In / 8 Pt. Out @ 2 Amp. Module Base
+3 170 ADM 370 10 24 VDC - 16 Pt. In / 8 Pt. Out @ 2 Amp. Module Base=D-SG-0006096.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006423.1@mom_io.hlp>main
+4 Specifications=D-SG-0006252.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006467.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006519.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006544.6@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006658.13@mom_io.hlp>main
+3 170 ADM 390 10 24 VDC - 16 Pt. In / 12 Pt. Out Monitored Module Base
+3 170 ADM 390 10 24 VDC - 16 Pt. In / 12 Pt. Out Monitored Module Base=D-SG-0006097.4@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006424.1@mom_io.hlp>main
+4 Specifications=D-SG-0006253.44@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006468.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006520.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006545.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006659.13@mom_io.hlp>main
+3 170 ADM 390 30 24 VDC - 10 Pt. In / 8 Pt. Relay Out Module Base
+3 170 ADM 390 30 24 VDC - 10 Pt. In / 8 Pt. Relay Out Module Base=D-SG-0006098.4@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006425.1@mom_io.hlp>main
+4 Specifications=D-SG-0006254.3@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006469.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006521.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006546.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006660.13@mom_io.hlp>main
+3 170 ADM 540 80 120 VAC - 6 Pt. In / 3 Pt. Out Discrete MCC Module Base
+3 170 ADM 540 80 120 VAC - 6 Pt. In / 3 Pt. Out Discrete MCC Module Base=D-SG-0006099.4@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006426.1@mom_io.hlp>main
+4 Specifications=D-SG-0006255.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006470.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006522.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006547.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006661.3@mom_io.hlp>main
+4 General Modbus Message Rules=D-SG-0006714.1@mom_io.hlp>main
+4 Output Words=D-SG-0006718.1@mom_io.hlp>main
+4 Output Words Control Modes=D-SG-0006715.1@mom_io.hlp>main
+4 Input Words=D-SG-0006717.1@mom_io.hlp>main
+4 Input Words Control Modes=D-SG-0006716.1@mom_io.hlp>main
+3 170 ADM 690 50 120 VAC - 10 Pt. In / 8 Pt. Out Module Bases
+3 170 ADM 690 50 120 VAC - 10 Pt. In / 8 Pt. Out Module Bases=D-SG-0006100.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006427.1@mom_io.hlp>main
+4 Specifications=D-SG-0006256.3@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006471.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006523.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006548.6@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006662.3@mom_io.hlp>main
+3 170 ADM 690 51 120 VAC - 10 Pt. In / 8 Pt. Out Module Bases
+3 170 ADM 690 51 120 VAC - 10 Pt. In / 8 Pt. Out Module Bases=D-SG-0006734.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006739.1@mom_io.hlp>main
+4 Specifications=D-SG-0006740.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006738.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006737.1@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006736.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006735.1@mom_io.hlp>main
+3 170 ADO 340 00 24 VDC - 16 Pt. Discrete Output Module Base
+3 170 ADO 340 00 24 VDC - 16 Pt. Discrete Output Module Base=D-SG-0006101.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006428.1@mom_io.hlp>main
+4 Specifications=D-SG-0006257.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006472.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006524.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006549.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006663.3@mom_io.hlp>main
+3 170 ADO 350 00 24 VDC - 32 Pt. Discrete Output Module Base
+3 170 ADO 350 00 24 VDC - 32 Pt. Discrete Output Module Base=D-SG-0006102.4@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006429.1@mom_io.hlp>main
+4 Specifications=D-SG-0006258.44@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006473.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006525.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006550.6@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006664.3@mom_io.hlp>main
+3 170 ADO 530 50 120 VAC - 8 Point Discrete Output @ 2A Module Base
+3 170 ADO 530 50 120 VAC - 8 Point Discrete Output @ 2A Module Base=D-SG-0006103.4@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006431.1@mom_io.hlp>main
+4 Specifications=D-SG-0006259.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006474.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006526.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006551.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006665.3@mom_io.hlp>main
+3 170 ADO 540 50 120 VAC - 16 Point Discrete Output Module Base
+3 170 ADO 540 50 120 VAC - 16 Point Discrete Output Module Base=D-SG-0006104.4@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006432.1@mom_io.hlp>main
+4 Specifications=D-SG-0006260.44@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006475.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006531.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006552.6@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006666.3@mom_io.hlp>main
+3 170 ADO 730 50 230 VAC - 8 Point Discrete Output @ 2A Module Base
+3 170 ADO 730 50 230 VAC - 8 Point Discrete Output @ 2A Module Base=D-SG-0006105.4@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006433.1@mom_io.hlp>main
+4 Specifications=D-SG-0006261.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006476.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006527.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006553.6@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006667.3@mom_io.hlp>main
+3 170 ADO 740 50 230 VAC - 16 Point Discrete Output Module Base
+3 170 ADO 740 50 230 VAC - 16 Point Discrete Output Module Base=D-SG-0006106.4@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006434.22@mom_io.hlp>main
+4 Specifications=D-SG-0006262.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006477.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006528.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006554.6@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006678.3@mom_io.hlp>main
+3 170 AMM 090 00 Analog 4 Ch. In / 2 Ch. Out Module Base w/ 24 VDC I/O Pts
+3 170 AMM 090 00 Analog 4 Ch. In / 2 Ch. Out Module Base w/ 24 VDC I/O Pts=D-SG-0006107.4@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006435.1@mom_io.hlp>main
+4 Specifications=D-SG-0006263.44@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006478.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006529.3@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006555.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006669.3@mom_io.hlp>main
+4 Analog Channel Parameters=D-SG-0006710.1@mom_io.hlp>main
+4 Analog Outputs=D-SG-0006712.1@mom_io.hlp>main
+4 Analog Inputs=D-SG-0006711.1@mom_io.hlp>main
+4 Discrete Inputs and Outputs=D-SG-0006748.1@mom_io.hlp>main
+4 Input Measuring Ranges=D-SG-0006713.1@mom_io.hlp>main
+4 Error Messages=D-SG-0006709.1@mom_io.hlp>main
+3 170 ANR 120 90 Unipolar Analog 6 Ch. In / 4 Ch. Out Module Base with 24 VDC I/O pts
+3 170 ANR 120 90 Unipolar Analog 6 Ch. In / 4 Ch. Out Module Base with 24 VDC I/O pts=D-SG-0006109.4@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006436.22@mom_io.hlp>main
+4 Specifications=D-SG-0006264.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006479.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006530.1@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006556.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006670.3@mom_io.hlp>main
+4 Output Words=D-SG-0006706.1@mom_io.hlp>main
+4 Inputs Words=D-SG-0006705.1@mom_io.hlp>main
+4 Input and Qutput Measuring Ranges=D-SG-0006707.1@mom_io.hlp>main
+4 Error Messages=D-SG-0006708.1@mom_io.hlp>main
+3 170 ANR 120 91 Bipolar Analog 6 Ch. In / 4 Ch. Out Module Base with 24 VDC I/O pts.
+3 170 ANR 120 91 Bipolar Analog 6 Ch. In / 4 Ch. Out Module Base with 24 VDC I/O pts.=D-NA-0006143.1@mom_io.hlp>main
+4 Front Panel Components=D-NA-0005549.1@mom_io.hlp>main
+4 Specifications=D-NA-0005551.1@mom_io.hlp>main
+4 Internal Pin Connections=D-NA-0005553.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-NA-0005556.1@mom_io.hlp>main
+4 Wiring Diagrams=D-NA-0005557.1@mom_io.hlp>main
+4 I/O Map=D-NA-0005563.1@mom_io.hlp>main
+4 Register for Outputs=D-NA-0005607.1@mom_io.hlp>main
+4 4x Registers=D-NA-0005617.1@mom_io.hlp>main
+4 Register for Inputs=D-NA-0005618.1@mom_io.hlp>main
+4 Analog Map=D-NA-0005620.1@mom_io.hlp>main
+4 Discrete I/O Points and IEC Compliant Data Mapping=D-NA-0005621.1@mom_io.hlp>main
+4 Input and Output Ranges=D-NA-0005572.1@mom_io.hlp>main
+4 Interpreting the Error Bits=D-NA-0005575.1@mom_io.hlp>main
+3 170 ARM 370 30 24 VDC - 10 Pt. In / 8 Pt. Relay Out Module Base (120 VAC powered)
+3 170 ARM 370 30 24 VDC - 10 Pt. In / 8 Pt. Relay Out Module Base (120 VAC powered)=D-SG-0006726.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006727.1@mom_io.hlp>main
+4 Specifications=D-SG-0006728.1@mom_io.hlp>main
+4 Internal Pin Connections=D-SG-0006729.1@mom_io.hlp>main
+4 Field Wiring Guidelines=D-SG-0006730.1@mom_io.hlp>main
+4 Wiring Diagrams=D-SG-0006731.1@mom_io.hlp>main
+4 I/O Mapping=D-SG-0006732.1@mom_io.hlp>main
+3 170 CPS 111 00 TIO Power Supply Module
+3 170 CPS 111 00 TIO Power Supply Module=D-SG-0006110.1@mom_io.hlp>main
+4 Front Panel Components=D-SG-0006437.1@mom_io.hlp>main
+4 Specifications=D-SG-0006265.1@mom_io.hlp>main
+4 Terminal Connectors=D-SG-0006751.1@mom_io.hlp>main
+4 External Operating Voltage Connections=D-SG-0006749.1@mom_io.hlp>main
+2 Appendix
+2 Appendix=D-SG-0006081.1@mom_io.hlp>main
+3 System Specifications
+3 System Specifications=D-SG-0006491.1@mom_io.hlp>main
+4 Power Supply Specifications=D-SG-0006496.1@mom_io.hlp>main
+4 Field Device Interfaces=D-SG-0006498.1@mom_io.hlp>main
+4 Environmental Specifications=D-SG-0006500.1@mom_io.hlp>main
+2 Interference Suppression=D-SG-0006492.1@mom_io.hlp>main
+2 IEC 1131 Input Types=D-SG-0006443.1@mom_io.hlp>main
+2 Field Wire Length=D-SG-0006493.1@mom_io.hlp>main
+2 IEC Symbols=D-SG-0006494.1@mom_io.hlp>main

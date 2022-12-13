@@ -1,0 +1,434 @@
+;------------------------------------
+; Schneider Automation (c) 1986-2001
+; Concept 2.6 SR1 version information
+;------------------------------------
+
+
+
+; files just checked for existence
+
+bdreset.exe
+uninst.dll
+
+cb5.dll
+glcb31bw.dll
+glcr31bw.dll
+glcv31bw.dll
+glde31bw.dll
+gldg31bw.dll
+glfs31bw.dll
+mbplus.dll
+qdebug.dll
+rdm330.dll
+tbpro2w.dll
+tbpro3w.dll
+
+
+;SOFTPLC
+hix.exe         xclude:APL
+getreg.exe      xclude:APL
+
+;canop_gi.dll                // installed with SoftPLC
+ethiog1.dll 
+;dvn_gi.dll                  // installed with SoftPLC        
+ibm_gi.dll      xclude:APL
+;prodp_gi.dll                // installed with SoftPLC
+
+
+;BASIC/PASCAL
+ccbrowse.exe
+ccconfig.dll
+tooltip.dll
+
+
+ccverinf.dat
+cdgcodpr.dll
+efb_em32.dll
+efb_fp32.dll
+; // modcomm32 used by execload.exe
+modcomm32.dll
+plcsim.dll      xclude:APL
+plcsim32.exe    xclude:APL
+
+; CC2CAT
+cc2cat\cc2cat.exe	4.0.0.13	xclude:APL
+cc2cat\txtbase32.dll	1.0.0.2	        xclude:APL
+cc2cat\txtcomp32.dll	1.0.0.2	        xclude:APL	
+cc2cat\ccintern.dty			xclude:APL
+
+; concept core dlls and exes
+
+cceptdfb.exe   2.6.2.0      xclude:APL
+cceptsec.exe   2.61.0.35    xclude:APL,S
+ccverinf.exe  +2.52.0.1000
+concept.exe    2.6.2.0
+congrat.exe    2.6.0.1      xclude:APL
+convert.exe    2.6.2.0      xclude:APL
+dbconv.exe     2.6.2.0
+execload.exe   1.0.8.0
+;ethcfg.exe     1.0.0.1
+modconf.exe   +2.50.0.121   xclude:APL
+saauthor.exe   2.63.0.13    xclude:APL
+startsim.exe   2.6.2.0      xclude:APL
+; cceptefb.exe   2.6.2.0      xclude:APL
+
+
+startsim.bin   2.6.2.0      xclude:APL
+cceptdfb.bin   2.6.2.1      xclude:APL
+; cceptefb.bin   2.6.2.0      xclude:APL
+concept.bin    2.6.2.1
+convert.bin    2.6.2.0      xclude:APL
+dbconv.bin     2.6.2.2
+
+
+ai.dll         2.6.2.2
+aiconfig.dll   2.6.2.1
+aidt.dll       2.6.2.0
+ali.dll        2.6.2.0
+analyze.dll    2.6.2.2
+appdoc.dll     2.6.2.0
+appdoc_r.dll   2.6.2.0
+ascii.dll      2.6.2.0
+ascii_r.dll    2.6.2.0
+audt_r.dll     2.6.2.0      xclude:APL
+bc500rtl.dll   5.1.0.0
+bwcc.dll       2.4.0.1
+cai.dll        2.6.2.0
+cai_e.dll      2.6.2.0
+cai_r.dll      2.6.2.0
+ccept_e.dll    2.6.2.2
+ccept_r.dll    2.6.2.2
+cdgenfe.dll    2.6.2.2
+cdgfbase.dll   2.6.2.0
+cdgfdiag.dll   2.6.2.0
+chs_r.dll      2.6.2.0
+commbase.dll   2.6.2.0
+config.dll     2.6.2.2
+config_r.dll   2.6.2.2
+dbconv_r.dll   2.6.2.0
+dbgen.dll      2.6.2.3
+dbgen_r.dll    2.6.2.2
+dbm32.dll     +2.9.1.9      ; hilscher 32-bit database
+dfbedt_r.dll   2.6.2.1      xclude:APL
+dioh_r.dll     2.6.2.0
+drum_r.dll     2.6.2.0
+dtbrowse.dll   2.6.2.0
+dxzoom.dll     2.6.2.0
+ears_r.dll     2.6.2.0
+editbase.dll   2.6.2.0
+efbmgfe.dll    2.6.2.0
+efb_em.dll     2.6.2.0
+efb_fpu.dll    2.6.2.0
+efb_ui.dll     2.6.2.1
+efb_ui_r.dll   2.6.2.0
+emth01_r.dll   2.6.2.0      xclude:APL
+emth02_r.dll   2.6.2.0      xclude:APL
+emth03_r.dll   2.6.2.0      xclude:APL
+emth04_r.dll   2.6.2.0      xclude:APL
+emth05_r.dll   2.6.2.0      xclude:APL
+emth06_r.dll   2.6.2.0      xclude:APL
+emth07_r.dll   2.6.2.0      xclude:APL
+emth08_r.dll   2.6.2.0      xclude:APL
+emth09_r.dll   2.6.2.0      xclude:APL
+emth10_r.dll   2.6.2.0      xclude:APL
+emth11_r.dll   2.6.2.0      xclude:APL
+emth12_r.dll   2.6.2.0      xclude:APL
+emth13_r.dll   2.6.2.0      xclude:APL
+emth14_r.dll   2.6.2.0      xclude:APL
+emth15_r.dll   2.6.2.0      xclude:APL
+emth16_r.dll   2.6.2.0      xclude:APL
+emth17_r.dll   2.6.2.0      xclude:APL
+emth18_r.dll   2.6.2.0      xclude:APL
+emth19_r.dll   2.6.2.0      xclude:APL
+emth20_r.dll   2.6.2.0      xclude:APL
+emth21_r.dll   2.6.2.0      xclude:APL
+emth22_r.dll   2.6.2.0      xclude:APL
+emth23_r.dll   2.6.2.0      xclude:APL
+emth24_r.dll   2.6.2.0      xclude:APL
+emth25_r.dll   2.6.2.0      xclude:APL
+emth26_r.dll   2.6.2.0      xclude:APL
+emth27_r.dll   2.6.2.0      xclude:APL
+emth28_r.dll   2.6.2.0      xclude:APL
+emth29_r.dll   2.6.2.0      xclude:APL
+emth30_r.dll   2.6.2.0      xclude:APL
+emth31_r.dll   2.6.2.0      xclude:APL
+emth32_r.dll   2.6.2.0      xclude:APL
+emth33_r.dll   2.6.2.0      xclude:APL
+emth34_r.dll   2.6.2.0      xclude:APL
+emth35_r.dll   2.6.2.0      xclude:APL
+emth36_r.dll   2.6.2.0      xclude:APL
+emth37_r.dll   2.6.2.0      xclude:APL
+emth38_r.dll   2.6.2.0      xclude:APL
+eqnnet.dll     2.6.2.0
+eqnnet_r.dll   2.6.2.0
+esi_r.dll      2.6.2.0
+euca_r.dll     2.6.2.0
+fbd.dll        2.6.2.0      xclude:APL
+fbd_r.dll      2.6.2.0      xclude:APL
+gee.dll        2.6.2.0
+gic.dll        2.6.2.0
+gswdll.dll     2.0.9000.1
+gvaredit.dll   2.6.2.1
+hlth_r.dll     2.6.2.0
+hsby_r.dll     2.6.2.0      xclude:APL,S,M
+icmp_r.dll     2.6.2.0
+ieconl.dll     2.6.2.0
+iledit.dll     2.6.2.0
+imio_r.dll     2.6.2.0
+imod01_r.dll   2.6.2.0      xclude:APL
+imod02_r.dll   2.6.2.0      xclude:APL
+imod03_r.dll   2.6.2.0      xclude:APL
+imod04_r.dll   2.6.2.0      xclude:APL
+imod05_r.dll   2.6.2.0      xclude:APL
+imod06_r.dll   2.6.2.0      xclude:APL
+imod07_r.dll   2.6.2.0      xclude:APL
+imod08_r.dll   2.6.2.0      xclude:APL
+imod09_r.dll   2.6.2.0      xclude:APL
+imod10_r.dll   2.6.2.0      xclude:APL
+imod11_r.dll   2.6.2.0      xclude:APL
+imod12_r.dll   2.6.2.0      xclude:APL
+imod13_r.dll   2.6.2.0      xclude:APL
+imod14_r.dll   2.6.2.0      xclude:APL
+imod15_r.dll   2.6.2.0      xclude:APL
+imod16_r.dll   2.6.2.0      xclude:APL
+importcc.dll   2.6.2.1
+import_r.dll   2.6.2.0      xclude:APL
+itmr_r.dll     2.6.2.0
+itoi_r.dll     2.6.2.0      xclude:APL
+keylib16.dll  +4.1.1.1
+; keylib32.dll  +4.1.1.1
+ld.dll         2.6.2.0      xclude:APL
+ld_r.dll       2.6.2.0      xclude:APL
+ll984.dll      2.6.2.2
+ll984_r.dll    2.6.2.2      xclude:APL
+ll984cmp.dll   2.6.2.0
+ll984tio.dll   2.6.2.0
+llrefstr.dll   2.6.2.0
+logon.dll      2.6.2.1
+m1st08_r.dll   2.6.2.0
+m1st_r.dll     2.6.2.0
+map3_r.dll     2.6.2.0
+mbus_r.dll     2.6.2.0
+mfcoleui.dll   2.0.1.0
+mfc42.dll     +6.0.3.0    // used by ethcfg.exe
+modcvt_r.dll   2.6.2.0
+mrtm_r.dll     2.6.2.0
+msgwin.dll     2.6.2.0
+mstr_r.dll     2.6.2.0
+ncc_base.dll   2.6.2.0
+ncc_r.dll      2.6.2.0
+ngsbase.dll    2.6.2.1
+ngstask.dll    2.6.2.0
+nol_r.dll      2.6.2.0
+onlffm.dll     2.6.2.0
+onln984.dll    2.6.2.0
+onln_na.dll    2.6.2.0
+onltask.dll    2.6.2.0
+param001.dll   2.6.2.0      xclude:APL  
+param002.dll   2.6.2.0      xclude:APL,S
+param003.dll   2.6.2.0      xclude:APL,S
+param004.dll   2.6.2.0      xclude:APL,S
+param005.dll   2.6.2.0      xclude:APL
+param007.dll   2.6.2.0      xclude:APL
+param008.dll   2.6.2.0      xclude:APL,S
+param009.dll   2.6.2.0      xclude:APL,S
+param00a.dll   2.6.2.0      xclude:APL,S
+param00b.dll   2.6.2.0      xclude:APL,S
+param00c.dll   2.6.2.0      xclude:APL,S
+param00d.dll   2.6.2.0      xclude:APL,S
+param00e.dll   2.6.2.0      xclude:APL,S
+param00f.dll   2.6.2.0      xclude:APL,S
+param017.dll   2.6.2.0      xclude:APL,S
+param01f.dll   2.6.2.0      xclude:APL,S
+param034.dll   2.6.2.0      xclude:APL
+param0f2.dll   2.6.2.0      xclude:APL,S
+param0f4.dll   2.6.2.0      xclude:APL,S
+param103.dll   2.6.2.0      xclude:APL,S
+param104.dll   2.6.2.0      xclude:APL,S
+param105.dll   2.6.2.0      xclude:APL,S
+param106.dll   2.6.2.0      xclude:APL,S
+param107.dll   2.6.2.0      xclude:APL,S
+param108.dll   2.6.2.0      xclude:APL
+param10a.dll   2.6.2.0      xclude:APL,S
+param114.dll   2.6.2.0      xclude:APL,S
+param115.dll   2.6.2.0      xclude:APL,S
+param119.dll   2.6.2.0      xclude:APL,S
+param125.dll   2.6.2.0      xclude:APL
+param126.dll   2.6.2.0      xclude:APL
+param130.dll   2.6.2.0      xclude:APL
+param132.dll   2.6.2.0      xclude:APL
+param13a.dll   2.6.2.0      xclude:APL
+param13b.dll   2.6.2.0      xclude:APL
+param13c.dll   2.6.2.0      xclude:APL
+param159.dll   2.6.2.0      xclude:APL
+param17e.dll   2.6.2.0      xclude:APL
+param1c4.dll   2.6.2.0      xclude:APL
+param1d1.dll   2.6.2.0      xclude:APL,S
+param1d4.dll   2.6.2.0      xclude:APL,S
+param202.dll   2.6.2.0      xclude:APL,S
+param204.dll   2.6.2.0      xclude:APL,S
+param280.dll   2.6.2.0      xclude:APL,S
+param2c0.dll   2.6.2.0      xclude:APL
+param2e0.dll   2.6.2.0      xclude:APL
+param421.dll   2.6.2.0      xclude:APL
+param4c1.dll   2.6.2.0      xclude:APL
+param4c2.dll   2.6.2.0      xclude:APL
+parambad.dll   2.6.2.0      xclude:APL,S
+parame01.dll   2.6.2.0      xclude:APL,S
+paramf02.dll   2.6.2.0      xclude:APL,S
+paramf03.dll   2.6.2.0      xclude:APL,S
+paramf04.dll   2.6.2.0      xclude:APL,S
+paramf05.dll   2.6.2.0      xclude:APL,S
+paramf09.dll   2.6.2.0      xclude:APL,S
+paramf17.dll   2.6.2.0      xclude:APL,S
+paramfa1.dll   2.6.2.0      xclude:APL,S
+paramfa2.dll   2.6.2.0      xclude:APL,S
+paramfa4.dll   2.6.2.0      xclude:APL,S
+paramfa7.dll   2.6.2.0      xclude:APL,S
+paramfaa.dll   2.6.2.0      xclude:APL,S
+paramfab.dll   2.6.2.0      xclude:APL,S
+paramfac.dll   2.6.2.0      xclude:APL,S
+paramfad.dll   2.6.2.0      xclude:APL,S
+paramfae.dll   2.6.2.0      xclude:APL,S
+paramfaf.dll   2.6.2.0      xclude:APL,S
+paramfba.dll   2.6.2.0      xclude:APL
+paramfbb.dll   2.6.2.0      xclude:APL
+paramfbc.dll   2.6.2.0      xclude:APL
+paramfff.dll   2.6.2.0      xclude:APL,S
+pcfc_r.dll     2.6.2.0	    xclude:APL
+pcfc05_r.dll   2.6.2.0	    xclude:APL
+pcfl1_r.dll    2.6.2.0      xclude:APL
+pcfl2_r.dll    2.6.2.0      xclude:APL
+pcfl30_r.dll   2.6.2.0      xclude:APL
+pcfl31_r.dll   2.6.2.0      xclude:APL
+pcfl32_r.dll   2.6.2.0      xclude:APL
+pcfl33_r.dll   2.6.2.0      xclude:APL
+pcfl34_r.dll   2.6.2.0      xclude:APL
+pcfl35_r.dll   2.6.2.0      xclude:APL
+pcfl36_r.dll   2.6.2.0      xclude:APL
+pcfl37_r.dll   2.6.2.0      xclude:APL
+pcfl38_r.dll   2.6.2.0      xclude:APL
+pcfl39_r.dll   2.6.2.0      xclude:APL
+pcfl3_r.dll    2.6.2.0      xclude:APL
+pcfl41_r.dll   2.6.2.0      xclude:APL
+pcfl42_r.dll   2.6.2.0      xclude:APL
+pcfl43_r.dll   2.6.2.0      xclude:APL
+pcfl44_r.dll   2.6.2.0      xclude:APL
+pcfl71_r.dll   2.6.2.0      xclude:APL
+pcfl73_r.dll   2.6.2.0      xclude:APL
+pcfl75_r.dll   2.6.2.0      xclude:APL
+pcfl76_r.dll   2.6.2.0      xclude:APL
+pcfl77_r.dll   2.6.2.0      xclude:APL
+pcfl78_r.dll   2.6.2.0      xclude:APL
+pclient.dll    2.6.2.0
+peer_r.dll     2.6.2.0
+pid2_r.dll     2.6.2.0
+pjbrowse.dll   2.6.2.1
+plcerr.dll     2.6.2.0
+plcerr_e.dll   2.6.2.2
+plcstat.dll    2.6.2.1
+rde.dll        2.6.2.0
+read_r.dll     2.6.2.0
+scif_r.dll     2.6.2.0
+search.dll     2.6.2.0
+sfc_cc.dll     2.6.2.1
+sfc_r.dll      2.6.2.0
+stat08_r.dll   2.6.2.0
+stat12_r.dll   2.6.2.0
+stat16_r.dll   2.6.2.0
+stat19_r.dll   2.6.2.0
+stat24_r.dll   2.6.2.0
+stat33_r.dll   2.6.2.0
+stat42_r.dll   2.6.2.0
+stat51_r.dll   2.6.2.0
+stat56_r.dll   2.6.2.0
+stat60_r.dll   2.6.2.0
+stat64_r.dll   2.6.2.0
+stat_r.dll     2.6.2.0
+stedit.dll     2.6.2.0
+t23e_r.dll     2.6.2.0      xclude:APL
+t24e_r.dll     2.6.2.0      xclude:APL
+tmci_r.dll     2.6.2.0      xclude:APL
+txtbase.dll    2.6.2.1
+txtcomp.dll    2.6.2.1
+txtedit.dll    2.6.2.0
+uik.dll        2.6.2.0
+upload.dll     2.6.2.1
+upload_r.dll   2.6.2.0
+wexec_r.dll    2.6.2.0
+wi.dll         2.6.2.0
+wigee.dll      2.6.2.0
+writ_r.dll     2.6.2.0
+xmit07_r.dll   2.6.2.0      xclude:APL
+xmit08_r.dll   2.6.2.0      xclude:APL
+xmit16_r.dll   2.6.2.0      xclude:APL
+xmrd_r.dll     2.6.2.0      
+xmwt_r.dll     2.6.2.0      
+
+
+
+;PLC Firmware/Execs 
+
+<exe>@1s7196.exe     0x06c8c3e2
+<exe>@1se196.exe     0xe6290919
+<exe>@2i7196.exe     0x030fefa4
+<exe>@2ie196.exe     0xc0f8f119
+<exe>AI3V046E.BIN    0xd85954b7
+<exe>AI5V416E.BIN    0x02497bf1
+<exe>ASUP196.EXE     0xd536422a
+<exe>chs_208.dat     0xd0a785f0
+<exe>Ctsx217e.bin    0xc6d6d0af
+<exe>emuq196.exe     0x808668ae
+<exe>IHSB196.EXE     0x6759942e
+<exe>M1EV120.BIN     0x1ff1621d
+<exe>M1EV123E.BIN    0x0d8bdf6e
+<exe>M1IV210E.BIN    0x4ddb7bc9
+<exe>M1LLV207.BIN    0x9d21683d
+<exe>q186v242.bin    0xf1d105b2
+<exe>Q1SV242E.BIN    0x3d38255d
+<exe>q486V220.bin    0xb55d585d
+<exe>Q58v120e.bin    0x4416a64b
+<exe>Q5rv129e.bin    0x9f01d88c
+<exe>ULEX196.EXE     0x02d5b366
+
+
+
+; files which should be installed into the windows-directory
+
+<win>concept.ini
+
+
+
+; files which should be installed into the windows-system-directory
+
+; <sys>msvbvm60.dll            +6.0.89.64
+; <sys>COMCAT.DLL               5.0.2195.1
+; <sys>COMCTL32.OCX             6.0.81.5
+; <sys>Comdlg32.ocx             6.0.84.18
+; <sys>Ctl3d32.dll              2.31.0.0
+; <sys>machnm1.exe                 15840      
+; <sys>MSCOMCTL.OCX             6.0.88.62
+; <sys>MSMAPI32.OCX             6.0.81.69
+
+; <sys>ASYCFILT.DLL             2.40.4517.0
+; <sys>ccrpTmr.dll              1.23.0.171
+; <sys>OleAut32.dll             2.40.4517.0
+; <sys>OLEPRO32.DLL             2.40.4517.0
+; <sys>SaVcTimerCtrl.ocx        1.1.0.1
+; <sys>STDOLE2.TLB              2.40.4517.0
+; <sys>VCMAXB.OCX               6.0.0.8169
+
+
+
+; files which should be installed into the windows-16Bit-System-directory
+
+; <s16>CMDIALOG.VBX             3.0.0.0
+; <s16>COMPOBJ.DLL              2.3.125.142
+; <s16>OC25.DLL                 2.53.0.0
+; <s16>OLE2DISP.DLL             2.3.3023.1
+; <s16>OLE2NLS.DLL              2.3.3023.1
+; <s16>STORAGE.DLL              2.3.125.140
+; <s16>TYPELIB.DLL              2.3.3025.1
+; <s16>VB40016.DLL              4.0.24.22
+; <s16>VSVBX.VBX                5.0.0.41
+; <s16>skcl.dll			+4.1.1.2

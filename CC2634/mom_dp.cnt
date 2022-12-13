@@ -1,0 +1,50 @@
+:Base mom_dp.hlp
+:Title Momentum Adapter for PROFIBUS DP
+1 Momentum Communications Adapter for PROFIBUS DP
+1 Momentum Communications Adapter for PROFIBUS DP=IDH_CONTENTS@mom_dp.hlp>main
+2 PROFIBUS DP and PROFIBUS DP configuration with Momentum
+2 PROFIBUS DP and PROFIBUS DP configuration with Momentum=D-SG-0005803.1@mom_dp.hlp>main
+3 PROFIBUS DP and PROFIBUS DP Configuration with Momentum
+3 PROFIBUS DP and PROFIBUS DP Configuration with Momentum=D-SG-0005807.1@mom_dp.hlp>main
+4 Introduction to PROFIBUS DP=D-SG-0005808.1@mom_dp.hlp>main
+4 PROFIBUS DP Configuration with Momentum=D-SG-0005810.1@mom_dp.hlp>main
+4 PROFIBUS DP Configuration Limits=D-SG-0005834.1@mom_dp.hlp>main
+3 Use of I/O Base and Communications Adapter
+3 Use of I/O Base and Communications Adapter=D-SG-0005835.1@mom_dp.hlp>main
+4 General Information about Communications Adapter 170 DNT 11000=D-SG-0005809.1@mom_dp.hlp>main
+4 Architecture and Functionality of the Communications Adapter for PROFIBUS DP=D-SG-0005836.1@mom_dp.hlp>main
+4 Potential Isolation of the PROFIBUS DP Bus Interface=D-SG-0005837.1@mom_dp.hlp>main
+3 Mounting the Components and the Connecting the Cables
+3 Mounting the Components and the Connecting the Cables=D-SG-0005838.1@mom_dp.hlp>main
+4 Mounting of the bus adapter=D-SG-0002142.1@mom_dp.hlp>main
+4 Mounting the I/O Module=D-SG-0002145.1@mom_dp.hlp>main
+4 Connection to the PROFIBUS DP=D-SG-0005848.1@mom_dp.hlp>main
+4 Constructing the Bus Cable for the PROFIBUS DP=D-SG-0005849.1@mom_dp.hlp>main
+3 EMC Measures for the Communications Adapter
+3 EMC Measures for the Communications Adapter=D-SG-0005811.1@mom_dp.hlp>main
+4 Central Discharge Function for the PROFIBUS DP=D-SG-0005813.1@mom_dp.hlp>main
+4 Surge Protection for Bus Leads (Lightening Protection)=D-SG-0005814.3@mom_dp.hlp>main
+3 Ordering Details for PROFIBUS DP Components
+3 Ordering Details for PROFIBUS DP Components=D-SG-0005812.1@mom_dp.hlp>main
+4 Ordering Details=D-SG-0005944.1@mom_dp.hlp>main
+4 Ordering Details for PROFIBUS DP Components=D-SG-0005815.1@mom_dp.hlp>main
+2 Module Descriptions for PROFIBUS DP Modules
+2 Module Descriptions for PROFIBUS DP Modules=D-SG-0005804.1@mom_dp.hlp>main
+3 Module Descriptions for the 170 DNT 110 00 Communications Adapter 
+3 Module Descriptions for the 170 DNT 110 00 Communications Adapter =D-SG-0005816.1@mom_dp.hlp>main
+4 Brief Description=D-SG-0005817.1@mom_dp.hlp>main
+4 Description of the Display and Operational Control Components =D-SG-0005818.3@mom_dp.hlp>main
+4 Technical Specifications=D-SG-0005820.3@mom_dp.hlp>main
+2  PROFIBUS DP Module Software Linkage
+2  PROFIBUS DP Module Software Linkage=D-SG-0005805.1@mom_dp.hlp>main
+3 Communications Adapter Data Mapping for PROFIBUS DP
+3 Communications Adapter Data Mapping for PROFIBUS DP=D-SG-0005821.1@mom_dp.hlp>main
+4 I/O Data Format and Size=D-SG-0005822.1@mom_dp.hlp>main
+4 Data Mapping with I/O Bases=D-SG-0005823.1@mom_dp.hlp>main
+4 Example of a PROFIBUS DP Configuration=D-SG-0005824.1@mom_dp.hlp>main
+4 Example of State Memory Addressing in Concept and Modsoft=D-SG-0005912.1@mom_dp.hlp>main
+3 Diagnostics
+3 Diagnostics=D-SG-0005825.1@mom_dp.hlp>main
+4 Evaluation of the PROFIBUS DP Diagnostic Message=D-SG-0005826.1@mom_dp.hlp>main
+4 Ident Codes for Momentum I/O Bases=D-SG-0005911.1@mom_dp.hlp>main
+4 Trouble Shooting via PROFIBUS DP Diagnostic Messages=D-SG-0005827.1@mom_dp.hlp>main

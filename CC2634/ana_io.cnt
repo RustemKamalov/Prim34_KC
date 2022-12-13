@@ -1,0 +1,409 @@
+:Base ana_io.hlp
+:Title Block library ANA_IO
+:Index  =Akfefb.hlp
+:Index  =Ana_io.hlp
+:Index  =comm.hlp
+:Index  =Cont_ctl.hlp
+:Index  =Diagno.hlp
+:Index  =Experts.hlp
+:Index  =Extended.hlp
+:Index  =Fuzzy.hlp
+:Index  =Handtabl.hlp
+:Index  =Iec.hlp
+:Index  =Lib984.hlp
+:Index  =System.hlp
+:Index  =concman.hlp
+1 Concept IEC Block Library ANA_IO
+1 Concept IEC Block Library ANA_IO=IDH_CONTENTS@ana_io.hlp>main
+2 General information on the ANA_IO block library
+2 General information on the ANA_IO block library=D-SG-0003811.1@ana_io.hlp>main
+3 Parameterizing functions and function blocks=D-SG-0002132.1@ana_io.hlp>main
+3 Operating Analog Modules
+3 Operating Analog Modules=D-SG-0003313.4@ana_io.hlp>main
+4 Editing analog values=D-SG-0003314.3@ana_io.hlp>main
+4 Scaling and configuration sections=D-SG-0003315.3@ana_io.hlp>main
+4 Configuration EFBs=D-SG-0003316.3@ana_io.hlp>main
+4 Scaling EFBs=D-SG-0003317.3@ana_io.hlp>main
+4 Debugging-EFBs=D-SG-0003318.3@ana_io.hlp>main
+4 Application example for Quantum=D-SG-0003319.3@ana_io.hlp>main
+2 Operating INTERBUS with Compact=D-SG-0003342.4@ana_io.hlp>main
+3 Analog value processing with Momentum
+3 Analog value processing with Momentum=D-SG-0003415.4@ana_io.hlp>main
+4 Procedure for Analog value processing with Momentum=D-SG-0003668.3@ana_io.hlp>main
+4 Example analog value processing with Momentum=D-SG-0003669.3@ana_io.hlp>main
+2 EFB descriptions
+2 EFB descriptions=D-SG-0003812.1@ana_io.hlp>main
+3 ACI030: Configuring the Quantum module ACI 030 00
+3 ACI030: Configuring the Quantum module ACI 030 00=D-SG-0003813.4@ana_io.hlp>main
+4 Brief description=D-SG-0002868.1@ana_io.hlp>main
+4 Representation=D-SG-0002869.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002870.1@ana_io.hlp>main
+3 ACI040: Configuring the Quantum module ACI 040 00
+3 ACI040: Configuring the Quantum module ACI 040 00=D-SG-0004370.1@ana_io.hlp>main
+4 Brief description=D-SG-0004371.1@ana_io.hlp>main
+4 Representation=D-SG-0004372.1@ana_io.hlp>main
+4 Runtime error=D-SG-0004373.1@ana_io.hlp>main
+3 ACO020: Configuring the Quantum module ACO 020 00
+3 ACO020: Configuring the Quantum module ACO 020 00=D-SG-0003814.4@ana_io.hlp>main
+4 Brief description=D-SG-0002873.1@ana_io.hlp>main
+4 Representation=D-SG-0002872.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002871.1@ana_io.hlp>main
+3 ACO130: Configuring the Quantum module ACO 130 00
+3 ACO130: Configuring the Quantum module ACO 130 00=D-SG-0004377.1@ana_io.hlp>main
+4 Brief description=D-SG-0004378.1@ana_io.hlp>main
+4 Representation=D-SG-0004379.1@ana_io.hlp>main
+4 Runtime error=D-SG-0004380.1@ana_io.hlp>main
+3 ADU204: Configuring the Compact module ADU 204
+3 ADU204: Configuring the Compact module ADU 204=D-SG-0003815.4@ana_io.hlp>main
+4 Brief description=D-SG-0002874.1@ana_io.hlp>main
+4 Representation=D-SG-0002875.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002876.1@ana_io.hlp>main
+3 ADU205: Configuring the Compact module ADU 205
+3 ADU205: Configuring the Compact module ADU 205=D-SG-0003816.4@ana_io.hlp>main
+4 Brief description=D-SG-0002877.1@ana_io.hlp>main
+4 Representation=D-SG-0002878.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002879.1@ana_io.hlp>main
+3 ADU206: Configuring the Compact module ADU 206/ADU 256
+3 ADU206: Configuring the Compact module ADU 206/ADU 256=D-SG-0003817.4@ana_io.hlp>main
+4 Brief description=D-SG-0002882.1@ana_io.hlp>main
+4 Representation=D-SG-0002881.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002880.1@ana_io.hlp>main
+3 ADU214: Configuring the Compact module ADU 214
+3 ADU214: Configuring the Compact module ADU 214=D-SG-0005925.1@ana_io.hlp>main
+4 Brief description=D-SG-0005926.1@ana_io.hlp>main
+4 Representation=D-SG-0005927.1@ana_io.hlp>main
+4 Runtime error=D-SG-0005928.1@ana_io.hlp>main
+3 AII330: Configuring the Quantum module AII 330 00
+3 AII330: Configuring the Quantum module AII 330 00=D-SG-0004381.1@ana_io.hlp>main
+4 Brief description=D-SG-0004382.1@ana_io.hlp>main
+4 Representation=D-SG-0004383.1@ana_io.hlp>main
+4 Runtime error=D-SG-0004384.1@ana_io.hlp>main
+3 AII33010: Configuring the Quantum module AII 330 10
+3 AII33010: Configuring the Quantum module AII 330 10=D-SG-0004385.1@ana_io.hlp>main
+4 Brief description=D-SG-0004386.1@ana_io.hlp>main
+4 Representation=D-SG-0004387.1@ana_io.hlp>main
+4 Runtime error=D-SG-0004388.1@ana_io.hlp>main
+3 AIO330: Configuring the Quantum module AIO 330 00
+3 AIO330: Configuring the Quantum module AIO 330 00=D-SG-0004389.1@ana_io.hlp>main
+4 Brief description=D-SG-0004390.1@ana_io.hlp>main
+4 Representation=D-SG-0004391.1@ana_io.hlp>main
+4 Runtime error=D-SG-0004392.1@ana_io.hlp>main
+3 AMM090: Configuring the Quantum module AMM 090
+3 AMM090: Configuring the Quantum module AMM 090=D-SG-0003818.4@ana_io.hlp>main
+4 Brief description=D-SG-0002883.1@ana_io.hlp>main
+4 Representation=D-SG-0002884.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002885.1@ana_io.hlp>main
+3 ANA_16I: Configuring the module AAI 140 00
+3 ANA_16I: Configuring the module AAI 140 00=D-SG-0003819.4@ana_io.hlp>main
+4 Brief description=D-SG-0002886.1@ana_io.hlp>main
+4 Representation=D-SG-0002887.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002888.1@ana_io.hlp>main
+3 ANA_4I_M: Configuring the module AAI 520 40
+3 ANA_4I_M: Configuring the module AAI 520 40=D-SG-0003820.4@ana_io.hlp>main
+4 Brief description=D-SG-0002899.1@ana_io.hlp>main
+4 Representation=D-SG-0002898.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002900.1@ana_io.hlp>main
+3 ANA_4I_2O: Configuring the TIO-module BAM 096 00
+3 ANA_4I_2O: Configuring the TIO-module BAM 096 00=D-SG-0003821.4@ana_io.hlp>main
+4 Brief description=D-SG-0002890.1@ana_io.hlp>main
+4 Representation=D-SG-0002891.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002889.1@ana_io.hlp>main
+3 ANA_4I_2O_C: Configuring the TIO-module BAM 096 00
+3 ANA_4I_2O_C: Configuring the TIO-module BAM 096 00=D-SG-0003822.4@ana_io.hlp>main
+4 Brief description=D-SG-0002895.1@ana_io.hlp>main
+4 Representation=D-SG-0002897.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002896.1@ana_io.hlp>main
+3 ANA_4I_2O_V: Configuring the TIO-module BAM 096 00
+3 ANA_4I_2O_V: Configuring the TIO-module BAM 096 00=D-SG-0003823.4@ana_io.hlp>main
+4 Brief description=D-SG-0002893.1@ana_io.hlp>main
+4 Representation=D-SG-0002892.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002894.1@ana_io.hlp>main
+3 ANA_4O: Configuring the module BAO 126 00
+3 ANA_4O: Configuring the module BAO 126 00=D-SG-0003824.4@ana_io.hlp>main
+4 Brief description=D-SG-0002901.1@ana_io.hlp>main
+4 Representation=D-SG-0002903.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002902.1@ana_io.hlp>main
+3 ANA_8I: Configuring the module AAI 030 00, BAI 036 00
+3 ANA_8I: Configuring the module AAI 030 00, BAI 036 00=D-SG-0003825.4@ana_io.hlp>main
+4 Brief description=D-SG-0002905.1@ana_io.hlp>main
+4 Representation=D-SG-0002904.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002906.1@ana_io.hlp>main
+3 ARI030: Configuring the Quantum module ARI 030 10
+3 ARI030: Configuring the Quantum module ARI 030 10=D-SG-0003826.4@ana_io.hlp>main
+4 Brief description=D-SG-0002908.1@ana_io.hlp>main
+4 Representation=D-SG-0002909.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002907.1@ana_io.hlp>main
+3 ATI030: Configuring the Quantum module ATI 030 00
+3 ATI030: Configuring the Quantum module ATI 030 00=D-SG-0003827.4@ana_io.hlp>main
+4 Brief description=D-SG-0002911.1@ana_io.hlp>main
+4 Representation=D-SG-0002910.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002912.1@ana_io.hlp>main
+3 AVI030: Configuring the Quantum module AVI 030 00
+3 AVI030: Configuring the Quantum module AVI 030 00=D-SG-0003828.4@ana_io.hlp>main
+4 Brief description=D-SG-0002915.1@ana_io.hlp>main
+4 Representation=D-SG-0002914.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002913.1@ana_io.hlp>main
+3 AVO020: Configuring the Quantum module AVO 020 00
+3 AVO020: Configuring the Quantum module AVO 020 00=D-SG-0003829.4@ana_io.hlp>main
+4 Brief description=D-SG-0002916.1@ana_io.hlp>main
+4 Representation=D-SG-0002918.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002917.1@ana_io.hlp>main
+3 BKF_201: Configuring the Compact module BKF 201
+3 BKF_201: Configuring the Compact module BKF 201=D-SG-0003830.4@ana_io.hlp>main
+4 Brief description=D-SG-0002920.1@ana_io.hlp>main
+4 Representation=D-SG-0002919.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002921.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002922.1@ana_io.hlp>main
+3 BNO_671: Configuring the TIO-module BNO 671 00
+3 BNO_671: Configuring the TIO-module BNO 671 00=D-SG-0003831.4@ana_io.hlp>main
+4 Brief description=D-SG-0002924.1@ana_io.hlp>main
+4 Representation=D-SG-0002926.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002925.1@ana_io.hlp>main
+3 COMPACT: Configuring a main rack
+3 COMPACT: Configuring a main rack=D-SG-0003832.4@ana_io.hlp>main
+4 Brief description=D-SG-0002929.1@ana_io.hlp>main
+4 Representation=D-SG-0002927.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002928.1@ana_io.hlp>main
+3 DAU202: Configuring the Compact module DAU 202 / DAU 252 / DAU 282
+3 DAU202: Configuring the Compact module DAU 202 / DAU 252 / DAU 282=D-SG-0003833.4@ana_io.hlp>main
+4 Brief description=D-SG-0002930.1@ana_io.hlp>main
+4 Representation=D-SG-0002931.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002932.1@ana_io.hlp>main
+3 DAU204: Configuring the Compact module DAU 204
+3 DAU204: Configuring the Compact module DAU 204=D-SG-0003834.4@ana_io.hlp>main
+4 Brief description=D-SG-0002935.1@ana_io.hlp>main
+4 Representation=D-SG-0002934.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002933.1@ana_io.hlp>main
+3 DAU208: Configuring the Compact module DAU 208
+3 DAU208: Configuring the Compact module DAU 208=D-SG-0003835.4@ana_io.hlp>main
+4 Brief description=D-SG-0002936.1@ana_io.hlp>main
+4 Representation=D-SG-0002937.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002938.1@ana_io.hlp>main
+3 DIG_16I: Configuring the TIO-module BDI 346 00 / 546 50 / 746 50
+3 DIG_16I: Configuring the TIO-module BDI 346 00 / 546 50 / 746 50=D-SG-0003836.4@ana_io.hlp>main
+4 Brief description=D-SG-0002939.1@ana_io.hlp>main
+4 Representation=D-SG-0002940.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002941.1@ana_io.hlp>main
+3 DIG_16I_12O_MON: Configuring the module ADM 390 10
+3 DIG_16I_12O_MON: Configuring the module ADM 390 10=D-SG-0003837.4@ana_io.hlp>main
+4 Brief description=D-SG-0002943.1@ana_io.hlp>main
+4 Representation=D-SG-0002944.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002942.1@ana_io.hlp>main
+3 DIG_16I_16O: Configuring the TIO-module BDM 346 00
+3 DIG_16I_16O: Configuring the TIO-module BDM 346 00=D-SG-0003838.4@ana_io.hlp>main
+4 Brief description=D-SG-0002946.1@ana_io.hlp>main
+4 Representation=D-SG-0002945.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002947.1@ana_io.hlp>main
+3 DIG_16O: Configuring the TIO-modules BDO 346 00 / BDO 946 50
+3 DIG_16O: Configuring the TIO-modules BDO 346 00 / BDO 946 50=D-SG-0003839.4@ana_io.hlp>main
+4 Brief description=D-SG-0002949.1@ana_io.hlp>main
+4 Representation=D-SG-0002950.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002948.1@ana_io.hlp>main
+3 DROP: Configuring a I/O Station subrack
+3 DROP: Configuring a I/O Station subrack=D-SG-0003840.4@ana_io.hlp>main
+4 Brief description=D-SG-0002953.1@ana_io.hlp>main
+4 Representation=D-SG-0002951.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002952.1@ana_io.hlp>main
+3 I_DBSET: Writing internal data structure ANL_IN
+3 I_DBSET: Writing internal data structure ANL_IN=D-SG-0003843.4@ana_io.hlp>main
+4 Brief description=D-SG-0002954.1@ana_io.hlp>main
+4 Representation=D-SG-0002957.1@ana_io.hlp>main
+3 I_DEBUG: Monitoring internal data structure ANL_IN
+3 I_DEBUG: Monitoring internal data structure ANL_IN=D-SG-0003844.4@ana_io.hlp>main
+4 Representation=D-SG-0002956.1@ana_io.hlp>main
+4 Brief description=D-SG-0002955.1@ana_io.hlp>main
+3 I_FILTER: Linearization for analog-inputs
+3 I_FILTER: Linearization for analog-inputs=D-SG-0003847.4@ana_io.hlp>main
+4 Brief description=D-SG-0002959.1@ana_io.hlp>main
+4 Representation=D-SG-0002958.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002960.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002961.1@ana_io.hlp>main
+3 I_NORM: Standardized analog input
+3 I_NORM: Standardized analog input=D-SG-0003848.4@ana_io.hlp>main
+4 Brief description=D-SG-0002964.1@ana_io.hlp>main
+4 Representation=D-SG-0002963.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002962.1@ana_io.hlp>main
+3 I_NORM_WARN: Standardized analog-input with warning status
+3 I_NORM_WARN: Standardized analog-input with warning status=D-SG-0003849.4@ana_io.hlp>main
+4 Brief description=D-SG-0002965.1@ana_io.hlp>main
+4 Representation=D-SG-0002966.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002967.1@ana_io.hlp>main
+3 I_PHYS: Physical analog-input
+3 I_PHYS: Physical analog-input=D-SG-0003874.4@ana_io.hlp>main
+4 Brief description=D-SG-0002970.1@ana_io.hlp>main
+4 Representation=D-SG-0002969.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002968.1@ana_io.hlp>main
+3 I_PHYS_WARN: Physical analog-input with warning-status
+3 I_PHYS_WARN: Physical analog-input with warning-status=D-SG-0003875.4@ana_io.hlp>main
+4 Brief description=D-SG-0002971.1@ana_io.hlp>main
+4 Representation=D-SG-0002972.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002973.1@ana_io.hlp>main
+3 I_RAW: Raw value analog input
+3 I_RAW: Raw value analog input=D-SG-0003876.4@ana_io.hlp>main
+4 Brief description=D-SG-0002978.1@ana_io.hlp>main
+4 Representation=D-SG-0002977.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002974.1@ana_io.hlp>main
+3 I_RAWSIM: Simulated raw value analog input
+3 I_RAWSIM: Simulated raw value analog input=D-SG-0003877.4@ana_io.hlp>main
+4 Brief description=D-SG-0002979.1@ana_io.hlp>main
+4 Representation=D-SG-0002976.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002975.1@ana_io.hlp>main
+3 I_SCALE: Scaled analog input
+3 I_SCALE: Scaled analog input=D-SG-0003878.4@ana_io.hlp>main
+4 Brief description=D-SG-0002980.1@ana_io.hlp>main
+4 Representation=D-SG-0002983.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002984.1@ana_io.hlp>main
+3 I_SCALE_WARN: Scaled analog input with warnings status
+3 I_SCALE_WARN: Scaled analog input with warnings status=D-SG-0003879.4@ana_io.hlp>main
+4 Brief description=D-SG-0002981.1@ana_io.hlp>main
+4 Representation=D-SG-0002982.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002985.1@ana_io.hlp>main
+3 I_SET: Set information from analog input channels
+3 I_SET: Set information from analog input channels=D-SG-0008044.1@ana_io.hlp>main
+4 Brief description=D-SG-0008045.1@ana_io.hlp>main
+4 Representation=D-SG-0008046.1@ana_io.hlp>main
+4 Detailed description=D-SG-0008047.1@ana_io.hlp>main
+4 Supported Value Ranges=D-SG-0010428.1@ana_io.hlp>main
+4 Runtime error=D-SG-0008048.1@ana_io.hlp>main
+3 IMIO_IN: Immediate I/O module input
+3 IMIO_IN: Immediate I/O module input=D-SG-0003880.4@ana_io.hlp>main
+4 Brief description=D-SG-0002988.1@ana_io.hlp>main
+4 Representation=D-SG-0002989.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002987.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002986.1@ana_io.hlp>main
+3 IMIO_OUT: Immediate I/O module output
+3 IMIO_OUT: Immediate I/O module output=D-SG-0003881.4@ana_io.hlp>main
+4 Brief description=D-SG-0002992.1@ana_io.hlp>main
+4 Representation=D-SG-0002990.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002993.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002991.1@ana_io.hlp>main
+3 MIX_4I_2O: Configuring the AMM module 090 00
+3 MIX_4I_2O: Configuring the AMM module 090 00=D-SG-0003882.4@ana_io.hlp>main
+4 Brief description=D-SG-0002995.1@ana_io.hlp>main
+4 Representation=D-SG-0002996.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002994.1@ana_io.hlp>main
+3 NOA_611: Configuring the Quantum module NOA 611 00/NOA 611 10
+3 NOA_611: Configuring the Quantum module NOA 611 00/NOA 611 10=D-SG-0003883.4@ana_io.hlp>main
+4 Brief description=D-SG-0003000.1@ana_io.hlp>main
+4 Representation=D-SG-0002997.1@ana_io.hlp>main
+4 Detailed description=D-SG-0002999.1@ana_io.hlp>main
+4 Runtime error=D-SG-0002998.1@ana_io.hlp>main
+3 O_DBSET: Write internal data structure ANL_OUT
+3 O_DBSET: Write internal data structure ANL_OUT=D-SG-0003884.4@ana_io.hlp>main
+4 Brief description=D-SG-0003001.1@ana_io.hlp>main
+4 Representation=D-SG-0003002.1@ana_io.hlp>main
+3 O_DEBUG: Monitoring internal data structure ANL_OUT
+3 O_DEBUG: Monitoring internal data structure ANL_OUT=D-SG-0003885.4@ana_io.hlp>main
+4 Brief description=D-SG-0003004.1@ana_io.hlp>main
+4 Representation=D-SG-0003003.1@ana_io.hlp>main
+3 O_FILTER: Linearization for analog outputs
+3 O_FILTER: Linearization for analog outputs=D-SG-0003886.4@ana_io.hlp>main
+4 Brief description=D-SG-0003005.1@ana_io.hlp>main
+4 Representation=D-SG-0003007.1@ana_io.hlp>main
+4 Detailed description=D-SG-0003006.1@ana_io.hlp>main
+4 Runtime error=D-SG-0003008.1@ana_io.hlp>main
+3 O_NORM: Standardized analog output
+3 O_NORM: Standardized analog output=D-SG-0003887.4@ana_io.hlp>main
+4 Brief description=D-SG-0003013.1@ana_io.hlp>main
+4 Representation=D-SG-0003012.1@ana_io.hlp>main
+4 Runtime error=D-SG-0003009.1@ana_io.hlp>main
+3 O_NORM_WARN: Standardized analog output with warning status
+3 O_NORM_WARN: Standardized analog output with warning status=D-SG-0003888.4@ana_io.hlp>main
+4 Brief description=D-SG-0003014.1@ana_io.hlp>main
+4 Representation=D-SG-0003011.1@ana_io.hlp>main
+4 Runtime error=D-SG-0003010.1@ana_io.hlp>main
+3 O_PHYS: Physical analog output
+3 O_PHYS: Physical analog output=D-SG-0003889.4@ana_io.hlp>main
+4 Brief description=D-SG-0003015.1@ana_io.hlp>main
+4 Representation=D-SG-0003018.1@ana_io.hlp>main
+4 Runtime error=D-SG-0003019.1@ana_io.hlp>main
+3 O_PHYS_WARN: Physical analog output with warning-status
+3 O_PHYS_WARN: Physical analog output with warning-status=D-SG-0003890.4@ana_io.hlp>main
+4 Brief description=D-SG-0003016.1@ana_io.hlp>main
+4 Representation=D-SG-0003017.1@ana_io.hlp>main
+4 Runtime error=D-SG-0003020.1@ana_io.hlp>main
+3 O_RAW: Raw value analog output
+3 O_RAW: Raw value analog output=D-SG-0003891.4@ana_io.hlp>main
+4 Brief description=D-SG-0003023.1@ana_io.hlp>main
+4 Representation=D-SG-0003022.1@ana_io.hlp>main
+4 Runtime error=D-SG-0003021.1@ana_io.hlp>main
+3 O_SCALE: Scaled analog output
+3 O_SCALE: Scaled analog output=D-SG-0003892.4@ana_io.hlp>main
+4 Brief description=D-SG-0003024.1@ana_io.hlp>main
+4 Representation=D-SG-0003027.1@ana_io.hlp>main
+4 Runtime error=D-SG-0003028.1@ana_io.hlp>main
+3 O_SCALE_WARN: Scaled analog output with warnings status
+3 O_SCALE_WARN: Scaled analog output with warnings status=D-SG-0003893.4@ana_io.hlp>main
+4 Brief description=D-SG-0003025.1@ana_io.hlp>main
+4 Representation=D-SG-0003026.1@ana_io.hlp>main
+4 Runtime error=D-SG-0003029.1@ana_io.hlp>main
+3 O_SET: Set information from analog output channels
+3 O_SET: Set information from analog output channels=D-SG-0008054.1@ana_io.hlp>main
+4 Brief description=D-SG-0008055.1@ana_io.hlp>main
+4 Representation=D-SG-0008056.1@ana_io.hlp>main
+4 Detailed description=D-SG-0008057.1@ana_io.hlp>main
+4 Supported Value Ranges=D-SG-0010430.1@ana_io.hlp>main
+4 Runtime error=D-SG-0008058.1@ana_io.hlp>main
+3 QPR_16I_12O: Configuring the TIO-module QPR 346 00 / 10 / 20 / 21
+3 QPR_16I_12O: Configuring the TIO-module QPR 346 00 / 10 / 20 / 21=D-SG-0003894.4@ana_io.hlp>main
+4 Brief description=D-SG-0003030.1@ana_io.hlp>main
+4 Representation=D-SG-0003031.1@ana_io.hlp>main
+4 Detailed description=D-SG-0003032.1@ana_io.hlp>main
+3 QUANTUM: Configuring a main rack
+3 QUANTUM: Configuring a main rack=D-SG-0003895.4@ana_io.hlp>main
+4 Brief description=D-SG-0003033.1@ana_io.hlp>main
+4 Representation=D-SG-0003034.1@ana_io.hlp>main
+4 Runtime error=D-SG-0003035.1@ana_io.hlp>main
+3 R_INT_WORD: Type conversion (REAL -> INT -> WORD)
+3 R_INT_WORD: Type conversion (REAL -> INT -> WORD)=D-SG-0004403.1@ana_io.hlp>main
+4 Brief description=D-SG-0004411.1@ana_io.hlp>main
+4 Representation=D-SG-0004412.1@ana_io.hlp>main
+4 Runtime error=D-SG-0004413.1@ana_io.hlp>main
+3 R_UINT_WORD: Type conversion (REAL -> UINT -> WORD)
+3 R_UINT_WORD: Type conversion (REAL -> UINT -> WORD)=D-SG-0004404.1@ana_io.hlp>main
+4 Brief description=D-SG-0004414.1@ana_io.hlp>main
+4 Representation=D-SG-0004415.1@ana_io.hlp>main
+4 Runtime error=D-SG-0004416.1@ana_io.hlp>main
+3 SCALRTOW: Scaling (REAL -> WORD)
+3 SCALRTOW: Scaling (REAL -> WORD)=D-SG-0004417.1@ana_io.hlp>main
+4 Brief description=D-SG-0004422.1@ana_io.hlp>main
+4 Representation=D-SG-0004421.1@ana_io.hlp>main
+4 Runtime error=D-SG-0004424.1@ana_io.hlp>main
+3 SCALWTOR: Scaling (WORD -> REAL)
+3 SCALWTOR: Scaling (WORD -> REAL)=D-SG-0004418.1@ana_io.hlp>main
+4 Brief description=D-SG-0004419.1@ana_io.hlp>main
+4 Representation=D-SG-0004420.1@ana_io.hlp>main
+4 Runtime error=D-SG-0004425.1@ana_io.hlp>main
+3 UNI_I: Configuring universal TIO input modules
+3 UNI_I: Configuring universal TIO input modules=D-SG-0003896.4@ana_io.hlp>main
+4 Brief description=D-SG-0003036.1@ana_io.hlp>main
+4 Representation=D-SG-0003037.1@ana_io.hlp>main
+4 Detailed description=D-SG-0003039.1@ana_io.hlp>main
+3 UNI_I_O: Configuring universal TIO input/output modules
+3 UNI_I_O: Configuring universal TIO input/output modules=D-SG-0003897.4@ana_io.hlp>main
+4 Brief description=D-SG-0003041.1@ana_io.hlp>main
+4 Representation=D-SG-0003042.1@ana_io.hlp>main
+4 Detailed description=D-SG-0003040.1@ana_io.hlp>main
+3 UNI_O: Configuring universal TIO output modules
+3 UNI_O: Configuring universal TIO output modules=D-SG-0003898.4@ana_io.hlp>main
+4 Brief description=D-SG-0003044.1@ana_io.hlp>main
+4 Representation=D-SG-0003043.1@ana_io.hlp>main
+4 Detailed description=D-SG-0003045.1@ana_io.hlp>main
+3 W_INT_REAL: Type conversion (WORD -> INT -> REAL)
+3 W_INT_REAL: Type conversion (WORD -> INT -> REAL)=D-SG-0004401.1@ana_io.hlp>main
+4 Brief description=D-SG-0004405.1@ana_io.hlp>main
+4 Representation=D-SG-0004406.1@ana_io.hlp>main
+3 W_UINT_REAL: Type conversion (WORD -> UINT -> REAL)
+3 W_UINT_REAL: Type conversion (WORD -> UINT -> REAL)=D-SG-0004402.1@ana_io.hlp>main
+4 Brief description=D-SG-0004408.1@ana_io.hlp>main
+4 Representation=D-SG-0004409.1@ana_io.hlp>main
+3 XBP: Configuring a primary backplane expander
+3 XBP: Configuring a primary backplane expander=D-SG-0003899.4@ana_io.hlp>main
+4 Brief description=D-SG-0003242.1@ana_io.hlp>main
+4 Representation=D-SG-0003243.1@ana_io.hlp>main
+3 XDROP: Configuring a I/O Station Backplane 
+3 XDROP: Configuring a I/O Station Backplane =D-SG-0006882.1@ana_io.hlp>main
+4 Brief description=D-SG-0006883.1@ana_io.hlp>main
+4 Representation=D-SG-0006884.1@ana_io.hlp>main
+4 Runtime error=D-SG-0006886.1@ana_io.hlp>main
+1 Glossary=D-SG-0000454.1@ana_io.hlp>main

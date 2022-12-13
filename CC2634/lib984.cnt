@@ -1,0 +1,118 @@
+:Base lib984.hlp
+:Title LIB984 Block Library
+:Index  =Akfefb.hlp
+:Index  =Ana_io.hlp
+:Index  =comm.hlp
+:Index  =Cont_ctl.hlp
+:Index  =Diagno.hlp
+:Index  =Experts.hlp
+:Index  =Extended.hlp
+:Index  =Fuzzy.hlp
+:Index  =Handtabl.hlp
+:Index  =Iec.hlp
+:Index  =Lib984.hlp
+:Index  =System.hlp
+:Index  =concman.hlp
+1 Concept IEC Block Library LIB984
+1 Concept IEC Block Library LIB984=IDH_CONTENTS@lib984.hlp>main
+2 General information on the LIB984 block library
+2 General information on the LIB984 block library=D-SG-0003679.1@lib984.hlp>main
+3 Parameterizing functions and function blocks=D-SG-0002132.1@lib984.hlp>main
+3 At a glance 
+3 At a glance =D-SG-0003344.4@lib984.hlp>main
+4 Modsoft Functions and using the state RAM=D-SG-0003345.3@lib984.hlp>main
+4 Concept uses variables with pre-defined, standardized types=D-SG-0003346.3@lib984.hlp>main
+4 Concept EFBs and Parameters=D-SG-0003348.3@lib984.hlp>main
+4 Tables under Concept=D-SG-0003349.3@lib984.hlp>main
+4 Concept EFBs and the ANY data type=D-SG-0003350.3@lib984.hlp>main
+4 Implementation aspects=D-SG-0003351.3@lib984.hlp>main
+2 EFB descriptions
+2 EFB descriptions=D-SG-0003682.1@lib984.hlp>main
+3 CMPR: Register Comparison
+3 CMPR: Register Comparison=D-SG-0016809.1@lib984.hlp>main
+4 Brief description=D-SG-0016810.1@lib984.hlp>main
+4 Display=D-SG-0016811.1@lib984.hlp>main
+3 DLOG: Data event logging for PCMCIA Read/write support
+3 DLOG: Data event logging for PCMCIA Read/write support=D-SG-0004427.1@lib984.hlp>main
+4 Brief description=D-SG-0004429.1@lib984.hlp>main
+4 Representation=D-SG-0004430.1@lib984.hlp>main
+4 Detailed description=D-SG-0004432.1@lib984.hlp>main
+4 Run time error=D-SG-0004433.1@lib984.hlp>main
+3 FIFO: First In/First Out stack register
+3 FIFO: First In/First Out stack register=D-SG-0003683.4@lib984.hlp>main
+4 Brief description=D-SG-0001971.1@lib984.hlp>main
+4 Representation=D-SG-0001972.1@lib984.hlp>main
+4 Detailed description=D-SG-0001973.1@lib984.hlp>main
+3 GET_3X: Reading 3x register
+3 GET_3X: Reading 3x register=D-SG-0003684.4@lib984.hlp>main
+4 Brief description=D-SG-0001976.1@lib984.hlp>main
+4 Representation=D-SG-0001977.1@lib984.hlp>main
+4 Detailed description=D-SG-0001978.1@lib984.hlp>main
+3 GET_4X: Reading 4x register
+3 GET_4X: Reading 4x register=D-SG-0003685.4@lib984.hlp>main
+4 Brief description=D-SG-0001980.1@lib984.hlp>main
+4 Representation=D-SG-0001981.1@lib984.hlp>main
+4 Detailed description=D-SG-0001979.1@lib984.hlp>main
+3 GET_BIT: Reading bit
+3 GET_BIT: Reading bit=D-SG-0003686.4@lib984.hlp>main
+4 Brief description=D-SG-0001982.1@lib984.hlp>main
+4 Representation=D-SG-0001983.1@lib984.hlp>main
+4 Detailed description=D-SG-0001984.1@lib984.hlp>main
+3 IEC_BMDI: Block move
+3 IEC_BMDI: Block move=D-SG-0003687.4@lib984.hlp>main
+4 Brief description=D-SG-0001985.1@lib984.hlp>main
+4 Representation=D-SG-0001986.1@lib984.hlp>main
+4 Detailed description=D-SG-0001987.1@lib984.hlp>main
+4 Run time error=D-SG-0001989.1@lib984.hlp>main
+3 LIFO: Last In/First Out stack register
+3 LIFO: Last In/First Out stack register=D-SG-0003688.4@lib984.hlp>main
+4 Brief description=D-SG-0001990.1@lib984.hlp>main
+4 Representation=D-SG-0001991.1@lib984.hlp>main
+4 Detailed description=D-SG-0001992.1@lib984.hlp>main
+3 MBIT: Bit-Change
+3 MBIT: Bit-Change=D-SG-0016815.1@lib984.hlp>main
+4 Brief description=D-SG-0016816.1@lib984.hlp>main
+4 Display=D-SG-0016817.1@lib984.hlp>main
+3 PUT_4X: Write 4x register
+3 PUT_4X: Write 4x register=D-SG-0003689.4@lib984.hlp>main
+4 Brief Description=D-SG-0001994.1@lib984.hlp>main
+4 Representation=D-SG-0001996.1@lib984.hlp>main
+4 Detailed description=D-SG-0001993.1@lib984.hlp>main
+3 R2T_***: Register to table
+3 R2T_***: Register to table=D-SG-0003690.4@lib984.hlp>main
+4 Brief description=D-SG-0001998.1@lib984.hlp>main
+4 Representation=D-SG-0001997.1@lib984.hlp>main
+4 Detailed description=D-SG-0001999.1@lib984.hlp>main
+3 SEARCH: Search
+3 SEARCH: Search=D-SG-0016823.1@lib984.hlp>main
+4 Brief description=D-SG-0016824.1@lib984.hlp>main
+4 Display=D-SG-0016825.1@lib984.hlp>main
+3 SENS with pointer: Queries
+3 SENS with pointer: Queries=D-SG-0016819.1@lib984.hlp>main
+4 Brief description=D-SG-0016820.1@lib984.hlp>main
+4 Display=D-SG-0016821.1@lib984.hlp>main
+3 SET_BIT: Set bit
+3 SET_BIT: Set bit=D-SG-0003691.4@lib984.hlp>main
+4 Brief description=D-SG-0002002.1@lib984.hlp>main
+4 Representation=D-SG-0002003.1@lib984.hlp>main
+4 Detailed description=D-SG-0002004.1@lib984.hlp>main
+3 SET_BITX: Set expanded bit
+3 SET_BITX: Set expanded bit=D-SG-0005983.1@lib984.hlp>main
+4 Brief description=D-SG-0005984.1@lib984.hlp>main
+4 Representation=D-SG-0005985.1@lib984.hlp>main
+4 Detailed description=D-SG-0005986.1@lib984.hlp>main
+3 SRCH_***: Search
+3 SRCH_***: Search=D-SG-0003692.4@lib984.hlp>main
+4 Brief description=D-SG-0002006.1@lib984.hlp>main
+4 Representation=D-SG-0002007.1@lib984.hlp>main
+4 Detailed description=D-SG-0002005.1@lib984.hlp>main
+3 T2T: Table to table
+3 T2T: Table to table=D-SG-0003693.4@lib984.hlp>main
+4 Brief description=D-SG-0002009.1@lib984.hlp>main
+4 Representation=D-SG-0002008.1@lib984.hlp>main
+4 Detailed description=D-SG-0002010.1@lib984.hlp>main
+3 XXOR: Exclusive OR
+3 XXOR: Exclusive OR=D-SG-0016826.1@lib984.hlp>main
+4 Brief description=D-SG-0016827.1@lib984.hlp>main
+4 Display=D-SG-0016828.1@lib984.hlp>main
+1 Glossary=D-SG-0000454.1@lib984.hlp>main

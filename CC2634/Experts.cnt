@@ -1,0 +1,85 @@
+:Base Experts.hlp
+:Title EXPERTS Block Library
+:Index  =Akfefb.hlp
+:Index  =Ana_io.hlp
+:Index  =comm.hlp
+:Index  =Cont_ctl.hlp
+:Index  =Diagno.hlp
+:Index  =Experts.hlp
+:Index  =Extended.hlp
+:Index  =Fuzzy.hlp
+:Index  =Handtabl.hlp
+:Index  =Iec.hlp
+:Index  =Lib984.hlp
+:Index  =System.hlp
+:Index  =concman.hlp
+1 Concept IEC Block Library EXPERTS
+1 Concept IEC Block Library EXPERTS=IDH_CONTENTS@Experts.hlp>main
+2 General information on the EXPERTS block library
+2 General information on the EXPERTS block library=D-SG-0003619.1@Experts.hlp>main
+3 Parameterizing functions and function blocks=D-SG-0002132.1@Experts.hlp>main
+2 EFB descriptions
+2 EFB descriptions=D-SG-0003620.1@Experts.hlp>main
+3 ERT_854_10: Data transfer EFB
+3 ERT_854_10: Data transfer EFB=D-SG-0003621.4@Experts.hlp>main
+4 Brief description=D-SG-0001026.1@Experts.hlp>main
+4 Representation=D-SG-0001027.1@Experts.hlp>main
+4 Mode of Functioning=D-SG-0001037.1@Experts.hlp>main
+4 EFB configuration=D-SG-0001038.1@Experts.hlp>main
+4 Data Flow=D-SG-0001039.1@Experts.hlp>main
+4 Simple example=D-SG-0001040.1@Experts.hlp>main
+4 Other functions=D-SG-0001041.1@Experts.hlp>main
+4 Use of the DPM_Time Structure for the synchronization of the internal ERT clock=D-SG-0001076.1@Experts.hlp>main
+4 Using the ERT >EFB time data flow=D-SG-0001081.1@Experts.hlp>main
+3 ERT_TIME: Time transfer to the ERT854
+3 ERT_TIME: Time transfer to the ERT854=D-SG-0003622.4@Experts.hlp>main
+4 Brief description=D-SG-0000772.1@Experts.hlp>main
+4 Representation=D-SG-0000773.1@Experts.hlp>main
+3 EXFR: Feedback data enable for Experts
+3 EXFR: Feedback data enable for Experts=D-SG-0003623.4@Experts.hlp>main
+4 Brief description=D-SG-0000778.1@Experts.hlp>main
+4 Representation=D-SG-0000779.1@Experts.hlp>main
+3 EXRB: Accepting feedback values from the expert
+3 EXRB: Accepting feedback values from the expert=D-SG-0003624.4@Experts.hlp>main
+4 Brief description=D-SG-0000792.1@Experts.hlp>main
+4 Representation=D-SG-0000803.1@Experts.hlp>main
+4 Runtime error=D-SG-0000796.1@Experts.hlp>main
+3 EXWB: Transferring set points to the expert
+3 EXWB: Transferring set points to the expert=D-SG-0003625.4@Experts.hlp>main
+4 Brief description=D-SG-0000829.1@Experts.hlp>main
+4 Representation=D-SG-0000830.1@Experts.hlp>main
+4 Runtime error=D-SG-0000831.1@Experts.hlp>main
+3 MUX_DINTARR_125: Multiplexer for arrays of the data type DIntArr125
+3 MUX_DINTARR_125: Multiplexer for arrays of the data type DIntArr125=D-SG-0003626.4@Experts.hlp>main
+4 Brief description=D-SG-0000843.1@Experts.hlp>main
+4 Representation=D-SG-0000844.1@Experts.hlp>main
+4 Runtime error=D-SG-0000845.1@Experts.hlp>main
+3 MVB_IN: Data exchange between CPU and MVB-258A
+3 MVB_IN: Data exchange between CPU and MVB-258A=D-SG-0003627.4@Experts.hlp>main
+4 Brief description=D-SG-0000895.1@Experts.hlp>main
+4 Representation=D-SG-0000897.1@Experts.hlp>main
+4 Detailed description=D-SG-0000899.1@Experts.hlp>main
+3 MVB_INFO: Requesting bus data via MVB
+3 MVB_INFO: Requesting bus data via MVB=D-SG-0003628.4@Experts.hlp>main
+4 Brief description=D-SG-0000918.1@Experts.hlp>main
+4 Representation=D-SG-0000921.1@Experts.hlp>main
+4 Detailed description=D-SG-0000922.1@Experts.hlp>main
+3 MVB_OUT: Data exchange between AS-BMVB-258A and CPU
+3 MVB_OUT: Data exchange between AS-BMVB-258A and CPU=D-SG-0003629.4@Experts.hlp>main
+4 Brief description=D-SG-0000956.1@Experts.hlp>main
+4 Representation=D-SG-0000958.1@Experts.hlp>main
+4 Detailed description=D-SG-0000959.1@Experts.hlp>main
+3 MVB_RED: Switching redundant source ports
+3 MVB_RED: Switching redundant source ports=D-SG-0003630.4@Experts.hlp>main
+4 Brief description=D-SG-0000961.1@Experts.hlp>main
+4 Representation=D-SG-0000962.1@Experts.hlp>main
+4 Detailed description=D-SG-0000963.3@Experts.hlp>main
+3 SIMTSX: TSX Simulation
+3 SIMTSX: TSX Simulation=D-SG-0003631.4@Experts.hlp>main
+4 Brief description=D-SG-0000965.1@Experts.hlp>main
+4 Representation=D-SG-0000966.1@Experts.hlp>main
+3 ULEXSTAT: Expert Status Signals
+3 ULEXSTAT: Expert Status Signals=D-SG-0003632.4@Experts.hlp>main
+4 Brief description=D-SG-0000968.1@Experts.hlp>main
+4 Representation=D-SG-0000969.1@Experts.hlp>main
+1 Glossary=D-SG-0000454.1@Experts.hlp>main

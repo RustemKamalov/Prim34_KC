@@ -1,0 +1,617 @@
+<html>
+<head>
+<title>ModConnect Tool for Concept 2.60</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+body {
+	margin: 0px 10px 0px 30px;
+	padding: 0px 0px 0px 0px;
+	background: #ffffff;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	width: 100%;
+	}
+h1, h2, h3, h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-left: -25px;
+	font-weight: bold;
+	margin-top: 0em;
+	margin-bottom: .5em;
+	}
+h1	{ font-size: 180%; margin-top: 3em;  }
+h2	{ font-size: 140%; margin-top: 2em;  }
+h3	{ font-size: 120%; margin-top: 2em;  }
+h4	{ font-size: 100%; margin-top: 1em;  }
+p	{
+	margin-top: .6em;
+	margin-bottom: .6em;
+	}
+blockquote {
+	margin-left: 3.8em;
+	margin-right: 3.8em;
+	margin-top: .6em;
+	margin-bottom: .6em;
+	}
+sup { font-size: 90%; } 
+.fineprint { font-size: 80%; }
+.normal {
+	margin-top: .6em;
+	margin-bottom: .6em;
+	}
+a:link {
+	color: #0000ff;
+	text-decoration: underline;
+	}
+a:visited {
+	color: #000066;
+	text-decoration: underline;
+	}
+a:hover {
+	color: #3366ff;
+	text-decoration: underline;
+	}
+pre	{
+	margin-top: .6em;
+	margin-bottom: .6em;
+	background: #eeeeee;
+	}
+pre, code, .code {
+	font: 100% Courier New, Courier, mono; /* This is 100% of 70% */
+	color: #000066;
+	}
+pre b, code b
+	{
+	letter-spacing: .1em; /* opens kerning on bold in Syntax/Code */
+	}
+pre.syntax
+	{
+	background: #cccccc;
+	padding: 4px 8px;
+	cursor: text;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: #000000;
+	}
+div.tablediv { /* Forces tables to have correct right margins and top spacing */
+	width: 100%;
+	margin-top: -.6em;
+	}
+ol div.tablediv, ul div.tablediv { /* Forces tables to have correct right margins and top spacing */
+	margin-top: 0em;
+	}
+table {	
+	width: 100%; 
+	border-collapse: collapse;
+	margin-top: .6em;
+	margin-bottom: .3em;
+	font-size: 90%; 
+	}
+table th, table td	{
+	border-style: solid; /* Creates the cell border and color */
+	border-width: 1px;
+	border-color: #999999;
+	padding: 2px 3px;
+	text-align: left;
+	}
+th 	{
+	background: #cccccc; /* Creates the shaded table header row */
+	vertical-align: bottom;
+	}
+td 	{
+	background: #ffffff;
+	vertical-align: top;
+	}
+
+.rev {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	color: #FF0000;
+	border: medium double #FF0000;
+	}
+
+.sep { margin-top: 3em; }
+
+}
+</style></head>
+<body>
+
+<center><img src="sa.gif"></center>
+<h1>ModConnect Tool for Concept 2.6 and later</h1>
+<hr>
+<h2>Summary:</h2>
+<p>This document explains how to make Concept aware of new hardware modules using the ModConnect Tool (modconf.exe) supplied
+with Concept. The ModConnect Tool may be useful for ModConnect-Partners and OEMs to add their specific modules to
+Concept. The reader is assumed to have special knowledge on Concept, so the use of this tool is in general restricted to
+Schneider internal use and use through ModConnect-partners.</p>
+<p class=fineprint>
+Information in this document is updated more often than the Concept helpfiles so it supersedes information
+contained in those.</p>
+
+<h2>Contents:</h2>
+<li><a href="#Context"        > Context             				</a>
+<li><a href="#Compatibility"  > Compatibility       				</a>
+<li><a href="#MDCFileFormat"  > MDC-File Format						</a>
+<li><a href="#InputFormat"    > Input Format						</a>
+<li><a href="#SampleMDC"      > Sample MDC-File						</a>
+<li><a href="#AvailModParmDlg"> Available Module Parameter Dialogs	</a>
+<li><a href="#Changes"        > Changes from previous versions		</a>
+
+<h2><a name="Context"></a>Context:</h2>
+<p>Information on hardware and IO-modules is stored in the Concept System Information Database (SysInfDb).
+This database is maintained and updated by Schneider and included with every Concept release.<br><br>
+Nevertheless, Concept is able to support new IO-modules without having to wait for a new release. That's
+where the ModConnect Tool comes in - it takes a textual module description (MDC) and adds this information
+into the SysInfDb. This means that someone, who wants a module to be available in Concept, has in addition
+to the module to deliver an MDC-File, which describes the characteristics of this module.</p>
+
+<h2><a name="Compatibility"></a>Compatibility:</h2>
+<p>The ModConnect Tool works for analog and discrete IO-modules within the Quantum and Momentum families,
+as long as they do not require special handling in the IO-map. Although you may try, it is not guaranteed
+to work with anything else.</p>
+
+<h2><a name="MDCFileFormat"></a>MDC-File Format:</h2>
+<p>The following describes what is needed to create a module description (MDC-File) for use in Concept.
+The MDC-File is dependent on the Version of Concept, so if you upgrade your Concept Version, make sure
+you get also an upgraded version of your previously used MDC-files. You will have to reinstall them.<br><br>
+The MDC-File Format follows the specification for Microsoft Windows (TM) INI-Files. As a very short
+summary, those files are line oriented and contain plain ASCII text in the following form:</p>
+<pre>[Section]
+  Entry1 = Textstring
+  Entry2 = Number
+  ...</pre>
+<p>For more information about INI-File format refer to the documentation supplied with the Microsoft Windows. Also see Topic
+<A href="#InputFormat">Input Format</A> on how to specify data. Most numbers are 16-bit short integer&nbsp;values. Some entries are encoded as Bitfields which are represented through 32-bit long integer values.
+Strings may be enclosed in double quotes to preserve leading or trailing blanks, otherwise they get trimmed. Boolean values are represented 
+through 0 and 1.</p>
+<P>              
+An MDC-File has two or more 
+sections: The first is a general one with information for all modules, all 
+following sections describe each one a single module or a set of 
+module-parameters. The first Section in a MDC-File has to be 'ModConn' and 
+contains four entries:</P>
+
+<h3>Modconn Section</h3>
+
+<h5>Table: MDC-File - Fields in ModConn Section</h5>
+<table>
+    <tr>
+        <th>Entry</th>	<th>Description</th> <th>Type</th> <th>Required</th>
+    </tr>
+    <tr>
+        <td>MdcVersion</td>
+        <td>The current Modconnect Tool supplied with Concept 2.6 uses MDC-File Version 2.6. This version is in general upward compatible
+        with older MDC-File-Versions.</td>
+        <td>String</td> <td>yes</td>
+    </tr>
+    <tr>
+        <td>Oem</td>
+        <td>The Oem entry is a name given to a Modconnect-partner by Schneider Electric</td>
+        <td>String</td><td>no</td>
+    </tr>
+    <tr>
+        <td>Copyright</td>
+        <td>The Copyright entry is a free form string, with the restriction, that Oem and Copyright entries TOGETHER
+        cannot have more than 42 chars</td>
+        <td>String</td><td>no</td>
+    </tr>
+    <tr>
+        <td>HelpFile</td>
+        <td> The HelpFile entry specifies the name of the file containing help for the modules in this MDC-File. 
+        This file is displayed in the module selection dialog when the user selects "Help on module". 
+        All modules in an MDC-file share a common helpfile. The helpfile name is a "Short-Filename" (8.3) without path,
+        It should be a "classic" Windows-Helpfile with the extension ".HLP". The display of specific topics by 
+        supplying a ModuleHelpID is limited to this format - it will not work with compiled HTML (".CHM" files ) 
+        Other filetypes may also require the installation of specific viewers e.g. PDF.
+        </td>
+        <td>Filename (8.3)</td><td>no</td>
+    </tr>
+</table>
+
+<p>A sample ModConn-Section could look like this:</p>
+
+<pre>
+  [ModConn]
+  MdcVersion = 2.6
+  Oem        = yourOemName
+  Copyright  = yourCopyright
+  HelpFile   = yourHelp.hlp
+</pre>
+
+<h3>Module Section</h3>
+
+<p class = sep>Following up are sections describing a single module:<br>
+The module name is used as the section name. The maximum length of a module name is 31 chars, alphanumeric and dashes only.<br>
+The possible entries are categorized as</p>
+
+<ul>
+    <li><a href="#TblGeneralEntries">General Entries</a> </li>
+    <li><a href="#TblModuleParameters">Entries related to Module Parameters</a> </li>
+    <li><a href="#TblSpecialEntries">Special Entries - Schneider internal use only</a> </li>
+    <li><a href="#TblObsoleteEntries">Obsolete entries</a> </li>
+
+</ul>
+
+<a name="TblGeneralEntries"></a>
+<h5 class = sep>Table: Module Section - General Entries</h5>
+<table>
+    <tr> <th>Entry</th> <th >Description</th> <th>Type</th> <th>Required</th> </tr>
+    <tr>
+        <td>ModuleId</td>
+        <td>a module identifier, which has to be unique for any given family, in general Schneider defines
+        this number for the OEM</td>
+        <td>number from SCHNEIDER !</td><td>yes</td>
+    </tr>
+    <tr>
+        <td>ModuleClass</td>
+        <td>defines a class, a module belongs to, e.g. a CPU or power supply.</td>
+        <td>number from <a href="#TblModClass">table</a></td><td>no</td>
+    </tr>
+    <tr>
+        <td>ModuleKind</td>
+        <td>for discrete modules, put a one (1) in here, else omit it.</td>
+        <td>number</td><td>no</td>
+    </tr>
+    <tr>
+        <td>ModuleFamily</td>
+        <td>defines the hardware-family this module can be used with e.g. Compact. Entry is not required, but
+        if you do not set it correctly, the module will not show up in the pick list!</td>
+        <td>number from <a href="#TblModuleFamily">table</a></td><td>yes</td>
+    </tr>
+    <tr>
+        <td>ModuleBits</td>
+        <td>a bitfield coded in a number (Bit 0 is LSB)</td>
+        <td>number from <a href="#TblModuleBits">table</a></td><td>no</td>
+    </tr>
+    <tr>
+        <td>InputBytes</td>
+        <td>the number of input-bytes required by the module</td>
+        <td>number</td><td>no</td>
+    </tr>
+    <tr>
+        <td>OutputBytes</td>
+        <td>the number of output-bytes required by the module</td>
+        <td>number</td><td>no</td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td>a short description of the module, maximum is 39 characters</td>
+        <td>text</td><td>no</td>
+    </tr>
+    <tr>
+        <td>Version</td>
+        <td>an OEM-specific version of this module, maximum is 12 characters</td>
+        <td>text</td><td>no</td>
+    </tr>
+    <tr>
+        <td>ModuleHelpID</td>
+        <td>the ID of the helptopic in the helpfile as specified above. An entry here requires the use
+        of a "classic" Windows-Helpfile with the extension ".HLP". For any other filetype this
+        value has to be zero.</td>
+        <td>number</td><td>no</td>
+    </tr>
+    <tr>
+        <td>Category</td>
+        <td>the module category wherein the module is found in the module selection dialog</td>
+        <td>number from <a href="#TblModCategorie">table</a></td><td>no</td>
+    </tr>
+    <tr>
+        <td>IO-ModCaps</td>
+        <td>a Bitfield which encodes additional module capabilities</td>
+        <td>number from <a href="#TblIOModCaps">table</a></td><td>no</td>
+    </tr>
+    <tr>
+        <td>IO-ScanCaps</td>
+        <td>a Bitfield which encodes IO-Scanner capabilities</td>
+        <td>number from <a href="#TblIOScanCaps">table</a></td><td>no</td>
+    </tr>
+</table>
+
+
+
+<h5 class = sep>Table: Module Section - Entries related to <a name="TblModuleParameters">Module Parameters</a></h5>
+<table>
+    <tr> <th>Entry</th> <th >Description</th> <th>Type</th> </tr>
+    <tr>
+        <td >DefaultModuleData</td>
+        <td height="22">Comma separated list for the default module parameters in words. see <a href="#ModParamFormat">ModParamFormat</a>/td>
+        <td height="22">list of numbers</td>
+    </tr>
+    <tr>
+        <td>DataLength</td>
+        <td>This number is not required as it is calculated from the number of supplied data in the field 'DefaultModuleData'. 
+        It can be used to double check the number of module parameters.</td>
+        <td>number</td>
+    </tr>
+    <tr>
+        <td>DialogId</td>
+        <td >In general you have to use the value 4095 or 0xFFF for this. This is the Id of the
+        generic module parameter dialog. It supports up to 24 parameter words. <br>
+        If you want to use of the other built in module parameter dialog, you can use the dialog Id of this module.
+        Nevertheless it is your reponsibility to assure that the module data match the dialog.
+        </td>
+        <td>number</td>
+    </tr>
+<!-- 
+    <tr>
+        <td>Procedure</td>
+        <td >Name of an executable program located in the Concept Directory. This is used as a customized module parameter dialog
+		and can be specified instead of a DialogId (has to be zero then). At this point in time it is reserved for internal use only.</td>
+        <td>Filename (8.3). </td>
+    </tr>
+ -->
+</table>
+
+
+
+<h5 class = sep>Table: Special Entries reserved for Schneider internal use only<a name="TblSpecialEntries"></a></h5>
+<table>
+    <tr> <th>Entry</th> <th >Description</th> <th>Type</th> </tr>
+    <tr>
+        <td>MaxCyclicXfer</td>
+        <td>maximum number of transfers in cyclic data exchange</td>
+        <td>number</td>
+    </tr>
+    <tr>
+        <td>LocalBus</td>
+        <td>indicates Bus Terminal IO-Bus module</td>
+        <td>number</td>
+    </tr>
+    <tr>
+        <td>LocalLoopBack</td>
+        <td>mechanism to disable segments of IO-Bus
+        network</td>
+        <td>number</td>
+    </tr>
+</table>
+<br>
+
+
+<a name="TblObsoleteEntries"></a>
+<h3>Obsolete entries</h3>
+<p>In former versions of this document, the following entries have been specified as "reserved for future use". Nevertheless
+as they have been never documented or used they should not be referenced at all in an MDC-File. If you have those values defined
+for whatever reason, you should remove them from the MDC-File. The reader will silently ignore those fields.</p>
+<br>
+<pre>
+ List of obsolete entries:
+
+ ModulePos       Library         IdDataDef       IdEditorTable
+ PlacementRules  DialogHelpId    allowedSlot     numslotsconsumed
+ numallowed      Procedure       ParamHelpId
+</pre>
+
+<h3>Decription of Values</h3>
+
+
+<h5 class = sep>Table: Values for Module Class Field<a name="TblModuleClass"></a></h5>
+<table>
+    <tr> <th>Entry</th> <th >Description</th></tr>
+    <tr><td>0</td><td>simple Module</td></tr>
+    <tr><td>1</td><td>smart Module</td></tr>
+    <tr><td>2</td><td>Expert</td></tr>
+    <tr><td>3</td><td>Power Supply</td></tr>
+    <tr><td>4</td><td>Drop Control</td></tr>
+    <tr><td>5</td><td>CPU</td></tr>
+    <tr><td>6</td><td>Summable Power Supply</td></tr>
+    <tr><td>7</td><td>Redundant Power Supply</td></tr>
+    <tr><td>8</td><td>Battery Module</td></tr>
+</table>
+
+
+<h5 class = sep>Table: Values for Module Family Field<a name="TblModuleFamily"></a></h5>
+<table>
+    <tr> <th>Entry</th> <th >Description</th></tr>
+    <tr><td>1</td><td>800 IO</td></tr>
+    <tr><td>2</td><td>Quantum</td></tr>
+    <tr><td>4</td><td>Interbus S</td></tr>
+    <tr><td>10</td><td>Symax Module</td></tr>
+    <tr><td>11</td><td>Compact</td></tr>
+    <tr><td>12</td><td>IO-Bus</td></tr>
+    <tr><td>13</td><td>TIO</td></tr>
+    <tr><td>14</td><td>Copro II</td></tr>
+    <tr><td>15</td><td>Generic Bus</td></tr>
+</table>
+
+
+<h5 class = sep>Table: Values for ModuleBits:<a name="TblModuleBits"></h5>
+<table>
+    <tr> <th>Bit</th> <th >Meaning</th></tr>
+    <tr><td>0</td><td >Input is BCD</td></tr>
+    <tr><td>1</td><td >Output is BCD</td></tr>
+    <tr><td>2</td><td >Input is swapped.<p>This and the next bit are used for discrete modules and
+            determine in which order the bits of an input/output mode are mapped into a byte in state-ram. For
+            Quantum modules both are always set.</p>
+            </td></tr>
+    <tr><td>3</td><td >Output is swapped, see above</td></tr>
+    <tr><td>4</td><td >-</td></tr>
+    <tr><td>5</td><td >Hold Last Value</td></tr>
+    <tr><td>6</td><td >IsInterruptModule</td></tr>
+    <tr><td>7</td><td >InputFormatDPM</td></tr>
+</table>
+
+
+<h5 class = sep>Table: Values for Module Category Field<a name="TblModCategorie"></a></h5>
+<table>
+    <tr> <th>Value</th> <th >Module will be displayed in category</th> </tr>
+    <tr><td>0</td><td>other</td></tr>
+    <tr><td>1</td><td>Analog In</td></tr>
+    <tr><td>2</td><td>Analog Out</td></tr>
+    <tr><td>3</td><td>Analog Mixed</td></tr>
+    <tr><td>4</td><td>Discrete In</td></tr>
+    <tr><td>5</td><td>Discrete Out</td></tr>
+    <tr><td>6</td><td>Disc Mixed</td></tr>
+    <tr><td>7</td><td>Intell. I/O</td></tr>
+    <tr><td>8</td><td>Motion</td></tr>
+    <tr><td>9</td><td>I/O Adapter</td></tr>
+    <tr><td>10</td><td>Net Adapter</td></tr>
+    <tr><td>11</td><td>CPU</td></tr>
+    <tr><td>12</td><td>Power Supply</td></tr>
+</table>
+
+
+<h5 class = sep>Table: IO Module-Capability flags<a name="TblIOModCaps"></a></h5>
+BitField IO-ModCaps 
+<table>
+    <tr><th>Bit</th> <th >Meaning</th> <th >Hex Values</th> </tr>
+    <tr><td>0 </td><td>counts as Head from Exec view</td><td> 0x00000001 </td></tr>
+    <tr><td>1 </td><td>exclude from Traffic Cop</td><td> 0x00000002 </td></tr>
+    <tr><td>2 </td><td>excl from Cut/Copy/Paste ops</td><td> 0x00000004 </td></tr>
+    <tr><td>3 </td><td>isa Generic Bus Option Module</td><td> 0x00000008 </td></tr>
+    <tr><td>4 </td><td>isa Profibus Option Module</td><td> 0x00000010 </td></tr>
+    <tr><td>5 </td><td>isa MVB Controller Module</td><td> 0x00000020 </td></tr>
+    <tr><td>6 </td><td>must be in Drop 1</td><td> 0x00000040 </td></tr>
+    <tr><td>7 </td><td>must be in Rack 1</td><td> 0x00000080 </td></tr>
+    <tr><td>8 </td><td>modules uses entire drop</td><td> 0x00000100 </td></tr>
+    <tr><td>9 </td><td>isa Drop Controller</td><td> 0x00000200 </td></tr>
+    <tr><td>10</td><td>allowed in Local Drop rule</td><td> 0x00000400 </td></tr>
+    <tr><td>11</td><td>allowed in RIO rule</td><td> 0x00000800 </td></tr>
+    <tr><td>12</td><td>allowed in DIO rule</td><td> 0x00001000 </td></tr>
+    <tr><td>13</td><td>count limited by class rule</td><td> 0x00002000 </td></tr>
+    <tr><td>14</td><td>count limited by CTE count rule</td><td> 0x00004000 </td></tr>
+    <tr><td>15</td><td>very special hd count excl rule</td><td> 0x00008000 </td></tr>
+    <tr><td>16</td><td>hack for IsHeadModule()</td><td> 0x00010000 </td></tr>
+    <tr><td>17</td><td>excl from dyn ins in rack editor</td><td> 0x00020000 </td></tr>
+    <tr><td>18</td><td>1=supp mod desc size in pgraphs
+    <br>0=mod desc in Words only</td><td> 0x00040000 </td></tr>
+    <tr><td>19 </td><td>1/SFB A120 series module</td><td> 0x00080000 </td></tr>
+    <tr><td>20 </td><td>1/SFB A250/350/500 series</td><td> 0x00100000 </td></tr>
+    <tr><td>21 </td><td>1/SFB A-series drop controller</td><td> 0x00200000 </td></tr>
+    <tr><td>22 </td><td>Do not count towards 'used bits'</td><td> 0x00400000</td></tr>
+</table>
+
+
+<h5 class = sep>Table: IO Scanner Capabilities flags<a name="TblIOScanCaps"></a></h5>
+BitField IO-ScanCaps
+
+<table>
+    <tr><th>Bit</th> <th >Meaning</th> <th >Hex Values</th> </tr>
+	<tr><td>0 </td><td>Supports I/O Scanner</td><td> 0x00000001</td></tr>
+	<tr><td>1 </td><td>Supports Health Block</td><td> 0x00000002</td></tr>
+	<tr><td>2 </td><td>Supports Setting of IP</td><td> 0x00000004</td></tr>
+	<tr><td>3 </td><td>Supports Selection of BootP mode</td><td> 0x00000008</td></tr>
+	<tr><td>4 </td><td>Supports Disabling Ethernet</td><td> 0x00000010</td></tr>
+	<tr><td>5 </td><td>Supports Link Server</td><td> 0x00000020</td></tr>
+	<tr><td>6 </td><td>Supports Fallback Mode</td><td> 0x00000040</td></tr>
+	<tr><td>7 </td><td>Supports Diagnostic Block</td><td> 0x00000080</td></tr>
+	<tr><td>8 </td><td>Supports Online Editing</td><td> 0x00000100</td></tr>
+	<tr><td>9 </td><td>Supports selecting IEEE/Enet Frame type</td><td> 0x00000200</td></tr>
+	<tr><td>10</td><td>Supports internet browsing</td><td> 0x00000400</td></tr>
+	<tr><td>11</td><td>Supports Peercop compatibility mode</td><td> 0x00000800</td></tr>
+</table>
+
+
+<h2><a name="InputFormat"></a>Input Format:</h2>
+
+<p>Two number formats are supported: hexadecimal and signed
+decimal. To specify a hexadecimal number it has to be prefixed
+with 0x. Numbers have to be in the range of -32768 to 32767 ( 0x0
+to 0xFFFF ), all other values will be truncated with undefined
+results.<br><br>
+
+Special: for Module Parameter Words a comma separated list of
+numbers is used which specifies each word explicitly .<br><br>
+
+As a line in an INI-file cannot exceed 255 characters and it
+is difficult to specify more than 10 to 20 numbers in a line,
+there is an alternative for those cases:</p>
+
+<ul>
+    <li>in the entry DefaultModuleData specify a string starting
+        with the '&gt;' (greater) char instead of the comma
+        separated list of numbers. </li>
+    <li>create a section with this string ( do not omit the
+        greater sign, its required ) </li>
+    <li>create an entry n=xxx inside this section where x is the
+        number of words.</li>
+    <li>create entries D###=xxx where ### is the ordinal number
+        of the module parameter word you want to define. </li>
+    <li>words which are not explicitly specified, are assumed to
+        be zero. </li>
+</ul>
+
+<p>This is easier to understand by looking at the following
+sample: Say you have a module xyz with twenty module parameter
+words and the words 1, 10, and 15 have a default value of 2005
+you have the following options</p><a name="ModParamFormat">
+
+<h5><td>Method 1:</h5>
+<pre>
+    [xyz]
+    DefaultModuleData = 2005,0,0,0,0,0,0,0,0,0x7d5,0,0,0,0,2005,0,0,0,0,0
+</pre>
+
+<h5><td>Method 2:</h5>
+<pre>
+	[xyz]
+	DefaultModuleData = &gt;LookHere
+
+	[&gt;LookHere]
+	n=20
+	D1=2005
+	D10=2005
+	D15=0x7d5
+</pre>
+
+<h2><a name="sample"></a>Sample MDC-Files: </h2>
+
+<p>Using the Modconnect-Tool you can create MDC-Files from any module in the
+Concept-Database as a starting point for your own MDC-File. As an alternative
+you may use the file "sample.mdc" supplied with Concept and apply any changes
+you might want.</p>
+
+
+
+<h2><a name="AvailModParmDlg"></a>Available Module Parameter
+Dialogs:</h2>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th >Description</th>
+        <th>View</th>
+    </tr>
+    <tr>
+        <td>0xFFF</td>
+        <td >The generic Dialog. 24 words limit.</td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>...</td>
+        <td >all other&nbsp;dialogs are reserved for Schneider internal use.</td>
+        <td>N/A</td>
+    </tr>
+</table>
+
+
+<h2><a name="Changes"></a>Changes from previous versions:</h2>
+
+<h4>Concept 2.5 SR1 (03/2001):</h4>
+    <li>The field ParamHelpId is no longer available. It has
+    been removed from the database as it turned out to be
+    superfluous. All references to this field should be
+    removed from existing MDC-Files.</li>
+    <li>The Modconnect Tool supplied with Concept 2.5 SR1
+    does not automatically ignore this field, but generates
+    an error &quot;Field 25 not available&quot;.</li>
+
+<h4>Concept 2.5 SR2(09/2001):</h4>
+    <li>actual MDC-Version is 1.2</li>
+    <li>Above Problem with ParamHelpId has been fixed.</li>
+
+<h4>Concept 2.6 SR1 (03/2003):</h4>
+    <li>actual MDC-Version is 2.60</li>
+    <li>Allow specification of a category, from where the module is selected</li>
+    <li>Added field IO-Modcaps to improve database driven behavior of configurator</li>
+    <li>Added field IO-Scancaps to "finetune" IO-Scanner 'capabilities' for this module</li>
+
+<hr>
+<ADDRESS>
+<B><A HREF="http://www.modicon.com/"><IMG SRC="sa.gif" ALT="Schneider Electric" ALIGN=RIGHT></A></B><BR>
+<B>Last updated</B>: 05. Aug. 2003<BR>
+Copyright &copy; 1997-2003 <A HREF="http://www.modicon.com">Schneider Automation Inc</A><BR>
+<A HREF="mailto:conceptinfo.@modicon.com">Contact us</A>.<BR>
+</ADDRESS>
+
+</body>
+</html>

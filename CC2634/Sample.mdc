@@ -1,0 +1,157 @@
+; ----------------------------------------------------------------------------
+; Copyright (C) Schneider Automation Inc. USA
+; All rights reserved.
+; ----------------------------------------------------------------------------
+; ModConnect Tool for Concept (TM) Version 2.6 and later
+;
+; $Date: 2003/09/15 23:40:04 $
+; $Revision: 1.6.1.4 $
+;
+; $RCSfile: sample.mdc $
+; ----------------------------------------------------------------------------
+;
+; Description:
+;
+; This is the sample "mdc-file" to install IO-Modules into the
+; Concept (TM) database
+; The MDC-File Format follows the specification for Microsoft
+; Windows (TM) INI-Files.
+;
+; ModConn:      must be the 1st Section in this File
+; MdcVersion:   is the version of this file format, currently 2.60
+; Oem:          Put your name in here
+; Copyright:    Put your Copyright notice in here
+;               Oem and Copyright entry TOGETHER should not exceed
+;               42 chars otherwise they get silently truncated.
+; HelpFile:     Name of Helpfile for ALL modules described in this file,
+;               use different mdc-files if you want put help for each
+;               module into a separate file
+
+
+[ModConn]
+MdcVersion      = 2.60
+Oem             = YourNameHere
+Copyright       = YourCopyrightHere
+HelpFile        = allibra.hlp
+
+
+; Each of the following sections describes a single module
+; where the section name is identical to the module name.
+; The maximum length of a module name is 31 chars, alphanumeric
+; and dash only. Be aware that Concept ignores the first 4 chars
+; of the modulename, so it is recommended to start a module name with 'MDC-'
+
+
+[MDC-MyModule]
+
+; Version       is the OEM-specific version of this module, 12 chars maximum
+  Version       = YourVersion
+
+
+; Description   is a short description of the module, maximum is 39 chars
+  Description   = My Quantum 8-Channel Input module
+
+
+; ModuleClass   select from the following options
+;               0 - simple module
+;               1 - smart module
+;               2 - expert module
+;               3 - powersupply
+;               4 - dropcontrol
+;               5 - CPU
+;               6 - summable powersupply
+;               7 - redundant powersupply
+;               8 - battery module
+  ModuleClass   = 1
+
+
+
+; ModuleKind    value is only required for discrete (1) modules
+;               0 - analog modules
+;               1 - discrete modules
+  ModuleKind    = 1
+
+; ModuleFamily: use one of the following
+;               2  - for Quantum
+;               4  - for InterBusS
+;               10 - for  Symax
+;               11 - for Compact
+;               12 - for M1 IO Bus
+;               13 - for M1 TIO
+;               14 - for CoproII
+  ModuleFamily  = 2
+
+
+; Input/OutputBytes: the number of Input/OutputBytes required by the module
+  InputBytes    = 4
+  OutputBytes   = 4
+
+
+; ModuleId:     the Schneider supplied UNIQUE Module Identifier
+  ModuleId      = 4712
+
+
+; ModuleBits:   a bitfield coded in a decimal number ( bit 0 is LSB )
+;               Bit 0    -      Input  is BCD
+;               Bit 1    -      Output is BCD
+;               Bit 2    -      Input  is swapped
+;               Bit 3    -      Output is swapped
+;               Bit 4    -      reserved
+;               Bit 5    -      HoldLast
+;               Bit 6    -      IsInterruptModule
+;               Bit 7    -      InputFormatDPM
+;               Bit 8-15 -      reserved
+  ModuleBits    = 1
+
+
+; DialogId:     use the number 4095, if your your module has parameters and you
+;               want to use the generic parameter-dialog ( for up to 24 words )
+  DialogId      = 4095
+
+
+
+; ModuleHelpId  is the Helptopic-Id from the above helpfile
+  ModuleHelpId  = 2
+
+
+; DefaultModuleData:  comma separated list for the
+;                     default moduleparameter words
+  DefaultModuleData = 1,2,3,4,5,6,7,8,9,0,0,0,0,3
+
+
+; NumAllowed:   number of modules allowed in a rack, 0 means unlimited
+  NumAllowed    = 3
+
+; IO-ModCaps     an additional Bitfield to specify module capabilitites
+  IO-ModCaps     = 7168
+
+; IO-ScanCaps    a Bitfield to specify capabilitites of the IO-Scanner
+  IO-ScanCaps    = 0x0
+
+; Category:     the module category wherein the module is found in the module selection dialog
+;               1  - Analog In
+;               2  - Analog Out
+;               3  - Analog Mixed
+;               4  - Discrete In
+;               5  - Discrete Out
+;               6  - Disc Mixed
+;               7  - Intell. I/O
+;               8  - Motion
+;               9  - I/O Adapter
+;               10 - Net Adapter
+;               11 - CPU
+;               12 - Power Supply
+  Category      = 1
+
+
+; the following entries are for Schneider internal use only
+; they are not required for any supported OEM-modules
+
+MaxCyclicXfer   = 0
+ConfigExtId     = 0
+EnetType        = 0
+
+
+; ----------------------------------------------------------------------------
+; end of file
+; ----------------------------------------------------------------------------

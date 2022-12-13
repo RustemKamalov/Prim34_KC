@@ -1,0 +1,419 @@
+:#  - function -
+:#    definition of macros
+
+:#  - placement -
+:#    in the directory of the editor exe file
+
+:#  - control characters -
+:#    % cursor position (%% to get % as text)
+
+
+:Macro ST_ASS
+ := %
+:MacroEnd
+
+
+:Macro ST_EXIT
+EXIT;
+%
+:MacroEnd
+
+
+:Macro ST_IF
+IF % THEN
+
+  ELSIF  THEN
+
+    ELSE
+
+END_IF;
+
+:MacroEnd
+
+
+:Macro ST_CASE
+CASE % OF
+
+  ELSE
+
+END_CASE;
+
+:MacroEnd
+
+
+:Macro ST_FOR
+FOR % TO  BY  DO
+
+END_FOR;
+
+:MacroEnd
+
+
+:Macro ST_WHILE
+WHILE % DO
+
+END_WHILE;
+
+:MacroEnd
+
+
+:Macro ST_REPEAT
+REPEAT
+
+UNTIL %
+END_REPEAT;
+
+:MacroEnd
+
+
+:Macro ST_EXP
+ ** %
+:MacroEnd
+
+
+:Macro ST_NEG
+ -%
+:MacroEnd
+
+
+:Macro ST_COMPL
+ NOT %
+:MacroEnd
+
+
+:Macro ST_MUL
+ * %
+:MacroEnd
+
+
+:Macro ST_DIV
+ / %
+:MacroEnd
+
+
+:Macro ST_MOD
+ MOD %
+:MacroEnd
+
+
+:Macro ST_ADD
+ + %
+:MacroEnd
+
+
+:Macro ST_SUB
+ - %
+:MacroEnd
+
+
+:Macro ST_GT
+ > %
+:MacroEnd
+
+
+:Macro ST_GE
+ >= %
+:MacroEnd
+
+
+:Macro ST_LE
+ <= %
+:MacroEnd
+
+
+:Macro ST_LT
+ < %
+:MacroEnd
+
+
+:Macro ST_EQ
+ = %
+:MacroEnd
+
+
+:Macro ST_NE
+ <> %
+:MacroEnd
+
+
+:Macro ST_AND
+ AND %
+:MacroEnd
+
+
+:Macro ST_OR
+ OR %
+:MacroEnd
+
+
+:Macro ST_XOR
+ XOR %
+:MacroEnd
+
+
+:Macro _DECLARATION
+VAR
+%
+END_VAR
+
+:MacroEnd
+
+
+:Macro _COMMENT
+(* % *)
+:MacroEnd
+
+
+:Macro IL_LD
+LD              %
+:MacroEnd
+
+
+:Macro IL_LDN
+LDN             %
+:MacroEnd
+
+
+:Macro IL_ST
+ST              %
+:MacroEnd
+
+
+:Macro IL_STN
+STN             %
+:MacroEnd
+
+
+:Macro IL_SET
+S               %
+:MacroEnd
+
+
+:Macro IL_RESET
+R               %
+:MacroEnd
+
+
+:Macro IL_JMP
+JMP             %
+:MacroEnd
+
+
+:Macro IL_JMPC
+JMPC    %
+:MacroEnd
+
+
+:Macro IL_JMPCN
+JMPCN   %
+:MacroEnd
+
+
+:Macro IL_CAL
+CAL             %
+:MacroEnd
+
+
+:Macro IL_CALC
+CALC    %
+:MacroEnd
+
+
+:Macro IL_CALCN
+CALCN   %
+:MacroEnd
+
+
+:Macro IL_ADD
+ADD             %
+:MacroEnd
+
+
+:Macro IL_ADDP
+ADD             (%
+)
+:MacroEnd
+
+
+:Macro IL_SUB
+SUB             %
+:MacroEnd
+
+
+:Macro IL_SUBP
+SUB             (%
+)
+:MacroEnd
+
+
+:Macro IL_MUL
+MUL             %
+:MacroEnd
+
+
+:Macro IL_MULP
+MUL             (%
+)
+:MacroEnd
+
+
+:Macro IL_DIV
+DIV             %
+:MacroEnd
+
+
+:Macro IL_DIVP
+DIV             (%
+)
+:MacroEnd
+
+
+:Macro IL_GT
+GT              %
+:MacroEnd
+
+
+:Macro IL_GTP
+GT              (%
+)
+:MacroEnd
+
+
+:Macro IL_GE
+GE              %
+:MacroEnd
+
+
+:Macro IL_GEP
+GE              (%
+)
+:MacroEnd
+
+
+:Macro IL_LT
+LT              %
+:MacroEnd
+
+
+:Macro IL_LTP
+LT              (%
+)
+:MacroEnd
+
+
+:Macro IL_LE
+LE              %
+:MacroEnd
+
+
+:Macro IL_LEP
+LE              (%
+)
+:MacroEnd
+
+
+:Macro IL_EQ
+EQ              %
+:MacroEnd
+
+
+:Macro IL_EQP
+EQ              (%
+)
+:MacroEnd
+
+
+:Macro IL_NE
+NE              %
+:MacroEnd
+
+
+:Macro IL_NEP
+NE              (%
+)
+:MacroEnd
+
+
+:Macro IL_AND
+AND             %
+:MacroEnd
+
+
+:Macro IL_ANDP
+AND             (%
+)
+:MacroEnd
+
+
+:Macro IL_ANDN
+ANDN    %
+:MacroEnd
+
+
+:Macro IL_ANDNP
+ANDN    (%
+)
+:MacroEnd
+
+
+:Macro IL_OR
+OR              %
+:MacroEnd
+
+
+:Macro IL_ORP
+OR              (%
+)
+:MacroEnd
+
+
+:Macro IL_ORN
+ORN             %
+:MacroEnd
+
+
+:Macro IL_ORNP
+ORN             (%
+)
+:MacroEnd
+
+
+:Macro IL_XOR
+XOR             %
+:MacroEnd
+
+
+:Macro IL_XORP
+XOR             (%
+)
+:MacroEnd
+
+
+:Macro IL_XORN
+XORN    %
+:MacroEnd
+
+
+:Macro IL_XORNP
+XORN    (%
+)
+:MacroEnd
+
+
+:Macro _ARRAY
+ARRAY [% .. ] OF
+:MacroEnd
+
+
+:Macro _STRUCT
+STRUCT
+%
+END_STRUCT;
+:MacroEnd
+
+
+:Macro _TYPE
+TYPE
+%
+END_TYPE
+:MacroEnd

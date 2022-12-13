@@ -1,0 +1,21 @@
+:Base modconf.hlp
+:Title Concept ModConnect
+1 Concept ModConnect Help
+1 Concept ModConnect Help=IDH_CONTENTS@modconf.hlp>main
+2 Concept ModConnect
+2 Concept ModConnect=D-SG-0003927.1@modconf.hlp>main
+3 Introduction=D-SG-0003928.1@modconf.hlp>main
+3 Integration of Third Party Modules
+3 Integration of Third Party Modules=D-SG-0003929.1@modconf.hlp>main
+4 Integrating new Modules=D-SG-0003925.1@modconf.hlp>main
+4 Removing Modules=D-SG-0003932.1@modconf.hlp>main
+2 Use of third party module in Concept=D-SG-0003930.1@modconf.hlp>main
+2 Creating MDC files for Concept ModConnect
+2 Creating MDC files for Concept ModConnect=D-SG-0003937.1@modconf.hlp>main
+3 General=D-SG-0003931.1@modconf.hlp>main
+3 File Format=D-SG-0003934.1@modconf.hlp>main
+3 ModConn-Section=D-SG-0003955.1@modconf.hlp>main
+3 Single Module Section=D-SG-0003935.1@modconf.hlp>main
+3 Input Format=D-SG-0003952.1@modconf.hlp>main
+3 Template=D-SG-0003953.1@modconf.hlp>main
+3 Module Parameter Dialogs=D-SG-0003954.1@modconf.hlp>main

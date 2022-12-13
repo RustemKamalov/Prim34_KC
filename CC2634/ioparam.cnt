@@ -1,0 +1,315 @@
+:Base ioparam.hlp
+:Title Concept Parameters
+:Index  =noa61110.hlp
+:Index  =noa622.hlp
+:Index  =concept.hlp
+:Index  =copro.hlp
+1 Concept Parameter Help
+1 Concept Parameter Help=IDH_CONTENTS@ioparam.hlp>main
+2 Quantum parameter dialogs
+2 Quantum parameter dialogs=D-SG-0002332.1@ioparam.hlp>main
+3 ACI-040-00: Analog input
+3 ACI-040-00: Analog input=D-SG-0003900.1@ioparam.hlp>main
+4 Parameter description=D-SG-0003902.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003906.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003905.1@ioparam.hlp>main
+4 Module status word=D-SG-0003904.1@ioparam.hlp>main
+3 ACO-020-00, AVO-020-00: Analog output
+3 ACO-020-00, AVO-020-00: Analog output=D-SG-0003504.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002355.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003529.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003594.1@ioparam.hlp>main
+3 ACO-130-00 and AIO-330-00: Analog output
+3 ACO-130-00 and AIO-330-00: Analog output=D-SG-0003901.1@ioparam.hlp>main
+4 Parameter description=D-SG-0003920.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003910.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003921.1@ioparam.hlp>main
+3 AII-330-00: Analog input
+3 AII-330-00: Analog input=D-SG-0003507.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002358.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003532.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003595.1@ioparam.hlp>main
+4 Module status word=D-SG-0003596.1@ioparam.hlp>main
+3 AII-330-10: Analog input
+3 AII-330-10: Analog input=D-SG-0003936.1@ioparam.hlp>main
+4 Parameter description=D-SG-0003938.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003939.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003940.1@ioparam.hlp>main
+4 Module status word=D-SG-0003941.1@ioparam.hlp>main
+3 AMM-090-00: Analog I/O module
+3 AMM-090-00: Analog I/O module=D-SG-0003505.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002356.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003809.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0004087.1@ioparam.hlp>main
+3 ARI-030-10: RTD input
+3 ARI-030-10: RTD input=D-SG-0003506.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002357.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003842.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0004088.1@ioparam.hlp>main
+3 ATI-030-00: TC input
+3 ATI-030-00: TC input=D-SG-0003508.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002359.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003533.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003615.1@ioparam.hlp>main
+4 Module status word=D-SG-0003616.1@ioparam.hlp>main
+3 AVI-030-00: Analog input
+3 AVI-030-00: Analog input=D-SG-0003509.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002360.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003534.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003617.1@ioparam.hlp>main
+4 Module status word=D-SG-0003618.1@ioparam.hlp>main
+3 CRM-931-DG1: RIO adapter module
+3 CRM-931-DG1: RIO adapter module=D-SG-0003510.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002361.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003845.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0003846.3@ioparam.hlp>main
+3 CRM-931-DG2: RIO adapter module
+3 CRM-931-DG2: RIO adapter module=D-SG-0003513.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002364.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0004089.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0004090.1@ioparam.hlp>main
+3 CRM-931-DG4: RIO adapter module
+3 CRM-931-DG4: RIO adapter module=D-SG-0003514.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002365.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003852.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0003853.3@ioparam.hlp>main
+3 CRM-931-DG8: RIO adapter module
+3 CRM-931-DG8: RIO adapter module=D-SG-0003515.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002366.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003854.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0003855.3@ioparam.hlp>main
+3 DDI-673-00: Digital input
+3 DDI-673-00: Digital input=D-SG-0003943.1@ioparam.hlp>main
+4 Parameter description=D-SG-0003945.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003946.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003947.1@ioparam.hlp>main
+3 DDM-690-00: High performance input/output module
+3 DDM-690-00: High performance input/output module=D-SG-0003948.1@ioparam.hlp>main
+4 Parameter description=D-SG-0003949.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003950.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003951.1@ioparam.hlp>main
+3 DAO-853-00, DDO-153-10, DDO-353-00, DDO-353-01, DDO-353-10, ROM-441: Digital output
+3 DAO-853-00, DDO-153-10, DDO-353-00, DDO-353-01, DDO-353-10, ROM-441: Digital output=D-SG-0003511.1@ioparam.hlp>main
+4 Parameter Description=D-SG-0002362.1@ioparam.hlp>main
+4 Register assignment for I/O map=D-SG-0003536.1@ioparam.hlp>main
+4 Status word for the I/O map=D-SG-0003633.1@ioparam.hlp>main
+3 DDO-364-00: Digital output
+3 DDO-364-00: Digital output=D-SG-0003512.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002363.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003537.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003636.1@ioparam.hlp>main
+3 DVO-853-00: Digital output
+3 DVO-853-00: Digital output=D-SG-0003956.1@ioparam.hlp>main
+4 Parameter description=D-SG-0003957.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003958.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003959.1@ioparam.hlp>main
+3 EHC-105-00: Counter module
+3 EHC-105-00: Counter module=D-SG-0003527.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002378.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003552.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003871.3@ioparam.hlp>main
+4 Module status word=D-SG-0003559.1@ioparam.hlp>main
+3 EHC-202-00: Counter module
+3 EHC-202-00: Counter module=D-SG-0003523.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002375.1@ioparam.hlp>main
+4 Parameter description for EHC-202-00 (with operating mode 2x16 with output)=D-SG-0003423.3@ioparam.hlp>main
+4 Parameter description with EHC-202-00 (operating mode 1x32 with output)=D-SG-0003424.3@ioparam.hlp>main
+4 EHC-202-00 parameter description (mode 2x32 without output)=D-SG-0003426.3@ioparam.hlp>main
+4 Parameter description for EHC-202-00 (operating mode rate sample mode)=D-SG-0003427.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003548.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003667.1@ioparam.hlp>main
+3 EIA-921-00: AS-i Master module
+3 EIA-921-00: AS-i Master module=D-SG-0004326.1@ioparam.hlp>main
+4 Parameter description=D-SG-0004327.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0004812.1@ioparam.hlp>main
+4 Module status word=D-SG-0004814.1@ioparam.hlp>main
+4 Control word=D-SG-0004815.1@ioparam.hlp>main
+3 ERT-854-00 and ESI-062-00: Expert module/RTU module
+3 ERT-854-00 and ESI-062-00: Expert module/RTU module=D-SG-0003521.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002372.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003866.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0003867.3@ioparam.hlp>main
+3 ERT-854-10: Expert module
+3 ERT-854-10: Expert module=D-SG-0003522.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002374.1@ioparam.hlp>main
+3 ESI-062-10: ASCII interface module
+3 ESI-062-10: ASCII interface module=D-SG-0003528.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002379.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003872.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0003873.3@ioparam.hlp>main
+3 HLI-340-00: High speed input module
+3 HLI-340-00: High speed input module=D-SG-0003960.1@ioparam.hlp>main
+4 Parameter description=D-SG-0003961.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003962.1@ioparam.hlp>main
+3 NOA-611-00: INTERBUS master module
+3 NOA-611-00: INTERBUS master module=D-SG-0003525.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002376.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003550.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003869.3@ioparam.hlp>main
+4 Module status word=D-SG-0003561.3@ioparam.hlp>main
+4 Busy, return, active bits and diagnostics and display registers=D-SG-0003562.1@ioparam.hlp>main
+3 NOA-611-10: INTERBUS master module
+3 NOA-611-10: INTERBUS master module=D-SG-0003526.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002377.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003551.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003870.3@ioparam.hlp>main
+4 Module status word=D-SG-0003670.3@ioparam.hlp>main
+4 busy, return, active bits and diagnosis and display register=D-SG-0003671.3@ioparam.hlp>main
+2 NOA-622-00: INTERBUS Master Module=D-SG-0008658.1@ioparam.hlp>main
+2 NOE-311-/351-00: SY/MAX Ethernet module=D-SG-0003986.1@ioparam.hlp>main
+2 NOE-511-/551-00: MMS Ethernet module=D-SG-0003988.1@ioparam.hlp>main
+3 RIM-126 and RIM-127: Input module
+3 RIM-126 and RIM-127: Input module=D-SG-0003520.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002371.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003864.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0003865.3@ioparam.hlp>main
+3 ROM-871: Output module
+3 ROM-871: Output module=D-SG-0003516.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002367.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003856.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0003857.3@ioparam.hlp>main
+3 ROM-141: Output module
+3 ROM-141: Output module=D-SG-0003517.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002368.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003858.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0003859.3@ioparam.hlp>main
+3 ROM-121 and ROM-122: Output module
+3 ROM-121 and ROM-122: Output module=D-SG-0003518.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002369.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003860.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0003861.3@ioparam.hlp>main
+3 ROM-131 and ROM-131: Counter module/control module
+3 ROM-131 and ROM-131: Counter module/control module=D-SG-0003519.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002370.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003862.3@ioparam.hlp>main
+4 I/O map status word=D-SG-0003863.3@ioparam.hlp>main
+3 Series 800: Digital output
+3 Series 800: Digital output=D-SG-0003524.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002354.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0004086.1@ioparam.hlp>main
+2 Compact parameter dialogs
+2 Compact parameter dialogs=D-SG-0002335.1@ioparam.hlp>main
+3 ADU-204: Analog input
+3 ADU-204: Analog input=D-SG-0003456.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002385.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003455.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003676.1@ioparam.hlp>main
+3 ADU-205: Analog input
+3 ADU-205: Analog input=D-SG-0003457.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002386.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003458.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003694.3@ioparam.hlp>main
+3 ADU-206/256: Analog input
+3 ADU-206/256: Analog input=D-SG-0003459.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002384.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003460.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003729.1@ioparam.hlp>main
+4 Module status word=D-SG-0003737.1@ioparam.hlp>main
+3 ADU-210: Analog input
+3 ADU-210: Analog input=D-SG-0003461.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002387.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003462.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003754.1@ioparam.hlp>main
+4 Module status word=D-SG-0003753.1@ioparam.hlp>main
+3 ADU-214: Analog input
+3 ADU-214: Analog input=D-SG-0003463.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002388.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003464.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003763.3@ioparam.hlp>main
+4 Module status word=D-SG-0003764.1@ioparam.hlp>main
+3 ADU-257: Analog input
+3 ADU-257: Analog input=D-SG-0003465.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002389.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003466.23@ioparam.hlp>main
+4 I/O map status word=D-SG-0003781.3@ioparam.hlp>main
+4 Module status word=D-SG-0003782.1@ioparam.hlp>main
+3 DAU-202/252: Analog output
+3 DAU-202/252: Analog output=D-SG-0003467.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002390.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003468.1@ioparam.hlp>main
+4 I/O map status word=D-SG-0003801.1@ioparam.hlp>main
+3 DAU-204: Analog output
+3 DAU-204: Analog output=D-SG-0003469.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002391.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003470.1@ioparam.hlp>main
+4 Runtime control word=D-SG-0003802.1@ioparam.hlp>main
+4 Module status word=D-SG-0003803.1@ioparam.hlp>main
+3 DAU-208: Analog output
+3 DAU-208: Analog output=D-SG-0003471.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002392.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003472.1@ioparam.hlp>main
+4 Status word of the I/O map=D-SG-0003804.3@ioparam.hlp>main
+2 MVB-258: Communication for the MVB=D-SG-0003473.1@ioparam.hlp>main
+3 MVB-258A: Communications module
+3 MVB-258A: Communications module=D-SG-0003474.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002394.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003475.1@ioparam.hlp>main
+4 Status word of the I/O map=D-SG-0003805.3@ioparam.hlp>main
+3 BKF-201/202: INTERBUS connection module
+3 BKF-201/202: INTERBUS connection module=D-SG-0003476.1@ioparam.hlp>main
+4 Parameter Description=D-SG-0002395.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003477.1@ioparam.hlp>main
+4 Status word of the I/O map=D-SG-0003806.3@ioparam.hlp>main
+3 FRQ-204/254: Frequency module 
+3 FRQ-204/254: Frequency module =D-SG-0003478.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002396.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003479.1@ioparam.hlp>main
+4 Status word of the I/O map=D-SG-0003807.3@ioparam.hlp>main
+4 Module status word=D-SG-0003808.1@ioparam.hlp>main
+2 Momentum parameter dialogs
+2 Momentum parameter dialogs=D-SG-0002338.1@ioparam.hlp>main
+3 Different storage of the I/O data=D-SG-0004030.1@ioparam.hlp>main
+3 ADO-xxx-xx and BDO-xxx-xx: I/O unit.
+3 ADO-xxx-xx and BDO-xxx-xx: I/O unit.=D-SG-0003996.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002398.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003997.1@ioparam.hlp>main
+3 ADM-xxx-xx and BDM-346-x0: I/O unit.
+3 ADM-xxx-xx and BDM-346-x0: I/O unit.=D-SG-0003991.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002397.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0003993.1@ioparam.hlp>main
+3 ADI-xxx-xx and BDI-xxx-xx: I/O unit.
+3 ADI-xxx-xx and BDI-xxx-xx: I/O unit.=D-SG-0004033.1@ioparam.hlp>main
+4 Parameter description=D-SG-0002399.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0004035.1@ioparam.hlp>main
+2 BNO-671-00 and BNO-681-00: Bus terminal for INTERBUS=D-SG-0004036.1@ioparam.hlp>main
+3 AAI-030-00: Analog I/O unit
+3 AAI-030-00: Analog I/O unit=D-SG-0004037.1@ioparam.hlp>main
+4 Parameter description=D-SG-0004038.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0004040.1@ioparam.hlp>main
+4 Definition of the channel parameters=D-SG-0004039.1@ioparam.hlp>main
+3 AAI-140-00: Analog I/O unit
+3 AAI-140-00: Analog I/O unit=D-SG-0004045.1@ioparam.hlp>main
+4 Parameter description=D-SG-0004047.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0004048.1@ioparam.hlp>main
+4 Definition of the channel parameters=D-SG-0004049.1@ioparam.hlp>main
+3 AAI-520-40: Analog I/O unit
+3 AAI-520-40: Analog I/O unit=D-SG-0004067.1@ioparam.hlp>main
+4 Parameter description=D-SG-0004068.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0004069.1@ioparam.hlp>main
+4 Channel Configuration with thermoelements=D-SG-0004070.1@ioparam.hlp>main
+4 Channel Configuration with temperature detectors=D-SG-0004071.1@ioparam.hlp>main
+4 Channel Configuration with low voltage ranges=D-SG-0004072.1@ioparam.hlp>main
+3 AAO-120-00 and AAO-921-00: Analog I/O unit
+3 AAO-120-00 and AAO-921-00: Analog I/O unit=D-SG-0004073.1@ioparam.hlp>main
+4 Parameters description=D-SG-0004074.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0004075.1@ioparam.hlp>main
+4 Definition of the channel parameters=D-SG-0004076.1@ioparam.hlp>main
+3 AMM-090-00: Analog I/O unit
+3 AMM-090-00: Analog I/O unit=D-SG-0004077.1@ioparam.hlp>main
+4 Parameter description=D-SG-0004078.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0004079.1@ioparam.hlp>main
+4 Definition of the channel parameters=D-SG-0004080.1@ioparam.hlp>main
+3 ANR-120-9x: Analog/digital I/O unit
+3 ANR-120-9x: Analog/digital I/O unit=D-SG-0004148.1@ioparam.hlp>main
+4 Parameter description=D-SG-0004149.1@ioparam.hlp>main
+4 Register assignment to I/O map=D-SG-0004150.1@ioparam.hlp>main
+4 Module status word=D-SG-0004154.1@ioparam.hlp>main
+4 Definition of the channel parameters=D-SG-0004151.1@ioparam.hlp>main
+2 Atrium parameter dialogs
+2 Atrium parameter dialogs=D-SG-0002340.1@ioparam.hlp>main
+3 CRP-660-00/-01: INTERBUS Master=D-SG-0004082.1@ioparam.hlp>main
+2 Shared parameter dialogs
+2 Shared parameter dialogs=D-SG-0002380.1@ioparam.hlp>main
+3 Digital Input Modules=D-SG-0004083.1@ioparam.hlp>main
+3 Digital Input/Output Modules=D-SG-0004084.1@ioparam.hlp>main
+3 Digital Output Modules=D-SG-0004085.1@ioparam.hlp>main

@@ -1,0 +1,26 @@
+:Base COPRO.hlp
+:Title Modicon TSX Atrium
+1 Help for Modicon TSX Atrium
+1 Help for Modicon TSX Atrium=IDH_CONTENTS@COPRO.hlp>main
+2 Module descriptions
+2 Module descriptions=D-SG-0004734.1@COPRO.hlp>main
+3 180 CCO 121 01 / 180 CCO 241 01/11: Modicon TSX Atrium PLC module (INTERBUS communication)
+3 180 CCO 121 01 / 180 CCO 241 01/11: Modicon TSX Atrium PLC module (INTERBUS communication)=D-SG-0013481.4@COPRO.hlp>main
+4 Brief Description=D-SG-0013483.3@COPRO.hlp>main
+4 Features and Functions=D-SG-0013486.3@COPRO.hlp>main
+4 Configuration=D-SG-0013487.3@COPRO.hlp>main
+4 Backplane settings=D-SG-0013489.3@COPRO.hlp>main
+4 Settings for CPU 386EX and CCO 586=D-SG-0013491.3@COPRO.hlp>main
+4 IBS PC 104 SC-T Settings for INTERBUS=D-SG-0013493.3@COPRO.hlp>main
+4 Supply Voltage=D-SG-0013495.3@COPRO.hlp>main
+4 Backup Battery Connection=D-SG-0013497.3@COPRO.hlp>main
+4 Interfaces=D-SG-0013499.3@COPRO.hlp>main
+4 Diagnostics=D-SG-0013501.3@COPRO.hlp>main
+4 Error Codes=D-SG-0013503.3@COPRO.hlp>main
+4 Technical Data=D-SG-0013505.3@COPRO.hlp>main
+3 180 CPX 120 00: Adapter for external voltage supply
+3 180 CPX 120 00: Adapter for external voltage supply=D-SG-0004729.1@COPRO.hlp>main
+4 Brief description=D-SG-0004730.1@COPRO.hlp>main
+4 Features and Functions=D-SG-0004731.1@COPRO.hlp>main
+4 Assembly and Connection=D-SG-0004732.1@COPRO.hlp>main
+4 Technical Data=D-SG-0004733.1@COPRO.hlp>main

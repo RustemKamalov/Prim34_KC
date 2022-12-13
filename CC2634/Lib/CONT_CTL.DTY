@@ -1,0 +1,525 @@
+(* cont_ctl.dty : derived datatypes for the EFB library CONT_CTL *)
+
+TYPE
+
+(* TOTALIZER *)
+
+Mode_TOTALIZER:		(* Operating modes *)
+	STRUCT
+		hold : BOOL;	(* Freeze the integration *)
+		rst  : BOOL;	(* Reinitialize the function block *)
+	END_STRUCT;
+
+Para_TOTALIZER:		(* Parameters *)
+	STRUCT
+		thld : REAL;	(* Integration threshold *)
+		cutoff : REAL;	(* Integration cutoff *)
+		inc_dec : BOOL;	(* 0 = increase / 1 = decrease *)
+	END_STRUCT;
+	
+Info_TOTALIZER:		(* Information parameters *)
+	STRUCT
+		outc : REAL;	(* Accumulated value since the beginning of the integration *)
+		cter : UINT;	(* Integration counter *)
+		done : BOOL;	(* Threshold reached *)
+	END_STRUCT;
+
+(* SCALING *)	
+ 
+Para_SCALING:		(* Parameters type *) 
+	STRUCT
+		in_min 	: REAL;	(* IN scale lower limit *)
+		in_max 	: REAL;	(* IN scale higher limit *)
+		out_min : REAL;	(* OUT scale lower limit *)
+		out_max : REAL;	(* OUT scale higher limit *)
+		clip : BOOL;	(* AT 1 if IN not in [IN_MIN , IN_MAX]; OUT is clipped *)
+ 	END_STRUCT;
+
+(* SUM_W *)
+
+Para_SUM_W : 		(* Parameters type *)
+	STRUCT
+		k1: REAL;	(* Weight of IN1 *)
+		k2: REAL;	(* Weight of IN2 *)
+		k3: REAL;	(* Weight of IN3 *)
+		c1: REAL;	(* Offset of sum *)
+  	END_STRUCT;
+
+(* RATIO *)
+              
+Para_RATIO : 		(* Parameters type *)
+	STRUCT
+		k_min: REAL;	(* K scale lower limit *)
+		k_max: REAL;	(* K scale higher limit *)
+		sp_min: REAL;	(* SP scale lower limit *)
+		sp_max: REAL;	(* SP scale higher limit *)
+		bias: REAL;		(* Bias *) 
+	END_STRUCT;
+
+(* DTIME *)
+					
+buffer_DTIME :			(* Buffer type *) 
+	ARRAY[1..100]OF REAL; (* Default size is 100 *)
+	
+(* STEP2 *)	
+
+Para_STEP2 : 		(* Parameters type *)
+	STRUCT
+		dev_ll: REAL;	(* Deviation lower threshold *)
+		dev_hl: REAL;	(* Deviation higher treshold *)
+		pv_inf: REAL;	(* PV scale lower limit *)
+		pv_sup: REAL;	(* PV scale higher limit *)
+	END_STRUCT;
+
+(* STEP3 *)
+
+Para_STEP3 : 		(* Parameters type *)
+	STRUCT
+		dev_ll: REAL;	(* Deviation lower threshold *)
+		dev_hl: REAL;	(* Deviation higher treshold *)
+		hyst: REAL;		(* Hysteresis *)
+		pv_inf: REAL;	(* PV scale lower limit *)
+		pv_sup: REAL; 	(* PV scale higher limit *)
+	END_STRUCT;
+
+(* MFLOW *)
+
+Para_MFLOW :  		(* Parameters type *)
+	STRUCT
+		k	: REAL; 	(* Adjustment factor *)
+		en_pres : BOOL; (* Validation of PRES input *)
+		pr_pa	: BOOL; (* 0 : relative pressure ; 1 : absolute pressure *)
+		pu	: REAL; 	(* Pressure of 1 Atm *)
+		en_temp : BOOL; (* Validation of TEMP input *)
+		tc_tf	: BOOL;	(* 0 : temperature in °C ; 1 : temperature in °F *)
+		en_sqrt : BOOL;	(* Validatio of the square root computation *)
+  	END_STRUCT;
+
+(* RAMP *)
+                           
+Para_RAMP :			(* Parameters type *)
+	STRUCT
+		inc_rate : REAL;	(* Ramp increase speed (unit : 1/s) *)
+		dec_rate : REAL;	(* Ramp decrease speed (unit : 1/s) *)
+ 	END_STRUCT;
+
+(* MS *)
+                                                                                       
+Para_MS :			(* Parameters type *)
+	STRUCT
+		out_min  : REAL; (* OUT scale lower limit *)
+		out_max  : REAL; (* OUT scale higher limit *)
+		inc_rate : REAL; (* Increment rate on manu/auto if USE_BIAS = 0 (unit : 1/s) *)
+		dec_rate : REAL; (* Decrement rate on manu/auto if USE_BIAS = 0 (unit : 1/s) *) 
+		outbias  : REAL; (* Bias *)
+		use_bias : BOOL; (* Bias handling if USE_BIAS =1  *)
+		bumpless : BOOL; (* If 1 and USE_BIAS = 1, bumpless changeover from manu to auto got by BIAS change *)
+  	END_STRUCT;
+
+(* PIDFF *)
+                 
+Para_PIDFF :		(* Parameters type *)
+	STRUCT
+		id       : UINT; (* Reserved for AUTOTUNE *)
+		pv_inf   : REAL; (* PV scale lower limit *)
+		pv_sup   : REAL; (* PV scale higher limit *)
+		out_inf  : REAL; (* OUT scale lower limit *)
+		out_sup  : REAL; (* OUT scale higher limit *)
+		rev_dir  : BOOL; (* Reverse (0) or direct (1) action *)
+		mix_par  : BOOL; (* Mixed (0) or parallel (1) PID *)
+		aw_type  : BOOL; (* Standard velocty algorithm (0) or smoothed anti-windup mecanism (1) *)
+		en_rcpy  : BOOL; (* Validation of RCPY input *)
+		kp       : REAL; (* Proportional gain in physical units *)
+		ti       : TIME; (* Reset time in seconds *)
+		td       : TIME; (* Rate time in seconds *)
+		kd       : REAL; (* Transitory deviation gain *)
+		pv_dev   : BOOL; (* Derivative action on PV (0) or DEV (1) *)
+		bump     : BOOL; (* Change to auto mode without (0) or with (1) bump *)
+		dband    : REAL; (* Dead band on the deviation in physical units *)
+		gain_kp  : REAL; (* Proportional action weight inside the dead band *)
+		ovs_att  : REAL; (* Overshoot attenuation *)
+		outbias  : REAL; (* Manual reset *)
+		out_min  : REAL; (* Output lower limit (in automatic mode) *)
+		out_max  : REAL; (* Output higher limit (in automatic mode) *)
+		outrate  : REAL; (* Output rate of change limit in output units per second (inhibited when OUTRATE = 0) *)
+		ff_inf   : REAL; (* FF scale lower limit *)
+		ff_sup   : REAL; (* FF scale higher limit *)
+		otff_inf : REAL; (* OUT_FF scale lower limit *) 
+		otff_sup : REAL; (* OUT_FF scale higher limit *)
+ 	END_STRUCT;
+
+Info_PIDFF : 		(* Information parameter *)
+	STRUCT
+		dev      : REAL; (* Deviation PV - SP *)
+		out_ff   : REAL; (* Feedforward action *)
+	END_STRUCT;
+
+(* PI_B *)
+
+Para_PI_B :		(* Parameters type *)
+	STRUCT
+		id       : UINT; (* Reserved for AUTOTUNE *)
+		pv_inf   : REAL; (* PV scale lower limit *)
+		pv_sup   : REAL; (* PV scale higher limit *)
+		out_inf  : REAL; (* OUT scale lower limit *)
+		out_sup  : REAL; (* OUT scale higher limit *)
+		rev_dir  : BOOL; (* Reverse (0) or direct (1) action *)
+		en_rcpy  : BOOL; (* Validation of RCPY input *)
+		kp       : REAL; (* Proportional gain in physical units *)
+		ti       : TIME; (* Reset time in seconds *)
+		dband    : REAL; (* Dead band on the deviation in physical units *)
+		outbias  : REAL; (* Manual reset *)
+ 	END_STRUCT;
+
+(* SP_SEL *)
+
+Para_SP_SEL : 		(* Parameters type *)
+	STRUCT
+		sp_min  : REAL; (* SP scale lower limit *)
+		sp_max  : REAL; (* SP scale higher limit *)
+		bump	: BOOL;	(* The changeover from remote to local setpoint is bumpless (0) or with bump by restoration of the previous local setpoint (1) *)
+		track	: BOOL; (* At 1 : if the controller is in manual mode, the setpoint is set to PV *)
+		rate	: REAL;	(* Setpoint slew rate limit in the case of setpoint changeover from remote to local setpoint. If not 0 : bumpless changeover (unit : 1/s) *)
+	END_STRUCT;
+
+(* SERVO *)
+
+Para_SERVO : 		(* Parameters type *)
+	STRUCT
+		en_rcpy : BOOL;	(* AT 1 : functioning with feed back *)
+		rcpy_rev: BOOL;	(* RCPY direct (0) ; RCPY reversed (1) *)
+		t_motor : TIME; (* Time to cover the full scale range *)
+		t_mini  : TIME; (* Minimum pulse duration if no feed back *)
+	END_STRUCT;
+
+(* AUTOTUNE *)
+
+Para_AUTOTUNE:   	(* Parameters type *)
+    STRUCT
+		step_ampl: REAL;   		(* Output step value *)
+		tmax: TIME;        		(* Duration of steps *)
+		perf: REAL;            	(* Performance criterion *)
+		plant_type: WORD;     	(* Type of plant *)
+    END_STRUCT;
+    
+Info_AUTOTUNE:   	(* Information parameters *)
+    STRUCT
+		diag: UDINT;       		(* Diagnostic word *)
+		p1_prev: REAL;       	(* Previous value of parameter 1 *)
+		p2_prev: REAL;         	(* Previous value of parameter 2 *)
+		p3_prev: REAL;       	(* Previous value of parameter 3 *)
+		p4_prev: REAL;        	(* Previous value of parameter 4 *)
+		p5_prev: REAL;         	(* Previous value of parameter 5 *)
+		p6_prev: REAL;         	(* Previous value of parameter 6 *)
+    END_STRUCT;
+
+
+(* MULDIV_W *)
+
+Para_MULDIV_W : 	(* parameters type *)
+	STRUCT
+		k: REAL;	(* Weight of the calculation *)
+		c1: REAL;	(* Offset of the first input *)
+		c2: REAL;	(* Offset of the second input *)
+		c3: REAL;	(* Offset of the third input *)
+		c4: REAL;	(* Offset of the result *)
+    END_STRUCT;
+    
+(* SPLRG *)
+
+Para_SPLRG : 	(* parameters type *)
+	STRUCT
+		out1_th1: REAL;	(* Input value for OUT1 = out1_inf *)
+		out1_th2: REAL;	(* Input value for OUT1 = out1_sup *)
+		out1_inf: REAL;	(* Low limit of OUT1 *)
+		out1_sup: REAL;	(* High limit of OUT1 *)
+		out2_th1: REAL;	(* Input value for OUT2 = out2_inf *)
+		out2_th2: REAL;	(* Input value for OUT2 = out2_sup *)
+		out2_inf: REAL;	(* Low limit of OUT2 *)
+		out2_sup: REAL;	(* High limit of OUT2 *)				
+	END_STRUCT;
+
+(* globally used structures for CLC_PRO *)
+
+Mode_MH  : STRUCT
+              man  : BOOL;          (* Manual mode *)
+              halt : BOOL;          (* Halt mode   *)
+           END_STRUCT;
+
+
+Stat_MAXMIN : STRUCT
+                 qmax : BOOL;       (* '1':  Y >= Maximum *)
+                 qmin : BOOL;       (* '1':  Y <= Minimum *)   
+              END_STRUCT;
+
+
+(*  VLIM  *)
+
+Para_VLIM: STRUCT
+              rate : REAL;          (* Maximum velocity   *)
+              ymax : REAL;          (* Max. output limit  *)
+              ymin : REAL;          (* Min. output limit  *)
+           END_STRUCT;
+
+
+(*  PWM1   *)
+
+Para_PWM1 : STRUCT
+              t_period : TIME;        (* timelapse between impulses in sec   *)
+              t_min    : TIME;        (* Minimum time for set impulse in sec *)
+              in_max   : REAL;        (* Range for X (0..x_max)              *)
+           END_STRUCT;   
+      
+(* ALIM *)
+
+Para_ALIM : STRUCT
+               max_v : REAL;        (* Maximum velocity          *)
+               max_a : REAL;        (* Max. acceleration rate    *)
+            END_STRUCT;
+
+(*  PCON3   *)
+
+
+Para_PCON3 : STRUCT 
+                gain    : REAL;     (* Feedback gain                 *)
+                lag_neg : TIME;     (* Feedback time constant        *)
+                lag_pos : TIME;     (* Feedback time constant        *)
+                hys     : REAL;     (* Hysteresis                    *)
+                db      : REAL;     (* Non sensitive zone (deadband) *)
+                xf_man  : REAL;     (* feedback reset value          *) 
+             END_STRUCT;
+
+(*  SCON3   *)
+
+Para_SCON3 : STRUCT 
+                gain   : REAL;      (* Proportional gain      *)
+                ti     : TIME;      (* Adjustment time        *)
+                t_proc : TIME;      (* Time constant of value *)
+                hys    : REAL;      (* Hysteresis             *)
+                db     : REAL;      (* Non sensitive zone     *)
+             END_STRUCT;
+
+(*  DERIV  *)
+
+Para_DERIV : STRUCT
+                gain : REAL;        (* Gain     *)
+                lag  : TIME;        (* time lag *)
+             END_STRUCT;
+
+(*  INTEG  *)
+
+Para_INTEG : STRUCT 
+                gain : REAL;        (* Integral gain        *)
+                ymax : REAL;        (* Maximum output limit *)
+                ymin : REAL;        (* Minimum output limit *)
+             END_STRUCT;
+
+(*  COMP_PID  *)
+
+Mode_COMP_PID : STRUCT           (* Controlblock for KPID                   *)
+               r       : BOOL;   (* reset mode  (1=Reset,  Y=YRESET)        *)
+               man     : BOOL;   (* Manual mode (1=Manual, Y=YMAN)          *)
+               halt    : BOOL;   (* Halt mode   (1=Halt,   Y=unchanged)     *)
+               cascade : BOOL;   (* cascade mode(1=cascade)                 *)
+               en_p    : BOOL;   (* 1= P-term on                            *)
+               en_i    : BOOL;   (* 1= I-term on                            *)
+               en_d    : BOOL;   (* 1= D-term on                            *)
+               d_on_pv : BOOL;   (* Differential term works on PV (=1)      *)
+                                 (*                        on ERR(=0)       *)
+               halt_aw : BOOL;   (* 1= Antiwindup Halt, 0= Antiwindup Reset *)
+               bump    : BOOL;   (* 0= bumpless mode change                 *)
+               ymanc   : BOOL;   (* 1= YMAN nachfuehren                     *)
+            END_STRUCT;
+
+Para_COMP_PID : STRUCT           (* KPID Parameter Block                 *)
+               gain     : REAL;  (* Proportional gain                    *)
+               ti       : TIME;  (* time adjustment constant             *)
+               td       : TIME;  (* Suspension time constant             *)
+               td_lag   : TIME;  (* time lag constant                    *)
+               db       : REAL;  (* Non-sensitive zone                   *)
+               gain_red : REAL;  (* gain reduction in non-sensitive zone *)
+               rate_sp  : REAL;  (* Increment-limit for setpoint         *)
+               rate_man : REAL;  (* Increment-limit for manual setpoint  *) 
+               ymax     : REAL;  (* upperlimit for Y                     *)
+               ymin     : REAL;  (* lowerlimit for Y                     *)
+               delt_aw  : REAL;  (* Limit extension for Antiwindup       *)
+            END_STRUCT;
+
+Stat_COMP_PID : STRUCT
+               st_r       : BOOL;       (* "1" : KPID in reset mode     *)
+               st_man     : BOOL;       (* "1" : KPID in manual mode    *)
+               st_halt    : BOOL;       (* "1" : KPID in halt mode      *)
+               st_auto    : BOOL;       (* "1" : KPID in automatic mode *)
+               st_cascade : BOOL;       (* "1" : KPID in cascade mode   *)
+               st_max     : BOOL;       (* "1" : Y >= ymax              *)
+               st_min     : BOOL;       (* "1" : Y <= ymin              *)
+            END_STRUCT;
+
+
+(*   PWM   *)
+
+Para_PWM : STRUCT
+              t_period : TIME;        (* timelapse between impulses in sec   *)
+              t_pause  : TIME;        (* timelapse before braking in sec     *)
+              t_brake  : TIME;        (* Braking Period in sec               *)
+              t_min    : TIME;        (* Minimum time for set impulse in sec *)
+              t_max    : TIME;        (* Maximum time for set impulse in sec *)
+              up_pos   : REAL;        (* Upperlimit for positive X           *)
+              up_neg   : REAL;        (* Upperlimit for negative X           *)
+           END_STRUCT;
+
+
+(*   PDM    *)
+
+Para_PDM : STRUCT
+              t_on      : TIME;       (* Length of impulse in sec        *)
+              t_pause   : TIME;       (* timelapse before braking in sec *)
+              t_brake   : TIME;       (* Braking period in sec           *)
+              pos_up_x  : REAL;       (* Upperlimit for positive X       *)
+              pos_t_min : TIME;       (* Minimum period for open         *)
+              pos_lo_x  : REAL;       (* lowerlimit for positive X       *)
+              pos_t_max : TIME;       (* Maximum period for open         *)
+              neg_up_x  : REAL;       (* Upperlimit for negative X       *)
+              neg_t_min : TIME;       (* Minimum period for closed       *)
+              neg_lo_x  : REAL;       (* lowerlimit for negative X       *)
+              neg_t_max : TIME;       (* Maximum period for closed       *)
+           END_STRUCT ;
+
+(*  PD_or_PI  *)
+
+Para_PD_or_PI : STRUCT 
+               trig_err : REAL; (* Switch value from PD to PI Controller     *)
+               gain_d   : REAL; (* Differential Gain                         *)
+               td       : TIME; (* Derivative Time constant for PD controller*)
+               td_lag   : TIME; (* Lag Time for derivative term PD controller*)
+               gain_i   : REAL; (* Integral Gain                             *)
+               ti       : TIME; (* Adjustment Time constant for PI controller*)
+               ymax     : REAL; (* Maximum output limit                      *)
+               ymin     : REAL; (* Minimum output limit                      *)
+            END_STRUCT;
+
+
+
+(*  LEAD_LAG  *)
+
+Para_LEAD_LAG : STRUCT
+                   gain : REAL;    (* Gain                                *)
+                   lead : TIME;    (* time constant for differential term *)
+                   lag  : TIME;    (* timelag constant                    *)
+                END_STRUCT;
+
+(*  PI   *)
+
+Para_PI : STRUCT
+              gain : REAL;             (* Proportional gain *)
+	      ti   : TIME;             (* Time Adjustment   *)
+	      ymax : REAL;             (* Maximum Output    *)
+	      ymin : REAL;             (* Minimum Output    *)
+           END_STRUCT;
+
+
+(*  PID   *)
+
+Mode_PID : STRUCT 
+               man    : BOOL;          (*  Manual mode                  *)
+               halt   : BOOL;          (*  Halt mode                    *)
+               en_p   : BOOL;          (*  Enable proportional term     *)
+               en_i   : BOOL;          (*  Enable integral term         *)
+               en_d   : BOOL;          (*  Enable differential term     *)
+               d_on_pv: BOOL;          (*  Differential term works on PV*)
+            END_STRUCT;
+
+Para_PID : STRUCT 
+	       gain     : REAL;        (* Proportional gain                *)
+               ti       : TIME;        (* Adjustment time constant         *)
+               td       : TIME;        (* Suspension time constant         *)
+               td_lag   : TIME;        (* Time delay for differential term *)
+               ymax     : REAL;        (* Maximum output limit             *)
+               ymin     : REAL;        (* Minimum output limit             *)
+            END_STRUCT;
+
+(*  PID_P   *)
+
+Mode_PID_P : STRUCT
+                man    : BOOL;   (* Manual mode                       *)
+                halt   : BOOL;   (* Halt mode                         *)
+                d_on_pv: BOOL;   (* Differential term works on PV(=1) *)
+                                 (*                         on ERR(=0)*)
+                revers : BOOL;   (* system deviation                  *)
+	     END_STRUCT;       
+
+Para_PID_P : STRUCT
+                kp     : REAL;           (* Proportional gain  *)
+                ki     : REAL;           (* Integral gain      *)
+                kd     : REAL;           (* Differential gain  *)
+                td_lag : TIME;           (* lag time of D-term *)
+	        ymax   : REAL;           (* upperlimit for Y   *)
+                ymin   : REAL;           (* lowerlimit for Y   *)
+             END_STRUCT;
+
+
+(*   PI-P and P-PI    *)
+
+Mode_PIP : STRUCT
+              man  : BOOL;            (* 1 = manual mode  *)
+              halt : BOOL;            (* 1 = halt mode    *)
+              fix  : BOOL;            (* 1 = fix mode     *)
+           END_STRUCT;
+
+Para_PIP : STRUCT
+              gain1   : REAL;    (* Proportional gain for Main Controller *)
+              ti      : TIME;    (* Time Adjustment for PI-Controller     *)
+              gain2   : REAL;    (* Proportional gain for Sub Controller  *)
+              ymax    : REAL;    (* Maximum Output                        *)
+              ymin    : REAL;    (* Minimum Output                        *)
+           END_STRUCT;
+
+
+(*  LAG  *)
+
+Para_LAG : STRUCT
+              gain : REAL;           (* Gain     *)         
+              lag  : TIME;           (* Time-Lag *)
+           END_STRUCT;
+
+(*  LAG2  *)
+
+Para_LAG2 : STRUCT
+               gain : REAL;         (* Gain            *)
+               dmp  : REAL;         (* damping factor  *)
+               freq : REAL;         (* cycle frequence *)
+            END_STRUCT; 
+
+(*  FGEN  *)
+
+Para_FGEN: STRUCT
+              func_no    : INT;      (* Function number (1-8)     *)
+              amplitude  : REAL;     (* amplitude                 *)
+              halfperiod : TIME;     (* Halfperiod length         *)
+	          t_off      : TIME;     (* switchoff time constant   *)
+              t_rise     : TIME;     (* rising time               *)
+              t_acc      : TIME;     (* acceleration period       *)
+              unipolar   : BOOL;     (* uni- or bi-polar function *)
+           END_STRUCT;
+
+(*  PCON2  *)
+
+Para_PCON2 : STRUCT
+                gain    : REAL;       (* Feedback gain          *)
+                lag_neg : TIME;       (* Feedback time constant *)
+                lag_pos : TIME;       (* Feedback time constant *)
+                hys     : REAL;       (* Hysteresis             *)
+                xf_man  : REAL;       (* manual feedback value  *)
+             END_STRUCT; 
+
+(*  QPWM   *)
+
+Para_QPWM : STRUCT
+              t_period : TIME;        (* timelapse between impulses in sec   *)
+              t_min    : TIME;        (* Minimum time for set impulse in sec *)
+              x_max    : REAL;        (* Range for X (0..x_max)              *)
+           END_STRUCT;
+
+
+END_TYPE
+

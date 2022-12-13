@@ -1,0 +1,281 @@
+RDE_TEMPLATE
+	CONCEPT_VERSION = "Version 2.6 XL SR7"
+	RDE_TEMPLATE_VERSION = 1
+	COLUMN_WIDTH = "{316,81,81,97,97,112,65,81,129}"
+	WINDOW_LOCATION = "{1,47,1828,983}"
+ENTRY
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = MDPPSw1Ini
+	ATTRIBUTE Address = 405310
+	ATTRIBUTE Value = "0"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = MDPPSw1Ack
+	ATTRIBUTE Address = 405311
+	ATTRIBUTE Value = "0"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.TimeStamp
+	ATTRIBUTE Address = 404773
+	ATTRIBUTE Value = "36591"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.EvntSysStatus
+	ATTRIBUTE Address = 404774
+	ATTRIBUTE Value = "7000"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.NbOfEvents
+	ATTRIBUTE Address = 404775
+	ATTRIBUTE Value = "0"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+	ATTRIBUTE Height = 19
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[0].Event
+	ATTRIBUTE Address = 404776
+	ATTRIBUTE Value = "A1FF"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[0].TimeStamp
+	ATTRIBUTE Address = 404777
+	ATTRIBUTE Value = "36581"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[1].Event
+	ATTRIBUTE Address = 404778
+	ATTRIBUTE Value = "B246"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[1].TimeStamp
+	ATTRIBUTE Address = 404779
+	ATTRIBUTE Value = "36521"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[2].Event
+	ATTRIBUTE Address = 404780
+	ATTRIBUTE Value = "9546"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[2].TimeStamp
+	ATTRIBUTE Address = 404781
+	ATTRIBUTE Value = "36521"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[3].Event
+	ATTRIBUTE Address = 404782
+	ATTRIBUTE Value = "B247"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[3].TimeStamp
+	ATTRIBUTE Address = 404783
+	ATTRIBUTE Value = "36521"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[4].Event
+	ATTRIBUTE Address = 404784
+	ATTRIBUTE Value = "9547"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[4].TimeStamp
+	ATTRIBUTE Address = 404785
+	ATTRIBUTE Value = "36521"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[5].Event
+	ATTRIBUTE Address = 404786
+	ATTRIBUTE Value = "B248"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[5].TimeStamp
+	ATTRIBUTE Address = 404787
+	ATTRIBUTE Value = "36521"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[6].Event
+	ATTRIBUTE Address = 404788
+	ATTRIBUTE Value = "9548"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_1_Struct.Block[6].TimeStamp
+	ATTRIBUTE Address = 404789
+	ATTRIBUTE Value = "36521"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = MDPPSw2Ini
+	ATTRIBUTE Address = 405312
+	ATTRIBUTE Value = "0"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = MDPPSw2Ack
+	ATTRIBUTE Address = 405313
+	ATTRIBUTE Value = "0"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.TimeStamp
+	ATTRIBUTE Address = 405011
+	ATTRIBUTE Value = "36591"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.EvntSysStatus
+	ATTRIBUTE Address = 405012
+	ATTRIBUTE Value = "F000"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.NbOfEvents
+	ATTRIBUTE Address = 405013
+	ATTRIBUTE Value = "0"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[0].Event
+	ATTRIBUTE Address = 405014
+	ATTRIBUTE Value = "A1FF"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[0].TimeStamp
+	ATTRIBUTE Address = 405015
+	ATTRIBUTE Value = "36587"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[1].Event
+	ATTRIBUTE Address = 405016
+	ATTRIBUTE Value = "67AA"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[1].TimeStamp
+	ATTRIBUTE Address = 405017
+	ATTRIBUTE Value = "36520"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[2].Event
+	ATTRIBUTE Address = 405018
+	ATTRIBUTE Value = "67AE"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[2].TimeStamp
+	ATTRIBUTE Address = 405019
+	ATTRIBUTE Value = "36520"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[3].Event
+	ATTRIBUTE Address = 405020
+	ATTRIBUTE Value = "7E61"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[3].TimeStamp
+	ATTRIBUTE Address = 405021
+	ATTRIBUTE Value = "36520"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[4].Event
+	ATTRIBUTE Address = 405022
+	ATTRIBUTE Value = "7E6E"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[4].TimeStamp
+	ATTRIBUTE Address = 405023
+	ATTRIBUTE Value = "36520"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[5].Event
+	ATTRIBUTE Address = 405024
+	ATTRIBUTE Value = "7E70"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[5].TimeStamp
+	ATTRIBUTE Address = 405025
+	ATTRIBUTE Value = "36520"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[6].Event
+	ATTRIBUTE Address = 405026
+	ATTRIBUTE Value = "7E61"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 2
+END_ENTRY
+ENTRY
+	ATTRIBUTE Tagname = CommBlock_3_Struct.Block[6].TimeStamp
+	ATTRIBUTE Address = 405027
+	ATTRIBUTE Value = "36520"
+	ATTRIBUTE SetValue = ""
+	ATTRIBUTE DisplayFormat = 4
+END_ENTRY
+END_RDE_TEMPLATE
